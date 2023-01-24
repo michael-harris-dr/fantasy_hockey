@@ -15,6 +15,11 @@ response = requests.get(apiStr)
 
 print("Response status code: " + str(response.status_code))
 
+#
+#
+# Get nhl stat leaders and dump to external file
+#
+#
 if(response.status_code != 200):
     print("Response not OK, terminating...")
     statsJson = json.loads("{}")
@@ -42,11 +47,16 @@ apiStr2 = "https://statsapi.web.nhl.com/api/v1/teams"
 response = requests.get(apiStr2)
 print(response.status_code)
 
+#
+#
+# Get list of NHL teams and add their ID/name in a dict
+#
+#
 if(response.status_code != 200):
     print("Response not OK, terminating...")
 else:
     nhlJson = json.loads(response.text)
-    print(nhlJson)
+    #print(nhlJson)
 
     fp = open("nhl_json_dump.json", "w")
     json.dump(nhlJson, fp, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=3, separators=None)
@@ -69,3 +79,4 @@ else:
             i += 1
 
     print(idTeam)
+
