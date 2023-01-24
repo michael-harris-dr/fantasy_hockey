@@ -99,5 +99,3 @@ if __name__ == '__main__':
     with open(r"C:\Temp\tandem_so_old.txt", "a") as out_file:
         for k, v in tandem_shutouts.items():
             out_file.write(f"{k}|{v}\n")
-
-This paste expires in <1 day. Public IP access. Share whatever you see with others in seconds with Context.Terms of ServiceReport this
