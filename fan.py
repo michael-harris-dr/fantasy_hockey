@@ -4,7 +4,10 @@ from time import sleep
 from time import strftime, gmtime
 import requests
 import json
-from datetime import date
+
+
+def argCount():
+    return len(sys.argv) - 1
 
 keyStr = "33667pxcyxpqsjsx7d65bf22"
 
@@ -62,21 +65,37 @@ else:
     json.dump(nhlJson, fp, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=3, separators=None)
 
     idTeam = {}#dict()
-    i = 0
-    id = 0
-    while(i != -1): #emulating a do-while to find Vegas at the end of the file
-        currId = nhlJson["teams"][i]["id"]
-        currTeam = nhlJson["teams"][i]["name"]
-    
-        #print(nhlJson["teams"][i]["id"])
-        #print(nhlJson["teams"][i]["name"])
-        if(currId > 0): #team exists at the current ID
-            idTeam[currId] = currTeam
-        if(currId == 55):
-            print("Found Seattle")
-            i = -1
-        else:
-            i += 1
+
+    for team in nhlJson["teams"]: #for each team
+        idTeam[team["id"]] = team["name"] #add the team name to the dict w/ the team ID as the key
 
     print(idTeam)
+
+
+#
+#
+# Find list of players on each team
+#
+#
+apiStr = "https://statsapi.web.nhl.com/api/v1/teams/1/roster" #?expand=team.roster"
+response = requests.get(apiStr)
+print(response.status_code)
+if(response.status_code != 200):
+    print(f"Response for {apiStr} not OK, terminating...")
+else:
+    teamJson = json.loads(response.text)
+    #print(nhlJson)
+
+    fp = open("team_json_dump.json", "w")
+    json.dump(teamJson, fp, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=3, separators=None)
+
+
+for team in nhlJson["teams"]:
+    apiStr = f"https://statsapi.web.nhl.com/api/v1/teams/{team['id']}/roster" #?expand=team.roster"
+    response = requests.get(apiStr)
+    p = json.loads(response.text)
+    print(p["roster"][1]["person"]["fullName"])
+
+
+
 

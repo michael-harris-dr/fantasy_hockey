@@ -6,7 +6,7 @@ GAME_DETAILS_TEMPLATE = "https://statsapi.web.nhl.com/api/v1/game/{0}/feed/live?
 
 NHL_HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0"}
 
-TEAM_FRANCHISE_MAPPINGS = {
+TEAM_FRANCHISE_MAPPINGS = { #maps from team ID to franchise ID (franchise ID allows for things like Atl/Wpg to be considered one franchise)
     1: 23,
     2: 22,
     3: 10,
