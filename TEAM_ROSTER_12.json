@@ -1,0 +1,328 @@
+{
+   "copyright": 12,
+   "roster": [
+      {
+         "person": {
+            "id": 8474157,
+            "fullName": "Max Pacioretty",
+            "link": "/api/v1/people/8474157"
+         },
+         "jerseyNumber": "67",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8478131,
+            "fullName": "Ondrej Kase",
+            "link": "/api/v1/people/8478131"
+         },
+         "jerseyNumber": "73",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8470613,
+            "fullName": "Brent Burns",
+            "link": "/api/v1/people/8470613"
+         },
+         "jerseyNumber": "8",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8471669,
+            "fullName": "Paul Stastny",
+            "link": "/api/v1/people/8471669"
+         },
+         "jerseyNumber": "26",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8473533,
+            "fullName": "Jordan Staal",
+            "link": "/api/v1/people/8473533"
+         },
+         "jerseyNumber": "11",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8474613,
+            "fullName": "Derek Stepan",
+            "link": "/api/v1/people/8474613"
+         },
+         "jerseyNumber": "21",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8475177,
+            "fullName": "Calvin de Haan",
+            "link": "/api/v1/people/8475177"
+         },
+         "jerseyNumber": "44",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8475855,
+            "fullName": "Jesper Fast",
+            "link": "/api/v1/people/8475855"
+         },
+         "jerseyNumber": "71",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8475883,
+            "fullName": "Frederik Andersen",
+            "link": "/api/v1/people/8475883"
+         },
+         "jerseyNumber": "31",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8476474,
+            "fullName": "Stefan Noesen",
+            "link": "/api/v1/people/8476474"
+         },
+         "jerseyNumber": "23",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8476869,
+            "fullName": "Brady Skjei",
+            "link": "/api/v1/people/8476869"
+         },
+         "jerseyNumber": "76",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8476882,
+            "fullName": "Teuvo Teravainen",
+            "link": "/api/v1/people/8476882"
+         },
+         "jerseyNumber": "86",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8476921,
+            "fullName": "Jordan Martinook",
+            "link": "/api/v1/people/8476921"
+         },
+         "jerseyNumber": "48",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8476958,
+            "fullName": "Jaccob Slavin",
+            "link": "/api/v1/people/8476958"
+         },
+         "jerseyNumber": "74",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8477293,
+            "fullName": "Antti Raanta",
+            "link": "/api/v1/people/8477293"
+         },
+         "jerseyNumber": "32",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8477488,
+            "fullName": "Brett Pesce",
+            "link": "/api/v1/people/8477488"
+         },
+         "jerseyNumber": "22",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8478427,
+            "fullName": "Sebastian Aho",
+            "link": "/api/v1/people/8478427"
+         },
+         "jerseyNumber": "20",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8478970,
+            "fullName": "Jalen Chatfield",
+            "link": "/api/v1/people/8478970"
+         },
+         "jerseyNumber": "5",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8479639,
+            "fullName": "Dylan Coghlan",
+            "link": "/api/v1/people/8479639"
+         },
+         "jerseyNumber": "15",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8480039,
+            "fullName": "Martin Necas",
+            "link": "/api/v1/people/8480039"
+         },
+         "jerseyNumber": "88",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8480829,
+            "fullName": "Jesperi Kotkaniemi",
+            "link": "/api/v1/people/8480829"
+         },
+         "jerseyNumber": "82",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8480830,
+            "fullName": "Andrei Svechnikov",
+            "link": "/api/v1/people/8480830"
+         },
+         "jerseyNumber": "37",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8482093,
+            "fullName": "Seth Jarvis",
+            "link": "/api/v1/people/8482093"
+         },
+         "jerseyNumber": "24",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      }
+   ],
+   "link": "/api/v1/teams/12/roster"
+}

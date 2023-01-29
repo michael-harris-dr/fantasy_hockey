@@ -1,0 +1,342 @@
+{
+   "copyright": 22,
+   "roster": [
+      {
+         "person": {
+            "id": 8476850,
+            "fullName": "Ryan Murray",
+            "link": "/api/v1/people/8476850"
+         },
+         "jerseyNumber": "28",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8479977,
+            "fullName": "Kailer Yamamoto",
+            "link": "/api/v1/people/8479977"
+         },
+         "jerseyNumber": "56",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8475169,
+            "fullName": "Evander Kane",
+            "link": "/api/v1/people/8475169"
+         },
+         "jerseyNumber": "91",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8475197,
+            "fullName": "Tyson Barrie",
+            "link": "/api/v1/people/8475197"
+         },
+         "jerseyNumber": "22",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8475786,
+            "fullName": "Zach Hyman",
+            "link": "/api/v1/people/8475786"
+         },
+         "jerseyNumber": "18",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8475789,
+            "fullName": "Jack Campbell",
+            "link": "/api/v1/people/8475789"
+         },
+         "jerseyNumber": "36",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8476454,
+            "fullName": "Ryan Nugent-Hopkins",
+            "link": "/api/v1/people/8476454"
+         },
+         "jerseyNumber": "93",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8476879,
+            "fullName": "Cody Ceci",
+            "link": "/api/v1/people/8476879"
+         },
+         "jerseyNumber": "5",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8476967,
+            "fullName": "Brett Kulak",
+            "link": "/api/v1/people/8476967"
+         },
+         "jerseyNumber": "27",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8477406,
+            "fullName": "Mattias Janmark",
+            "link": "/api/v1/people/8477406"
+         },
+         "jerseyNumber": "26",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8477498,
+            "fullName": "Darnell Nurse",
+            "link": "/api/v1/people/8477498"
+         },
+         "jerseyNumber": "25",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8477934,
+            "fullName": "Leon Draisaitl",
+            "link": "/api/v1/people/8477934"
+         },
+         "jerseyNumber": "29",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8477998,
+            "fullName": "Warren Foegele",
+            "link": "/api/v1/people/8477998"
+         },
+         "jerseyNumber": "37",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8478402,
+            "fullName": "Connor McDavid",
+            "link": "/api/v1/people/8478402"
+         },
+         "jerseyNumber": "97",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8478585,
+            "fullName": "Derek Ryan",
+            "link": "/api/v1/people/8478585"
+         },
+         "jerseyNumber": "10",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8479344,
+            "fullName": "Jesse Puljujarvi",
+            "link": "/api/v1/people/8479344"
+         },
+         "jerseyNumber": "13",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8479576,
+            "fullName": "Vincent Desharnais",
+            "link": "/api/v1/people/8479576"
+         },
+         "jerseyNumber": "73",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8479973,
+            "fullName": "Stuart Skinner",
+            "link": "/api/v1/people/8479973"
+         },
+         "jerseyNumber": "74",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8480011,
+            "fullName": "Klim Kostin",
+            "link": "/api/v1/people/8480011"
+         },
+         "jerseyNumber": "21",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8480468,
+            "fullName": "James Hamblin",
+            "link": "/api/v1/people/8480468"
+         },
+         "jerseyNumber": "57",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8480802,
+            "fullName": "Ryan McLeod",
+            "link": "/api/v1/people/8480802"
+         },
+         "jerseyNumber": "71",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8480803,
+            "fullName": "Evan Bouchard",
+            "link": "/api/v1/people/8480803"
+         },
+         "jerseyNumber": "2",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8481598,
+            "fullName": "Philip Broberg",
+            "link": "/api/v1/people/8481598"
+         },
+         "jerseyNumber": "86",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8482077,
+            "fullName": "Dylan Holloway",
+            "link": "/api/v1/people/8482077"
+         },
+         "jerseyNumber": "55",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      }
+   ],
+   "link": "/api/v1/teams/22/roster"
+}

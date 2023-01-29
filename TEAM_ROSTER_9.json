@@ -1,0 +1,356 @@
+{
+   "copyright": 9,
+   "roster": [
+      {
+         "person": {
+            "id": 8477353,
+            "fullName": "Tyler Motte",
+            "link": "/api/v1/people/8477353"
+         },
+         "jerseyNumber": "14",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8480064,
+            "fullName": "Josh Norris",
+            "link": "/api/v1/people/8480064"
+         },
+         "jerseyNumber": "9",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8482245,
+            "fullName": "Artem Zub",
+            "link": "/api/v1/people/8482245"
+         },
+         "jerseyNumber": "2",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8473512,
+            "fullName": "Claude Giroux",
+            "link": "/api/v1/people/8473512"
+         },
+         "jerseyNumber": "28",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8473544,
+            "fullName": "Derick Brassard",
+            "link": "/api/v1/people/8473544"
+         },
+         "jerseyNumber": "61",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8474207,
+            "fullName": "Nick Holden",
+            "link": "/api/v1/people/8474207"
+         },
+         "jerseyNumber": "5",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8474612,
+            "fullName": "Travis Hamonic",
+            "link": "/api/v1/people/8474612"
+         },
+         "jerseyNumber": "23",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8475660,
+            "fullName": "Cam Talbot",
+            "link": "/api/v1/people/8475660"
+         },
+         "jerseyNumber": "33",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8475766,
+            "fullName": "Austin Watson",
+            "link": "/api/v1/people/8475766"
+         },
+         "jerseyNumber": "16",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8476341,
+            "fullName": "Anton Forsberg",
+            "link": "/api/v1/people/8476341"
+         },
+         "jerseyNumber": "31",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8478469,
+            "fullName": "Thomas Chabot",
+            "link": "/api/v1/people/8478469"
+         },
+         "jerseyNumber": "72",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8478472,
+            "fullName": "Mathieu Joseph",
+            "link": "/api/v1/people/8478472"
+         },
+         "jerseyNumber": "21",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8478491,
+            "fullName": "Jacob Larsson",
+            "link": "/api/v1/people/8478491"
+         },
+         "jerseyNumber": "32",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8479337,
+            "fullName": "Alex DeBrincat",
+            "link": "/api/v1/people/8479337"
+         },
+         "jerseyNumber": "12",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8479458,
+            "fullName": "Nikita Zaitsev",
+            "link": "/api/v1/people/8479458"
+         },
+         "jerseyNumber": "22",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8479580,
+            "fullName": "Dylan Gambrell",
+            "link": "/api/v1/people/8479580"
+         },
+         "jerseyNumber": "27",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8480073,
+            "fullName": "Erik Brannstrom",
+            "link": "/api/v1/people/8480073"
+         },
+         "jerseyNumber": "26",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8480208,
+            "fullName": "Drake Batherson",
+            "link": "/api/v1/people/8480208"
+         },
+         "jerseyNumber": "19",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8480355,
+            "fullName": "Mark Kastelic",
+            "link": "/api/v1/people/8480355"
+         },
+         "jerseyNumber": "47",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8480448,
+            "fullName": "Parker Kelly",
+            "link": "/api/v1/people/8480448"
+         },
+         "jerseyNumber": "45",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8480801,
+            "fullName": "Brady Tkachuk",
+            "link": "/api/v1/people/8480801"
+         },
+         "jerseyNumber": "7",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8480867,
+            "fullName": "Kevin Mandolese",
+            "link": "/api/v1/people/8480867"
+         },
+         "jerseyNumber": "70",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8481596,
+            "fullName": "Shane Pinto",
+            "link": "/api/v1/people/8481596"
+         },
+         "jerseyNumber": "57",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8482105,
+            "fullName": "Jake Sanderson",
+            "link": "/api/v1/people/8482105"
+         },
+         "jerseyNumber": "85",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8482116,
+            "fullName": "Tim St\u00fctzle",
+            "link": "/api/v1/people/8482116"
+         },
+         "jerseyNumber": "18",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      }
+   ],
+   "link": "/api/v1/teams/9/roster"
+}

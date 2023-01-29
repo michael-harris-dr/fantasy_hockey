@@ -1,0 +1,370 @@
+{
+   "copyright": 5,
+   "roster": [
+      {
+         "person": {
+            "id": 8476326,
+            "fullName": "Josh Archibald",
+            "link": "/api/v1/people/8476326"
+         },
+         "jerseyNumber": "15",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8477953,
+            "fullName": "Kasperi Kapanen",
+            "link": "/api/v1/people/8477953"
+         },
+         "jerseyNumber": "42",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8480172,
+            "fullName": "Jan Rutta",
+            "link": "/api/v1/people/8480172"
+         },
+         "jerseyNumber": "44",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8470604,
+            "fullName": "Jeff Carter",
+            "link": "/api/v1/people/8470604"
+         },
+         "jerseyNumber": "77",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8471215,
+            "fullName": "Evgeni Malkin",
+            "link": "/api/v1/people/8471215"
+         },
+         "jerseyNumber": "71",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8471675,
+            "fullName": "Sidney Crosby",
+            "link": "/api/v1/people/8471675"
+         },
+         "jerseyNumber": "87",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8471724,
+            "fullName": "Kris Letang",
+            "link": "/api/v1/people/8471724"
+         },
+         "jerseyNumber": "58",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8473507,
+            "fullName": "Jeff Petry",
+            "link": "/api/v1/people/8473507"
+         },
+         "jerseyNumber": "26",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8474682,
+            "fullName": "Dustin Tokarski",
+            "link": "/api/v1/people/8474682"
+         },
+         "jerseyNumber": "40",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8475208,
+            "fullName": "Brian Dumoulin",
+            "link": "/api/v1/people/8475208"
+         },
+         "jerseyNumber": "8",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8475722,
+            "fullName": "Jason Zucker",
+            "link": "/api/v1/people/8475722"
+         },
+         "jerseyNumber": "16",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8475810,
+            "fullName": "Bryan Rust",
+            "link": "/api/v1/people/8475810"
+         },
+         "jerseyNumber": "17",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8476483,
+            "fullName": "Rickard Rakell",
+            "link": "/api/v1/people/8476483"
+         },
+         "jerseyNumber": "67",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8476927,
+            "fullName": "Teddy Blueger",
+            "link": "/api/v1/people/8476927"
+         },
+         "jerseyNumber": "53",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8476934,
+            "fullName": "Brock McGinn",
+            "link": "/api/v1/people/8476934"
+         },
+         "jerseyNumber": "23",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8477244,
+            "fullName": "Chad Ruhwedel",
+            "link": "/api/v1/people/8477244"
+         },
+         "jerseyNumber": "2",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8477404,
+            "fullName": "Jake Guentzel",
+            "link": "/api/v1/people/8477404"
+         },
+         "jerseyNumber": "59",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8477465,
+            "fullName": "Tristan Jarry",
+            "link": "/api/v1/people/8477465"
+         },
+         "jerseyNumber": "35",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8477969,
+            "fullName": "Marcus Pettersson",
+            "link": "/api/v1/people/8477969"
+         },
+         "jerseyNumber": "28",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8478017,
+            "fullName": "Mark Friedman",
+            "link": "/api/v1/people/8478017"
+         },
+         "jerseyNumber": "52",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8478046,
+            "fullName": "Danton Heinen",
+            "link": "/api/v1/people/8478046"
+         },
+         "jerseyNumber": "43",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8479193,
+            "fullName": "Casey DeSmith",
+            "link": "/api/v1/people/8479193"
+         },
+         "jerseyNumber": "1",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8480058,
+            "fullName": "Pierre-Olivier Joseph",
+            "link": "/api/v1/people/8480058"
+         },
+         "jerseyNumber": "73",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8480068,
+            "fullName": "Ryan Poehling",
+            "link": "/api/v1/people/8480068"
+         },
+         "jerseyNumber": "25",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8480836,
+            "fullName": "Jonathan Gruden",
+            "link": "/api/v1/people/8480836"
+         },
+         "jerseyNumber": "45",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8482055,
+            "fullName": "Drew O'Connor",
+            "link": "/api/v1/people/8482055"
+         },
+         "jerseyNumber": "10",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      }
+   ],
+   "link": "/api/v1/teams/5/roster"
+}

@@ -1,0 +1,300 @@
+{
+   "copyright": 18,
+   "roster": [
+      {
+         "person": {
+            "id": 8474697,
+            "fullName": "Mark Borowiecki",
+            "link": "/api/v1/people/8474697"
+         },
+         "jerseyNumber": "90",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8474151,
+            "fullName": "Ryan McDonagh",
+            "link": "/api/v1/people/8474151"
+         },
+         "jerseyNumber": "27",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8474600,
+            "fullName": "Roman Josi",
+            "link": "/api/v1/people/8474600"
+         },
+         "jerseyNumber": "59",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8475168,
+            "fullName": "Matt Duchene",
+            "link": "/api/v1/people/8475168"
+         },
+         "jerseyNumber": "95",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8475218,
+            "fullName": "Mattias Ekholm",
+            "link": "/api/v1/people/8475218"
+         },
+         "jerseyNumber": "14",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8475793,
+            "fullName": "Ryan Johansen",
+            "link": "/api/v1/people/8475793"
+         },
+         "jerseyNumber": "92",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8475798,
+            "fullName": "Mikael Granlund",
+            "link": "/api/v1/people/8475798"
+         },
+         "jerseyNumber": "64",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8475799,
+            "fullName": "Nino Niederreiter",
+            "link": "/api/v1/people/8475799"
+         },
+         "jerseyNumber": "22",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8476873,
+            "fullName": "Mark Jankowski",
+            "link": "/api/v1/people/8476873"
+         },
+         "jerseyNumber": "17",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8476887,
+            "fullName": "Filip Forsberg",
+            "link": "/api/v1/people/8476887"
+         },
+         "jerseyNumber": "9",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8476925,
+            "fullName": "Colton Sissons",
+            "link": "/api/v1/people/8476925"
+         },
+         "jerseyNumber": "10",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8477424,
+            "fullName": "Juuse Saros",
+            "link": "/api/v1/people/8477424"
+         },
+         "jerseyNumber": "74",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8478468,
+            "fullName": "Jeremy Lauzon",
+            "link": "/api/v1/people/8478468"
+         },
+         "jerseyNumber": "3",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8478508,
+            "fullName": "Yakov Trenin",
+            "link": "/api/v1/people/8478508"
+         },
+         "jerseyNumber": "13",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8478851,
+            "fullName": "Alexandre Carrier",
+            "link": "/api/v1/people/8478851"
+         },
+         "jerseyNumber": "45",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8479371,
+            "fullName": "Dante Fabbro",
+            "link": "/api/v1/people/8479371"
+         },
+         "jerseyNumber": "57",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8479661,
+            "fullName": "Tanner Jeannot",
+            "link": "/api/v1/people/8479661"
+         },
+         "jerseyNumber": "84",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8479996,
+            "fullName": "Cody Glass",
+            "link": "/api/v1/people/8479996"
+         },
+         "jerseyNumber": "8",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8480947,
+            "fullName": "Kevin Lankinen",
+            "link": "/api/v1/people/8480947"
+         },
+         "jerseyNumber": "32",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8481704,
+            "fullName": "Juuso Parssinen",
+            "link": "/api/v1/people/8481704"
+         },
+         "jerseyNumber": "75",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8482062,
+            "fullName": "Cole Smith",
+            "link": "/api/v1/people/8482062"
+         },
+         "jerseyNumber": "36",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      }
+   ],
+   "link": "/api/v1/teams/18/roster"
+}

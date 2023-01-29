@@ -1,0 +1,370 @@
+{
+   "copyright": 24,
+   "roster": [
+      {
+         "person": {
+            "id": 8474683,
+            "fullName": "Derek Grant",
+            "link": "/api/v1/people/8474683"
+         },
+         "jerseyNumber": "38",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8477993,
+            "fullName": "Justin Kirkland",
+            "link": "/api/v1/people/8477993"
+         },
+         "jerseyNumber": "54",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8482142,
+            "fullName": "Jamie Drysdale",
+            "link": "/api/v1/people/8482142"
+         },
+         "jerseyNumber": "6",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8474031,
+            "fullName": "Kevin Shattenkirk",
+            "link": "/api/v1/people/8474031"
+         },
+         "jerseyNumber": "22",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8474641,
+            "fullName": "Adam Henrique",
+            "link": "/api/v1/people/8474641"
+         },
+         "jerseyNumber": "14",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8475164,
+            "fullName": "Jakob Silfverberg",
+            "link": "/api/v1/people/8475164"
+         },
+         "jerseyNumber": "33",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8475179,
+            "fullName": "Dmitry Kulikov",
+            "link": "/api/v1/people/8475179"
+         },
+         "jerseyNumber": "29",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8475764,
+            "fullName": "Cam Fowler",
+            "link": "/api/v1/people/8475764"
+         },
+         "jerseyNumber": "4",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8475842,
+            "fullName": "Sam Carrick",
+            "link": "/api/v1/people/8475842"
+         },
+         "jerseyNumber": "39",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8475906,
+            "fullName": "John Klingberg",
+            "link": "/api/v1/people/8475906"
+         },
+         "jerseyNumber": "3",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8476434,
+            "fullName": "John Gibson",
+            "link": "/api/v1/people/8476434"
+         },
+         "jerseyNumber": "36",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8476458,
+            "fullName": "Ryan Strome",
+            "link": "/api/v1/people/8476458"
+         },
+         "jerseyNumber": "16",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8476470,
+            "fullName": "Nathan Beaulieu",
+            "link": "/api/v1/people/8476470"
+         },
+         "jerseyNumber": "28",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8476932,
+            "fullName": "Anthony Stolarz",
+            "link": "/api/v1/people/8476932"
+         },
+         "jerseyNumber": "41",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8477126,
+            "fullName": "Jayson Megna",
+            "link": "/api/v1/people/8477126"
+         },
+         "jerseyNumber": "7",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8478366,
+            "fullName": "Frank Vatrano",
+            "link": "/api/v1/people/8478366"
+         },
+         "jerseyNumber": "77",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8478841,
+            "fullName": "Colton White",
+            "link": "/api/v1/people/8478841"
+         },
+         "jerseyNumber": "45",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8478873,
+            "fullName": "Troy Terry",
+            "link": "/api/v1/people/8478873"
+         },
+         "jerseyNumber": "19",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8479368,
+            "fullName": "Max Jones",
+            "link": "/api/v1/people/8479368"
+         },
+         "jerseyNumber": "49",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8480001,
+            "fullName": "Urho Vaakanainen",
+            "link": "/api/v1/people/8480001"
+         },
+         "jerseyNumber": "5",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8480031,
+            "fullName": "Max Comtois",
+            "link": "/api/v1/people/8480031"
+         },
+         "jerseyNumber": "44",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8480806,
+            "fullName": "Isac Lundestrom",
+            "link": "/api/v1/people/8480806"
+         },
+         "jerseyNumber": "21",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8481122,
+            "fullName": "Simon Benoit",
+            "link": "/api/v1/people/8481122"
+         },
+         "jerseyNumber": "13",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8481517,
+            "fullName": "Brett Leason",
+            "link": "/api/v1/people/8481517"
+         },
+         "jerseyNumber": "20",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8481533,
+            "fullName": "Trevor Zegras",
+            "link": "/api/v1/people/8481533"
+         },
+         "jerseyNumber": "11",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8482745,
+            "fullName": "Mason McTavish",
+            "link": "/api/v1/people/8482745"
+         },
+         "jerseyNumber": "37",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      }
+   ],
+   "link": "/api/v1/teams/24/roster"
+}
