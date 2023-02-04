@@ -17,11 +17,39 @@
       },
       {
          "person": {
-            "id": 8476439,
-            "fullName": "Brett Ritchie",
-            "link": "/api/v1/people/8476439"
+            "id": 8478502,
+            "fullName": "Dennis Gilbert",
+            "link": "/api/v1/people/8478502"
          },
-         "jerseyNumber": "24",
+         "jerseyNumber": "48",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8481592,
+            "fullName": "Jakob Pelletier",
+            "link": "/api/v1/people/8481592"
+         },
+         "jerseyNumber": "49",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8482652,
+            "fullName": "Walker Duehr",
+            "link": "/api/v1/people/8482652"
+         },
+         "jerseyNumber": "71",
          "position": {
             "code": "R",
             "name": "Right Wing",
@@ -143,6 +171,20 @@
       },
       {
          "person": {
+            "id": 8476439,
+            "fullName": "Brett Ritchie",
+            "link": "/api/v1/people/8476439"
+         },
+         "jerseyNumber": "24",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
             "id": 8476456,
             "fullName": "Jonathan Huberdeau",
             "link": "/api/v1/people/8476456"
@@ -255,20 +297,6 @@
       },
       {
          "person": {
-            "id": 8478502,
-            "fullName": "Dennis Gilbert",
-            "link": "/api/v1/people/8478502"
-         },
-         "jerseyNumber": "48",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
             "id": 8479346,
             "fullName": "Dillon Dube",
             "link": "/api/v1/people/8479346"
@@ -297,20 +325,6 @@
       },
       {
          "person": {
-            "id": 8481592,
-            "fullName": "Jakob Pelletier",
-            "link": "/api/v1/people/8481592"
-         },
-         "jerseyNumber": "49",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
             "id": 8482067,
             "fullName": "Connor Mackey",
             "link": "/api/v1/people/8482067"
@@ -321,20 +335,6 @@
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8482652,
-            "fullName": "Walker Duehr",
-            "link": "/api/v1/people/8482652"
-         },
-         "jerseyNumber": "71",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
          }
       }
    ],

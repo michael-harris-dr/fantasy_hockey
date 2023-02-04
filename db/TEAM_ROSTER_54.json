@@ -3,34 +3,6 @@
    "roster": [
       {
          "person": {
-            "id": 8477447,
-            "fullName": "Shea Theodore",
-            "link": "/api/v1/people/8477447"
-         },
-         "jerseyNumber": "27",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8477478,
-            "fullName": "William Carrier",
-            "link": "/api/v1/people/8477478"
-         },
-         "jerseyNumber": "28",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
             "id": 8479974,
             "fullName": "Nolan Patrick",
             "link": "/api/v1/people/8479974"
@@ -129,20 +101,6 @@
       },
       {
          "person": {
-            "id": 8475278,
-            "fullName": "Byron Froese",
-            "link": "/api/v1/people/8475278"
-         },
-         "jerseyNumber": "51",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
             "id": 8475913,
             "fullName": "Mark Stone",
             "link": "/api/v1/people/8475913"
@@ -209,6 +167,34 @@
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8477447,
+            "fullName": "Shea Theodore",
+            "link": "/api/v1/people/8477447"
+         },
+         "jerseyNumber": "27",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8477478,
+            "fullName": "William Carrier",
+            "link": "/api/v1/people/8477478"
+         },
+         "jerseyNumber": "28",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
          }
       },
       {
@@ -335,20 +321,6 @@
             "name": "Center",
             "type": "Forward",
             "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8481527,
-            "fullName": "Kaedan Korczak",
-            "link": "/api/v1/people/8481527"
-         },
-         "jerseyNumber": "6",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
          }
       },
       {

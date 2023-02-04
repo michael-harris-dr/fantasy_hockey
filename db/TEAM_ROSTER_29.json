@@ -17,6 +17,20 @@
       },
       {
          "person": {
+            "id": 8474679,
+            "fullName": "Gustav Nyquist",
+            "link": "/api/v1/people/8474679"
+         },
+         "jerseyNumber": "14",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
             "id": 8478460,
             "fullName": "Zach Werenski",
             "link": "/api/v1/people/8478460"
@@ -83,20 +97,6 @@
             "name": "Right Wing",
             "type": "Forward",
             "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8474679,
-            "fullName": "Gustav Nyquist",
-            "link": "/api/v1/people/8474679"
-         },
-         "jerseyNumber": "14",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
          }
       },
       {
@@ -209,6 +209,20 @@
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8478967,
+            "fullName": "Lane Pederson",
+            "link": "/api/v1/people/8478967"
+         },
+         "jerseyNumber": "18",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
          }
       },
       {

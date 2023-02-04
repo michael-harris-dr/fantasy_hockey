@@ -308,20 +308,6 @@
             "type": "Forward",
             "abbreviation": "LW"
          }
-      },
-      {
-         "person": {
-            "id": 8482157,
-            "fullName": "Will Cuylle",
-            "link": "/api/v1/people/8482157"
-         },
-         "jerseyNumber": "50",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
       }
    ],
    "link": "/api/v1/teams/3/roster"

@@ -73,6 +73,20 @@
       },
       {
          "person": {
+            "id": 8483570,
+            "fullName": "Ben Meyers",
+            "link": "/api/v1/people/8483570"
+         },
+         "jerseyNumber": "59",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
             "id": 8471699,
             "fullName": "Andrew Cogliano",
             "link": "/api/v1/people/8471699"
@@ -344,20 +358,6 @@
             "link": "/api/v1/people/8481618"
          },
          "jerseyNumber": "18",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8483570,
-            "fullName": "Ben Meyers",
-            "link": "/api/v1/people/8483570"
-         },
-         "jerseyNumber": "59",
          "position": {
             "code": "C",
             "name": "Center",

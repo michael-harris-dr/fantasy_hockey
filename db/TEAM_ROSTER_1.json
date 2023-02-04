@@ -297,20 +297,6 @@
       },
       {
          "person": {
-            "id": 8481537,
-            "fullName": "Nikita Okhotiuk",
-            "link": "/api/v1/people/8481537"
-         },
-         "jerseyNumber": "82",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
             "id": 8481559,
             "fullName": "Jack Hughes",
             "link": "/api/v1/people/8481559"

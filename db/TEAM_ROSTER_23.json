@@ -59,6 +59,20 @@
       },
       {
          "person": {
+            "id": 8481624,
+            "fullName": "Ilya Mikheyev",
+            "link": "/api/v1/people/8481624"
+         },
+         "jerseyNumber": "65",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
             "id": 8475413,
             "fullName": "Justin Dowling",
             "link": "/api/v1/people/8475413"
@@ -153,20 +167,6 @@
             "name": "Center",
             "type": "Forward",
             "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8476858,
-            "fullName": "Phillip Di Giuseppe",
-            "link": "/api/v1/people/8476858"
-         },
-         "jerseyNumber": "34",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
          }
       },
       {
@@ -297,20 +297,6 @@
       },
       {
          "person": {
-            "id": 8478967,
-            "fullName": "Lane Pederson",
-            "link": "/api/v1/people/8478967"
-         },
-         "jerseyNumber": "29",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
             "id": 8479388,
             "fullName": "Riley Stillman",
             "link": "/api/v1/people/8479388"
@@ -391,20 +377,6 @@
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8481624,
-            "fullName": "Ilya Mikheyev",
-            "link": "/api/v1/people/8481624"
-         },
-         "jerseyNumber": "65",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
          }
       },
       {

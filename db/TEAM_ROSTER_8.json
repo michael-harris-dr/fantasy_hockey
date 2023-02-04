@@ -406,6 +406,20 @@
             "type": "Defenseman",
             "abbreviation": "D"
          }
+      },
+      {
+         "person": {
+            "id": 8483424,
+            "fullName": "Owen Beck",
+            "link": "/api/v1/people/8483424"
+         },
+         "jerseyNumber": "62",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
       }
    ],
    "link": "/api/v1/teams/8/roster"

@@ -3,20 +3,6 @@
    "roster": [
       {
          "person": {
-            "id": 8477353,
-            "fullName": "Tyler Motte",
-            "link": "/api/v1/people/8477353"
-         },
-         "jerseyNumber": "14",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
             "id": 8480064,
             "fullName": "Josh Norris",
             "link": "/api/v1/people/8480064"
@@ -143,6 +129,20 @@
       },
       {
          "person": {
+            "id": 8477353,
+            "fullName": "Tyler Motte",
+            "link": "/api/v1/people/8477353"
+         },
+         "jerseyNumber": "14",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
             "id": 8478469,
             "fullName": "Thomas Chabot",
             "link": "/api/v1/people/8478469"
@@ -167,20 +167,6 @@
             "name": "Right Wing",
             "type": "Forward",
             "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8478491,
-            "fullName": "Jacob Larsson",
-            "link": "/api/v1/people/8478491"
-         },
-         "jerseyNumber": "32",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
          }
       },
       {

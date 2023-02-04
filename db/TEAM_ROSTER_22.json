@@ -31,6 +31,20 @@
       },
       {
          "person": {
+            "id": 8480468,
+            "fullName": "James Hamblin",
+            "link": "/api/v1/people/8480468"
+         },
+         "jerseyNumber": "57",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
             "id": 8475169,
             "fullName": "Evander Kane",
             "link": "/api/v1/people/8475169"
@@ -265,20 +279,6 @@
             "name": "Center",
             "type": "Forward",
             "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8480468,
-            "fullName": "James Hamblin",
-            "link": "/api/v1/people/8480468"
-         },
-         "jerseyNumber": "57",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
          }
       },
       {
