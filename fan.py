@@ -43,12 +43,21 @@ def update_entire_player_list(idList):
         update_player_list(id)
     print("All rosters updated...")
 
+def pascal_case(name):
+     return name[:1].upper() + name[1:].lower()
+
 def input_names():
     #print("Enter player names in the form \"lastname,lastname,lastname\":")
-    inp = input("Enter player surnames:")
+    inp = input("Enter player surnames: ")
     nameList = inp.replace(" ",",").split(',')
+    nameListCopy = []
     print(nameList)
-    return nameList
+
+    for name in nameList:
+        nameListCopy.append(pascal_case(name))
+
+    print(f"NAME COPY = {nameListCopy}")
+    return nameListCopy
 
 def menu_loop(idTeam):
     inp = "0"
@@ -93,37 +102,39 @@ def find_players(nameList, idTeam):
             fp2.close()
     return playerIDs
 
-
 def populate_stats(playerIDs, yearStrings):
     playerStats = {}
 
-    goals = 0
-    assists = 0
-    shotPct = 0
-    games = 0
-
+    trackedStats = ["goals", "assists", "shots", "games"] #volume stats, shot% needs to be done separately
+    playerStats = {}
     for years in yearStrings:
         for player in playerIDs:
+
+            if not player in playerStats:
+                playerStats[player] = {}
+
             apiStr = f"https://statsapi.web.nhl.com/api/v1/people/{playerIDs[player]}/stats?stats=statsSingleSeason&season={years}"
             response = requests.get(apiStr)
             playerJson = json.loads(response.text)
-            print(response.status_code)
-            #print(playerJson)
-            #print(playerJson["stats"][0]["splits"][0]["stat"])
+            
+            if (response.status_code != 200):
+                print(response.status_code)
+
             if "shutouts" in playerJson["stats"][0]["splits"][0]["stat"]:
                 print(f"{player} is goalie")
             else:
                 stats = playerJson["stats"][0]["splits"][0]["stat"]
             
-                goals += stats["goals"]
-                assists += stats["assists"]
-                shotPct += stats["shotPct"]
-                games += stats["games"]
-            playerStats[player] = {"goals":goals, "assists":assists, "shotPct":shotPct, "games":games}
+            for stat in trackedStats:
+                if stat in playerStats[player]:
+                    playerStats[player][stat] += stats[stat]
+                else:
+                    playerStats[player][stat] = stats[stat]
     return playerStats
 
 #TODO: add players previous years stats and adjust xFP (expected fantasy points) accordingly
 #TODO: add GP as stat and factor into xFP
+#DEPRECATED
 def populate_player_stats(playerIDs):
     #adding a player's stats to the playerStats dict
     playerStats = {}
@@ -148,6 +159,7 @@ def populate_player_stats(playerIDs):
             playerStats[player] = {"goals":goals, "assists":assists, "shotPct":shotPct, "games":games}
     return playerStats
 
+#DEPRECATED
 def populate_past_stats(playerIDs):
     #adding a player's stats to the playerStats dict
     pastStats = {}
@@ -186,6 +198,19 @@ def populate_past_stats(playerIDs):
 
     return pastStats
 
+
+def calculate_stats(playerList):
+    for player in playerList:
+        playerList[player]["sh%"] = round(100 * playerList[player]["goals"] / playerList[player]["shots"], 1)
+
+    return playerList
+
+
+def expected_fan_pts(player):
+    #TODO: create xFP based on a given shooting percentage and extrapolating gp to the highest of any team this season
+    return 0
+
+
 #MAIN()###########################################################################################################
 
 def main():
@@ -201,18 +226,24 @@ def main():
     nameList = input_names()
 
     playerIDs = find_players(nameList, idTeam)
-    #print(playerIDs)
 
-    yearIDs = ["20222023"]
-    playerStats = populate__stats(playerIDs, yearIDs)
-    print(playerStats)
+    currentYearStatsList = populate_stats(playerIDs, ["20222023"])
+    currentYearStatsList = calculate_stats(currentYearStatsList)
+    print(currentYearStatsList)
 
-    pastStats = populate_past_stats(playerIDs)
-    print(pastStats)
+    twoYearStats = populate_stats(playerIDs, ["20222023", "20212022"])
+    twoYearStats = calculate_stats(twoYearStats)
+    print(f"_{twoYearStats}")
+
+    threeYearStats = populate_stats(playerIDs, ["20222023", "20212022", "20202021"])
+    threeYearStats = calculate_stats(threeYearStats)
+    print(f"__{threeYearStats}")
 
     #isolating useful stats
-    for player in playerStats:
-        print(f"fanPts for {player} = {fanPts(playerStats[player])}")
+    for player in currentYearStatsList:
+        print(f"fanPts for {player} = {fanPts(currentYearStatsList[player])}")
+
+    calculate_stats(twoYearStats)
 
     fp.close()
 
