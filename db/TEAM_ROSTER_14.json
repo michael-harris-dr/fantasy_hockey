@@ -3,39 +3,11 @@
    "roster": [
       {
          "person": {
-            "id": 8478870,
-            "fullName": "Rudolfs Balcers",
-            "link": "/api/v1/people/8478870"
+            "id": 8476883,
+            "fullName": "Andrei Vasilevskiy",
+            "link": "/api/v1/people/8476883"
          },
-         "jerseyNumber": "22",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
-            "id": 8470621,
-            "fullName": "Corey Perry",
-            "link": "/api/v1/people/8470621"
-         },
-         "jerseyNumber": "10",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8470880,
-            "fullName": "Brian Elliott",
-            "link": "/api/v1/people/8470880"
-         },
-         "jerseyNumber": "1",
+         "jerseyNumber": "88",
          "position": {
             "code": "G",
             "name": "Goalie",
@@ -45,44 +17,16 @@
       },
       {
          "person": {
-            "id": 8473986,
-            "fullName": "Alex Killorn",
-            "link": "/api/v1/people/8473986"
+            "id": 8477353,
+            "fullName": "Tyler Motte",
+            "link": "/api/v1/people/8477353"
          },
-         "jerseyNumber": "17",
+         "jerseyNumber": "64",
          "position": {
-            "code": "L",
-            "name": "Left Wing",
+            "code": "C",
+            "name": "Center",
             "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
-            "id": 8474013,
-            "fullName": "Ian Cole",
-            "link": "/api/v1/people/8474013"
-         },
-         "jerseyNumber": "28",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8474034,
-            "fullName": "Pat Maroon",
-            "link": "/api/v1/people/8474034"
-         },
-         "jerseyNumber": "14",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
+            "abbreviation": "C"
          }
       },
       {
@@ -129,6 +73,34 @@
       },
       {
          "person": {
+            "id": 8475177,
+            "fullName": "Calvin de Haan",
+            "link": "/api/v1/people/8475177"
+         },
+         "jerseyNumber": "44",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8475766,
+            "fullName": "Austin Watson",
+            "link": "/api/v1/people/8475766"
+         },
+         "jerseyNumber": "51",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
             "id": 8476453,
             "fullName": "Nikita Kucherov",
             "link": "/api/v1/people/8476453"
@@ -143,11 +115,11 @@
       },
       {
          "person": {
-            "id": 8476480,
-            "fullName": "Vladislav Namestnikov",
-            "link": "/api/v1/people/8476480"
+            "id": 8476822,
+            "fullName": "Luke Glendening",
+            "link": "/api/v1/people/8476822"
          },
-         "jerseyNumber": "90",
+         "jerseyNumber": "11",
          "position": {
             "code": "C",
             "name": "Center",
@@ -157,11 +129,11 @@
       },
       {
          "person": {
-            "id": 8476883,
-            "fullName": "Andrei Vasilevskiy",
-            "link": "/api/v1/people/8476883"
+            "id": 8477035,
+            "fullName": "Matt Tomkins",
+            "link": "/api/v1/people/8477035"
          },
-         "jerseyNumber": "88",
+         "jerseyNumber": "90",
          "position": {
             "code": "G",
             "name": "Goalie",
@@ -185,11 +157,11 @@
       },
       {
          "person": {
-            "id": 8477930,
-            "fullName": "Pierre-Edouard Bellemare",
-            "link": "/api/v1/people/8477930"
+            "id": 8477839,
+            "fullName": "Conor Sheary",
+            "link": "/api/v1/people/8477839"
          },
-         "jerseyNumber": "41",
+         "jerseyNumber": "73",
          "position": {
             "code": "L",
             "name": "Left Wing",
@@ -213,6 +185,20 @@
       },
       {
          "person": {
+            "id": 8477992,
+            "fullName": "Jonas Johansson",
+            "link": "/api/v1/people/8477992"
+         },
+         "jerseyNumber": "31",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
             "id": 8478010,
             "fullName": "Brayden Point",
             "link": "/api/v1/people/8478010"
@@ -223,6 +209,20 @@
             "name": "Center",
             "type": "Forward",
             "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8478178,
+            "fullName": "Darren Raddysh",
+            "link": "/api/v1/people/8478178"
+         },
+         "jerseyNumber": "43",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {
@@ -269,20 +269,6 @@
       },
       {
          "person": {
-            "id": 8479525,
-            "fullName": "Ross Colton",
-            "link": "/api/v1/people/8479525"
-         },
-         "jerseyNumber": "79",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
             "id": 8479542,
             "fullName": "Brandon Hagel",
             "link": "/api/v1/people/8479542"
@@ -297,16 +283,44 @@
       },
       {
          "person": {
-            "id": 8479984,
-            "fullName": "Cal Foote",
-            "link": "/api/v1/people/8479984"
+            "id": 8479591,
+            "fullName": "Michael Eyssimont",
+            "link": "/api/v1/people/8479591"
          },
-         "jerseyNumber": "52",
+         "jerseyNumber": "23",
          "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8479661,
+            "fullName": "Tanner Jeannot",
+            "link": "/api/v1/people/8479661"
+         },
+         "jerseyNumber": "84",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8479718,
+            "fullName": "Alex Barr\u00e9-Boulet",
+            "link": "/api/v1/people/8479718"
+         },
+         "jerseyNumber": "12",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
          }
       },
       {
@@ -321,6 +335,20 @@
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8484325,
+            "fullName": "Waltteri Merela",
+            "link": "/api/v1/people/8484325"
+         },
+         "jerseyNumber": "39",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
          }
       }
    ],

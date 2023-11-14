@@ -3,16 +3,44 @@
    "roster": [
       {
          "person": {
-            "id": 8470860,
-            "fullName": "Jaroslav Halak",
-            "link": "/api/v1/people/8470860"
+            "id": 8471218,
+            "fullName": "Blake Wheeler",
+            "link": "/api/v1/people/8471218"
          },
-         "jerseyNumber": "41",
+         "jerseyNumber": "17",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8471734,
+            "fullName": "Jonathan Quick",
+            "link": "/api/v1/people/8471734"
+         },
+         "jerseyNumber": "32",
          "position": {
             "code": "G",
             "name": "Goalie",
             "type": "Goalie",
             "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8474009,
+            "fullName": "Nick Bonino",
+            "link": "/api/v1/people/8474009"
+         },
+         "jerseyNumber": "12",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
          }
       },
       {
@@ -27,6 +55,20 @@
             "name": "Left Wing",
             "type": "Forward",
             "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8475752,
+            "fullName": "Tyler Pitlick",
+            "link": "/api/v1/people/8475752"
+         },
+         "jerseyNumber": "71",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
          }
       },
       {
@@ -101,11 +143,11 @@
       },
       {
          "person": {
-            "id": 8477433,
-            "fullName": "Ben Harpur",
-            "link": "/api/v1/people/8477433"
+            "id": 8476979,
+            "fullName": "Erik Gustafsson",
+            "link": "/api/v1/people/8476979"
          },
-         "jerseyNumber": "5",
+         "jerseyNumber": "56",
          "position": {
             "code": "D",
             "name": "Defenseman",
@@ -125,20 +167,6 @@
             "name": "Goalie",
             "type": "Goalie",
             "abbreviation": "G"
-         }
-      },
-      {
-         "person": {
-            "id": 8478104,
-            "fullName": "Sammy Blais",
-            "link": "/api/v1/people/8478104"
-         },
-         "jerseyNumber": "91",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
          }
       },
       {
@@ -185,48 +213,6 @@
       },
       {
          "person": {
-            "id": 8479328,
-            "fullName": "Julien Gauthier",
-            "link": "/api/v1/people/8479328"
-         },
-         "jerseyNumber": "12",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8479333,
-            "fullName": "Libor Hajek",
-            "link": "/api/v1/people/8479333"
-         },
-         "jerseyNumber": "25",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8479991,
-            "fullName": "Jake Leschyshyn",
-            "link": "/api/v1/people/8479991"
-         },
-         "jerseyNumber": "15",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
             "id": 8480078,
             "fullName": "Filip Chytil",
             "link": "/api/v1/people/8480078"
@@ -255,20 +241,6 @@
       },
       {
          "person": {
-            "id": 8480833,
-            "fullName": "Vitali Kravtsov",
-            "link": "/api/v1/people/8480833"
-         },
-         "jerseyNumber": "74",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
             "id": 8481554,
             "fullName": "Kaapo Kakko",
             "link": "/api/v1/people/8481554"
@@ -279,6 +251,20 @@
             "name": "Right Wing",
             "type": "Forward",
             "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8481708,
+            "fullName": "Zac Jones",
+            "link": "/api/v1/people/8481708"
+         },
+         "jerseyNumber": "6",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {
@@ -302,6 +288,20 @@
             "link": "/api/v1/people/8482109"
          },
          "jerseyNumber": "13",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8482157,
+            "fullName": "Will Cuylle",
+            "link": "/api/v1/people/8482157"
+         },
+         "jerseyNumber": "50",
          "position": {
             "code": "L",
             "name": "Left Wing",

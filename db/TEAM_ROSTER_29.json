@@ -3,100 +3,16 @@
    "roster": [
       {
          "person": {
-            "id": 8474161,
-            "fullName": "Jakub Voracek",
-            "link": "/api/v1/people/8474161"
+            "id": 8479339,
+            "fullName": "Patrik Laine",
+            "link": "/api/v1/people/8479339"
          },
-         "jerseyNumber": "93",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8474679,
-            "fullName": "Gustav Nyquist",
-            "link": "/api/v1/people/8474679"
-         },
-         "jerseyNumber": "14",
+         "jerseyNumber": "29",
          "position": {
             "code": "L",
             "name": "Left Wing",
             "type": "Forward",
             "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
-            "id": 8478460,
-            "fullName": "Zach Werenski",
-            "link": "/api/v1/people/8478460"
-         },
-         "jerseyNumber": "8",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8479402,
-            "fullName": "Jake Bean",
-            "link": "/api/v1/people/8479402"
-         },
-         "jerseyNumber": "22",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8479941,
-            "fullName": "Justin Danforth",
-            "link": "/api/v1/people/8479941"
-         },
-         "jerseyNumber": "17",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8480292,
-            "fullName": "Carson Meyer",
-            "link": "/api/v1/people/8480292"
-         },
-         "jerseyNumber": "72",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8482475,
-            "fullName": "Yegor Chinakhov",
-            "link": "/api/v1/people/8482475"
-         },
-         "jerseyNumber": "59",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
          }
       },
       {
@@ -157,11 +73,25 @@
       },
       {
          "person": {
-            "id": 8476914,
-            "fullName": "Joonas Korpisalo",
-            "link": "/api/v1/people/8476914"
+            "id": 8476923,
+            "fullName": "Damon Severson",
+            "link": "/api/v1/people/8476923"
          },
-         "jerseyNumber": "70",
+         "jerseyNumber": "78",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8477484,
+            "fullName": "Spencer Martin",
+            "link": "/api/v1/people/8477484"
+         },
+         "jerseyNumber": "30",
          "position": {
             "code": "G",
             "name": "Goalie",
@@ -199,11 +129,11 @@
       },
       {
          "person": {
-            "id": 8478882,
-            "fullName": "Vladislav Gavrikov",
-            "link": "/api/v1/people/8478882"
+            "id": 8478460,
+            "fullName": "Zach Werenski",
+            "link": "/api/v1/people/8478460"
          },
-         "jerseyNumber": "4",
+         "jerseyNumber": "8",
          "position": {
             "code": "D",
             "name": "Defenseman",
@@ -213,30 +143,16 @@
       },
       {
          "person": {
-            "id": 8478967,
-            "fullName": "Lane Pederson",
-            "link": "/api/v1/people/8478967"
+            "id": 8478500,
+            "fullName": "Ivan Provorov",
+            "link": "/api/v1/people/8478500"
          },
-         "jerseyNumber": "18",
+         "jerseyNumber": "9",
          "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8479339,
-            "fullName": "Patrik Laine",
-            "link": "/api/v1/people/8479339"
-         },
-         "jerseyNumber": "29",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {
@@ -246,6 +162,20 @@
             "link": "/api/v1/people/8479369"
          },
          "jerseyNumber": "2",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8479402,
+            "fullName": "Jake Bean",
+            "link": "/api/v1/people/8479402"
+         },
+         "jerseyNumber": "22",
          "position": {
             "code": "D",
             "name": "Defenseman",
@@ -269,16 +199,30 @@
       },
       {
          "person": {
-            "id": 8479945,
-            "fullName": "Gavin Bayreuther",
-            "link": "/api/v1/people/8479945"
+            "id": 8479941,
+            "fullName": "Justin Danforth",
+            "link": "/api/v1/people/8479941"
          },
-         "jerseyNumber": "15",
+         "jerseyNumber": "17",
          "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8480074,
+            "fullName": "Alexandre Texier",
+            "link": "/api/v1/people/8480074"
+         },
+         "jerseyNumber": "42",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
          }
       },
       {
@@ -293,34 +237,6 @@
             "name": "Right Wing",
             "type": "Forward",
             "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8480762,
-            "fullName": "Eric Robinson",
-            "link": "/api/v1/people/8480762"
-         },
-         "jerseyNumber": "50",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
-            "id": 8480853,
-            "fullName": "Liam Foudy",
-            "link": "/api/v1/people/8480853"
-         },
-         "jerseyNumber": "19",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
          }
       },
       {
@@ -353,16 +269,16 @@
       },
       {
          "person": {
-            "id": 8481072,
-            "fullName": "Tim Berni",
-            "link": "/api/v1/people/8481072"
+            "id": 8481716,
+            "fullName": "Dmitri Voronkov",
+            "link": "/api/v1/people/8481716"
          },
-         "jerseyNumber": "75",
+         "jerseyNumber": "10",
          "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
          }
       },
       {
@@ -385,7 +301,7 @@
             "fullName": "Cole Sillinger",
             "link": "/api/v1/people/8482705"
          },
-         "jerseyNumber": "34",
+         "jerseyNumber": "4",
          "position": {
             "code": "C",
             "name": "Center",
@@ -395,16 +311,30 @@
       },
       {
          "person": {
-            "id": 8483565,
-            "fullName": "Nick Blankenburg",
-            "link": "/api/v1/people/8483565"
+            "id": 8483460,
+            "fullName": "David Jiricek",
+            "link": "/api/v1/people/8483460"
          },
-         "jerseyNumber": "77",
+         "jerseyNumber": "55",
          "position": {
             "code": "D",
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8484166,
+            "fullName": "Adam Fantilli",
+            "link": "/api/v1/people/8484166"
+         },
+         "jerseyNumber": "11",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
          }
       }
    ],

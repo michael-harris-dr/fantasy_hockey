@@ -17,48 +17,6 @@
       },
       {
          "person": {
-            "id": 8477392,
-            "fullName": "Hudson Fasching",
-            "link": "/api/v1/people/8477392"
-         },
-         "jerseyNumber": "20",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8480789,
-            "fullName": "Oliver Wahlstrom",
-            "link": "/api/v1/people/8480789"
-         },
-         "jerseyNumber": "26",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8470610,
-            "fullName": "Zach Parise",
-            "link": "/api/v1/people/8470610"
-         },
-         "jerseyNumber": "11",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
             "id": 8473575,
             "fullName": "Semyon Varlamov",
             "link": "/api/v1/people/8473575"
@@ -69,20 +27,6 @@
             "name": "Goalie",
             "type": "Goalie",
             "abbreviation": "G"
-         }
-      },
-      {
-         "person": {
-            "id": 8474573,
-            "fullName": "Josh Bailey",
-            "link": "/api/v1/people/8474573"
-         },
-         "jerseyNumber": "12",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
          }
       },
       {
@@ -199,6 +143,34 @@
       },
       {
          "person": {
+            "id": 8477392,
+            "fullName": "Hudson Fasching",
+            "link": "/api/v1/people/8477392"
+         },
+         "jerseyNumber": "20",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8477500,
+            "fullName": "Bo Horvat",
+            "link": "/api/v1/people/8477500"
+         },
+         "jerseyNumber": "14",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
             "id": 8477506,
             "fullName": "Ryan Pulock",
             "link": "/api/v1/people/8477506"
@@ -209,20 +181,6 @@
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8477527,
-            "fullName": "Ross Johnston",
-            "link": "/api/v1/people/8477527"
-         },
-         "jerseyNumber": "32",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
          }
       },
       {
@@ -241,6 +199,20 @@
       },
       {
          "person": {
+            "id": 8478115,
+            "fullName": "Pierre Engvall",
+            "link": "/api/v1/people/8478115"
+         },
+         "jerseyNumber": "18",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
             "id": 8478445,
             "fullName": "Mathew Barzal",
             "link": "/api/v1/people/8478445"
@@ -255,30 +227,16 @@
       },
       {
          "person": {
-            "id": 8478450,
-            "fullName": "Parker Wotherspoon",
-            "link": "/api/v1/people/8478450"
+            "id": 8479328,
+            "fullName": "Julien Gauthier",
+            "link": "/api/v1/people/8479328"
          },
-         "jerseyNumber": "38",
+         "jerseyNumber": "16",
          "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8478463,
-            "fullName": "Anthony Beauvillier",
-            "link": "/api/v1/people/8478463"
-         },
-         "jerseyNumber": "18",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
+            "code": "R",
+            "name": "Right Wing",
             "type": "Forward",
-            "abbreviation": "LW"
+            "abbreviation": "RW"
          }
       },
       {
@@ -293,6 +251,20 @@
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8480789,
+            "fullName": "Oliver Wahlstrom",
+            "link": "/api/v1/people/8480789"
+         },
+         "jerseyNumber": "26",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
          }
       },
       {
@@ -349,20 +321,6 @@
             "name": "Right Wing",
             "type": "Forward",
             "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8482691,
-            "fullName": "Aatu Raty",
-            "link": "/api/v1/people/8482691"
-         },
-         "jerseyNumber": "16",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
          }
       }
    ],

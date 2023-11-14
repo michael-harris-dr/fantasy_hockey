@@ -3,86 +3,16 @@
    "roster": [
       {
          "person": {
-            "id": 8476312,
-            "fullName": "Josh Manson",
-            "link": "/api/v1/people/8476312"
+            "id": 8471677,
+            "fullName": "Jack Johnson",
+            "link": "/api/v1/people/8471677"
          },
-         "jerseyNumber": "42",
+         "jerseyNumber": "3",
          "position": {
             "code": "D",
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8481524,
-            "fullName": "Bowen Byram",
-            "link": "/api/v1/people/8481524"
-         },
-         "jerseyNumber": "4",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8476948,
-            "fullName": "Charles Hudon",
-            "link": "/api/v1/people/8476948"
-         },
-         "jerseyNumber": "54",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
-            "id": 8480846,
-            "fullName": "Sampo Ranta",
-            "link": "/api/v1/people/8480846"
-         },
-         "jerseyNumber": "75",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
-            "id": 8482147,
-            "fullName": "Jean-Luc Foudy",
-            "link": "/api/v1/people/8482147"
-         },
-         "jerseyNumber": "93",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8483570,
-            "fullName": "Ben Meyers",
-            "link": "/api/v1/people/8483570"
-         },
-         "jerseyNumber": "59",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
          }
       },
       {
@@ -101,11 +31,25 @@
       },
       {
          "person": {
-            "id": 8471794,
-            "fullName": "Darren Helm",
-            "link": "/api/v1/people/8471794"
+            "id": 8475193,
+            "fullName": "Tomas Tatar",
+            "link": "/api/v1/people/8475193"
          },
-         "jerseyNumber": "43",
+         "jerseyNumber": "90",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8475793,
+            "fullName": "Ryan Johansen",
+            "link": "/api/v1/people/8475793"
+         },
+         "jerseyNumber": "12",
          "position": {
             "code": "C",
             "name": "Center",
@@ -115,25 +59,11 @@
       },
       {
          "person": {
-            "id": 8473446,
-            "fullName": "Erik Johnson",
-            "link": "/api/v1/people/8473446"
+            "id": 8476312,
+            "fullName": "Josh Manson",
+            "link": "/api/v1/people/8476312"
          },
-         "jerseyNumber": "6",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8476779,
-            "fullName": "Brad Hunt",
-            "link": "/api/v1/people/8476779"
-         },
-         "jerseyNumber": "17",
+         "jerseyNumber": "42",
          "position": {
             "code": "D",
             "name": "Defenseman",
@@ -157,11 +87,11 @@
       },
       {
          "person": {
-            "id": 8477456,
-            "fullName": "J.T. Compher",
-            "link": "/api/v1/people/8477456"
+            "id": 8477425,
+            "fullName": "Miles Wood",
+            "link": "/api/v1/people/8477425"
          },
-         "jerseyNumber": "37",
+         "jerseyNumber": "28",
          "position": {
             "code": "L",
             "name": "Left Wing",
@@ -199,6 +129,20 @@
       },
       {
          "person": {
+            "id": 8477494,
+            "fullName": "Jonathan Drouin",
+            "link": "/api/v1/people/8477494"
+         },
+         "jerseyNumber": "27",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
             "id": 8477501,
             "fullName": "Valeri Nichushkin",
             "link": "/api/v1/people/8477501"
@@ -213,16 +157,16 @@
       },
       {
          "person": {
-            "id": 8477971,
-            "fullName": "Andreas Englund",
-            "link": "/api/v1/people/8477971"
+            "id": 8478028,
+            "fullName": "Fredrik Olofsson",
+            "link": "/api/v1/people/8478028"
          },
-         "jerseyNumber": "88",
+         "jerseyNumber": "22",
          "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
          }
       },
       {
@@ -255,34 +199,6 @@
       },
       {
          "person": {
-            "id": 8478542,
-            "fullName": "Evan Rodrigues",
-            "link": "/api/v1/people/8478542"
-         },
-         "jerseyNumber": "9",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8478843,
-            "fullName": "Denis Malgin",
-            "link": "/api/v1/people/8478843"
-         },
-         "jerseyNumber": "81",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
             "id": 8479398,
             "fullName": "Samuel Girard",
             "link": "/api/v1/people/8479398"
@@ -293,6 +209,20 @@
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8479525,
+            "fullName": "Ross Colton",
+            "link": "/api/v1/people/8479525"
+         },
+         "jerseyNumber": "20",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
          }
       },
       {
@@ -325,11 +255,11 @@
       },
       {
          "person": {
-            "id": 8480925,
-            "fullName": "Pavel Francouz",
-            "link": "/api/v1/people/8480925"
+            "id": 8481031,
+            "fullName": "Ivan Prosvetov",
+            "link": "/api/v1/people/8481031"
          },
-         "jerseyNumber": "39",
+         "jerseyNumber": "50",
          "position": {
             "code": "G",
             "name": "Goalie",
@@ -353,16 +283,30 @@
       },
       {
          "person": {
-            "id": 8481618,
-            "fullName": "Alex Newhook",
-            "link": "/api/v1/people/8481618"
+            "id": 8481461,
+            "fullName": "Corey Schueneman",
+            "link": "/api/v1/people/8481461"
          },
-         "jerseyNumber": "18",
+         "jerseyNumber": "44",
          "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8481524,
+            "fullName": "Bowen Byram",
+            "link": "/api/v1/people/8481524"
+         },
+         "jerseyNumber": "4",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       }
    ],

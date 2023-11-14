@@ -1,0 +1,640 @@
+{
+   "forwards": [
+      {
+         "id": 8479718,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8479718.png",
+         "firstName": {
+            "default": "Alex"
+         },
+         "lastName": {
+            "default": "Barr\u00e9-Boulet"
+         },
+         "sweaterNumber": 12,
+         "positionCode": "C",
+         "shootsCatches": "L",
+         "heightInInches": 70,
+         "weightInPounds": 178,
+         "heightInCentimeters": 178,
+         "weightInKilograms": 81,
+         "birthDate": "1997-05-21",
+         "birthCity": {
+            "default": "Montmagny"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "QC"
+         }
+      },
+      {
+         "id": 8478519,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8478519.png",
+         "firstName": {
+            "default": "Anthony"
+         },
+         "lastName": {
+            "default": "Cirelli"
+         },
+         "sweaterNumber": 71,
+         "positionCode": "C",
+         "shootsCatches": "L",
+         "heightInInches": 73,
+         "weightInPounds": 190,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 86,
+         "birthDate": "1997-07-15",
+         "birthCity": {
+            "default": "Etobicoke"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "ON"
+         }
+      },
+      {
+         "id": 8479591,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8479591.png",
+         "firstName": {
+            "default": "Michael"
+         },
+         "lastName": {
+            "default": "Eyssimont"
+         },
+         "sweaterNumber": 23,
+         "positionCode": "C",
+         "shootsCatches": "L",
+         "heightInInches": 72,
+         "weightInPounds": 201,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 91,
+         "birthDate": "1996-09-09",
+         "birthCity": {
+            "default": "Littleton"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "CO"
+         }
+      },
+      {
+         "id": 8476822,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8476822.png",
+         "firstName": {
+            "default": "Luke"
+         },
+         "lastName": {
+            "default": "Glendening"
+         },
+         "sweaterNumber": 11,
+         "positionCode": "C",
+         "shootsCatches": "R",
+         "heightInInches": 70,
+         "weightInPounds": 190,
+         "heightInCentimeters": 178,
+         "weightInKilograms": 86,
+         "birthDate": "1989-04-28",
+         "birthCity": {
+            "default": "Grand Rapids"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "MI"
+         }
+      },
+      {
+         "id": 8479542,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8479542.png",
+         "firstName": {
+            "default": "Brandon"
+         },
+         "lastName": {
+            "default": "Hagel"
+         },
+         "sweaterNumber": 38,
+         "positionCode": "L",
+         "shootsCatches": "L",
+         "heightInInches": 74,
+         "weightInPounds": 183,
+         "heightInCentimeters": 188,
+         "weightInKilograms": 83,
+         "birthDate": "1998-08-27",
+         "birthCity": {
+            "default": "Saskatoon"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "SK"
+         }
+      },
+      {
+         "id": 8479661,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8479661.png",
+         "firstName": {
+            "default": "Tanner"
+         },
+         "lastName": {
+            "default": "Jeannot"
+         },
+         "sweaterNumber": 84,
+         "positionCode": "L",
+         "shootsCatches": "L",
+         "heightInInches": 74,
+         "weightInPounds": 220,
+         "heightInCentimeters": 188,
+         "weightInKilograms": 100,
+         "birthDate": "1997-05-29",
+         "birthCity": {
+            "default": "Estevan"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "SK"
+         }
+      },
+      {
+         "id": 8476453,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8476453.png",
+         "firstName": {
+            "default": "Nikita"
+         },
+         "lastName": {
+            "default": "Kucherov",
+            "cs": "Ku\u010derov",
+            "fi": "Kutsherov",
+            "sk": "Ku\u010derov"
+         },
+         "sweaterNumber": 86,
+         "positionCode": "R",
+         "shootsCatches": "L",
+         "heightInInches": 71,
+         "weightInPounds": 182,
+         "heightInCentimeters": 180,
+         "weightInKilograms": 83,
+         "birthDate": "1993-06-17",
+         "birthCity": {
+            "default": "Maykop"
+         },
+         "birthCountry": "RUS"
+      },
+      {
+         "id": 8484325,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8484325.png",
+         "firstName": {
+            "default": "Waltteri"
+         },
+         "lastName": {
+            "default": "Merela"
+         },
+         "sweaterNumber": 39,
+         "positionCode": "C",
+         "shootsCatches": "R",
+         "heightInInches": 75,
+         "weightInPounds": 210,
+         "heightInCentimeters": 191,
+         "weightInKilograms": 95,
+         "birthDate": "1998-07-06",
+         "birthCity": {
+            "default": "Ylojarvi"
+         },
+         "birthCountry": "FIN"
+      },
+      {
+         "id": 8477353,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8477353.png",
+         "firstName": {
+            "default": "Tyler"
+         },
+         "lastName": {
+            "default": "Motte"
+         },
+         "sweaterNumber": 64,
+         "positionCode": "C",
+         "shootsCatches": "L",
+         "heightInInches": 70,
+         "weightInPounds": 194,
+         "heightInCentimeters": 178,
+         "weightInKilograms": 88,
+         "birthDate": "1995-03-10",
+         "birthCity": {
+            "default": "St. Clair"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "MI"
+         }
+      },
+      {
+         "id": 8477426,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8477426.png",
+         "firstName": {
+            "default": "Nicholas",
+            "cs": "Nick",
+            "de": "Nick",
+            "es": "Nick",
+            "fi": "Nick",
+            "sk": "Nick",
+            "sv": "Nick"
+         },
+         "lastName": {
+            "default": "Paul"
+         },
+         "sweaterNumber": 20,
+         "positionCode": "L",
+         "shootsCatches": "L",
+         "heightInInches": 75,
+         "weightInPounds": 229,
+         "heightInCentimeters": 191,
+         "weightInKilograms": 104,
+         "birthDate": "1995-03-20",
+         "birthCity": {
+            "default": "Mississauga"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "ON"
+         }
+      },
+      {
+         "id": 8478010,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8478010.png",
+         "firstName": {
+            "default": "Brayden"
+         },
+         "lastName": {
+            "default": "Point"
+         },
+         "sweaterNumber": 21,
+         "positionCode": "C",
+         "shootsCatches": "R",
+         "heightInInches": 70,
+         "weightInPounds": 178,
+         "heightInCentimeters": 178,
+         "weightInKilograms": 81,
+         "birthDate": "1996-03-13",
+         "birthCity": {
+            "default": "Calgary"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "AB"
+         }
+      },
+      {
+         "id": 8477839,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8477839.png",
+         "firstName": {
+            "default": "Conor"
+         },
+         "lastName": {
+            "default": "Sheary"
+         },
+         "sweaterNumber": 73,
+         "positionCode": "L",
+         "shootsCatches": "L",
+         "heightInInches": 68,
+         "weightInPounds": 179,
+         "heightInCentimeters": 173,
+         "weightInKilograms": 81,
+         "birthDate": "1992-06-08",
+         "birthCity": {
+            "default": "Winchester"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "MA"
+         }
+      },
+      {
+         "id": 8474564,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8474564.png",
+         "firstName": {
+            "default": "Steven"
+         },
+         "lastName": {
+            "default": "Stamkos"
+         },
+         "sweaterNumber": 91,
+         "positionCode": "C",
+         "shootsCatches": "R",
+         "heightInInches": 73,
+         "weightInPounds": 193,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 88,
+         "birthDate": "1990-02-07",
+         "birthCity": {
+            "default": "Markham"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "ON"
+         }
+      },
+      {
+         "id": 8475766,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8475766.png",
+         "firstName": {
+            "default": "Austin"
+         },
+         "lastName": {
+            "default": "Watson"
+         },
+         "sweaterNumber": 51,
+         "positionCode": "L",
+         "shootsCatches": "R",
+         "heightInInches": 76,
+         "weightInPounds": 209,
+         "heightInCentimeters": 193,
+         "weightInKilograms": 95,
+         "birthDate": "1992-01-13",
+         "birthCity": {
+            "default": "Ann Arbor"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "MI"
+         }
+      }
+   ],
+   "defensemen": [
+      {
+         "id": 8478416,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8478416.png",
+         "firstName": {
+            "default": "Erik"
+         },
+         "lastName": {
+            "default": "Cernak",
+            "cs": "\u010cern\u00e1k",
+            "sk": "\u010cern\u00e1k"
+         },
+         "sweaterNumber": 81,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 75,
+         "weightInPounds": 230,
+         "heightInCentimeters": 191,
+         "weightInKilograms": 104,
+         "birthDate": "1997-05-28",
+         "birthCity": {
+            "default": "Kosice"
+         },
+         "birthCountry": "SVK"
+      },
+      {
+         "id": 8477938,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8477938.png",
+         "firstName": {
+            "default": "Haydn"
+         },
+         "lastName": {
+            "default": "Fleury"
+         },
+         "sweaterNumber": 7,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 76,
+         "weightInPounds": 207,
+         "heightInCentimeters": 193,
+         "weightInKilograms": 94,
+         "birthDate": "1996-07-08",
+         "birthCity": {
+            "default": "Carlyle"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "SK"
+         }
+      },
+      {
+         "id": 8475167,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8475167.png",
+         "firstName": {
+            "default": "Victor"
+         },
+         "lastName": {
+            "default": "Hedman"
+         },
+         "sweaterNumber": 77,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 79,
+         "weightInPounds": 246,
+         "heightInCentimeters": 201,
+         "weightInKilograms": 112,
+         "birthDate": "1990-12-18",
+         "birthCity": {
+            "default": "Ornskoldsvik"
+         },
+         "birthCountry": "SWE"
+      },
+      {
+         "id": 8479026,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8479026.png",
+         "firstName": {
+            "default": "Philippe"
+         },
+         "lastName": {
+            "default": "Myers"
+         },
+         "sweaterNumber": 5,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 78,
+         "weightInPounds": 219,
+         "heightInCentimeters": 198,
+         "weightInKilograms": 99,
+         "birthDate": "1997-01-25",
+         "birthCity": {
+            "default": "Moncton"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "NB"
+         }
+      },
+      {
+         "id": 8480246,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8480246.png",
+         "firstName": {
+            "default": "Nick",
+            "cs": "Nicklaus",
+            "de": "Nicklaus",
+            "es": "Nicklaus",
+            "fi": "Nicklaus",
+            "sk": "Nicklaus",
+            "sv": "Nicklaus"
+         },
+         "lastName": {
+            "default": "Perbix"
+         },
+         "sweaterNumber": 48,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 75,
+         "weightInPounds": 202,
+         "heightInCentimeters": 191,
+         "weightInKilograms": 92,
+         "birthDate": "1998-06-15",
+         "birthCity": {
+            "default": "Elk River"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "MN"
+         }
+      },
+      {
+         "id": 8478178,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8478178.png",
+         "firstName": {
+            "default": "Darren"
+         },
+         "lastName": {
+            "default": "Raddysh"
+         },
+         "sweaterNumber": 43,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 73,
+         "weightInPounds": 195,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 88,
+         "birthDate": "1996-02-28",
+         "birthCity": {
+            "default": "Toronto"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "ON"
+         }
+      },
+      {
+         "id": 8479410,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8479410.png",
+         "firstName": {
+            "default": "Mikhail",
+            "cs": "Michail",
+            "fi": "Mihail",
+            "sk": "Michail"
+         },
+         "lastName": {
+            "default": "Sergachev",
+            "cs": "Serga\u010dov",
+            "fi": "Sergatshov",
+            "sk": "Serga\u010dov"
+         },
+         "sweaterNumber": 98,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 75,
+         "weightInPounds": 211,
+         "heightInCentimeters": 191,
+         "weightInKilograms": 96,
+         "birthDate": "1998-06-25",
+         "birthCity": {
+            "default": "Nizhnekamsk"
+         },
+         "birthCountry": "RUS"
+      },
+      {
+         "id": 8475177,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8475177.png",
+         "firstName": {
+            "default": "Calvin"
+         },
+         "lastName": {
+            "default": "de Haan"
+         },
+         "sweaterNumber": 44,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 73,
+         "weightInPounds": 192,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 87,
+         "birthDate": "1991-05-09",
+         "birthCity": {
+            "default": "Carp"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "ON"
+         }
+      }
+   ],
+   "goalies": [
+      {
+         "id": 8477992,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8477992.png",
+         "firstName": {
+            "default": "Jonas"
+         },
+         "lastName": {
+            "default": "Johansson"
+         },
+         "sweaterNumber": 31,
+         "positionCode": "G",
+         "shootsCatches": "L",
+         "heightInInches": 77,
+         "weightInPounds": 219,
+         "heightInCentimeters": 196,
+         "weightInKilograms": 99,
+         "birthDate": "1995-09-19",
+         "birthCity": {
+            "default": "Gavle"
+         },
+         "birthCountry": "SWE"
+      },
+      {
+         "id": 8477035,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8477035.png",
+         "firstName": {
+            "default": "Matt"
+         },
+         "lastName": {
+            "default": "Tomkins"
+         },
+         "sweaterNumber": 90,
+         "positionCode": "G",
+         "shootsCatches": "L",
+         "heightInInches": 76,
+         "weightInPounds": 191,
+         "heightInCentimeters": 193,
+         "weightInKilograms": 87,
+         "birthDate": "1994-06-19",
+         "birthCity": {
+            "default": "Edmonton"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "AB"
+         }
+      },
+      {
+         "id": 8476883,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8476883.png",
+         "firstName": {
+            "default": "Andrei",
+            "cs": "Andrej",
+            "sk": "Andrej"
+         },
+         "lastName": {
+            "default": "Vasilevskiy",
+            "cs": "Vasilevskij",
+            "fi": "Vasilevski",
+            "sk": "Vasilevskij"
+         },
+         "sweaterNumber": 88,
+         "positionCode": "G",
+         "shootsCatches": "L",
+         "heightInInches": 76,
+         "weightInPounds": 220,
+         "heightInCentimeters": 193,
+         "weightInKilograms": 100,
+         "birthDate": "1994-07-25",
+         "birthCity": {
+            "default": "Tyumen"
+         },
+         "birthCountry": "RUS"
+      }
+   ]
+}

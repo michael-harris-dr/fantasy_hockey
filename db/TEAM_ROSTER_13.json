@@ -3,16 +3,58 @@
    "roster": [
       {
          "person": {
-            "id": 8471887,
-            "fullName": "Patric Hornqvist",
-            "link": "/api/v1/people/8471887"
+            "id": 8477935,
+            "fullName": "Sam Bennett",
+            "link": "/api/v1/people/8477935"
          },
-         "jerseyNumber": "70",
+         "jerseyNumber": "9",
          "position": {
-            "code": "R",
-            "name": "Right Wing",
+            "code": "C",
+            "name": "Center",
             "type": "Forward",
-            "abbreviation": "RW"
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8479981,
+            "fullName": "Jonah Gadjovich",
+            "link": "/api/v1/people/8479981"
+         },
+         "jerseyNumber": "12",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8475171,
+            "fullName": "Oliver Ekman-Larsson",
+            "link": "/api/v1/people/8475171"
+         },
+         "jerseyNumber": "91",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8475179,
+            "fullName": "Dmitry Kulikov",
+            "link": "/api/v1/people/8475179"
+         },
+         "jerseyNumber": "7",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {
@@ -31,48 +73,6 @@
       },
       {
          "person": {
-            "id": 8470595,
-            "fullName": "Eric Staal",
-            "link": "/api/v1/people/8470595"
-         },
-         "jerseyNumber": "12",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8471686,
-            "fullName": "Marc Staal",
-            "link": "/api/v1/people/8471686"
-         },
-         "jerseyNumber": "18",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8475462,
-            "fullName": "Radko Gudas",
-            "link": "/api/v1/people/8475462"
-         },
-         "jerseyNumber": "7",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
             "id": 8476393,
             "fullName": "Nick Cousins",
             "link": "/api/v1/people/8476393"
@@ -87,16 +87,30 @@
       },
       {
          "person": {
-            "id": 8476919,
-            "fullName": "Chris Tierney",
-            "link": "/api/v1/people/8476919"
+            "id": 8476422,
+            "fullName": "Mike Reilly",
+            "link": "/api/v1/people/8476422"
          },
-         "jerseyNumber": "71",
+         "jerseyNumber": "6",
          "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8476932,
+            "fullName": "Anthony Stolarz",
+            "link": "/api/v1/people/8476932"
+         },
+         "jerseyNumber": "41",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
          }
       },
       {
@@ -129,20 +143,6 @@
       },
       {
          "person": {
-            "id": 8477932,
-            "fullName": "Aaron Ekblad",
-            "link": "/api/v1/people/8477932"
-         },
-         "jerseyNumber": "5",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
             "id": 8477933,
             "fullName": "Sam Reinhart",
             "link": "/api/v1/people/8477933"
@@ -153,34 +153,6 @@
             "name": "Center",
             "type": "Forward",
             "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8477935,
-            "fullName": "Sam Bennett",
-            "link": "/api/v1/people/8477935"
-         },
-         "jerseyNumber": "9",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8477986,
-            "fullName": "Brandon Montour",
-            "link": "/api/v1/people/8477986"
-         },
-         "jerseyNumber": "62",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
          }
       },
       {
@@ -199,11 +171,53 @@
       },
       {
          "person": {
-            "id": 8478400,
-            "fullName": "Colin White",
-            "link": "/api/v1/people/8478400"
+            "id": 8478542,
+            "fullName": "Evan Rodrigues",
+            "link": "/api/v1/people/8478542"
          },
-         "jerseyNumber": "6",
+         "jerseyNumber": "17",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8478831,
+            "fullName": "Kevin Stenlund",
+            "link": "/api/v1/people/8478831"
+         },
+         "jerseyNumber": "82",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8478859,
+            "fullName": "Niko Mikkola",
+            "link": "/api/v1/people/8478859"
+         },
+         "jerseyNumber": "77",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8478904,
+            "fullName": "Steven Lorentz",
+            "link": "/api/v1/people/8478904"
+         },
+         "jerseyNumber": "18",
          "position": {
             "code": "C",
             "name": "Center",
@@ -227,20 +241,6 @@
       },
       {
          "person": {
-            "id": 8479312,
-            "fullName": "Alex Lyon",
-            "link": "/api/v1/people/8479312"
-         },
-         "jerseyNumber": "34",
-         "position": {
-            "code": "G",
-            "name": "Goalie",
-            "type": "Goalie",
-            "abbreviation": "G"
-         }
-      },
-      {
-         "person": {
             "id": 8479314,
             "fullName": "Matthew Tkachuk",
             "link": "/api/v1/people/8479314"
@@ -255,25 +255,11 @@
       },
       {
          "person": {
-            "id": 8479372,
-            "fullName": "Josh Mahura",
-            "link": "/api/v1/people/8479372"
+            "id": 8479367,
+            "fullName": "William Lockwood",
+            "link": "/api/v1/people/8479367"
          },
-         "jerseyNumber": "28",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8479379,
-            "fullName": "Givani Smith",
-            "link": "/api/v1/people/8479379"
-         },
-         "jerseyNumber": "54",
+         "jerseyNumber": "67",
          "position": {
             "code": "R",
             "name": "Right Wing",
@@ -283,11 +269,11 @@
       },
       {
          "person": {
-            "id": 8479578,
-            "fullName": "Casey Fitzgerald",
-            "link": "/api/v1/people/8479578"
+            "id": 8479372,
+            "fullName": "Josh Mahura",
+            "link": "/api/v1/people/8479372"
          },
-         "jerseyNumber": "4",
+         "jerseyNumber": "28",
          "position": {
             "code": "D",
             "name": "Defenseman",
@@ -311,20 +297,6 @@
       },
       {
          "person": {
-            "id": 8481519,
-            "fullName": "Spencer Knight",
-            "link": "/api/v1/people/8481519"
-         },
-         "jerseyNumber": "30",
-         "position": {
-            "code": "G",
-            "name": "Goalie",
-            "type": "Goalie",
-            "abbreviation": "G"
-         }
-      },
-      {
-         "person": {
             "id": 8482113,
             "fullName": "Anton Lundell",
             "link": "/api/v1/people/8482113"
@@ -339,16 +311,30 @@
       },
       {
          "person": {
-            "id": 8483122,
-            "fullName": "Mack Guzda",
-            "link": "/api/v1/people/8483122"
+            "id": 8482713,
+            "fullName": "Mackie Samoskevich",
+            "link": "/api/v1/people/8482713"
          },
-         "jerseyNumber": "29",
+         "jerseyNumber": "25",
          "position": {
-            "code": "G",
-            "name": "Goalie",
-            "type": "Goalie",
-            "abbreviation": "G"
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8484304,
+            "fullName": "Uvis Balinskis",
+            "link": "/api/v1/people/8484304"
+         },
+         "jerseyNumber": "26",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       }
    ],

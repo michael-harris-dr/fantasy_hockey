@@ -3,48 +3,6 @@
    "roster": [
       {
          "person": {
-            "id": 8476850,
-            "fullName": "Ryan Murray",
-            "link": "/api/v1/people/8476850"
-         },
-         "jerseyNumber": "28",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8479977,
-            "fullName": "Kailer Yamamoto",
-            "link": "/api/v1/people/8479977"
-         },
-         "jerseyNumber": "56",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8480468,
-            "fullName": "James Hamblin",
-            "link": "/api/v1/people/8480468"
-         },
-         "jerseyNumber": "57",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
             "id": 8475169,
             "fullName": "Evander Kane",
             "link": "/api/v1/people/8475169"
@@ -59,11 +17,11 @@
       },
       {
          "person": {
-            "id": 8475197,
-            "fullName": "Tyson Barrie",
-            "link": "/api/v1/people/8475197"
+            "id": 8475218,
+            "fullName": "Mattias Ekholm",
+            "link": "/api/v1/people/8475218"
          },
-         "jerseyNumber": "22",
+         "jerseyNumber": "14",
          "position": {
             "code": "D",
             "name": "Defenseman",
@@ -143,16 +101,44 @@
       },
       {
          "person": {
+            "id": 8477015,
+            "fullName": "Connor Brown",
+            "link": "/api/v1/people/8477015"
+         },
+         "jerseyNumber": "28",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
             "id": 8477406,
             "fullName": "Mattias Janmark",
             "link": "/api/v1/people/8477406"
          },
-         "jerseyNumber": "26",
+         "jerseyNumber": "13",
          "position": {
             "code": "C",
             "name": "Center",
             "type": "Forward",
             "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8477454,
+            "fullName": "Adam Erne",
+            "link": "/api/v1/people/8477454"
+         },
+         "jerseyNumber": "21",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
          }
       },
       {
@@ -227,20 +213,6 @@
       },
       {
          "person": {
-            "id": 8479344,
-            "fullName": "Jesse Puljujarvi",
-            "link": "/api/v1/people/8479344"
-         },
-         "jerseyNumber": "13",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
             "id": 8479576,
             "fullName": "Vincent Desharnais",
             "link": "/api/v1/people/8479576"
@@ -265,20 +237,6 @@
             "name": "Goalie",
             "type": "Goalie",
             "abbreviation": "G"
-         }
-      },
-      {
-         "person": {
-            "id": 8480011,
-            "fullName": "Klim Kostin",
-            "link": "/api/v1/people/8480011"
-         },
-         "jerseyNumber": "21",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
          }
       },
       {

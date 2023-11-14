@@ -3,25 +3,11 @@
    "roster": [
       {
          "person": {
-            "id": 8474157,
-            "fullName": "Max Pacioretty",
-            "link": "/api/v1/people/8474157"
+            "id": 8480830,
+            "fullName": "Andrei Svechnikov",
+            "link": "/api/v1/people/8480830"
          },
-         "jerseyNumber": "67",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
-            "id": 8478131,
-            "fullName": "Ondrej Kase",
-            "link": "/api/v1/people/8478131"
-         },
-         "jerseyNumber": "73",
+         "jerseyNumber": "37",
          "position": {
             "code": "R",
             "name": "Right Wing",
@@ -45,20 +31,6 @@
       },
       {
          "person": {
-            "id": 8471669,
-            "fullName": "Paul Stastny",
-            "link": "/api/v1/people/8471669"
-         },
-         "jerseyNumber": "26",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
             "id": 8473533,
             "fullName": "Jordan Staal",
             "link": "/api/v1/people/8473533"
@@ -73,25 +45,11 @@
       },
       {
          "person": {
-            "id": 8474613,
-            "fullName": "Derek Stepan",
-            "link": "/api/v1/people/8474613"
+            "id": 8475200,
+            "fullName": "Dmitry Orlov",
+            "link": "/api/v1/people/8475200"
          },
-         "jerseyNumber": "21",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8475177,
-            "fullName": "Calvin de Haan",
-            "link": "/api/v1/people/8475177"
-         },
-         "jerseyNumber": "44",
+         "jerseyNumber": "7",
          "position": {
             "code": "D",
             "name": "Defenseman",
@@ -227,6 +185,48 @@
       },
       {
          "person": {
+            "id": 8477950,
+            "fullName": "Tony DeAngelo",
+            "link": "/api/v1/people/8477950"
+         },
+         "jerseyNumber": "77",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8477962,
+            "fullName": "Brendan Lemieux",
+            "link": "/api/v1/people/8477962"
+         },
+         "jerseyNumber": "28",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8478047,
+            "fullName": "Michael Bunting",
+            "link": "/api/v1/people/8478047"
+         },
+         "jerseyNumber": "58",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
             "id": 8478427,
             "fullName": "Sebastian Aho",
             "link": "/api/v1/people/8478427"
@@ -297,16 +297,30 @@
       },
       {
          "person": {
-            "id": 8480830,
-            "fullName": "Andrei Svechnikov",
-            "link": "/api/v1/people/8480830"
+            "id": 8480835,
+            "fullName": "Jack Drury",
+            "link": "/api/v1/people/8480835"
          },
-         "jerseyNumber": "37",
+         "jerseyNumber": "18",
          "position": {
-            "code": "R",
-            "name": "Right Wing",
+            "code": "C",
+            "name": "Center",
             "type": "Forward",
-            "abbreviation": "RW"
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8481611,
+            "fullName": "Pyotr Kochetkov",
+            "link": "/api/v1/people/8481611"
+         },
+         "jerseyNumber": "52",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
          }
       },
       {

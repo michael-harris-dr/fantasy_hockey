@@ -3,20 +3,6 @@
    "roster": [
       {
          "person": {
-            "id": 8479974,
-            "fullName": "Nolan Patrick",
-            "link": "/api/v1/people/8479974"
-         },
-         "jerseyNumber": "41",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
             "id": 8480727,
             "fullName": "Zach Whitecloud",
             "link": "/api/v1/people/8480727"
@@ -27,20 +13,6 @@
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8473548,
-            "fullName": "Phil Kessel",
-            "link": "/api/v1/people/8473548"
-         },
-         "jerseyNumber": "8",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
          }
       },
       {
@@ -83,20 +55,6 @@
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8475191,
-            "fullName": "Reilly Smith",
-            "link": "/api/v1/people/8475191"
-         },
-         "jerseyNumber": "19",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
          }
       },
       {
@@ -195,6 +153,20 @@
             "name": "Left Wing",
             "type": "Forward",
             "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8477964,
+            "fullName": "Ivan Barbashev",
+            "link": "/api/v1/people/8477964"
+         },
+         "jerseyNumber": "49",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
          }
       },
       {
@@ -325,16 +297,44 @@
       },
       {
          "person": {
-            "id": 8482624,
-            "fullName": "Daniil Miromanov",
-            "link": "/api/v1/people/8482624"
+            "id": 8481167,
+            "fullName": "Brayden Pachal",
+            "link": "/api/v1/people/8481167"
          },
-         "jerseyNumber": "42",
+         "jerseyNumber": "94",
          "position": {
             "code": "D",
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8481527,
+            "fullName": "Kaedan Korczak",
+            "link": "/api/v1/people/8481527"
+         },
+         "jerseyNumber": "6",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8481604,
+            "fullName": "Pavel Dorofeyev",
+            "link": "/api/v1/people/8481604"
+         },
+         "jerseyNumber": "16",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
          }
       }
    ],

@@ -3,20 +3,6 @@
    "roster": [
       {
          "person": {
-            "id": 8470594,
-            "fullName": "Marc-Andre Fleury",
-            "link": "/api/v1/people/8470594"
-         },
-         "jerseyNumber": "29",
-         "position": {
-            "code": "G",
-            "name": "Goalie",
-            "type": "Goalie",
-            "abbreviation": "G"
-         }
-      },
-      {
-         "person": {
             "id": 8471274,
             "fullName": "Alex Goligoski",
             "link": "/api/v1/people/8471274"
@@ -31,20 +17,6 @@
       },
       {
          "person": {
-            "id": 8471817,
-            "fullName": "Ryan Reaves",
-            "link": "/api/v1/people/8471817"
-         },
-         "jerseyNumber": "75",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
             "id": 8474716,
             "fullName": "Jared Spurgeon",
             "link": "/api/v1/people/8474716"
@@ -55,6 +27,48 @@
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8470594,
+            "fullName": "Marc-Andre Fleury",
+            "link": "/api/v1/people/8470594"
+         },
+         "jerseyNumber": "29",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8474034,
+            "fullName": "Pat Maroon",
+            "link": "/api/v1/people/8474034"
+         },
+         "jerseyNumber": "20",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8475149,
+            "fullName": "Marcus Johansson",
+            "link": "/api/v1/people/8475149"
+         },
+         "jerseyNumber": "90",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
          }
       },
       {
@@ -115,20 +129,6 @@
       },
       {
          "person": {
-            "id": 8476856,
-            "fullName": "Matt Dumba",
-            "link": "/api/v1/people/8476856"
-         },
-         "jerseyNumber": "24",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
             "id": 8477451,
             "fullName": "Ryan Hartman",
             "link": "/api/v1/people/8477451"
@@ -139,6 +139,20 @@
             "name": "Right Wing",
             "type": "Forward",
             "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8477541,
+            "fullName": "Dakota Mermis",
+            "link": "/api/v1/people/8477541"
+         },
+         "jerseyNumber": "6",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {
@@ -171,20 +185,6 @@
       },
       {
          "person": {
-            "id": 8478413,
-            "fullName": "Jordan Greenway",
-            "link": "/api/v1/people/8478413"
-         },
-         "jerseyNumber": "18",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
             "id": 8478493,
             "fullName": "Joel Eriksson Ek",
             "link": "/api/v1/people/8478493"
@@ -209,20 +209,6 @@
             "name": "Left Wing",
             "type": "Forward",
             "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
-            "id": 8479351,
-            "fullName": "Sam Steel",
-            "link": "/api/v1/people/8479351"
-         },
-         "jerseyNumber": "13",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
          }
       },
       {
@@ -255,11 +241,11 @@
       },
       {
          "person": {
-            "id": 8479972,
-            "fullName": "Mason Shaw",
-            "link": "/api/v1/people/8479972"
+            "id": 8479968,
+            "fullName": "Vinni Lettieri",
+            "link": "/api/v1/people/8479968"
          },
-         "jerseyNumber": "15",
+         "jerseyNumber": "10",
          "position": {
             "code": "C",
             "name": "Center",
@@ -307,6 +293,48 @@
             "name": "Left Wing",
             "type": "Forward",
             "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8482079,
+            "fullName": "Marco Rossi",
+            "link": "/api/v1/people/8482079"
+         },
+         "jerseyNumber": "23",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8482094,
+            "fullName": "Daemon Hunt",
+            "link": "/api/v1/people/8482094"
+         },
+         "jerseyNumber": "48",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8482122,
+            "fullName": "Brock Faber",
+            "link": "/api/v1/people/8482122"
+         },
+         "jerseyNumber": "7",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       }
    ],

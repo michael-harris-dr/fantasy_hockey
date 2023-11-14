@@ -3,30 +3,44 @@
    "roster": [
       {
          "person": {
-            "id": 8475178,
-            "fullName": "Zack Kassian",
-            "link": "/api/v1/people/8475178"
+            "id": 8475722,
+            "fullName": "Jason Zucker",
+            "link": "/api/v1/people/8475722"
          },
-         "jerseyNumber": "44",
+         "jerseyNumber": "16",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8477482,
+            "fullName": "Zach Sanford",
+            "link": "/api/v1/people/8477482"
+         },
+         "jerseyNumber": "12",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8480890,
+            "fullName": "Jan Jenik",
+            "link": "/api/v1/people/8480890"
+         },
+         "jerseyNumber": "73",
          "position": {
             "code": "R",
             "name": "Right Wing",
             "type": "Forward",
             "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8475747,
-            "fullName": "Patrik Nemeth",
-            "link": "/api/v1/people/8475747"
-         },
-         "jerseyNumber": "2",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
          }
       },
       {
@@ -59,16 +73,30 @@
       },
       {
          "person": {
-            "id": 8476906,
-            "fullName": "Shayne Gostisbehere",
-            "link": "/api/v1/people/8476906"
+            "id": 8476856,
+            "fullName": "Matt Dumba",
+            "link": "/api/v1/people/8476856"
          },
-         "jerseyNumber": "14",
+         "jerseyNumber": "24",
          "position": {
             "code": "D",
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8477021,
+            "fullName": "Alex Kerfoot",
+            "link": "/api/v1/people/8477021"
+         },
+         "jerseyNumber": "15",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
          }
       },
       {
@@ -101,20 +129,6 @@
       },
       {
          "person": {
-            "id": 8477941,
-            "fullName": "Nick Ritchie",
-            "link": "/api/v1/people/8477941"
-         },
-         "jerseyNumber": "12",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
             "id": 8477951,
             "fullName": "Nick Schmaltz",
             "link": "/api/v1/people/8477951"
@@ -129,16 +143,16 @@
       },
       {
          "person": {
-            "id": 8478432,
-            "fullName": "Christian Fischer",
-            "link": "/api/v1/people/8478432"
+            "id": 8478408,
+            "fullName": "Travis Dermott",
+            "link": "/api/v1/people/8478408"
          },
-         "jerseyNumber": "36",
+         "jerseyNumber": "33",
          "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {
@@ -199,20 +213,6 @@
       },
       {
          "person": {
-            "id": 8479345,
-            "fullName": "Jakob Chychrun",
-            "link": "/api/v1/people/8479345"
-         },
-         "jerseyNumber": "6",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
             "id": 8479442,
             "fullName": "Troy Stecher",
             "link": "/api/v1/people/8479442"
@@ -227,11 +227,39 @@
       },
       {
          "person": {
+            "id": 8479619,
+            "fullName": "Michael Carcone",
+            "link": "/api/v1/people/8479619"
+         },
+         "jerseyNumber": "53",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
             "id": 8479976,
             "fullName": "Juuso Valimaki",
             "link": "/api/v1/people/8479976"
          },
          "jerseyNumber": "4",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8480434,
+            "fullName": "Sean Durzi",
+            "link": "/api/v1/people/8480434"
+         },
+         "jerseyNumber": "50",
          "position": {
             "code": "D",
             "name": "Defenseman",
@@ -297,16 +325,16 @@
       },
       {
          "person": {
-            "id": 8482699,
-            "fullName": "Dylan Guenther",
-            "link": "/api/v1/people/8482699"
+            "id": 8483431,
+            "fullName": "Logan Cooley",
+            "link": "/api/v1/people/8483431"
          },
-         "jerseyNumber": "11",
+         "jerseyNumber": "92",
          "position": {
-            "code": "R",
-            "name": "Right Wing",
+            "code": "C",
+            "name": "Center",
             "type": "Forward",
-            "abbreviation": "RW"
+            "abbreviation": "C"
          }
       }
    ],

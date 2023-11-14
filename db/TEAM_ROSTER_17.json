@@ -3,16 +3,44 @@
    "roster": [
       {
          "person": {
-            "id": 8480821,
-            "fullName": "Filip Zadina",
-            "link": "/api/v1/people/8480821"
+            "id": 8477952,
+            "fullName": "Robby Fabbri",
+            "link": "/api/v1/people/8477952"
          },
-         "jerseyNumber": "11",
+         "jerseyNumber": "14",
          "position": {
-            "code": "R",
-            "name": "Right Wing",
+            "code": "C",
+            "name": "Center",
             "type": "Forward",
-            "abbreviation": "RW"
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8473503,
+            "fullName": "James Reimer",
+            "link": "/api/v1/people/8473503"
+         },
+         "jerseyNumber": "47",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8473507,
+            "fullName": "Jeff Petry",
+            "link": "/api/v1/people/8473507"
+         },
+         "jerseyNumber": "46",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {
@@ -45,16 +73,16 @@
       },
       {
          "person": {
-            "id": 8476433,
-            "fullName": "Magnus Hellberg",
-            "link": "/api/v1/people/8476433"
+            "id": 8475718,
+            "fullName": "Justin Holl",
+            "link": "/api/v1/people/8475718"
          },
-         "jerseyNumber": "45",
+         "jerseyNumber": "3",
          "position": {
-            "code": "G",
-            "name": "Goalie",
-            "type": "Goalie",
-            "abbreviation": "G"
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {
@@ -73,30 +101,16 @@
       },
       {
          "person": {
-            "id": 8476897,
-            "fullName": "Oskar Sundqvist",
-            "link": "/api/v1/people/8476897"
+            "id": 8476906,
+            "fullName": "Shayne Gostisbehere",
+            "link": "/api/v1/people/8476906"
          },
-         "jerseyNumber": "70",
+         "jerseyNumber": "41",
          "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8477330,
-            "fullName": "Dominik Kubalik",
-            "link": "/api/v1/people/8477330"
-         },
-         "jerseyNumber": "81",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {
@@ -115,58 +129,16 @@
       },
       {
          "person": {
-            "id": 8477454,
-            "fullName": "Adam Erne",
-            "link": "/api/v1/people/8477454"
+            "id": 8477456,
+            "fullName": "J.T. Compher",
+            "link": "/api/v1/people/8477456"
          },
-         "jerseyNumber": "73",
+         "jerseyNumber": "37",
          "position": {
             "code": "L",
             "name": "Left Wing",
             "type": "Forward",
             "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
-            "id": 8477462,
-            "fullName": "Robert Hagg",
-            "link": "/api/v1/people/8477462"
-         },
-         "jerseyNumber": "38",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8477479,
-            "fullName": "Tyler Bertuzzi",
-            "link": "/api/v1/people/8477479"
-         },
-         "jerseyNumber": "59",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
-            "id": 8477851,
-            "fullName": "Jordan Oesterle",
-            "link": "/api/v1/people/8477851"
-         },
-         "jerseyNumber": "82",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
          }
       },
       {
@@ -176,20 +148,6 @@
             "link": "/api/v1/people/8477946"
          },
          "jerseyNumber": "71",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8477952,
-            "fullName": "Robby Fabbri",
-            "link": "/api/v1/people/8477952"
-         },
-         "jerseyNumber": "14",
          "position": {
             "code": "C",
             "name": "Center",
@@ -227,16 +185,72 @@
       },
       {
          "person": {
-            "id": 8479425,
-            "fullName": "Filip Hronek",
-            "link": "/api/v1/people/8479425"
+            "id": 8478432,
+            "fullName": "Christian Fischer",
+            "link": "/api/v1/people/8478432"
          },
-         "jerseyNumber": "17",
+         "jerseyNumber": "36",
          "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8478466,
+            "fullName": "Daniel Sprong",
+            "link": "/api/v1/people/8478466"
+         },
+         "jerseyNumber": "88",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8478512,
+            "fullName": "Austin Czarnik",
+            "link": "/api/v1/people/8478512"
+         },
+         "jerseyNumber": "21",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8479312,
+            "fullName": "Alex Lyon",
+            "link": "/api/v1/people/8479312"
+         },
+         "jerseyNumber": "34",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8479337,
+            "fullName": "Alex DeBrincat",
+            "link": "/api/v1/people/8479337"
+         },
+         "jerseyNumber": "93",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
          }
       },
       {
@@ -255,23 +269,9 @@
       },
       {
          "person": {
-            "id": 8480184,
-            "fullName": "Gustav Lindstrom",
-            "link": "/api/v1/people/8480184"
-         },
-         "jerseyNumber": "28",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8480459,
-            "fullName": "Pius Suter",
-            "link": "/api/v1/people/8480459"
+            "id": 8480011,
+            "fullName": "Klim Kostin",
+            "link": "/api/v1/people/8480011"
          },
          "jerseyNumber": "24",
          "position": {
@@ -301,7 +301,7 @@
             "fullName": "Jonatan Berggren",
             "link": "/api/v1/people/8481013"
          },
-         "jerseyNumber": "52",
+         "jerseyNumber": "48",
          "position": {
             "code": "R",
             "name": "Right Wing",

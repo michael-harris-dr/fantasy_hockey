@@ -3,6 +3,48 @@
    "roster": [
       {
          "person": {
+            "id": 8475791,
+            "fullName": "Taylor Hall",
+            "link": "/api/v1/people/8475791"
+         },
+         "jerseyNumber": "71",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8470621,
+            "fullName": "Corey Perry",
+            "link": "/api/v1/people/8470621"
+         },
+         "jerseyNumber": "94",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8473422,
+            "fullName": "Nick Foligno",
+            "link": "/api/v1/people/8473422"
+         },
+         "jerseyNumber": "17",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
             "id": 8474870,
             "fullName": "Tyler Johnson",
             "link": "/api/v1/people/8474870"
@@ -31,76 +73,6 @@
       },
       {
          "person": {
-            "id": 8476915,
-            "fullName": "Jujhar Khaira",
-            "link": "/api/v1/people/8476915"
-         },
-         "jerseyNumber": "16",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
-            "id": 8471677,
-            "fullName": "Jack Johnson",
-            "link": "/api/v1/people/8471677"
-         },
-         "jerseyNumber": "8",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8471774,
-            "fullName": "Alex Stalock",
-            "link": "/api/v1/people/8471774"
-         },
-         "jerseyNumber": "32",
-         "position": {
-            "code": "G",
-            "name": "Goalie",
-            "type": "Goalie",
-            "abbreviation": "G"
-         }
-      },
-      {
-         "person": {
-            "id": 8473604,
-            "fullName": "Jonathan Toews",
-            "link": "/api/v1/people/8473604"
-         },
-         "jerseyNumber": "19",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8474141,
-            "fullName": "Patrick Kane",
-            "link": "/api/v1/people/8474141"
-         },
-         "jerseyNumber": "88",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
             "id": 8475852,
             "fullName": "Petr Mrazek",
             "link": "/api/v1/people/8475852"
@@ -115,39 +87,11 @@
       },
       {
          "person": {
-            "id": 8476278,
-            "fullName": "Colin Blackwell",
-            "link": "/api/v1/people/8476278"
-         },
-         "jerseyNumber": "43",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
             "id": 8476473,
             "fullName": "Connor Murphy",
             "link": "/api/v1/people/8476473"
          },
          "jerseyNumber": "5",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8476931,
-            "fullName": "Jake McCabe",
-            "link": "/api/v1/people/8476931"
-         },
-         "jerseyNumber": "6",
          "position": {
             "code": "D",
             "name": "Defenseman",
@@ -175,7 +119,7 @@
             "fullName": "Jason Dickinson",
             "link": "/api/v1/people/8477450"
          },
-         "jerseyNumber": "17",
+         "jerseyNumber": "16",
          "position": {
             "code": "C",
             "name": "Center",
@@ -199,58 +143,16 @@
       },
       {
          "person": {
-            "id": 8477503,
-            "fullName": "Max Domi",
-            "link": "/api/v1/people/8477503"
+            "id": 8477987,
+            "fullName": "Ryan Donato",
+            "link": "/api/v1/people/8477987"
          },
-         "jerseyNumber": "13",
+         "jerseyNumber": "8",
          "position": {
             "code": "C",
             "name": "Center",
             "type": "Forward",
             "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8478043,
-            "fullName": "Sam Lafferty",
-            "link": "/api/v1/people/8478043"
-         },
-         "jerseyNumber": "24",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8478224,
-            "fullName": "Luke Philp",
-            "link": "/api/v1/people/8478224"
-         },
-         "jerseyNumber": "39",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8478452,
-            "fullName": "Caleb Jones",
-            "link": "/api/v1/people/8478452"
-         },
-         "jerseyNumber": "82",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
          }
       },
       {
@@ -283,6 +185,20 @@
       },
       {
          "person": {
+            "id": 8479458,
+            "fullName": "Nikita Zaitsev",
+            "link": "/api/v1/people/8479458"
+         },
+         "jerseyNumber": "22",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
             "id": 8480025,
             "fullName": "MacKenzie Entwistle",
             "link": "/api/v1/people/8480025"
@@ -293,20 +209,6 @@
             "name": "Right Wing",
             "type": "Forward",
             "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8480070,
-            "fullName": "Ian Mitchell",
-            "link": "/api/v1/people/8480070"
-         },
-         "jerseyNumber": "51",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
          }
       },
       {
@@ -339,11 +241,53 @@
       },
       {
          "person": {
-            "id": 8483530,
-            "fullName": "Jaxson Stauber",
-            "link": "/api/v1/people/8483530"
+            "id": 8481568,
+            "fullName": "Alex Vlasic",
+            "link": "/api/v1/people/8481568"
          },
-         "jerseyNumber": "30",
+         "jerseyNumber": "72",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8482117,
+            "fullName": "Lukas Reichel",
+            "link": "/api/v1/people/8482117"
+         },
+         "jerseyNumber": "27",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8482176,
+            "fullName": "Wyatt Kaiser",
+            "link": "/api/v1/people/8482176"
+         },
+         "jerseyNumber": "44",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8482821,
+            "fullName": "Arvid Soderblom",
+            "link": "/api/v1/people/8482821"
+         },
+         "jerseyNumber": "40",
          "position": {
             "code": "G",
             "name": "Goalie",
@@ -353,16 +297,30 @@
       },
       {
          "person": {
-            "id": 8483619,
-            "fullName": "Filip Roos",
-            "link": "/api/v1/people/8483619"
+            "id": 8483466,
+            "fullName": "Kevin Korchinski",
+            "link": "/api/v1/people/8483466"
          },
-         "jerseyNumber": "48",
+         "jerseyNumber": "55",
          "position": {
             "code": "D",
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8484144,
+            "fullName": "Connor Bedard",
+            "link": "/api/v1/people/8484144"
+         },
+         "jerseyNumber": "98",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
          }
       }
    ],

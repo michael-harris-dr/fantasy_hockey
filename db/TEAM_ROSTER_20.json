@@ -3,86 +3,30 @@
    "roster": [
       {
          "person": {
-            "id": 8475690,
-            "fullName": "Chris Tanev",
-            "link": "/api/v1/people/8475690"
-         },
-         "jerseyNumber": "8",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8478502,
-            "fullName": "Dennis Gilbert",
-            "link": "/api/v1/people/8478502"
-         },
-         "jerseyNumber": "48",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
             "id": 8481592,
             "fullName": "Jakob Pelletier",
             "link": "/api/v1/people/8481592"
          },
-         "jerseyNumber": "49",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
-            "id": 8482652,
-            "fullName": "Walker Duehr",
-            "link": "/api/v1/people/8482652"
-         },
-         "jerseyNumber": "71",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8473453,
-            "fullName": "Trevor Lewis",
-            "link": "/api/v1/people/8473453"
-         },
          "jerseyNumber": "22",
          "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8473473,
-            "fullName": "Milan Lucic",
-            "link": "/api/v1/people/8473473"
-         },
-         "jerseyNumber": "17",
-         "position": {
             "code": "L",
             "name": "Left Wing",
             "type": "Forward",
             "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8478430,
+            "fullName": "Oliver Kylington",
+            "link": "/api/v1/people/8478430"
+         },
+         "jerseyNumber": "58",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {
@@ -115,20 +59,6 @@
       },
       {
          "person": {
-            "id": 8474628,
-            "fullName": "Michael Stone",
-            "link": "/api/v1/people/8474628"
-         },
-         "jerseyNumber": "26",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
             "id": 8475172,
             "fullName": "Nazem Kadri",
             "link": "/api/v1/people/8475172"
@@ -143,16 +73,16 @@
       },
       {
          "person": {
-            "id": 8475726,
-            "fullName": "Tyler Toffoli",
-            "link": "/api/v1/people/8475726"
+            "id": 8475690,
+            "fullName": "Chris Tanev",
+            "link": "/api/v1/people/8475690"
          },
-         "jerseyNumber": "73",
+         "jerseyNumber": "8",
          "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {
@@ -167,20 +97,6 @@
             "name": "Center",
             "type": "Forward",
             "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8476439,
-            "fullName": "Brett Ritchie",
-            "link": "/api/v1/people/8476439"
-         },
-         "jerseyNumber": "24",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
          }
       },
       {
@@ -241,6 +157,34 @@
       },
       {
          "person": {
+            "id": 8477851,
+            "fullName": "Jordan Oesterle",
+            "link": "/api/v1/people/8477851"
+         },
+         "jerseyNumber": "82",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8478211,
+            "fullName": "Dryden Hunt",
+            "link": "/api/v1/people/8478211"
+         },
+         "jerseyNumber": "15",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
             "id": 8478233,
             "fullName": "Andrew Mangiapane",
             "link": "/api/v1/people/8478233"
@@ -283,6 +227,20 @@
       },
       {
          "person": {
+            "id": 8478421,
+            "fullName": "A.J. Greer",
+            "link": "/api/v1/people/8478421"
+         },
+         "jerseyNumber": "18",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
             "id": 8478435,
             "fullName": "Dan Vladar",
             "link": "/api/v1/people/8478435"
@@ -293,6 +251,20 @@
             "name": "Goalie",
             "type": "Goalie",
             "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8478502,
+            "fullName": "Dennis Gilbert",
+            "link": "/api/v1/people/8478502"
+         },
+         "jerseyNumber": "48",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {
@@ -325,16 +297,44 @@
       },
       {
          "person": {
-            "id": 8482067,
-            "fullName": "Connor Mackey",
-            "link": "/api/v1/people/8482067"
+            "id": 8481068,
+            "fullName": "Yegor Sharangovich",
+            "link": "/api/v1/people/8481068"
          },
-         "jerseyNumber": "3",
+         "jerseyNumber": "17",
          "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8482652,
+            "fullName": "Walker Duehr",
+            "link": "/api/v1/people/8482652"
+         },
+         "jerseyNumber": "71",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8482679,
+            "fullName": "Matt Coronato",
+            "link": "/api/v1/people/8482679"
+         },
+         "jerseyNumber": "27",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
          }
       }
    ],

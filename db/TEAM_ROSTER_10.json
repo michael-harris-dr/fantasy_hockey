@@ -17,53 +17,11 @@
       },
       {
          "person": {
-            "id": 8474673,
-            "fullName": "TJ Brodie",
-            "link": "/api/v1/people/8474673"
+            "id": 8479982,
+            "fullName": "Conor Timmins",
+            "link": "/api/v1/people/8479982"
          },
-         "jerseyNumber": "78",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8479376,
-            "fullName": "Victor Mete",
-            "link": "/api/v1/people/8479376"
-         },
-         "jerseyNumber": "98",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8481582,
-            "fullName": "Nicholas Robertson",
-            "link": "/api/v1/people/8481582"
-         },
-         "jerseyNumber": "89",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
-            "id": 8477472,
-            "fullName": "Carl Dahlstrom",
-            "link": "/api/v1/people/8477472"
-         },
-         "jerseyNumber": "48",
+         "jerseyNumber": "25",
          "position": {
             "code": "D",
             "name": "Defenseman",
@@ -87,11 +45,11 @@
       },
       {
          "person": {
-            "id": 8474190,
-            "fullName": "Wayne Simmonds",
-            "link": "/api/v1/people/8474190"
+            "id": 8471817,
+            "fullName": "Ryan Reaves",
+            "link": "/api/v1/people/8471817"
          },
-         "jerseyNumber": "24",
+         "jerseyNumber": "75",
          "position": {
             "code": "R",
             "name": "Right Wing",
@@ -101,11 +59,11 @@
       },
       {
          "person": {
-            "id": 8474818,
-            "fullName": "Jordie Benn",
-            "link": "/api/v1/people/8474818"
+            "id": 8474673,
+            "fullName": "TJ Brodie",
+            "link": "/api/v1/people/8474673"
          },
-         "jerseyNumber": "18",
+         "jerseyNumber": "78",
          "position": {
             "code": "D",
             "name": "Defenseman",
@@ -143,9 +101,9 @@
       },
       {
          "person": {
-            "id": 8475718,
-            "fullName": "Justin Holl",
-            "link": "/api/v1/people/8475718"
+            "id": 8475906,
+            "fullName": "John Klingberg",
+            "link": "/api/v1/people/8475906"
          },
          "jerseyNumber": "3",
          "position": {
@@ -171,25 +129,39 @@
       },
       {
          "person": {
-            "id": 8476899,
-            "fullName": "Matt Murray",
-            "link": "/api/v1/people/8476899"
+            "id": 8476931,
+            "fullName": "Jake McCabe",
+            "link": "/api/v1/people/8476931"
          },
-         "jerseyNumber": "30",
+         "jerseyNumber": "22",
          "position": {
-            "code": "G",
-            "name": "Goalie",
-            "type": "Goalie",
-            "abbreviation": "G"
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {
          "person": {
-            "id": 8477021,
-            "fullName": "Alexander Kerfoot",
-            "link": "/api/v1/people/8477021"
+            "id": 8477479,
+            "fullName": "Tyler Bertuzzi",
+            "link": "/api/v1/people/8477479"
          },
-         "jerseyNumber": "15",
+         "jerseyNumber": "59",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8477503,
+            "fullName": "Max Domi",
+            "link": "/api/v1/people/8477503"
+         },
+         "jerseyNumber": "11",
          "position": {
             "code": "C",
             "name": "Center",
@@ -209,34 +181,6 @@
             "name": "Right Wing",
             "type": "Forward",
             "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8478047,
-            "fullName": "Michael Bunting",
-            "link": "/api/v1/people/8478047"
-         },
-         "jerseyNumber": "58",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
-            "id": 8478115,
-            "fullName": "Pierre Engvall",
-            "link": "/api/v1/people/8478115"
-         },
-         "jerseyNumber": "47",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
          }
       },
       {
@@ -269,20 +213,6 @@
       },
       {
          "person": {
-            "id": 8479315,
-            "fullName": "Joey Anderson",
-            "link": "/api/v1/people/8479315"
-         },
-         "jerseyNumber": "28",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
             "id": 8479318,
             "fullName": "Auston Matthews",
             "link": "/api/v1/people/8479318"
@@ -297,30 +227,30 @@
       },
       {
          "person": {
-            "id": 8479944,
-            "fullName": "Zach Aston-Reese",
-            "link": "/api/v1/people/8479944"
+            "id": 8479361,
+            "fullName": "Joseph Woll",
+            "link": "/api/v1/people/8479361"
          },
-         "jerseyNumber": "12",
+         "jerseyNumber": "60",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
+            "id": 8479393,
+            "fullName": "Noah Gregor",
+            "link": "/api/v1/people/8479393"
+         },
+         "jerseyNumber": "18",
          "position": {
             "code": "C",
             "name": "Center",
             "type": "Forward",
             "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8479982,
-            "fullName": "Conor Timmins",
-            "link": "/api/v1/people/8479982"
-         },
-         "jerseyNumber": "25",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
          }
       },
       {
@@ -353,20 +283,6 @@
       },
       {
          "person": {
-            "id": 8480873,
-            "fullName": "Rasmus Sandin",
-            "link": "/api/v1/people/8480873"
-         },
-         "jerseyNumber": "38",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
             "id": 8480995,
             "fullName": "Pontus Holmberg",
             "link": "/api/v1/people/8480995"
@@ -381,11 +297,25 @@
       },
       {
          "person": {
-            "id": 8482259,
-            "fullName": "Bobby McMann",
-            "link": "/api/v1/people/8482259"
+            "id": 8482720,
+            "fullName": "Matthew Knies",
+            "link": "/api/v1/people/8482720"
          },
-         "jerseyNumber": "74",
+         "jerseyNumber": "23",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8483489,
+            "fullName": "Fraser Minten",
+            "link": "/api/v1/people/8483489"
+         },
+         "jerseyNumber": "39",
          "position": {
             "code": "C",
             "name": "Center",

@@ -45,6 +45,48 @@
       },
       {
          "person": {
+            "id": 8474149,
+            "fullName": "Evgenii Dadonov",
+            "link": "/api/v1/people/8474149"
+         },
+         "jerseyNumber": "63",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8475168,
+            "fullName": "Matt Duchene",
+            "link": "/api/v1/people/8475168"
+         },
+         "jerseyNumber": "95",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8475225,
+            "fullName": "Craig Smith",
+            "link": "/api/v1/people/8475225"
+         },
+         "jerseyNumber": "15",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
             "id": 8475794,
             "fullName": "Tyler Seguin",
             "link": "/api/v1/people/8475794"
@@ -83,34 +125,6 @@
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8476525,
-            "fullName": "Colin Miller",
-            "link": "/api/v1/people/8476525"
-         },
-         "jerseyNumber": "6",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8476822,
-            "fullName": "Luke Glendening",
-            "link": "/api/v1/people/8476822"
-         },
-         "jerseyNumber": "11",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
          }
       },
       {
@@ -171,20 +185,6 @@
       },
       {
          "person": {
-            "id": 8478495,
-            "fullName": "Denis Gurianov",
-            "link": "/api/v1/people/8478495"
-         },
-         "jerseyNumber": "34",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
             "id": 8478975,
             "fullName": "Mason Marchment",
             "link": "/api/v1/people/8478975"
@@ -195,6 +195,20 @@
             "name": "Left Wing",
             "type": "Forward",
             "abbreviation": "LW"
+         }
+      },
+      {
+         "person": {
+            "id": 8479351,
+            "fullName": "Sam Steel",
+            "link": "/api/v1/people/8479351"
+         },
+         "jerseyNumber": "18",
+         "position": {
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
          }
       },
       {
@@ -269,16 +283,16 @@
       },
       {
          "person": {
-            "id": 8481641,
-            "fullName": "Joel Kiviranta",
-            "link": "/api/v1/people/8481641"
+            "id": 8481581,
+            "fullName": "Thomas Harley",
+            "link": "/api/v1/people/8481581"
          },
-         "jerseyNumber": "25",
+         "jerseyNumber": "55",
          "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {

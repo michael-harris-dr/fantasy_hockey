@@ -3,11 +3,11 @@
    "roster": [
       {
          "person": {
-            "id": 8479336,
-            "fullName": "Carl Grundstrom",
-            "link": "/api/v1/people/8479336"
+            "id": 8478042,
+            "fullName": "Viktor Arvidsson",
+            "link": "/api/v1/people/8478042"
          },
-         "jerseyNumber": "91",
+         "jerseyNumber": "33",
          "position": {
             "code": "R",
             "name": "Right Wing",
@@ -17,44 +17,16 @@
       },
       {
          "person": {
-            "id": 8479675,
-            "fullName": "Trevor Moore",
-            "link": "/api/v1/people/8479675"
+            "id": 8481732,
+            "fullName": "Andre Lee",
+            "link": "/api/v1/people/8481732"
          },
-         "jerseyNumber": "12",
+         "jerseyNumber": "47",
          "position": {
             "code": "L",
             "name": "Left Wing",
             "type": "Forward",
             "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
-            "id": 8481560,
-            "fullName": "Arthur Kaliyev",
-            "link": "/api/v1/people/8481560"
-         },
-         "jerseyNumber": "34",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8471303,
-            "fullName": "Alexander Edler",
-            "link": "/api/v1/people/8471303"
-         },
-         "jerseyNumber": "2",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
          }
       },
       {
@@ -73,16 +45,16 @@
       },
       {
          "person": {
-            "id": 8471734,
-            "fullName": "Jonathan Quick",
-            "link": "/api/v1/people/8471734"
+            "id": 8473453,
+            "fullName": "Trevor Lewis",
+            "link": "/api/v1/people/8473453"
          },
-         "jerseyNumber": "32",
+         "jerseyNumber": "61",
          "position": {
-            "code": "G",
-            "name": "Goalie",
-            "type": "Goalie",
-            "abbreviation": "G"
+            "code": "C",
+            "name": "Center",
+            "type": "Forward",
+            "abbreviation": "C"
          }
       },
       {
@@ -97,6 +69,20 @@
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8475660,
+            "fullName": "Cam Talbot",
+            "link": "/api/v1/people/8475660"
+         },
+         "jerseyNumber": "39",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
          }
       },
       {
@@ -157,30 +143,30 @@
       },
       {
          "person": {
-            "id": 8477962,
-            "fullName": "Brendan Lemieux",
-            "link": "/api/v1/people/8477962"
+            "id": 8477971,
+            "fullName": "Andreas Englund",
+            "link": "/api/v1/people/8477971"
          },
-         "jerseyNumber": "48",
+         "jerseyNumber": "5",
          "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {
          "person": {
-            "id": 8478042,
-            "fullName": "Viktor Arvidsson",
-            "link": "/api/v1/people/8478042"
+            "id": 8478882,
+            "fullName": "Vladislav Gavrikov",
+            "link": "/api/v1/people/8478882"
          },
-         "jerseyNumber": "33",
+         "jerseyNumber": "84",
          "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {
@@ -199,16 +185,44 @@
       },
       {
          "person": {
-            "id": 8479994,
-            "fullName": "Jaret Anderson-Dolan",
-            "link": "/api/v1/people/8479994"
+            "id": 8479336,
+            "fullName": "Carl Grundstrom",
+            "link": "/api/v1/people/8479336"
          },
-         "jerseyNumber": "28",
+         "jerseyNumber": "91",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8479400,
+            "fullName": "Pierre-Luc Dubois",
+            "link": "/api/v1/people/8479400"
+         },
+         "jerseyNumber": "80",
          "position": {
             "code": "C",
             "name": "Center",
             "type": "Forward",
             "abbreviation": "C"
+         }
+      },
+      {
+         "person": {
+            "id": 8479675,
+            "fullName": "Trevor Moore",
+            "link": "/api/v1/people/8479675"
+         },
+         "jerseyNumber": "12",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
          }
       },
       {
@@ -227,90 +241,6 @@
       },
       {
          "person": {
-            "id": 8480014,
-            "fullName": "Gabriel Vilardi",
-            "link": "/api/v1/people/8480014"
-         },
-         "jerseyNumber": "13",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
-            "id": 8480113,
-            "fullName": "Alex Iafallo",
-            "link": "/api/v1/people/8480113"
-         },
-         "jerseyNumber": "19",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
-            "id": 8480336,
-            "fullName": "Sean Walker",
-            "link": "/api/v1/people/8480336"
-         },
-         "jerseyNumber": "26",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8480434,
-            "fullName": "Sean Durzi",
-            "link": "/api/v1/people/8480434"
-         },
-         "jerseyNumber": "50",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
-            "id": 8480845,
-            "fullName": "Rasmus Kupari",
-            "link": "/api/v1/people/8480845"
-         },
-         "jerseyNumber": "89",
-         "position": {
-            "code": "C",
-            "name": "Center",
-            "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8481239,
-            "fullName": "Samuel Fagemo",
-            "link": "/api/v1/people/8481239"
-         },
-         "jerseyNumber": "68",
-         "position": {
-            "code": "L",
-            "name": "Left Wing",
-            "type": "Forward",
-            "abbreviation": "LW"
-         }
-      },
-      {
-         "person": {
             "id": 8481481,
             "fullName": "Blake Lizotte",
             "link": "/api/v1/people/8481481"
@@ -325,16 +255,16 @@
       },
       {
          "person": {
-            "id": 8481532,
-            "fullName": "Alex Turcotte",
-            "link": "/api/v1/people/8481532"
+            "id": 8481560,
+            "fullName": "Arthur Kaliyev",
+            "link": "/api/v1/people/8481560"
          },
-         "jerseyNumber": "39",
+         "jerseyNumber": "34",
          "position": {
-            "code": "C",
-            "name": "Center",
+            "code": "R",
+            "name": "Right Wing",
             "type": "Forward",
-            "abbreviation": "C"
+            "abbreviation": "RW"
          }
       },
       {
@@ -359,10 +289,24 @@
          },
          "jerseyNumber": "55",
          "position": {
-            "code": "C",
-            "name": "Center",
+            "code": "R",
+            "name": "Right Wing",
             "type": "Forward",
-            "abbreviation": "C"
+            "abbreviation": "RW"
+         }
+      },
+      {
+         "person": {
+            "id": 8482155,
+            "fullName": "Alex Laferriere",
+            "link": "/api/v1/people/8482155"
+         },
+         "jerseyNumber": "78",
+         "position": {
+            "code": "R",
+            "name": "Right Wing",
+            "type": "Forward",
+            "abbreviation": "RW"
          }
       }
    ],

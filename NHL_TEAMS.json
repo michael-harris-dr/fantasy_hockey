@@ -11,8 +11,8 @@
             "city": "Newark",
             "timeZone": {
                "id": "America/New_York",
-               "offset": -5,
-               "tz": "EST"
+               "offset": -4,
+               "tz": "EDT"
             }
          },
          "abbreviation": "NJD",
@@ -51,8 +51,8 @@
             "city": "Elmont",
             "timeZone": {
                "id": "America/New_York",
-               "offset": -5,
-               "tz": "EST"
+               "offset": -4,
+               "tz": "EDT"
             }
          },
          "abbreviation": "NYI",
@@ -92,8 +92,8 @@
             "city": "New York",
             "timeZone": {
                "id": "America/New_York",
-               "offset": -5,
-               "tz": "EST"
+               "offset": -4,
+               "tz": "EDT"
             }
          },
          "abbreviation": "NYR",
@@ -133,8 +133,8 @@
             "city": "Philadelphia",
             "timeZone": {
                "id": "America/New_York",
-               "offset": -5,
-               "tz": "EST"
+               "offset": -4,
+               "tz": "EDT"
             }
          },
          "abbreviation": "PHI",
@@ -174,8 +174,8 @@
             "city": "Pittsburgh",
             "timeZone": {
                "id": "America/New_York",
-               "offset": -5,
-               "tz": "EST"
+               "offset": -4,
+               "tz": "EDT"
             }
          },
          "abbreviation": "PIT",
@@ -215,8 +215,8 @@
             "city": "Boston",
             "timeZone": {
                "id": "America/New_York",
-               "offset": -5,
-               "tz": "EST"
+               "offset": -4,
+               "tz": "EDT"
             }
          },
          "abbreviation": "BOS",
@@ -256,8 +256,8 @@
             "city": "Buffalo",
             "timeZone": {
                "id": "America/New_York",
-               "offset": -5,
-               "tz": "EST"
+               "offset": -4,
+               "tz": "EDT"
             }
          },
          "abbreviation": "BUF",
@@ -297,8 +297,8 @@
             "city": "Montr\u00e9al",
             "timeZone": {
                "id": "America/Montreal",
-               "offset": -5,
-               "tz": "EST"
+               "offset": -4,
+               "tz": "EDT"
             }
          },
          "abbreviation": "MTL",
@@ -338,8 +338,8 @@
             "city": "Ottawa",
             "timeZone": {
                "id": "America/New_York",
-               "offset": -5,
-               "tz": "EST"
+               "offset": -4,
+               "tz": "EDT"
             }
          },
          "abbreviation": "OTT",
@@ -378,8 +378,8 @@
             "city": "Toronto",
             "timeZone": {
                "id": "America/Toronto",
-               "offset": -5,
-               "tz": "EST"
+               "offset": -4,
+               "tz": "EDT"
             }
          },
          "abbreviation": "TOR",
@@ -419,8 +419,8 @@
             "city": "Raleigh",
             "timeZone": {
                "id": "America/New_York",
-               "offset": -5,
-               "tz": "EST"
+               "offset": -4,
+               "tz": "EDT"
             }
          },
          "abbreviation": "CAR",
@@ -454,14 +454,13 @@
          "name": "Florida Panthers",
          "link": "/api/v1/teams/13",
          "venue": {
-            "id": 5027,
-            "name": "FLA Live Arena",
-            "link": "/api/v1/venues/5027",
+            "name": "Amerant Bank Arena",
+            "link": "/api/v1/venues/null",
             "city": "Sunrise",
             "timeZone": {
                "id": "America/New_York",
-               "offset": -5,
-               "tz": "EST"
+               "offset": -4,
+               "tz": "EDT"
             }
          },
          "abbreviation": "FLA",
@@ -500,8 +499,8 @@
             "city": "Tampa",
             "timeZone": {
                "id": "America/New_York",
-               "offset": -5,
-               "tz": "EST"
+               "offset": -4,
+               "tz": "EDT"
             }
          },
          "abbreviation": "TBL",
@@ -541,8 +540,8 @@
             "city": "Washington",
             "timeZone": {
                "id": "America/New_York",
-               "offset": -5,
-               "tz": "EST"
+               "offset": -4,
+               "tz": "EDT"
             }
          },
          "abbreviation": "WSH",
@@ -582,8 +581,8 @@
             "city": "Chicago",
             "timeZone": {
                "id": "America/Chicago",
-               "offset": -6,
-               "tz": "CST"
+               "offset": -5,
+               "tz": "CDT"
             }
          },
          "abbreviation": "CHI",
@@ -623,8 +622,8 @@
             "city": "Detroit",
             "timeZone": {
                "id": "America/Detroit",
-               "offset": -5,
-               "tz": "EST"
+               "offset": -4,
+               "tz": "EDT"
             }
          },
          "abbreviation": "DET",
@@ -664,8 +663,8 @@
             "city": "Nashville",
             "timeZone": {
                "id": "America/Chicago",
-               "offset": -6,
-               "tz": "CST"
+               "offset": -5,
+               "tz": "CDT"
             }
          },
          "abbreviation": "NSH",
@@ -705,8 +704,8 @@
             "city": "St. Louis",
             "timeZone": {
                "id": "America/Chicago",
-               "offset": -6,
-               "tz": "CST"
+               "offset": -5,
+               "tz": "CDT"
             }
          },
          "abbreviation": "STL",
@@ -746,8 +745,8 @@
             "city": "Calgary",
             "timeZone": {
                "id": "America/Denver",
-               "offset": -7,
-               "tz": "MST"
+               "offset": -6,
+               "tz": "MDT"
             }
          },
          "abbreviation": "CGY",
@@ -787,8 +786,8 @@
             "city": "Denver",
             "timeZone": {
                "id": "America/Denver",
-               "offset": -7,
-               "tz": "MST"
+               "offset": -6,
+               "tz": "MDT"
             }
          },
          "abbreviation": "COL",
@@ -828,8 +827,8 @@
             "city": "Edmonton",
             "timeZone": {
                "id": "America/Edmonton",
-               "offset": -7,
-               "tz": "MST"
+               "offset": -6,
+               "tz": "MDT"
             }
          },
          "abbreviation": "EDM",
@@ -869,8 +868,8 @@
             "city": "Vancouver",
             "timeZone": {
                "id": "America/Vancouver",
-               "offset": -8,
-               "tz": "PST"
+               "offset": -7,
+               "tz": "PDT"
             }
          },
          "abbreviation": "VAN",
@@ -910,8 +909,8 @@
             "city": "Anaheim",
             "timeZone": {
                "id": "America/Los_Angeles",
-               "offset": -8,
-               "tz": "PST"
+               "offset": -7,
+               "tz": "PDT"
             }
          },
          "abbreviation": "ANA",
@@ -951,8 +950,8 @@
             "city": "Dallas",
             "timeZone": {
                "id": "America/Chicago",
-               "offset": -6,
-               "tz": "CST"
+               "offset": -5,
+               "tz": "CDT"
             }
          },
          "abbreviation": "DAL",
@@ -991,8 +990,8 @@
             "city": "Los Angeles",
             "timeZone": {
                "id": "America/Los_Angeles",
-               "offset": -8,
-               "tz": "PST"
+               "offset": -7,
+               "tz": "PDT"
             }
          },
          "abbreviation": "LAK",
@@ -1031,8 +1030,8 @@
             "city": "San Jose",
             "timeZone": {
                "id": "America/Los_Angeles",
-               "offset": -8,
-               "tz": "PST"
+               "offset": -7,
+               "tz": "PDT"
             }
          },
          "abbreviation": "SJS",
@@ -1072,8 +1071,8 @@
             "city": "Columbus",
             "timeZone": {
                "id": "America/New_York",
-               "offset": -5,
-               "tz": "EST"
+               "offset": -4,
+               "tz": "EDT"
             }
          },
          "abbreviation": "CBJ",
@@ -1113,8 +1112,8 @@
             "city": "St. Paul",
             "timeZone": {
                "id": "America/Chicago",
-               "offset": -6,
-               "tz": "CST"
+               "offset": -5,
+               "tz": "CDT"
             }
          },
          "abbreviation": "MIN",
@@ -1154,8 +1153,8 @@
             "city": "Winnipeg",
             "timeZone": {
                "id": "America/Winnipeg",
-               "offset": -6,
-               "tz": "CST"
+               "offset": -5,
+               "tz": "CDT"
             }
          },
          "abbreviation": "WPG",
@@ -1235,8 +1234,8 @@
             "city": "Las Vegas",
             "timeZone": {
                "id": "America/Los_Angeles",
-               "offset": -8,
-               "tz": "PST"
+               "offset": -7,
+               "tz": "PDT"
             }
          },
          "abbreviation": "VGK",
@@ -1275,8 +1274,8 @@
             "city": "Seattle",
             "timeZone": {
                "id": "America/Los_Angeles",
-               "offset": -8,
-               "tz": "PST"
+               "offset": -7,
+               "tz": "PDT"
             }
          },
          "abbreviation": "SEA",

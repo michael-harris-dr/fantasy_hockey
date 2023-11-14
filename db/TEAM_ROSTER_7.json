@@ -3,16 +3,16 @@
    "roster": [
       {
          "person": {
-            "id": 8467950,
-            "fullName": "Craig Anderson",
-            "link": "/api/v1/people/8467950"
+            "id": 8473446,
+            "fullName": "Erik Johnson",
+            "link": "/api/v1/people/8473446"
          },
-         "jerseyNumber": "41",
+         "jerseyNumber": "6",
          "position": {
-            "code": "G",
-            "name": "Goalie",
-            "type": "Goalie",
-            "abbreviation": "G"
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
          }
       },
       {
@@ -59,6 +59,20 @@
       },
       {
          "person": {
+            "id": 8477365,
+            "fullName": "Connor Clifton",
+            "link": "/api/v1/people/8477365"
+         },
+         "jerseyNumber": "75",
+         "position": {
+            "code": "D",
+            "name": "Defenseman",
+            "type": "Defenseman",
+            "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
             "id": 8477480,
             "fullName": "Eric Comrie",
             "link": "/api/v1/people/8477480"
@@ -101,30 +115,16 @@
       },
       {
          "person": {
-            "id": 8479335,
-            "fullName": "Rasmus Asplund",
-            "link": "/api/v1/people/8479335"
+            "id": 8478413,
+            "fullName": "Jordan Greenway",
+            "link": "/api/v1/people/8478413"
          },
-         "jerseyNumber": "74",
+         "jerseyNumber": "12",
          "position": {
-            "code": "C",
-            "name": "Center",
+            "code": "L",
+            "name": "Left Wing",
             "type": "Forward",
-            "abbreviation": "C"
-         }
-      },
-      {
-         "person": {
-            "id": 8479348,
-            "fullName": "Kale Clague",
-            "link": "/api/v1/people/8479348"
-         },
-         "jerseyNumber": "38",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
+            "abbreviation": "LW"
          }
       },
       {
@@ -241,20 +241,6 @@
       },
       {
          "person": {
-            "id": 8480950,
-            "fullName": "Ilya Lyubushkin",
-            "link": "/api/v1/people/8480950"
-         },
-         "jerseyNumber": "46",
-         "position": {
-            "code": "D",
-            "name": "Defenseman",
-            "type": "Defenseman",
-            "abbreviation": "D"
-         }
-      },
-      {
-         "person": {
             "id": 8481522,
             "fullName": "Peyton Krebs",
             "link": "/api/v1/people/8481522"
@@ -283,20 +269,6 @@
       },
       {
          "person": {
-            "id": 8482097,
-            "fullName": "Jack Quinn",
-            "link": "/api/v1/people/8482097"
-         },
-         "jerseyNumber": "22",
-         "position": {
-            "code": "R",
-            "name": "Right Wing",
-            "type": "Forward",
-            "abbreviation": "RW"
-         }
-      },
-      {
-         "person": {
             "id": 8482175,
             "fullName": "JJ Peterka",
             "link": "/api/v1/people/8482175"
@@ -311,6 +283,20 @@
       },
       {
          "person": {
+            "id": 8482221,
+            "fullName": "Devon Levi",
+            "link": "/api/v1/people/8482221"
+         },
+         "jerseyNumber": "27",
+         "position": {
+            "code": "G",
+            "name": "Goalie",
+            "type": "Goalie",
+            "abbreviation": "G"
+         }
+      },
+      {
+         "person": {
             "id": 8482671,
             "fullName": "Owen Power",
             "link": "/api/v1/people/8482671"
@@ -321,6 +307,20 @@
             "name": "Defenseman",
             "type": "Defenseman",
             "abbreviation": "D"
+         }
+      },
+      {
+         "person": {
+            "id": 8484145,
+            "fullName": "Zach Benson",
+            "link": "/api/v1/people/8484145"
+         },
+         "jerseyNumber": "9",
+         "position": {
+            "code": "L",
+            "name": "Left Wing",
+            "type": "Forward",
+            "abbreviation": "LW"
          }
       }
    ],
