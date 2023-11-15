@@ -111,9 +111,28 @@ def populate_stats(playerInfo, yearStrings):
         exit()
 
     playerStats = json.loads(resp.text)
-    print(playerStats["seasonTotals"][18]["points"])
+
+    print(playerStats["seasonTotals"][3]["points"])
     
     for player in playerInfo:
+        req = f"https://api-web.nhle.com/v1/player/{playerInfo[player]['id']}/landing"
+        resp = requests.get(req)
+
+        playerStats = json.loads(resp.text)
+
+        nhlSeasons = {}
+        for season in playerStats["seasonTotals"]:
+            if(season["leagueAbbrev"] == "NHL" and season["gameTypeId"] == 2):
+                nhlSeasons[season["season"]] = {
+                                                    "gp" : season["gamesPlayed"],
+                                                    "goals" : season["goals"],
+                                                    "assists" : season["assists"],
+                                                    "points" : season["points"],
+                                                    "shp" : season["shootingPctg"]
+                                                }
+        playerInfo[player]["seasons"] = nhlSeasons
+
+        print(playerStats["seasonTotals"][3]["points"])
         temp = playerInfo[player]
         print(temp)
     return
@@ -122,7 +141,7 @@ def main():
 
     fp = open("NHL_TEAMS.json", "r")
     nhlJson = json.load(fp)
-    fp.close
+    fp.close()
 
     idTeam = {}
     for team in nhlJson["teams"]:
