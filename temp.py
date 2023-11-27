@@ -4,24 +4,24 @@ import requests
 import json
 import time
 from classes import *
+import constant
+
+DEBUG = 0
 
 def update_db():
+    '''
+    update_db()
+        updates every team roster JSON by pulling from 'https://api-web.nhle.com/v1/roster/{teamCode}/current'
+    '''
     fp2 = open("NHL_TEAMS.json")
     teamsJson = json.load(fp2)
 
     for team in teamsJson["teams"]:
 
-        #city = team["locationName"]
-        #name = team["teamName"]
-        #id = team["id"]
         teamCode = team["abbreviation"]
-
-        #tempTeam = Team(city, name, id, teamCode)
-
-        print(teamCode)
+        if(DEBUG):print(teamCode)
 
         req = f"https://api-web.nhle.com/v1/roster/{teamCode}/current"
-
         resp = requests.get(req)
 
         print(resp.status_code)
@@ -36,15 +36,42 @@ def update_db():
         fp.close()
     fp2.close()
 
-def pascal_case(name):
-     return name[:1].upper() + name[1:].lower()
+def load_team_ids(filename):
+    '''
+    load_team_ids
+        reads in NHL team information to associate team abbreviation codes and team names    
+    
+        Parameters:
+            filename (str) 
+                - literal string name of file where the team info (name, ID and team code) is stored
+                - typically "NHL_TEAMS.json"
+        Return:
+            idTeam ({str:str})
+                - a dict of the form {team code : team name}
+                - e.g. {NJD : New Jersey Devils}
 
-def fanPts(player):
-    return (3*player["goals"] + 2*player["assists"])
+    '''
+    fp = open(filename, "r")
+    nhlJson = json.load(fp)
+    fp.close()
 
-#takes user input of player names and returns an array of the names (in pascal case)
+    idTeam = {}
+    for team in nhlJson["teams"]:
+        idTeam[team["abbreviation"]] = team["name"]
+    if(DEBUG):print(idTeam)
+    return idTeam
+
+pascal_case = lambda name : name[:1].upper() + name[1:].lower() #makes text pascal case (PascalCaseIsLikeThis)
+
 def input_names():
-    #print("Enter player names in the form \"lastname,lastname,lastname\":")
+    '''
+    input_names
+        has the user input names of players and separates them into an array   
+    
+        Return:
+            nameListCopy
+                - array of player names (e.g. [Matthews,Marner,Tavares])
+    '''
     inp = input("Enter player surnames (separated by ',' or ' '): ")
     nameList = inp.replace(" ",",").split(',')
     nameListCopy = []
@@ -57,12 +84,24 @@ def input_names():
     return nameListCopy
 
 def find_players(nameList, idTeam):
+    '''
+    find_players
+        searches every NHL roster to find matches for all given player and associate the player with the team they're on
+    
+        Parameters:
+            nameList ([str])
+                - array of player names to be searched for
+            idTeam ({str:str})
+                - team abbreviation codes associated w/ team names, used as a master list of all NHL teams to search
+        Return:
+            idTeam ({str:dict})
+                - a dict where the key is the player's last name and the value is a dict containing the player's id, team, first name and last name
+
+    '''
     playerInfo = {}
-    #temporary for each player to have their ID associated with their team code in case two players on the same team have the same name
-    playerIdTeam = {}
 
     for player in nameList: #for every player to be looked up
-        for code in idTeam:   #for every team
+        for code in idTeam:   #for every team in the league
             #open and load the corresponding JSON for the current team
             fp2 = open(f"./db2/{code}_temp.json")
             teamJson = json.load(fp2)
@@ -102,7 +141,8 @@ def find_players(nameList, idTeam):
             fp2.close()
     return playerInfo
 
-def populate_stats(playerInfo, yearStrings):
+#populates the player's relevant stats (lifetime NHL)
+def populate_stats(playerInfo):
     req = "https://api-web.nhle.com/v1/player/8481559/landing"
     
     resp = requests.get(req)
@@ -111,8 +151,6 @@ def populate_stats(playerInfo, yearStrings):
         exit()
 
     playerStats = json.loads(resp.text)
-
-    print(playerStats["seasonTotals"][3]["points"])
     
     for player in playerInfo:
         req = f"https://api-web.nhle.com/v1/player/{playerInfo[player]['id']}/landing"
@@ -131,27 +169,66 @@ def populate_stats(playerInfo, yearStrings):
                                                     "shp" : season["shootingPctg"]
                                                 }
         playerInfo[player]["seasons"] = nhlSeasons
+    return playerInfo
 
-        print(playerStats["seasonTotals"][3]["points"])
-        temp = playerInfo[player]
-        print(temp)
+def print_player_stats(playerStats):
+    
+    #updatedPlayerStats = separate_namesakes(playerStats)
+    separate_namesakes(playerStats)
+    for player in playerStats:
+        print(playerStats[player]["lastName"] + " " + playerStats[player]["special"] + ":")
+        print(playerStats[player]["seasons"])
+        for year in playerStats[player]["seasons"]:
+            for stat in playerStats[player]["seasons"][year]:
+                print(f"\t{stat} : {playerStats[player]['seasons'][year][stat]}")
     return
+
+def separate_namesakes(playerStats):
+    for player in playerStats:
+        identifier_depth = 0    #uniqueness identifier: 0 for unique player, 1 for same name different team, 2 for same name same team, 3 for same first letter of first name
+        i = 0
+        for player2 in playerStats:
+            if player2 == player:   #ignore checking against own entry
+                continue
+            elif(playerStats[player2]["lastName"] == playerStats[player]["lastName"]): #if players not the same but same last name
+                identifier_depth = max(1, identifier_depth)
+                if(playerStats[player2]["team"] == playerStats[player]["team"]): #if players are also on the same team
+                    identifier_depth = max(2, identifier_depth)
+                    if(playerStats[player2]["firstName"][:1] == playerStats[player]["firstName"][:1]): #if players on the same team share the same first initial
+                        identifier_depth = max(3, identifier_depth)
+        if(identifier_depth == 0):
+            playerStats[player]["special"] = ""
+        elif(identifier_depth == 1):
+            playerStats[player]["special"] = playerStats[player]["team"]
+        elif(identifier_depth == 2):
+            playerStats[player]["special"] = playerStats[player]["firstName"][:1] + "."
+        elif(identifier_depth == 3):
+            playerStats[player]["special"] = playerStats[player]["firstName"]
+        else:
+            playerStats[player]["special"] = "ERROR"
+            quit()
+        if(DEBUG):print(player + ":" + str(identifier_depth))
+
+def get_last_x_seasons(qty, playerInfo):
+    for season in playerInfo["seasons"]:
+        print(season)
+        print(int(str(constant.CURRENT_SEASON)[:4]) - int(str(season)[:4]))
+        print(year_diff(constant.CURRENT_SEASON, season))
+
+year_diff = lambda current, given : int(str(current)[:4]) - int(str(given)[:4])
 
 def main():
 
-    fp = open("NHL_TEAMS.json", "r")
-    nhlJson = json.load(fp)
-    fp.close()
-
-    idTeam = {}
-    for team in nhlJson["teams"]:
-        idTeam[team["abbreviation"]] = team["name"]
-
-
+    idTeam = load_team_ids(constant.NHL_JSON_FILENAME)
     #update_db()
     nameList = input_names()
 
     playerInfo = find_players(nameList, idTeam)
-    populate_stats(playerInfo, "20222023")
+    playerStats = populate_stats(playerInfo)
+    print_player_stats(playerStats)
+
+    if(DEBUG):print(update_db.__doc__)
+
+    get_last_x_seasons(4, playerStats["Hughes"])
 
 main()

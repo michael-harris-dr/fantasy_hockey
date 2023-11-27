@@ -399,31 +399,6 @@
          }
       },
       {
-         "id": 8481743,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NSH/8481743.png",
-         "firstName": {
-            "default": "Marc"
-         },
-         "lastName": {
-            "default": "Del Gaizo"
-         },
-         "sweaterNumber": 7,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 71,
-         "weightInPounds": 188,
-         "heightInCentimeters": 180,
-         "weightInKilograms": 85,
-         "birthDate": "1999-10-11",
-         "birthCity": {
-            "default": "Basking Ridge"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "NJ"
-         }
-      },
-      {
          "id": 8479371,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NSH/8479371.png",
          "firstName": {
@@ -543,6 +518,31 @@
          "birthCountry": "CAN",
          "birthStateProvince": {
             "default": "SK"
+         }
+      },
+      {
+         "id": 8481056,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NSH/8481056.png",
+         "firstName": {
+            "default": "Spencer"
+         },
+         "lastName": {
+            "default": "Stastney"
+         },
+         "sweaterNumber": 24,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 72,
+         "weightInPounds": 184,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 83,
+         "birthDate": "2000-01-04",
+         "birthCity": {
+            "default": "Woodbridge"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "IL"
          }
       }
    ],

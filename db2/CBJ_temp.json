@@ -1,31 +1,6 @@
 {
    "forwards": [
       {
-         "id": 8480205,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CBJ/8480205.png",
-         "firstName": {
-            "default": "Emil"
-         },
-         "lastName": {
-            "default": "Bemstrom",
-            "cs": "Bemstr\u00f6m",
-            "fi": "Bemstr\u00f6m",
-            "sk": "Bemstr\u00f6m"
-         },
-         "sweaterNumber": 52,
-         "positionCode": "R",
-         "shootsCatches": "R",
-         "heightInInches": 72,
-         "weightInPounds": 195,
-         "heightInCentimeters": 183,
-         "weightInKilograms": 88,
-         "birthDate": "1999-06-01",
-         "birthCity": {
-            "default": "Nykoping"
-         },
-         "birthCountry": "SWE"
-      },
-      {
          "id": 8482475,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CBJ/8482475.png",
          "firstName": {
@@ -95,6 +70,31 @@
          "birthCountry": "CAN",
          "birthStateProvince": {
             "default": "ON"
+         }
+      },
+      {
+         "id": 8480441,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CBJ/8480441.png",
+         "firstName": {
+            "default": "Trey"
+         },
+         "lastName": {
+            "default": "Fix-Wolansky"
+         },
+         "sweaterNumber": 64,
+         "positionCode": "R",
+         "shootsCatches": "R",
+         "heightInInches": 67,
+         "weightInPounds": 191,
+         "heightInCentimeters": 170,
+         "weightInKilograms": 87,
+         "birthDate": "1999-05-26",
+         "birthCity": {
+            "default": "Edmonton"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "AB"
          }
       },
       {

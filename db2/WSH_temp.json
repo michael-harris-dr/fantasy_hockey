@@ -512,28 +512,6 @@
          "birthCountry": "SVK"
       },
       {
-         "id": 8479522,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WSH/8479522.png",
-         "firstName": {
-            "default": "Hardy"
-         },
-         "lastName": {
-            "default": "Haman Aktell"
-         },
-         "sweaterNumber": 4,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 75,
-         "weightInPounds": 198,
-         "heightInCentimeters": 191,
-         "weightInKilograms": 90,
-         "birthDate": "1998-07-04",
-         "birthCity": {
-            "default": "Kage"
-         },
-         "birthCountry": "SWE"
-      },
-      {
          "id": 8475324,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WSH/8475324.png",
          "firstName": {
@@ -581,31 +559,6 @@
          "birthCountry": "CAN",
          "birthStateProvince": {
             "default": "BC"
-         }
-      },
-      {
-         "id": 8475795,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WSH/8475795.png",
-         "firstName": {
-            "default": "Dylan"
-         },
-         "lastName": {
-            "default": "McIlrath"
-         },
-         "sweaterNumber": 25,
-         "positionCode": "D",
-         "shootsCatches": "R",
-         "heightInInches": 77,
-         "weightInPounds": 232,
-         "heightInCentimeters": 196,
-         "weightInKilograms": 105,
-         "birthDate": "1992-04-20",
-         "birthCity": {
-            "default": "Winnipeg"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "MB"
          }
       },
       {
@@ -701,31 +654,6 @@
          "birthDate": "1993-12-18",
          "birthCity": {
             "default": "Lakeville"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "MN"
-         }
-      },
-      {
-         "id": 8482411,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WSH/8482411.png",
-         "firstName": {
-            "default": "Hunter"
-         },
-         "lastName": {
-            "default": "Shepard"
-         },
-         "sweaterNumber": 31,
-         "positionCode": "G",
-         "shootsCatches": "L",
-         "heightInInches": 72,
-         "weightInPounds": 215,
-         "heightInCentimeters": 183,
-         "weightInKilograms": 98,
-         "birthDate": "1995-11-07",
-         "birthCity": {
-            "default": "Cohasset"
          },
          "birthCountry": "USA",
          "birthStateProvince": {

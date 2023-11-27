@@ -194,6 +194,31 @@
          }
       },
       {
+         "id": 8479249,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SEA/8479249.png",
+         "firstName": {
+            "default": "Andrew"
+         },
+         "lastName": {
+            "default": "Poturalski"
+         },
+         "sweaterNumber": 12,
+         "positionCode": "C",
+         "shootsCatches": "R",
+         "heightInInches": 70,
+         "weightInPounds": 187,
+         "heightInCentimeters": 178,
+         "weightInKilograms": 85,
+         "birthDate": "1994-01-14",
+         "birthCity": {
+            "default": "Williamsville"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "NY"
+         }
+      },
+      {
          "id": 8475768,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SEA/8475768.png",
          "firstName": {
@@ -292,56 +317,6 @@
             "default": "Stockholm"
          },
          "birthCountry": "SWE"
-      },
-      {
-         "id": 8482751,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SEA/8482751.png",
-         "firstName": {
-            "default": "Ryan"
-         },
-         "lastName": {
-            "default": "Winterton"
-         },
-         "sweaterNumber": 26,
-         "positionCode": "C",
-         "shootsCatches": "R",
-         "heightInInches": 74,
-         "weightInPounds": 175,
-         "heightInCentimeters": 188,
-         "weightInKilograms": 79,
-         "birthDate": "2003-09-04",
-         "birthCity": {
-            "default": "Markham"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "ON"
-         }
-      },
-      {
-         "id": 8483524,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SEA/8483524.png",
-         "firstName": {
-            "default": "Shane"
-         },
-         "lastName": {
-            "default": "Wright"
-         },
-         "sweaterNumber": 51,
-         "positionCode": "C",
-         "shootsCatches": "R",
-         "heightInInches": 72,
-         "weightInPounds": 192,
-         "heightInCentimeters": 183,
-         "weightInKilograms": 87,
-         "birthDate": "2004-01-05",
-         "birthCity": {
-            "default": "Burlington"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "ON"
-         }
       },
       {
          "id": 8479977,

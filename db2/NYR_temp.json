@@ -415,6 +415,31 @@
          }
       },
       {
+         "id": 8482067,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NYR/8482067.png",
+         "firstName": {
+            "default": "Connor"
+         },
+         "lastName": {
+            "default": "Mackey"
+         },
+         "sweaterNumber": 14,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 75,
+         "weightInPounds": 204,
+         "heightInCentimeters": 191,
+         "weightInKilograms": 93,
+         "birthDate": "1996-09-12",
+         "birthCity": {
+            "default": "Tower Lakes"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "IL"
+         }
+      },
+      {
          "id": 8480817,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NYR/8480817.png",
          "firstName": {

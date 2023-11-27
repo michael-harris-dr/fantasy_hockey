@@ -338,6 +338,31 @@
          "birthCountry": "LVA"
       },
       {
+         "id": 8477932,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/FLA/8477932.png",
+         "firstName": {
+            "default": "Aaron"
+         },
+         "lastName": {
+            "default": "Ekblad"
+         },
+         "sweaterNumber": 5,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 76,
+         "weightInPounds": 215,
+         "heightInCentimeters": 193,
+         "weightInKilograms": 98,
+         "birthDate": "1996-02-07",
+         "birthCity": {
+            "default": "Windsor"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "ON"
+         }
+      },
+      {
          "id": 8475171,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/FLA/8475171.png",
          "firstName": {
@@ -452,6 +477,31 @@
             "default": "Kiiminki"
          },
          "birthCountry": "FIN"
+      },
+      {
+         "id": 8477986,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/FLA/8477986.png",
+         "firstName": {
+            "default": "Brandon"
+         },
+         "lastName": {
+            "default": "Montour"
+         },
+         "sweaterNumber": 62,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 72,
+         "weightInPounds": 199,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 90,
+         "birthDate": "1994-04-11",
+         "birthCity": {
+            "default": "Brantford"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "ON"
+         }
       },
       {
          "id": 8476422,

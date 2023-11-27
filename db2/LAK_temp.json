@@ -1,6 +1,31 @@
 {
    "forwards": [
       {
+         "id": 8479994,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/LAK/8479994.png",
+         "firstName": {
+            "default": "Jaret"
+         },
+         "lastName": {
+            "default": "Anderson-Dolan"
+         },
+         "sweaterNumber": 28,
+         "positionCode": "C",
+         "shootsCatches": "L",
+         "heightInInches": 71,
+         "weightInPounds": 200,
+         "heightInCentimeters": 180,
+         "weightInKilograms": 91,
+         "birthDate": "1999-09-12",
+         "birthCity": {
+            "default": "Calgary"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "AB"
+         }
+      },
+      {
          "id": 8478042,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/LAK/8478042.png",
          "firstName": {
@@ -459,6 +484,28 @@
             "default": "Yaroslavl"
          },
          "birthCountry": "RUS"
+      },
+      {
+         "id": 8479421,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/LAK/8479421.png",
+         "firstName": {
+            "default": "Jacob"
+         },
+         "lastName": {
+            "default": "Moverare"
+         },
+         "sweaterNumber": 57,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 75,
+         "weightInPounds": 210,
+         "heightInCentimeters": 191,
+         "weightInKilograms": 95,
+         "birthDate": "1998-08-31",
+         "birthCity": {
+            "default": "Ostersund"
+         },
+         "birthCountry": "SWE"
       },
       {
          "id": 8478911,

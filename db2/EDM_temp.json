@@ -48,6 +48,31 @@
          "birthCountry": "DEU"
       },
       {
+         "id": 8477454,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/EDM/8477454.png",
+         "firstName": {
+            "default": "Adam"
+         },
+         "lastName": {
+            "default": "Erne"
+         },
+         "sweaterNumber": 21,
+         "positionCode": "L",
+         "shootsCatches": "L",
+         "heightInInches": 73,
+         "weightInPounds": 215,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 98,
+         "birthDate": "1995-04-20",
+         "birthCity": {
+            "default": "New Haven"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "CT"
+         }
+      },
+      {
          "id": 8477998,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/EDM/8477998.png",
          "firstName": {
@@ -221,31 +246,6 @@
          }
       },
       {
-         "id": 8481534,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/EDM/8481534.png",
-         "firstName": {
-            "default": "Raphael"
-         },
-         "lastName": {
-            "default": "Lavoie"
-         },
-         "sweaterNumber": 62,
-         "positionCode": "C",
-         "shootsCatches": "R",
-         "heightInInches": 76,
-         "weightInPounds": 215,
-         "heightInCentimeters": 193,
-         "weightInKilograms": 98,
-         "birthDate": "2000-09-25",
-         "birthCity": {
-            "default": "Chambly"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "QC"
-         }
-      },
-      {
          "id": 8478402,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/EDM/8478402.png",
          "firstName": {
@@ -371,6 +371,28 @@
          "birthStateProvince": {
             "default": "ON"
          }
+      },
+      {
+         "id": 8481598,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/EDM/8481598.png",
+         "firstName": {
+            "default": "Philip"
+         },
+         "lastName": {
+            "default": "Broberg"
+         },
+         "sweaterNumber": 86,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 76,
+         "weightInPounds": 212,
+         "heightInCentimeters": 193,
+         "weightInKilograms": 96,
+         "birthDate": "2001-06-25",
+         "birthCity": {
+            "default": "Orebro"
+         },
+         "birthCountry": "SWE"
       },
       {
          "id": 8476879,

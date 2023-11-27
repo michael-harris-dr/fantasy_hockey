@@ -151,6 +151,31 @@
          }
       },
       {
+         "id": 8481043,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8481043.png",
+         "firstName": {
+            "default": "Cole"
+         },
+         "lastName": {
+            "default": "Koepke"
+         },
+         "sweaterNumber": 45,
+         "positionCode": "L",
+         "shootsCatches": "L",
+         "heightInInches": 73,
+         "weightInPounds": 203,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 92,
+         "birthDate": "1998-05-17",
+         "birthCity": {
+            "default": "Two Harbors"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "MN"
+         }
+      },
+      {
          "id": 8476453,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8476453.png",
          "firstName": {
@@ -174,28 +199,6 @@
             "default": "Maykop"
          },
          "birthCountry": "RUS"
-      },
-      {
-         "id": 8484325,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8484325.png",
-         "firstName": {
-            "default": "Waltteri"
-         },
-         "lastName": {
-            "default": "Merela"
-         },
-         "sweaterNumber": 39,
-         "positionCode": "C",
-         "shootsCatches": "R",
-         "heightInInches": 75,
-         "weightInPounds": 210,
-         "heightInCentimeters": 191,
-         "weightInKilograms": 95,
-         "birthDate": "1998-07-06",
-         "birthCity": {
-            "default": "Ylojarvi"
-         },
-         "birthCountry": "FIN"
       },
       {
          "id": 8477353,
@@ -425,31 +428,6 @@
             "default": "Ornskoldsvik"
          },
          "birthCountry": "SWE"
-      },
-      {
-         "id": 8479026,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8479026.png",
-         "firstName": {
-            "default": "Philippe"
-         },
-         "lastName": {
-            "default": "Myers"
-         },
-         "sweaterNumber": 5,
-         "positionCode": "D",
-         "shootsCatches": "R",
-         "heightInInches": 78,
-         "weightInPounds": 219,
-         "heightInCentimeters": 198,
-         "weightInKilograms": 99,
-         "birthDate": "1997-01-25",
-         "birthCity": {
-            "default": "Moncton"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "NB"
-         }
       },
       {
          "id": 8480246,

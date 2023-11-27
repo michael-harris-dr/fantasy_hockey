@@ -242,28 +242,6 @@
          "birthCountry": "DEU"
       },
       {
-         "id": 8481751,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BUF/8481751.png",
-         "firstName": {
-            "default": "Lukas"
-         },
-         "lastName": {
-            "default": "Rousek"
-         },
-         "sweaterNumber": 13,
-         "positionCode": "R",
-         "shootsCatches": "L",
-         "heightInInches": 71,
-         "weightInPounds": 171,
-         "heightInCentimeters": 180,
-         "weightInKilograms": 78,
-         "birthDate": "1999-04-20",
-         "birthCity": {
-            "default": "Ostrov Nad Ohri"
-         },
-         "birthCountry": "CZE"
-      },
-      {
          "id": 8475784,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BUF/8475784.png",
          "firstName": {

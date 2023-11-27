@@ -145,6 +145,30 @@
          }
       },
       {
+         "id": 8479536,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WPG/8479536.png",
+         "firstName": {
+            "default": "Axel"
+         },
+         "lastName": {
+            "default": "Jonsson-Fjallby",
+            "cs": "Jonsson-Fj\u00e4llby",
+            "sk": "Jonsson-Fj\u00e4llby"
+         },
+         "sweaterNumber": 71,
+         "positionCode": "L",
+         "shootsCatches": "L",
+         "heightInInches": 73,
+         "weightInPounds": 189,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 86,
+         "birthDate": "1998-02-10",
+         "birthCity": {
+            "default": "Stockholm"
+         },
+         "birthCountry": "SWE"
+      },
+      {
          "id": 8480845,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WPG/8480845.png",
          "firstName": {
@@ -284,6 +308,31 @@
          "birthCountry": "CAN",
          "birthStateProvince": {
             "default": "ON"
+         }
+      },
+      {
+         "id": 8476952,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WPG/8476952.png",
+         "firstName": {
+            "default": "Dominic"
+         },
+         "lastName": {
+            "default": "Toninato"
+         },
+         "sweaterNumber": 21,
+         "positionCode": "C",
+         "shootsCatches": "L",
+         "heightInInches": 74,
+         "weightInPounds": 201,
+         "heightInCentimeters": 188,
+         "weightInKilograms": 91,
+         "birthDate": "1994-03-09",
+         "birthCity": {
+            "default": "Duluth"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "MN"
          }
       },
       {

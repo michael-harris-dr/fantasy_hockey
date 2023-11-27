@@ -317,6 +317,31 @@
    ],
    "defensemen": [
       {
+         "id": 8482072,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/COL/8482072.png",
+         "firstName": {
+            "default": "Jack"
+         },
+         "lastName": {
+            "default": "Ahcan"
+         },
+         "sweaterNumber": 18,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 68,
+         "weightInPounds": 180,
+         "heightInCentimeters": 173,
+         "weightInKilograms": 82,
+         "birthDate": "1997-05-18",
+         "birthCity": {
+            "default": "Savage"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "MN"
+         }
+      },
+      {
          "id": 8481524,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/COL/8481524.png",
          "firstName": {
@@ -464,31 +489,6 @@
          "birthCountry": "CAN",
          "birthStateProvince": {
             "default": "AB"
-         }
-      },
-      {
-         "id": 8484258,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/COL/8484258.png",
-         "firstName": {
-            "default": "Sam"
-         },
-         "lastName": {
-            "default": "Malinski"
-         },
-         "sweaterNumber": 70,
-         "positionCode": "D",
-         "shootsCatches": "R",
-         "heightInInches": 71,
-         "weightInPounds": 190,
-         "heightInCentimeters": 180,
-         "weightInKilograms": 86,
-         "birthDate": "1998-07-27",
-         "birthCity": {
-            "default": "Lakeville"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "MN"
          }
       },
       {

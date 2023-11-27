@@ -592,31 +592,6 @@
             "default": "Prague"
          },
          "birthCountry": "CZE"
-      },
-      {
-         "id": 8481692,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CGY/8481692.png",
-         "firstName": {
-            "default": "Dustin"
-         },
-         "lastName": {
-            "default": "Wolf"
-         },
-         "sweaterNumber": 32,
-         "positionCode": "G",
-         "shootsCatches": "L",
-         "heightInInches": 72,
-         "weightInPounds": 166,
-         "heightInCentimeters": 183,
-         "weightInKilograms": 75,
-         "birthDate": "2001-04-16",
-         "birthCity": {
-            "default": "Gilroy"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "CA"
-         }
       }
    ]
 }

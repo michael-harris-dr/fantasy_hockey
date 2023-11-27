@@ -503,6 +503,30 @@
          }
       },
       {
+         "id": 8481609,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/ARI/8481609.png",
+         "firstName": {
+            "default": "Vladislav"
+         },
+         "lastName": {
+            "default": "Kolyachonok",
+            "cs": "Kolja\u010donok",
+            "sk": "Kolja\u010donok"
+         },
+         "sweaterNumber": 52,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 73,
+         "weightInPounds": 193,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 88,
+         "birthDate": "2001-05-26",
+         "birthCity": {
+            "default": "Minsk"
+         },
+         "birthCountry": "BLR"
+      },
+      {
          "id": 8482655,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/ARI/8482655.png",
          "firstName": {

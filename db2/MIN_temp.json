@@ -435,31 +435,6 @@
          }
       },
       {
-         "id": 8482094,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/MIN/8482094.png",
-         "firstName": {
-            "default": "Daemon"
-         },
-         "lastName": {
-            "default": "Hunt"
-         },
-         "sweaterNumber": 48,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 73,
-         "weightInPounds": 201,
-         "heightInCentimeters": 185,
-         "weightInKilograms": 91,
-         "birthDate": "2002-05-15",
-         "birthCity": {
-            "default": "Brandon"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "MB"
-         }
-      },
-      {
          "id": 8477541,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/MIN/8477541.png",
          "firstName": {

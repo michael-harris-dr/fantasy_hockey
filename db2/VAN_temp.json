@@ -296,31 +296,6 @@
          "birthCountry": "SWE"
       },
       {
-         "id": 8480021,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8480021.png",
-         "firstName": {
-            "default": "Jack"
-         },
-         "lastName": {
-            "default": "Studnicka"
-         },
-         "sweaterNumber": 23,
-         "positionCode": "C",
-         "shootsCatches": "R",
-         "heightInInches": 73,
-         "weightInPounds": 187,
-         "heightInCentimeters": 185,
-         "weightInKilograms": 85,
-         "birthDate": "1999-02-18",
-         "birthCity": {
-            "default": "Windsor"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "ON"
-         }
-      },
-      {
          "id": 8480459,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8480459.png",
          "firstName": {
@@ -417,6 +392,31 @@
          "birthCountry": "CAN",
          "birthStateProvince": {
             "default": "ON"
+         }
+      },
+      {
+         "id": 8484254,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8484254.png",
+         "firstName": {
+            "default": "Akito"
+         },
+         "lastName": {
+            "default": "Hirose"
+         },
+         "sweaterNumber": 41,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 72,
+         "weightInPounds": 170,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 77,
+         "birthDate": "1999-04-09",
+         "birthCity": {
+            "default": "Calgary"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "AB"
          }
       },
       {

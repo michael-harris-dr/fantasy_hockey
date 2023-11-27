@@ -140,7 +140,7 @@
          "weightInKilograms": 96,
          "birthDate": "1996-11-17",
          "birthCity": {
-            "default": "Tampere"
+            "default": "Nokia"
          },
          "birthCountry": "FIN"
       },

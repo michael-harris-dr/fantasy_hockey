@@ -117,28 +117,6 @@
          "birthCountry": "FIN"
       },
       {
-         "id": 8482101,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SJS/8482101.png",
-         "firstName": {
-            "default": "Danil"
-         },
-         "lastName": {
-            "default": "Gushchin"
-         },
-         "sweaterNumber": 75,
-         "positionCode": "L",
-         "shootsCatches": "L",
-         "heightInInches": 68,
-         "weightInPounds": 165,
-         "heightInCentimeters": 173,
-         "weightInKilograms": 75,
-         "birthDate": "2002-02-06",
-         "birthCity": {
-            "default": "Yekaterinburg"
-         },
-         "birthCountry": "RUS"
-      },
-      {
          "id": 8476881,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SJS/8476881.png",
          "firstName": {
@@ -283,28 +261,6 @@
          "birthStateProvince": {
             "default": "ON"
          }
-      },
-      {
-         "id": 8481477,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SJS/8481477.png",
-         "firstName": {
-            "default": "Nico"
-         },
-         "lastName": {
-            "default": "Sturm"
-         },
-         "sweaterNumber": 7,
-         "positionCode": "C",
-         "shootsCatches": "L",
-         "heightInInches": 75,
-         "weightInPounds": 209,
-         "heightInCentimeters": 191,
-         "weightInKilograms": 95,
-         "birthDate": "1995-05-03",
-         "birthCity": {
-            "default": "Augsburg"
-         },
-         "birthCountry": "DEU"
       },
       {
          "id": 8480821,
