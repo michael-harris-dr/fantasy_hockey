@@ -3,7 +3,6 @@ import os
 import requests
 import json
 import time
-from classes import *
 import constant
 
 DEBUG = 0
@@ -31,7 +30,7 @@ def update_db():
 
         jason = json.loads(resp.text)
 
-        fp = open(f"./db2/{teamCode}_temp.json", "w+")
+        fp = open(f"{constant.DATABASE_PATH}{teamCode}_temp.json", "w+")
         json.dump(jason, fp, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=3, separators=None)
         fp.close()
     fp2.close()
@@ -103,7 +102,7 @@ def find_players(nameList, idTeam):
     for player in nameList: #for every player to be looked up
         for code in idTeam:   #for every team in the league
             #open and load the corresponding JSON for the current team
-            fp2 = open(f"./db2/{code}_temp.json")
+            fp2 = open(f"{constant.DATABASE_PATH}{code}_temp.json")
             teamJson = json.load(fp2)
 
             for person in teamJson["forwards"]: #for every forward                
@@ -210,10 +209,27 @@ def separate_namesakes(playerStats):
         if(DEBUG):print(player + ":" + str(identifier_depth))
 
 def get_last_x_seasons(qty, playerInfo):
+    newSeasons = {}
     for season in playerInfo["seasons"]:
         print(season)
-        print(int(str(constant.CURRENT_SEASON)[:4]) - int(str(season)[:4]))
         print(year_diff(constant.CURRENT_SEASON, season))
+        print(year_diff(constant.CURRENT_SEASON, season) < qty)
+        if(year_diff(constant.CURRENT_SEASON, season) < qty):
+            newSeasons[season] = dict(playerInfo["seasons"][season])
+    print(newSeasons)
+
+    newPlayer = dict(playerInfo)
+    newPlayer["seasons"] = dict(newSeasons)
+
+    return newPlayer
+
+def consolidate_seasons(playerInfo):
+    for player in playerInfo:
+        playerInfo[player]
+
+#TODO: add a weighted consolidated_seasons
+
+
 
 year_diff = lambda current, given : int(str(current)[:4]) - int(str(given)[:4])
 
@@ -229,6 +245,7 @@ def main():
 
     if(DEBUG):print(update_db.__doc__)
 
-    get_last_x_seasons(4, playerStats["Hughes"])
+    newPlayer = get_last_x_seasons(2, playerStats["Hughes"])
+    print(newPlayer)
 
 main()
