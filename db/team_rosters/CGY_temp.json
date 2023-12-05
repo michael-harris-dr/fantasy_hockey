@@ -440,6 +440,31 @@
          "birthCountry": "SWE"
       },
       {
+         "id": 8477851,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CGY/8477851.png",
+         "firstName": {
+            "default": "Jordan"
+         },
+         "lastName": {
+            "default": "Oesterle"
+         },
+         "sweaterNumber": 82,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 72,
+         "weightInPounds": 187,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 85,
+         "birthDate": "1992-06-25",
+         "birthCity": {
+            "default": "Dearborn Heights"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "MI"
+         }
+      },
+      {
          "id": 8475690,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CGY/8475690.png",
          "firstName": {
@@ -494,28 +519,6 @@
          "birthStateProvince": {
             "default": "ON"
          }
-      },
-      {
-         "id": 8477507,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CGY/8477507.png",
-         "firstName": {
-            "default": "Nikita"
-         },
-         "lastName": {
-            "default": "Zadorov"
-         },
-         "sweaterNumber": 16,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 78,
-         "weightInPounds": 248,
-         "heightInCentimeters": 198,
-         "weightInKilograms": 112,
-         "birthDate": "1995-04-16",
-         "birthCity": {
-            "default": "Moscow"
-         },
-         "birthCountry": "RUS"
       }
    ],
    "goalies": [

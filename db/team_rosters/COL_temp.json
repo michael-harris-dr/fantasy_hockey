@@ -442,6 +442,31 @@
          }
       },
       {
+         "id": 8484258,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/COL/8484258.png",
+         "firstName": {
+            "default": "Sam"
+         },
+         "lastName": {
+            "default": "Malinski"
+         },
+         "sweaterNumber": 70,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 71,
+         "weightInPounds": 190,
+         "heightInCentimeters": 180,
+         "weightInKilograms": 86,
+         "birthDate": "1998-07-27",
+         "birthCity": {
+            "default": "Lakeville"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "MN"
+         }
+      },
+      {
          "id": 8476312,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/COL/8476312.png",
          "firstName": {

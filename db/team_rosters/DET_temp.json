@@ -148,31 +148,6 @@
          "birthCountry": "RUS"
       },
       {
-         "id": 8477946,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/DET/8477946.png",
-         "firstName": {
-            "default": "Dylan"
-         },
-         "lastName": {
-            "default": "Larkin"
-         },
-         "sweaterNumber": 71,
-         "positionCode": "C",
-         "shootsCatches": "L",
-         "heightInInches": 73,
-         "weightInPounds": 199,
-         "heightInCentimeters": 185,
-         "weightInKilograms": 90,
-         "birthDate": "1996-07-30",
-         "birthCity": {
-            "default": "Waterford"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "MI"
-         }
-      },
-      {
          "id": 8474102,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/DET/8474102.png",
          "firstName": {
@@ -253,7 +228,7 @@
          "lastName": {
             "default": "Sprong"
          },
-         "sweaterNumber": 88,
+         "sweaterNumber": 17,
          "positionCode": "R",
          "shootsCatches": "R",
          "heightInInches": 72,

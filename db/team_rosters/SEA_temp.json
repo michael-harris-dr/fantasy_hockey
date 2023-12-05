@@ -244,6 +244,34 @@
          }
       },
       {
+         "id": 8480226,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SEA/8480226.png",
+         "firstName": {
+            "default": "Mari\u00e1n",
+            "de": "Marian",
+            "es": "Marian",
+            "fi": "Marian",
+            "sv": "Marian"
+         },
+         "lastName": {
+            "default": "Studenic",
+            "cs": "Studeni\u010d",
+            "sk": "Studeni\u010d"
+         },
+         "sweaterNumber": 43,
+         "positionCode": "R",
+         "shootsCatches": "L",
+         "heightInInches": 73,
+         "weightInPounds": 190,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 86,
+         "birthDate": "1998-10-28",
+         "birthCity": {
+            "default": "Skalica"
+         },
+         "birthCountry": "SVK"
+      },
+      {
          "id": 8479293,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SEA/8479293.png",
          "firstName": {

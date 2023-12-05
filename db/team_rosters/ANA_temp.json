@@ -73,7 +73,10 @@
          "birthCity": {
             "default": "Rouen"
          },
-         "birthCountry": "FRA"
+         "birthCountry": "FRA",
+         "birthStateProvince": {
+            "default": "QC"
+         }
       },
       {
          "id": 8474641,

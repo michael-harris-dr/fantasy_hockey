@@ -223,36 +223,6 @@
          }
       },
       {
-         "id": 8479423,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/PIT/8479423.png",
-         "firstName": {
-            "default": "Alex",
-            "cs": "Alexander",
-            "de": "Alexander",
-            "fi": "Alexander",
-            "sk": "Alexander",
-            "sv": "Alexander"
-         },
-         "lastName": {
-            "default": "Nylander"
-         },
-         "sweaterNumber": 11,
-         "positionCode": "L",
-         "shootsCatches": "R",
-         "heightInInches": 73,
-         "weightInPounds": 192,
-         "heightInCentimeters": 185,
-         "weightInKilograms": 87,
-         "birthDate": "1998-03-02",
-         "birthCity": {
-            "default": "Calgary"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "AB"
-         }
-      },
-      {
          "id": 8482055,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/PIT/8482055.png",
          "firstName": {

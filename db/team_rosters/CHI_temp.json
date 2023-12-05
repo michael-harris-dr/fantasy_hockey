@@ -51,6 +51,31 @@
          }
       },
       {
+         "id": 8478463,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CHI/8478463.png",
+         "firstName": {
+            "default": "Anthony"
+         },
+         "lastName": {
+            "default": "Beauvillier"
+         },
+         "sweaterNumber": 91,
+         "positionCode": "L",
+         "shootsCatches": "L",
+         "heightInInches": 71,
+         "weightInPounds": 180,
+         "heightInCentimeters": 180,
+         "weightInKilograms": 82,
+         "birthDate": "1997-06-08",
+         "birthCity": {
+            "default": "Sorel-Tracy"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "QC"
+         }
+      },
+      {
          "id": 8484144,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CHI/8484144.png",
          "firstName": {
@@ -321,31 +346,6 @@
             "default": "Munsingen"
          },
          "birthCountry": "CHE"
-      },
-      {
-         "id": 8470621,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CHI/8470621.png",
-         "firstName": {
-            "default": "Corey"
-         },
-         "lastName": {
-            "default": "Perry"
-         },
-         "sweaterNumber": 94,
-         "positionCode": "R",
-         "shootsCatches": "R",
-         "heightInInches": 75,
-         "weightInPounds": 208,
-         "heightInCentimeters": 191,
-         "weightInKilograms": 94,
-         "birthDate": "1985-05-16",
-         "birthCity": {
-            "default": "Peterborough"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "ON"
-         }
       },
       {
          "id": 8479390,

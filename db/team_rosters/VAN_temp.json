@@ -23,31 +23,6 @@
          "birthCountry": "SWE"
       },
       {
-         "id": 8478463,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8478463.png",
-         "firstName": {
-            "default": "Anthony"
-         },
-         "lastName": {
-            "default": "Beauvillier"
-         },
-         "sweaterNumber": 72,
-         "positionCode": "L",
-         "shootsCatches": "L",
-         "heightInInches": 71,
-         "weightInPounds": 180,
-         "heightInCentimeters": 180,
-         "weightInKilograms": 82,
-         "birthDate": "1997-06-08",
-         "birthCity": {
-            "default": "Sorel-Tracy"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "QC"
-         }
-      },
-      {
          "id": 8476927,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8476927.png",
          "firstName": {
@@ -194,6 +169,28 @@
          "birthStateProvince": {
             "default": "MI"
          }
+      },
+      {
+         "id": 8481024,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8481024.png",
+         "firstName": {
+            "default": "Linus"
+         },
+         "lastName": {
+            "default": "Karlsson"
+         },
+         "sweaterNumber": 94,
+         "positionCode": "C",
+         "shootsCatches": "R",
+         "heightInInches": 73,
+         "weightInPounds": 178,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 81,
+         "birthDate": "1999-11-16",
+         "birthCity": {
+            "default": "Eksj\u00f6"
+         },
+         "birthCountry": "SWE"
       },
       {
          "id": 8483808,
@@ -417,31 +414,6 @@
          }
       },
       {
-         "id": 8484254,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8484254.png",
-         "firstName": {
-            "default": "Akito"
-         },
-         "lastName": {
-            "default": "Hirose"
-         },
-         "sweaterNumber": 41,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 72,
-         "weightInPounds": 170,
-         "heightInCentimeters": 183,
-         "weightInKilograms": 77,
-         "birthDate": "1999-04-09",
-         "birthCity": {
-            "default": "Calgary"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "AB"
-         }
-      },
-      {
          "id": 8479425,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8479425.png",
          "firstName": {
@@ -489,6 +461,31 @@
          }
       },
       {
+         "id": 8475625,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8475625.png",
+         "firstName": {
+            "default": "Matt"
+         },
+         "lastName": {
+            "default": "Irwin"
+         },
+         "sweaterNumber": 52,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 74,
+         "weightInPounds": 200,
+         "heightInCentimeters": 188,
+         "weightInKilograms": 91,
+         "birthDate": "1987-11-29",
+         "birthCity": {
+            "default": "Victoria"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "BC"
+         }
+      },
+      {
          "id": 8478454,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8478454.png",
          "firstName": {
@@ -511,31 +508,6 @@
          "birthCountry": "CAN",
          "birthStateProvince": {
             "default": "BC"
-         }
-      },
-      {
-         "id": 8484287,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8484287.png",
-         "firstName": {
-            "default": "Cole"
-         },
-         "lastName": {
-            "default": "McWard"
-         },
-         "sweaterNumber": 48,
-         "positionCode": "D",
-         "shootsCatches": "R",
-         "heightInInches": 73,
-         "weightInPounds": 192,
-         "heightInCentimeters": 185,
-         "weightInKilograms": 87,
-         "birthDate": "2001-06-09",
-         "birthCity": {
-            "default": "Fenton"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "MO"
          }
       },
       {
@@ -612,6 +584,27 @@
          "birthStateProvince": {
             "default": "AB"
          }
+      },
+      {
+         "id": 8477507,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8477507.png",
+         "firstName": {
+            "default": "Nikita"
+         },
+         "lastName": {
+            "default": "Zadorov"
+         },
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 78,
+         "weightInPounds": 248,
+         "heightInCentimeters": 198,
+         "weightInKilograms": 112,
+         "birthDate": "1995-04-16",
+         "birthCity": {
+            "default": "Moscow"
+         },
+         "birthCountry": "RUS"
       }
    ],
    "goalies": [

@@ -519,31 +519,6 @@
          "birthStateProvince": {
             "default": "SK"
          }
-      },
-      {
-         "id": 8481056,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NSH/8481056.png",
-         "firstName": {
-            "default": "Spencer"
-         },
-         "lastName": {
-            "default": "Stastney"
-         },
-         "sweaterNumber": 24,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 72,
-         "weightInPounds": 184,
-         "heightInCentimeters": 183,
-         "weightInKilograms": 83,
-         "birthDate": "2000-01-04",
-         "birthCity": {
-            "default": "Woodridge"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "IL"
-         }
       }
    ],
    "goalies": [

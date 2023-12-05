@@ -217,6 +217,31 @@
          "birthCountry": "RUS"
       },
       {
+         "id": 8479968,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/MIN/8479968.png",
+         "firstName": {
+            "default": "Vinni"
+         },
+         "lastName": {
+            "default": "Lettieri"
+         },
+         "sweaterNumber": 10,
+         "positionCode": "C",
+         "shootsCatches": "R",
+         "heightInInches": 70,
+         "weightInPounds": 184,
+         "heightInCentimeters": 178,
+         "weightInKilograms": 83,
+         "birthDate": "1995-02-06",
+         "birthCity": {
+            "default": "Excelsior"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "MN"
+         }
+      },
+      {
          "id": 8474034,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/MIN/8474034.png",
          "firstName": {

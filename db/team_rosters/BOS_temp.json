@@ -465,31 +465,6 @@
          }
       },
       {
-         "id": 8480070,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BOS/8480070.png",
-         "firstName": {
-            "default": "Ian"
-         },
-         "lastName": {
-            "default": "Mitchell"
-         },
-         "sweaterNumber": 14,
-         "positionCode": "D",
-         "shootsCatches": "R",
-         "heightInInches": 72,
-         "weightInPounds": 192,
-         "heightInCentimeters": 183,
-         "weightInKilograms": 87,
-         "birthDate": "1999-01-18",
-         "birthCity": {
-            "default": "St. Albert"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "AB"
-         }
-      },
-      {
          "id": 8474031,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BOS/8474031.png",
          "firstName": {

@@ -139,6 +139,31 @@
          }
       },
       {
+         "id": 8478956,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NJD/8478956.png",
+         "firstName": {
+            "default": "Samuel"
+         },
+         "lastName": {
+            "default": "Laberge"
+         },
+         "sweaterNumber": 79,
+         "positionCode": "L",
+         "shootsCatches": "L",
+         "heightInInches": 74,
+         "weightInPounds": 206,
+         "heightInCentimeters": 188,
+         "weightInKilograms": 93,
+         "birthDate": "1997-04-10",
+         "birthCity": {
+            "default": "Chateauguay"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "QC"
+         }
+      },
+      {
          "id": 8477508,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NJD/8477508.png",
          "firstName": {

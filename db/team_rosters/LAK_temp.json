@@ -486,28 +486,6 @@
          "birthCountry": "RUS"
       },
       {
-         "id": 8479421,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/LAK/8479421.png",
-         "firstName": {
-            "default": "Jacob"
-         },
-         "lastName": {
-            "default": "Moverare"
-         },
-         "sweaterNumber": 57,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 75,
-         "weightInPounds": 210,
-         "heightInCentimeters": 191,
-         "weightInKilograms": 95,
-         "birthDate": "1998-08-31",
-         "birthCity": {
-            "default": "Ostersund"
-         },
-         "birthCountry": "SWE"
-      },
-      {
          "id": 8478911,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/LAK/8478911.png",
          "firstName": {

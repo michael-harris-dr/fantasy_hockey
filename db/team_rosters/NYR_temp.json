@@ -26,6 +26,31 @@
          }
       },
       {
+         "id": 8477380,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NYR/8477380.png",
+         "firstName": {
+            "default": "Jonny"
+         },
+         "lastName": {
+            "default": "Brodzinski"
+         },
+         "sweaterNumber": 22,
+         "positionCode": "C",
+         "shootsCatches": "R",
+         "heightInInches": 72,
+         "weightInPounds": 204,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 93,
+         "birthDate": "1993-06-19",
+         "birthCity": {
+            "default": "Ham Lake"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "MN"
+         }
+      },
+      {
          "id": 8480078,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NYR/8480078.png",
          "firstName": {
@@ -412,31 +437,6 @@
          "birthCountry": "USA",
          "birthStateProvince": {
             "default": "MN"
-         }
-      },
-      {
-         "id": 8482067,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NYR/8482067.png",
-         "firstName": {
-            "default": "Connor"
-         },
-         "lastName": {
-            "default": "Mackey"
-         },
-         "sweaterNumber": 14,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 75,
-         "weightInPounds": 204,
-         "heightInCentimeters": 191,
-         "weightInKilograms": 93,
-         "birthDate": "1996-09-12",
-         "birthCity": {
-            "default": "Tower Lakes"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "IL"
          }
       },
       {

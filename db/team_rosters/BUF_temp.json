@@ -26,6 +26,31 @@
          }
       },
       {
+         "id": 8482061,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BUF/8482061.png",
+         "firstName": {
+            "default": "Brandon"
+         },
+         "lastName": {
+            "default": "Biro"
+         },
+         "sweaterNumber": 15,
+         "positionCode": "L",
+         "shootsCatches": "L",
+         "heightInInches": 71,
+         "weightInPounds": 170,
+         "heightInCentimeters": 180,
+         "weightInKilograms": 77,
+         "birthDate": "1998-03-11",
+         "birthCity": {
+            "default": "Sherwood Park"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "AB"
+         }
+      },
+      {
          "id": 8481528,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BUF/8481528.png",
          "firstName": {
@@ -71,6 +96,31 @@
             "default": "Riga"
          },
          "birthCountry": "LVA"
+      },
+      {
+         "id": 8478413,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BUF/8478413.png",
+         "firstName": {
+            "default": "Jordan"
+         },
+         "lastName": {
+            "default": "Greenway"
+         },
+         "sweaterNumber": 12,
+         "positionCode": "L",
+         "shootsCatches": "L",
+         "heightInInches": 78,
+         "weightInPounds": 231,
+         "heightInCentimeters": 198,
+         "weightInKilograms": 105,
+         "birthDate": "1997-02-16",
+         "birthCity": {
+            "default": "Canton"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "NY"
+         }
       },
       {
          "id": 8479370,
@@ -121,28 +171,6 @@
          "birthStateProvince": {
             "default": "AB"
          }
-      },
-      {
-         "id": 8483468,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BUF/8483468.png",
-         "firstName": {
-            "default": "Jiri"
-         },
-         "lastName": {
-            "default": "Kulich"
-         },
-         "sweaterNumber": 20,
-         "positionCode": "C",
-         "shootsCatches": "L",
-         "heightInInches": 73,
-         "weightInPounds": 186,
-         "heightInCentimeters": 185,
-         "weightInKilograms": 84,
-         "birthDate": "2004-04-14",
-         "birthCity": {
-            "default": "Kadan"
-         },
-         "birthCountry": "CZE"
       },
       {
          "id": 8479999,
@@ -556,31 +584,6 @@
          "birthCountry": "CAN",
          "birthStateProvince": {
             "default": "AB"
-         }
-      },
-      {
-         "id": 8482221,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BUF/8482221.png",
-         "firstName": {
-            "default": "Devon"
-         },
-         "lastName": {
-            "default": "Levi"
-         },
-         "sweaterNumber": 27,
-         "positionCode": "G",
-         "shootsCatches": "L",
-         "heightInInches": 72,
-         "weightInPounds": 192,
-         "heightInCentimeters": 183,
-         "weightInKilograms": 87,
-         "birthDate": "2001-12-27",
-         "birthCity": {
-            "default": "Dollard-des-Ormeaux"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "QC"
          }
       },
       {

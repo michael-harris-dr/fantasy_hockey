@@ -447,6 +447,37 @@
          "birthCountry": "SWE"
       },
       {
+         "id": 8479320,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TOR/8479320.png",
+         "firstName": {
+            "default": "Max",
+            "cs": "Maxime",
+            "de": "Maxime",
+            "es": "Maxime",
+            "fi": "Maxime",
+            "sk": "Maxime",
+            "sv": "Maxime"
+         },
+         "lastName": {
+            "default": "Lajoie"
+         },
+         "sweaterNumber": 48,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 73,
+         "weightInPounds": 191,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 87,
+         "birthDate": "1997-11-05",
+         "birthCity": {
+            "default": "Quebec City"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "QC"
+         }
+      },
+      {
          "id": 8480043,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TOR/8480043.png",
          "firstName": {

@@ -123,6 +123,31 @@
          }
       },
       {
+         "id": 8482660,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CBJ/8482660.png",
+         "firstName": {
+            "default": "Kent"
+         },
+         "lastName": {
+            "default": "Johnson"
+         },
+         "sweaterNumber": 91,
+         "positionCode": "C",
+         "shootsCatches": "L",
+         "heightInInches": 72,
+         "weightInPounds": 178,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 81,
+         "birthDate": "2002-10-18",
+         "birthCity": {
+            "default": "Port Moody"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "BC"
+         }
+      },
+      {
          "id": 8476374,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CBJ/8476374.png",
          "firstName": {
