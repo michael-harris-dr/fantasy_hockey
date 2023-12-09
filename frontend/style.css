@@ -1,0 +1,42 @@
+html {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+    background-color: #14155c;
+}
+
+body {
+    height: 100%;
+    min-height: 100%;
+    line-height: 1.75;
+    background-color: #8566db;
+
+    text-align: center;
+}
+
+#player_search_form {
+    text-align: center;
+    display: block;
+}
+
+#player_name {
+    white-space: pre-wrap;
+}
+
+#stat_table:nth-child(2) {
+    font-family:"arial";
+    width: 1000px;
+}
+
+.heads > * {
+    border: 1px solid black;
+}
+
+#table_player_name {
+    width: 10% !important;
+}
+
+.table_stat {
+    width: 300px;
+}

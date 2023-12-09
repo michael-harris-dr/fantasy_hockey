@@ -1,13 +1,50 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Hello World
-        </title>
-        <div>
-            <strong>
-                Strong Div Head
-            </strong>
-        </div>
-    </head>
+<html lang="en">
+
+
+<head>
+    <title>Fantasy Hockey</title>
+    <link rel="icon" type="image/x-icon" href="assets/fav.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <title>
+        Hello World
+    </title>
+    <strong>
+        Strong Div
+    </strong>
+    <form id="player_search_form">
+        <input type="text" id="search_field" name="player_search">
+        <input type="button" id="search_button" value="Fetch">
+    </form>
+    <div id="test">
+        <pre id="player_name">
+        </pre>
+    </div>
+
+    <input type="button" id="call_api" value="Go!">
+    <table id="stat_table">
+        <tr id="headers" class="heads">
+            <th>Player</th class = "table_player_name">
+            <th>gp</th class = "table_stat">
+            <th>g</th class = "table_stat">
+            <th>a</th class = "table_stat">
+            <th>p</th class = "table_stat">
+            <th>sh%</th class = "table_stat">
+        </tr>
+    </table>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
 </html>
