@@ -24,19 +24,22 @@ body {
     white-space: pre-wrap;
 }
 
-#stat_table:nth-child(2) {
+.stat_table {
     font-family:"arial";
-    width: 1000px;
+    width: 70%;
+    margin: auto;
+    border: 1px solid;
 }
 
-.heads > * {
-    border: 1px solid black;
+.num {
+    width: 10%;
 }
 
-#table_player_name {
-    width: 10% !important;
-}
-
-.table_stat {
+.table_stat 
+{
     width: 300px;
+}
+
+body {
+    border-radius: 20px;
 }
