@@ -2,22 +2,23 @@ var nameList = []
 var tableData = []
 
 //changes to the following HTML should be reflected in index.html
-const staticTableHTML = '        <colgroup>												\
-									<col class="player_col">							\
-									<col class="gp_col num">							\
-									<col class="g_col num">								\
-									<col class="a_col num">								\
-									<col class="p_col num">								\
-									<col class="shp_col num">							\
-								</colgroup>												\
-									<tr id="headers" class="heads">						\
-										<th>Player</th class = "table_player_name">		\
-										<th>gp</th class = "table_stat">				\
-										<th>g</th class = "table_stat">					\
-										<th>a</th class = "table_stat">					\
-										<th>p</th class = "table_stat">					\
-										<th>sh%</th class = "table_stat">				\
-									</tr>'
+const staticTableHTML = `        <colgroup>
+									<col class="picture_col">
+									<col class="player_col">
+									<col class="gp_col num">
+									<col class="g_col num">
+									<col class="a_col num">
+									<col class="p_col num">
+									<col class="shp_col num">
+								</colgroup>
+									<tr id="headers" class="heads">
+										<th colspan="2" class = "table_player_name">Player</th>
+										<th class = "table_stat">GP</th>
+										<th class = "table_stat">G</th>
+										<th class = "table_stat">A</th>
+										<th class = "table_stat">P</th>
+										<th class = "table_stat">SH%</th>
+									</tr>`
 
 $(document).ready(function () {
 
@@ -32,10 +33,10 @@ $(document).ready(function () {
 	});
 
 	$(document).on('click', '#search_button', async function () {
+
 		console.log("CLICKED SEARCH BUTTON")
 
 		var field_val = pascalify( $('#search_field').val() )
-		console.log(field_val);
 
 		$.ajax({
 			type: 'GET',
@@ -48,17 +49,13 @@ $(document).ready(function () {
 				"Player": field_val
 			},
 			success: function (data, status) {
-				console.log('data: ', data);
-				console.log('status: ', status);
+				console.log('http://127.0.0.1:8000/validatePlayer: ', data)
 
-				const obj = JSON.parse(data);
-				console.log(obj == true);
-
-				if (obj && !(nameList.includes(field_val))) //if player exists API returns TRUE and player name isn't already in the list of names
+				if (data && !(nameList.includes(field_val))) //if player exists API returns TRUE and player name isn't already in the list of names
 				{
-					console.log(nameList, field_val)
-					update_list()
 					nameList.push(field_val)
+					console.log('nameList: ', nameList)
+					update_list()
 				}
 			}
 		});
@@ -80,14 +77,11 @@ $(document).ready(function () {
 				"Players": JSON.stringify(nameList)
 			},
 			success: function (data, status) {
-				console.log('data: ', JSON.parse(data));
-				console.log('status: ', status);
+				console.log('http://127.0.0.1:8000/players: ', JSON.parse(data));
 
 				if (Object.keys(data).length > 2) 
 				{
 					tableData = (JSON.parse(data))
-					console.log("TABLEDATA NOW ", tableData)
-					update_list()
 					update_table()
 				}
 			}
@@ -103,7 +97,6 @@ function pascalify(string)
 
 function update_list()
 {
-	console.log("SFJA:")
 	let nameString = ""
 	for (const name of nameList)
 	{
@@ -116,19 +109,22 @@ function update_list()
 
 function update_table()
 {
-	console.log("TABLEDATA: ", tableData)
+	console.log("tableData: ", tableData)
 	let tableHTML = staticTableHTML
 	for (var player in tableData)
 	{
+		stats = tableData[player]
+		console.log(stats)
 		console.log(player)
-		tableHTML +=    '<tr id="headers" class="heads">		\
-						<th>'+tableData[player]["lastName"]+" "+tableData[player]["special"]+'</th class = "table_player_name">   \
-						<th>gp</th class = "table_stat">        \
-						<th>g</th class = "table_stat">         \
-						<th>a</th class = "table_stat">         \
-						<th>p</th class = "table_stat">         \
-						<th>sh%</th class = "table_stat">       \
-						</tr>'
+		tableHTML +=    `<tr id="${stats["id"]}_row" class="table_row">
+						<td class = table_pic><img class="headshot" src=${stats["headshot"]}></td>
+						<td class = "table_player_name">${stats["lastName"]} ${stats["special"]}</td>
+						<td class = "table_stat">${stats["seasons"]["20232024"]["gp"]}</td>
+						<td class = "table_stat">${stats["seasons"]["20232024"]["goals"]}</td>
+						<td class = "table_stat">${stats["seasons"]["20232024"]["assists"]}</td>
+						<td class = "table_stat">${stats["seasons"]["20232024"]["points"]}</td>
+						<td class = "table_stat">${(100 * stats["seasons"]["20232024"]["shp"]).toFixed(1)}</td>
+						</tr>`
 	}
 	$('#stat_table').html(tableHTML)
 }

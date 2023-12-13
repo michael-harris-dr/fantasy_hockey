@@ -11,7 +11,7 @@ body {
     min-height: 100%;
     line-height: 1.75;
     background-color: #8566db;
-
+    border-radius: 20px;
     text-align: center;
 }
 
@@ -35,11 +35,18 @@ body {
     width: 10%;
 }
 
+.table_row {
+    outline: 1px solid;
+    font-size: 28px;
+    width: 100px;
+} 
+
+.headshot {
+    width: 100px;
+}
+
 .table_stat 
 {
     width: 300px;
-}
-
-body {
-    border-radius: 20px;
+    font-weight: 100;
 }

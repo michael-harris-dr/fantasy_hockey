@@ -144,7 +144,7 @@ def separate_namesakes(playerStats):
         if(identifier_depth == 0):
             playerStats[player]["special"] = ""
         elif(identifier_depth == 1):
-            playerStats[player]["special"] = playerStats[player]["team"]
+            playerStats[player]["special"] = "(" + playerStats[player]["team"] + ")"
         elif(identifier_depth == 2):
             playerStats[player]["special"] = playerStats[player]["firstName"][:1] + "."
         elif(identifier_depth == 3):
@@ -175,7 +175,9 @@ def get_last_x_seasons(qty, playerInfo):
     newPlayer = dict(playerInfo)
     newPlayer["recentSeasons"] = dict(newSeasons)
 
-    return newPlayer
+    #return newPlayer
+    #TEMPORARILY DISABLED
+    return playerInfo
 
 #TODO: add a weighted consolidated_seasons
 
