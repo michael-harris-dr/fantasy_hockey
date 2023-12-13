@@ -3,37 +3,6 @@ import requests
 import json
 import constant
 
-global DEBUG
-global LEVEL
-DEBUG = 0
-
-def update_db():
-    '''
-    update_db()
-        updates every team roster JSON by pulling from 'https://api-web.nhle.com/v1/roster/{teamCode}/current'
-    '''
-    fp2 = open("NHL_TEAMS.json")
-    teamsJson = json.load(fp2)
-
-    for team in teamsJson["teams"]:
-
-        teamCode = team["abbreviation"]
-        if(DEBUG):print(teamCode)
-
-        req = f"https://api-web.nhle.com/v1/roster/{teamCode}/current"
-        resp = requests.get(req)
-
-        print(resp.status_code)
-        if(resp.status_code != 200):
-            print(f"Response for {req} not OK, terminating with code {resp.status_code}...")
-            exit()
-
-        jason = json.loads(resp.text)
-
-        fp = open(f"{constant.ROSTERS_PATH}{teamCode}_temp.json", "w+")
-        json.dump(jason, fp, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=3, separators=None)
-        fp.close()
-    fp2.close()
 
 def load_team_ids(filename):
     '''
@@ -57,28 +26,17 @@ def load_team_ids(filename):
     idTeam = {}
     for team in nhlJson["teams"]:
         idTeam[team["abbreviation"]] = team["name"]
-    if(DEBUG):print(idTeam)
     return idTeam
 
 pascal_case = lambda name : name[:1].upper() + name[1:].lower() #makes text pascal case (PascalCaseIsLikeThis)
 
-def input_names():
-    '''
-    input_names
-        has the user input names of players and separates them into an array   
-    
-        Return:
-            nameListCopy
-                - array of player names (e.g. [Matthews,Marner,Tavares])
-    '''
-    inp = input("Enter player surnames (separated by ',' or ' '): ")
-    nameList = inp.replace(" ",",").split(',')
+def pascalify_names(nameList):
+
     nameListCopy = []
 
     for name in nameList:
         nameListCopy.append(pascal_case(name))
 
-    if(DEBUG):print(f"NAME COPY = {nameListCopy}")
     return nameListCopy
 
 def find_players(nameList, idTeam):
@@ -167,6 +125,7 @@ def populate_stats(playerInfo):
                                                     "shp" : season["shootingPctg"]
                                                 }
         playerInfo[player]["seasons"] = nhlSeasons
+        playerInfo[player]["headshot"] = playerStats["headshot"]
     return playerInfo
 
 def separate_namesakes(playerStats):
@@ -185,7 +144,7 @@ def separate_namesakes(playerStats):
         if(identifier_depth == 0):
             playerStats[player]["special"] = ""
         elif(identifier_depth == 1):
-            playerStats[player]["special"] = playerStats[player]["team"]
+            playerStats[player]["special"] = "(" + playerStats[player]["team"] + ")"
         elif(identifier_depth == 2):
             playerStats[player]["special"] = playerStats[player]["firstName"][:1] + "."
         elif(identifier_depth == 3):
@@ -193,7 +152,6 @@ def separate_namesakes(playerStats):
         else:
             playerStats[player]["special"] = "ERROR"
             quit()
-        if(DEBUG):print(player + ":" + str(identifier_depth))
 
 def print_player_stats(playerStats):
     
@@ -217,32 +175,30 @@ def get_last_x_seasons(qty, playerInfo):
     newPlayer = dict(playerInfo)
     newPlayer["recentSeasons"] = dict(newSeasons)
 
-    return newPlayer
-
+    #return newPlayer
+    #TEMPORARILY DISABLED
+    return playerInfo
 
 #TODO: add a weighted consolidated_seasons
 
-
-
 year_diff = lambda current, given : int(str(current)[:4]) - int(str(given)[:4])
 
-def main():
+def find_one_player(name, idTeam):
+    found = 0
+    for code in idTeam:   #for every team in the league
+        #open and load the corresponding JSON for the current team
+        fp2 = open(f"{constant.ROSTERS_PATH}{code}_temp.json")
+        teamJson = json.load(fp2)
 
-    idTeam = load_team_ids(constant.TEAM_LIST_PATH)
-    #update_db()
-    nameList = input_names()
-
-    playerInfo = find_players(nameList, idTeam)
-    playerStats = populate_stats(playerInfo)
-    print_player_stats(playerStats)
-
-    #if(DEBUG):print(update_db.__doc__)
-
-    for player in playerStats:
-        playerStats[player] = get_last_x_seasons(2, playerStats[player])
-    print(playerStats)
-
-    
-
-main()
-#TODO: MAKE LEVELED PRINT STATEMENTS
+        for person in teamJson["forwards"]: #for every forward                
+            if(name == person["lastName"]["default"]):  #if the last name of the current player matches the last name of the current desired player
+                print(f"Found {name} on " + code)
+                found = 1
+        for person in teamJson["defensemen"]: #for every dman      
+            if(name == person["lastName"]["default"]):  #if the last name of the current player matches the last name of the current desired player
+                print(f"Found {name} on " + code)
+                found = 1
+        if(found):
+            return True
+        fp2.close()
+    return False

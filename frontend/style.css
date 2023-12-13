@@ -1,0 +1,52 @@
+html {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+    background-color: #14155c;
+}
+
+body {
+    height: 100%;
+    min-height: 100%;
+    line-height: 1.75;
+    background-color: #8566db;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#player_search_form {
+    text-align: center;
+    display: block;
+}
+
+#player_name {
+    white-space: pre-wrap;
+}
+
+.stat_table {
+    font-family:"arial";
+    width: 70%;
+    margin: auto;
+    border: 1px solid;
+}
+
+.num {
+    width: 10%;
+}
+
+.table_row {
+    outline: 1px solid;
+    font-size: 28px;
+    width: 100px;
+} 
+
+.headshot {
+    width: 100px;
+}
+
+.table_stat 
+{
+    width: 300px;
+    font-weight: 100;
+}

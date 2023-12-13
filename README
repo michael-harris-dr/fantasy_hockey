@@ -1,0 +1,1 @@
+in /backend run "pipenv run uvicorn endpoints:app --reload" to start
