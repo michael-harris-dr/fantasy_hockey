@@ -18,7 +18,7 @@ app.add_middleware(
 	allow_headers=["*"],
 )
 
-@app.get("/health")
+@app.get("/health", status_code=200)
 def health():
 	return {"status" : "up and running"}
 
