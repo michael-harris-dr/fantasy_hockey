@@ -41,16 +41,16 @@ $(document).ready(function () {
 		$.ajax({
 			type: 'GET',
 			dataType: "json",
-			url: 'http://127.0.0.1:10000/validatePlayer',
+			url: 'https://fantasy-hockey.onrender.com/validatePlayer',
 			headers: {
-				"Access-Control-Allow-origin": "True",
+				"Access-Control-Allow-Origin": "True",
 				"x-api-key": "temp120681689"
 			},
 			data: {
 				"Player": field_val
 			},
 			success: function (data, status) {
-				console.log('http://127.0.0.1:10000/validatePlayer: ', data)
+				console.log('https://fantasy-hockey.onrender.com/validatePlayer: ', data)
 
 				if (data && !(nameList.includes(field_val))) //if player exists API returns TRUE and player name isn't already in the list of names
 				{
@@ -69,16 +69,16 @@ $(document).ready(function () {
 		$.ajax({
 			type: 'GET',
 			dataType: "json",
-			url: 'http://127.0.0.1:10000/players',
+			url: 'https://fantasy-hockey.onrender.com/players',
 			headers: {
-				"Access-Control-Allow-origin": "True",
+				"Access-Control-Allow-Origin": "True",
 				"x-api-key": "4132"
 			},
 			data: {
 				"Players": JSON.stringify(nameList)
 			},
 			success: function (data, status) {
-				console.log('http://127.0.0.1:10000/players: ', JSON.parse(data));
+				console.log('https://fantasy-hockey.onrender.com/players: ', JSON.parse(data));
 
 				if (Object.keys(data).length > 2) 
 				{
