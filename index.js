@@ -41,7 +41,7 @@ $(document).ready(function () {
 		$.ajax({
 			type: 'GET',
 			dataType: "json",
-			url: 'http://127.0.0.1:8000/validatePlayer',
+			url: 'http://127.0.0.1:10000/validatePlayer',
 			headers: {
 				"Access-Control-Allow-origin": "True",
 				"x-api-key": "temp120681689"
@@ -50,7 +50,7 @@ $(document).ready(function () {
 				"Player": field_val
 			},
 			success: function (data, status) {
-				console.log('http://127.0.0.1:8000/validatePlayer: ', data)
+				console.log('http://127.0.0.1:10000/validatePlayer: ', data)
 
 				if (data && !(nameList.includes(field_val))) //if player exists API returns TRUE and player name isn't already in the list of names
 				{
@@ -69,7 +69,7 @@ $(document).ready(function () {
 		$.ajax({
 			type: 'GET',
 			dataType: "json",
-			url: 'http://127.0.0.1:8000/players',
+			url: 'http://127.0.0.1:10000/players',
 			headers: {
 				"Access-Control-Allow-origin": "True",
 				"x-api-key": "4132"
@@ -78,7 +78,7 @@ $(document).ready(function () {
 				"Players": JSON.stringify(nameList)
 			},
 			success: function (data, status) {
-				console.log('http://127.0.0.1:8000/players: ', JSON.parse(data));
+				console.log('http://127.0.0.1:10000/players: ', JSON.parse(data));
 
 				if (Object.keys(data).length > 2) 
 				{

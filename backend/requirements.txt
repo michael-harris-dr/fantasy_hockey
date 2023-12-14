@@ -3,4 +3,5 @@ constant
 typing
 security
 fastapi
+dotenv
 uvicorn
