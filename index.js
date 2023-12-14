@@ -43,7 +43,8 @@ $(document).ready(function () {
 			dataType: "json",
 			url: 'http://127.0.0.1:8000/validatePlayer',
 			headers: {
-				"Access-Control-Allow-origin": "True"
+				"Access-Control-Allow-origin": "True",
+				"x-api-key": "temp120681689"
 			},
 			data: {
 				"Player": field_val
@@ -64,14 +65,14 @@ $(document).ready(function () {
 	$(document).on('click', '#call_api', function () {
 		console.log("CLICKED API BUTTON");
 
-		var field_val = $('#search_field').val()
 		console.log(nameList)
 		$.ajax({
 			type: 'GET',
 			dataType: "json",
 			url: 'http://127.0.0.1:8000/players',
 			headers: {
-				"Access-Control-Allow-origin": "True"
+				"Access-Control-Allow-origin": "True",
+				"x-api-key": "4132"
 			},
 			data: {
 				"Players": JSON.stringify(nameList)
