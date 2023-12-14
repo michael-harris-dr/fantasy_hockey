@@ -1,5 +1,6 @@
 var nameList = []
 var tableData = []
+const API_URL = "http://127.0.0.1:10000"//'https://fantasy-hockey.onrender.com'
 
 //changes to the following HTML should be reflected in index.html
 const staticTableHTML = `        <colgroup>
@@ -41,7 +42,7 @@ $(document).ready(function () {
 		$.ajax({
 			type: 'GET',
 			dataType: "json",
-			url: 'https://fantasy-hockey.onrender.com/validatePlayer',
+			url: `${API_URL}/validatePlayer`,
 			headers: {
 				"Access-Control-Allow-Origin": "True",
 				"x-api-key": "temp120681689"
@@ -50,7 +51,7 @@ $(document).ready(function () {
 				"Player": field_val
 			},
 			success: function (data, status) {
-				console.log('https://fantasy-hockey.onrender.com/validatePlayer: ', data)
+				console.log(`${API_URL}/validatePlayer: `, data)
 
 				if (data && !(nameList.includes(field_val))) //if player exists API returns TRUE and player name isn't already in the list of names
 				{
@@ -69,7 +70,7 @@ $(document).ready(function () {
 		$.ajax({
 			type: 'GET',
 			dataType: "json",
-			url: 'https://fantasy-hockey.onrender.com/players',
+			url: `${API_URL}/players`,
 			headers: {
 				"Access-Control-Allow-Origin": "True",
 				"x-api-key": "4132"
@@ -78,7 +79,7 @@ $(document).ready(function () {
 				"Players": JSON.stringify(nameList)
 			},
 			success: function (data, status) {
-				console.log('https://fantasy-hockey.onrender.com/players: ', JSON.parse(data));
+				console.log(`${API_URL}/players: `, JSON.parse(data));
 
 				if (Object.keys(data).length > 2) 
 				{
