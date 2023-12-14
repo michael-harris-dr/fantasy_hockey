@@ -8,7 +8,8 @@ from helpy import myself
 API_KEY_HEADER = APIKeyHeader(name="X-API-key")
 
 def validate_api_key(x_api_key: str = Security(API_KEY_HEADER)):
-	keyList = ["temp120681689", "4132"]#os.environ.get('KEYS')
+	keyList = ["temp120681689", "4132"]
+	print(os.environ.get('KEYS'))
 	print("KEYLIST, GET YER KEYLIST HERE:")
 	print(keyList)
 	if x_api_key in keyList:
