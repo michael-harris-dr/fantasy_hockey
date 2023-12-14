@@ -1,2 +1,8 @@
+requests
+json
+constant
+inspect
+typing
+security
 fastapi
 uvicorn

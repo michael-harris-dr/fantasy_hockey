@@ -2,7 +2,9 @@ import sys
 import requests
 import json
 import constant
+import inspect
 
+myself = lambda: inspect.stack()[1][3]
 
 def load_team_ids(filename):
     '''
@@ -64,7 +66,7 @@ def find_players(nameList, idTeam):
 
             for person in teamJson["forwards"]: #for every forward                
                 if(player == person["lastName"]["default"]):  #if the last name of the current player matches the last name of the current desired player
-                    print(f"Found {player} on " + code)
+                    print(f"{myself()}: Found {player} on " + code)
 
                     temp_player_info = {"id"        : person["id"],
                                         "team"      : code,
@@ -80,7 +82,7 @@ def find_players(nameList, idTeam):
                     player = tmp
             for person in teamJson["defensemen"]: #for every dman      
                 if(player == person["lastName"]["default"]):  #if the last name of the current player matches the last name of the current desired player
-                    print(f"Found {player} on " + code)
+                    print(f"{myself()}: Found {player} on " + code)
 
                     temp_player_info = {"id"        : person["id"],
                                         "team"      : code,
@@ -103,7 +105,7 @@ def populate_stats(playerInfo):
 
     resp = requests.get(req)
     if(resp.status_code != 200):
-        print(f"Response for {req} not OK, terminating with code {resp.status_code}...")
+        print(f"{myself()}: Response for {req} not OK, terminating with code {resp.status_code}...")
         exit()
 
     playerStats = json.loads(resp.text)
@@ -154,9 +156,6 @@ def separate_namesakes(playerStats):
             quit()
 
 def print_player_stats(playerStats):
-    
-    #updatedPlayerStats = separate_namesakes(playerStats)
-    separate_namesakes(playerStats)
     for player in playerStats:
         print(playerStats[player]["lastName"] + " " + playerStats[player]["special"] + ":")
         print(playerStats[player]["seasons"])
@@ -170,7 +169,7 @@ def get_last_x_seasons(qty, playerInfo):
     for season in playerInfo["seasons"]:
         if(year_diff(constant.CURRENT_SEASON, season) < qty): #if in most recent x seasons
             newSeasons[season] = dict(playerInfo["seasons"][season])
-    print(newSeasons)
+    print(f"{myself()}: {newSeasons}")
 
     newPlayer = dict(playerInfo)
     newPlayer["recentSeasons"] = dict(newSeasons)
@@ -192,11 +191,11 @@ def find_one_player(name, idTeam):
 
         for person in teamJson["forwards"]: #for every forward                
             if(name == person["lastName"]["default"]):  #if the last name of the current player matches the last name of the current desired player
-                print(f"Found {name} on " + code)
+                print(f"{myself()}: Found {name} on " + code)
                 found = 1
         for person in teamJson["defensemen"]: #for every dman      
             if(name == person["lastName"]["default"]):  #if the last name of the current player matches the last name of the current desired player
-                print(f"Found {name} on " + code)
+                print(f"{myself()}: Found {name} on " + code)
                 found = 1
         if(found):
             return True

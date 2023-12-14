@@ -5,11 +5,11 @@ from fan import *
 from typing import Union
 import os
 from security import *
+from helpy import myself
 
 app = FastAPI()
 
 origins = ["*"]
-
 app.add_middleware(
 	CORSMiddleware,
 	allow_origins=origins,
