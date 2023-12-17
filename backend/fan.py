@@ -8,14 +8,14 @@ def valid_player(name):
 def get_player_stats(nameList):
     nameList = pascalify_names(nameList)
     idTeam = load_team_ids(constant.TEAM_LIST_PATH)
-    playerInfo = find_players(nameList, idTeam)
+    playerInfo = new_find_players(nameList, idTeam)
     playerStats = populate_stats(playerInfo)
     separate_namesakes(playerStats)
 
     #print_player_stats(playerStats)
 
     for player in playerStats:
-        playerStats[player] = get_last_x_seasons(2, playerStats[player])
+        player = get_last_x_seasons(2, player)
     return playerStats
 
 def update_db():

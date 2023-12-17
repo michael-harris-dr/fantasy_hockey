@@ -30,7 +30,9 @@ def get_player(Player: str):
 
 @app.get("/players", dependencies=[Security(validate_api_key)])
 def get_players(Players: Union[str, None] = None):
-	playerStats = get_player_stats(json.loads(Players))
+	passed = json.loads(Players)
+	print(passed)
+	playerStats = get_player_stats(passed)
 	
 	return json.dumps(playerStats)
 

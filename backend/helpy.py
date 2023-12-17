@@ -40,6 +40,52 @@ def pascalify_names(nameList):
 
     return nameListCopy
 
+def new_find_players(nameList, idTeam):
+    playerInfo = []
+
+    for player in nameList: #for every player to be looked up
+        for code in idTeam:   #for every team in the league
+            #open and load the corresponding JSON for the current team
+            fp2 = open(f"{constant.ROSTERS_PATH}{code}_temp.json")
+            teamJson = json.load(fp2)
+
+            for person in teamJson["forwards"]: #for every forward                
+                if(player == person["lastName"]["default"]):  #if the last name of the current player matches the last name of the current desired player
+                    print(f"{myself()}: Found {player} on " + code)
+
+                    temp_player_info = {"id"        : person["id"],
+                                        "team"      : code,
+                                        "firstName" : person["firstName"]["default"],
+                                        "lastName"  : person["lastName"]["default"]
+                                        }
+                    
+                    tmp = str(player)
+                    for entry in playerInfo:
+                        if(entry["lastName"] == temp_player_info["lastName"]):
+                            player = f"{player}*"
+                    playerInfo.append(temp_player_info)    #add the current player as a key in the dict with their value as their ID
+                    player = tmp
+            for person in teamJson["defensemen"]: #for every dman      
+                if(player == person["lastName"]["default"]):  #if the last name of the current player matches the last name of the current desired player
+                    print(f"{myself()}: Found {player} on " + code)
+
+                    temp_player_info = {"id"        : person["id"],
+                                        "team"      : code,
+                                        "firstName" : person["firstName"]["default"],
+                                        "lastName"  : person["lastName"]["default"]
+                                        }
+                    
+                    tmp = str(player)
+                    for entry in playerInfo:
+                        if(entry["lastName"] == temp_player_info["lastName"]):
+                            player = f"{player}*"
+                    playerInfo.append(temp_player_info)    #add the current player as a key in the dict with their value as their ID
+                    player = tmp
+            fp2.close()
+    print("ERHAFNVUADJIO:")
+    print(f"pi: {playerInfo}")
+    return playerInfo
+
 def find_players(nameList, idTeam):
     '''
     find_players
@@ -75,7 +121,7 @@ def find_players(nameList, idTeam):
                     
                     tmp = str(player)
                     for entry in playerInfo:
-                        if(playerInfo[entry]["lastName"] == temp_player_info["lastName"]):
+                        if(entry["lastName"] == temp_player_info["lastName"]):
                             player = f"{player}*"
                     playerInfo[player] = temp_player_info    #add the current player as a key in the dict with their value as their ID
                     player = tmp
@@ -91,26 +137,22 @@ def find_players(nameList, idTeam):
                     
                     tmp = str(player)
                     for entry in playerInfo:
-                        if(playerInfo[entry]["lastName"] == temp_player_info["lastName"]):
+                        if(entry["lastName"] == temp_player_info["lastName"]):
                             player = f"{player}*"
                     playerInfo[player] = temp_player_info    #add the current player as a key in the dict with their value as their ID
                     player = tmp
             fp2.close()
+    print("ERHAFNVUADJIO:")
+    print(f"pi: {playerInfo}")
     return playerInfo
 
 #populates the player's relevant stats (lifetime NHL)
 def populate_stats(playerInfo):
-    req = "https://api-web.nhle.com/v1/player/8481559/landing"
-
-    resp = requests.get(req)
-    if(resp.status_code != 200):
-        print(f"{myself()}: Response for {req} not OK, terminating with code {resp.status_code}...")
-        exit()
-
-    playerStats = json.loads(resp.text)
+    print(f"PI={playerInfo}")
     
     for player in playerInfo:
-        req = f"https://api-web.nhle.com/v1/player/{playerInfo[player]['id']}/landing"
+        print(f"PLAYER={player}")
+        req = f"https://api-web.nhle.com/v1/player/{player['id']}/landing"
         resp = requests.get(req)
 
         playerStats = json.loads(resp.text)
@@ -125,8 +167,8 @@ def populate_stats(playerInfo):
                                                     "points" : season["points"],
                                                     "shp" : season["shootingPctg"]
                                                 }
-        playerInfo[player]["seasons"] = nhlSeasons
-        playerInfo[player]["headshot"] = playerStats["headshot"]
+        player["seasons"] = nhlSeasons
+        player["headshot"] = playerStats["headshot"]
     return playerInfo
 
 def separate_namesakes(playerStats):
@@ -136,22 +178,22 @@ def separate_namesakes(playerStats):
         for player2 in playerStats:
             if player2 == player:   #ignore checking against own entry
                 continue
-            elif(playerStats[player2]["lastName"] == playerStats[player]["lastName"]): #if players not the same but same last name
+            elif(player2["lastName"] == player["lastName"]): #if players not the same but same last name
                 identifier_depth = max(1, identifier_depth)
-                if(playerStats[player2]["team"] == playerStats[player]["team"]): #if players are also on the same team
+                if(player2["team"] == player["team"]): #if players are also on the same team
                     identifier_depth = max(2, identifier_depth)
-                    if(playerStats[player2]["firstName"][:1] == playerStats[player]["firstName"][:1]): #if players on the same team share the same first initial
+                    if(player2["firstName"][:1] == player["firstName"][:1]): #if players on the same team share the same first initial
                         identifier_depth = max(3, identifier_depth)
         if(identifier_depth == 0):
-            playerStats[player]["special"] = ""
+            player["special"] = ""
         elif(identifier_depth == 1):
-            playerStats[player]["special"] = "(" + playerStats[player]["team"] + ")"
+            player["special"] = "(" + player["team"] + ")"
         elif(identifier_depth == 2):
-            playerStats[player]["special"] = playerStats[player]["firstName"][:1] + "."
+            player["special"] = player["firstName"][:1] + "."
         elif(identifier_depth == 3):
-            playerStats[player]["special"] = playerStats[player]["firstName"]
+            player["special"] = player["firstName"]
         else:
-            playerStats[player]["special"] = "ERROR"
+            player["special"] = "ERROR"
             quit()
 
 def print_player_stats(playerStats):
