@@ -1,11 +1,12 @@
 /*
-https://michael-harris-dr.github.io/fantasy_hockey2/
+https://michael-harris-dr.github.io/fantasy_hockey/
 */
 var nameList = []
 var tableData = []
 var teamGP
 
-const API_URL = "http://127.0.0.1:10000"//'https://fantasy-hockey.onrender.com'
+//const API_URL = "http://127.0.0.1:10000"//'https://fantasy-hockey.onrender.com'
+const API_URL = 'https://fantasy-hockey.onrender.com'
 
 $(document).ready(function()
 {

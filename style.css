@@ -118,4 +118,10 @@ body {
     min-height: 64px;
     text-align: center;
     vertical-align: middle;
+    line-height: 64px;
+
+    font-family: 'Arial';
+    color: antiquewhite;
+    font-size: 40px;
+    font-stretch: extra-expanded;
 }
