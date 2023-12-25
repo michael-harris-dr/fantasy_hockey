@@ -36,3 +36,7 @@ def get_players(Players: Union[str, None] = None):
 	
 	return json.dumps(playerStats)
 
+@app.get("/teams", dependencies=[Security(validate_api_key)])
+def get_players():
+	gamesPlayed = get_team_stats()
+	return json.dumps(gamesPlayed)

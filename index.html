@@ -14,44 +14,34 @@
 </head>
 
 <body>
-    <title>
-        Hello World
-    </title>
-    <strong>
-        Strong Div
-    </strong>
-    <form id="player_search_form">
-        <input type="text" id="search_field" name="player_search">
-        <input type="button" id="search_button" value="Fetch">
-    </form>
-    <div id="test">
-        <pre id="player_name">
-        </pre>
+    <header class="header_bar">
+        <div id="header_bar_div">
+            Michael's Fantasy Hockey Helper
+        </div>
+    </header>
+    <div id="search_div">
+        <form id="player_search_form" autocomplete="off">
+            <input type="text" id="search_field" name="player_search">
+            <input type="button" id="search_button" value="Go">
+        </form>
     </div>
-
-    <input type="button" id="call_api" value="Go!">
-
-    <table id="stat_table" class="stat_table">
-        <!-- the following gets loaded on page ready:
-        <colgroup>
-            <col class="picture_col">
-            <col class="player_col">
-            <col class="gp_col num">
-            <col class="g_col num">
-            <col class="a_col num">
-            <col class="p_col num">
-            <col class="shp_col num">
-        </colgroup>
-            <tr id="headers" class="heads">
-                <th colspan="2" class = "table_player_name">Player</th>
-                <th class = "table_stat">GP</th>
-                <th class = "table_stat">G</th>
-                <th class = "table_stat">A</th>
-                <th class = "table_stat">P</th>
-                <th class = "table_stat">SH%</th>
-            </tr>
-        -->
-    </table>
+    <div id="body_div">
+        <div id="table_div">
+            <table id="stat_table" class="stat_table">
+                <thead>
+                    <tr id="headers" class="heads">
+                        <th colspan="2" class = "table_player_name">Player</th>
+                        <th class="num">GP</th>
+                        <th class="num">G</th>
+                        <th class="num">A</th>
+                        <th class="num">P</th>
+                        <th class="num">SH%</th>
+                        <th class="num">FanPts</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
     
     <script src="index.js"></script>
 </body>

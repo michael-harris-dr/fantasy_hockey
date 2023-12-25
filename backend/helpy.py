@@ -40,7 +40,7 @@ def pascalify_names(nameList):
 
     return nameListCopy
 
-def new_find_players(nameList, idTeam):
+def find_players(nameList, idTeam):
     playerInfo = []
 
     for player in nameList: #for every player to be looked up
@@ -51,7 +51,7 @@ def new_find_players(nameList, idTeam):
 
             for person in teamJson["forwards"]: #for every forward                
                 if(player == person["lastName"]["default"]):  #if the last name of the current player matches the last name of the current desired player
-                    print(f"{myself()}: Found {player} on " + code)
+                    print(f"{myself()}:\tFound {player} on {code}".expandtabs(20))
 
                     temp_player_info = {"id"        : person["id"],
                                         "team"      : code,
@@ -67,7 +67,7 @@ def new_find_players(nameList, idTeam):
                     player = tmp
             for person in teamJson["defensemen"]: #for every dman      
                 if(player == person["lastName"]["default"]):  #if the last name of the current player matches the last name of the current desired player
-                    print(f"{myself()}: Found {player} on " + code)
+                    print(f"{myself()}:\tFound {player} on {code}".expandtabs(20))
 
                     temp_player_info = {"id"        : person["id"],
                                         "team"      : code,
@@ -82,76 +82,12 @@ def new_find_players(nameList, idTeam):
                     playerInfo.append(temp_player_info)    #add the current player as a key in the dict with their value as their ID
                     player = tmp
             fp2.close()
-    print("ERHAFNVUADJIO:")
-    print(f"pi: {playerInfo}")
-    return playerInfo
-
-def find_players(nameList, idTeam):
-    '''
-    find_players
-        searches every NHL roster to find matches for all given player and associate the player with the team they're on
-    
-        Parameters:
-            nameList ([str])
-                - array of player names to be searched for
-            idTeam ({str:str})
-                - team abbreviation codes associated w/ team names, used as a master list of all NHL teams to search
-        Return:
-            idTeam ({str:dict})
-                - a dict where the key is the player's last name and the value is a dict containing the player's id, team, first name and last name
-
-    '''
-    playerInfo = {}
-
-    for player in nameList: #for every player to be looked up
-        for code in idTeam:   #for every team in the league
-            #open and load the corresponding JSON for the current team
-            fp2 = open(f"{constant.ROSTERS_PATH}{code}_temp.json")
-            teamJson = json.load(fp2)
-
-            for person in teamJson["forwards"]: #for every forward                
-                if(player == person["lastName"]["default"]):  #if the last name of the current player matches the last name of the current desired player
-                    print(f"{myself()}: Found {player} on " + code)
-
-                    temp_player_info = {"id"        : person["id"],
-                                        "team"      : code,
-                                        "firstName" : person["firstName"]["default"],
-                                        "lastName"  : person["lastName"]["default"]
-                                        }
-                    
-                    tmp = str(player)
-                    for entry in playerInfo:
-                        if(entry["lastName"] == temp_player_info["lastName"]):
-                            player = f"{player}*"
-                    playerInfo[player] = temp_player_info    #add the current player as a key in the dict with their value as their ID
-                    player = tmp
-            for person in teamJson["defensemen"]: #for every dman      
-                if(player == person["lastName"]["default"]):  #if the last name of the current player matches the last name of the current desired player
-                    print(f"{myself()}: Found {player} on " + code)
-
-                    temp_player_info = {"id"        : person["id"],
-                                        "team"      : code,
-                                        "firstName" : person["firstName"]["default"],
-                                        "lastName"  : person["lastName"]["default"]
-                                        }
-                    
-                    tmp = str(player)
-                    for entry in playerInfo:
-                        if(entry["lastName"] == temp_player_info["lastName"]):
-                            player = f"{player}*"
-                    playerInfo[player] = temp_player_info    #add the current player as a key in the dict with their value as their ID
-                    player = tmp
-            fp2.close()
-    print("ERHAFNVUADJIO:")
-    print(f"pi: {playerInfo}")
     return playerInfo
 
 #populates the player's relevant stats (lifetime NHL)
-def populate_stats(playerInfo):
-    print(f"PI={playerInfo}")
-    
+def populate_stats(playerInfo):    
     for player in playerInfo:
-        print(f"PLAYER={player}")
+        print(f"{myself()}:\t playerInfo={player}".expandtabs(20))
         req = f"https://api-web.nhle.com/v1/player/{player['id']}/landing"
         resp = requests.get(req)
 

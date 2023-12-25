@@ -1,93 +1,80 @@
+/*
+https://michael-harris-dr.github.io/fantasy_hockey2/
+*/
 var nameList = []
 var tableData = []
+var teamGP
+
 const API_URL = "http://127.0.0.1:10000"//'https://fantasy-hockey.onrender.com'
 
-//changes to the following HTML should be reflected in index.html
-const staticTableHTML = `        <colgroup>
-									<col class="picture_col">
-									<col class="player_col">
-									<col class="gp_col num">
-									<col class="g_col num">
-									<col class="a_col num">
-									<col class="p_col num">
-									<col class="shp_col num">
-								</colgroup>
-									<tr id="headers" class="heads">
-										<th colspan="2" class = "table_player_name">Player</th>
-										<th class = "table_stat">GP</th>
-										<th class = "table_stat">G</th>
-										<th class = "table_stat">A</th>
-										<th class = "table_stat">P</th>
-										<th class = "table_stat">SH%</th>
-									</tr>`
+$(document).ready(function()
+{
+	$.ajax({
+		type: 'GET',
+		dataType: "json",
+		url: `${API_URL}/teams`,
+		headers: {
+			"Access-Control-Allow-Origin": "True",
+			"x-api-key": "4132"
+		},
+		data: {
+		},
+		success: function(data, status)
+		{
+			teamGP = JSON.parse(data)
+			console.log(`${API_URL}/teams: `, teamGP);
+		}
+	});
 
-$(document).ready(function () {
-
-	$('#stat_table').html(staticTableHTML)
-
-	$("#search_field").keydown(function (event) {
-		if (event.keyCode === 13) {
+	$("#search_field").keydown(function(event)
+	{
+		if(event.keyCode === 13)
+		{
 			event.preventDefault();
 			$("#search_button").click();
 			console.log("CLICK!")
 		}
 	});
 
-	$(document).on('click', '#search_button', async function () {
-
-		console.log("CLICKED SEARCH BUTTON")
-
-		var field_val = pascalify( $('#search_field').val() )
-
-		$.ajax({
-			type: 'GET',
-			dataType: "json",
-			url: `${API_URL}/validatePlayer`,
-			headers: {
-				"Access-Control-Allow-Origin": "True",
-				"x-api-key": "temp120681689"
-			},
-			data: {
-				"Player": field_val
-			},
-			success: function (data, status) {
-				console.log(`${API_URL}/validatePlayer: `, data)
-
-				if (data && !(nameList.includes(field_val))) //if player exists API returns TRUE and player name isn't already in the list of names
-				{
-					nameList.push(field_val)
-					console.log('nameList: ', nameList)
-					update_list()
-				}
-			}
-		});
-	});
-
-	$(document).on('click', '#call_api', function () {
+	$(document).on('click', '#search_button', function()
+	{
 		console.log("CLICKED API BUTTON");
-
+		var field_val = pascalify($('#search_field').val())
 		console.log(nameList)
-		$.ajax({
-			type: 'GET',
-			dataType: "json",
-			url: `${API_URL}/players`,
-			headers: {
-				"Access-Control-Allow-Origin": "True",
-				"x-api-key": "4132"
-			},
-			data: {
-				"Players": JSON.stringify(nameList)
-			},
-			success: function (data, status) {
-				console.log(`${API_URL}/players: `, JSON.parse(data));
-
-				if (Object.keys(data).length > 2) 
+		if(!(nameList.includes(field_val)))
+		{
+			console.log(nameList, field_val)
+			$.ajax({
+				type: 'GET',
+				dataType: "json",
+				url: `${API_URL}/players`,
+				headers: {
+					"Access-Control-Allow-Origin": "True",
+					"x-api-key": "4132"
+				},
+				data: {
+					"Players": JSON.stringify([field_val])
+				},
+				success: function(data, status)
 				{
-					tableData = (JSON.parse(data))
-					update_table()
+					resp = JSON.parse(data)
+					console.log(`${API_URL}/players: `, resp);
+					
+					if(Object.keys(data).length > 2) 
+					{
+						tableData = (resp)
+						add_to_table()
+					}
+
+					for (player of resp)
+					{
+						nameList.push(player["lastName"])
+					}
+	
+					console.log("nameList:", nameList)
 				}
-			}
-		});
+			});
+		}
 	});
 
 });
@@ -100,33 +87,124 @@ function pascalify(string)
 function update_list()
 {
 	let nameString = ""
-	for (const name of nameList)
+	for(const name of nameList)
 	{
-		nameString += name + '\n'
+		if(nameString == "")
+		{
+			nameString += name
+		}
+		else
+		{
+			nameString += ` | ${name}`;
+		}
 	}
 
 	$('#player_name').html(nameString);
 }
 
 
-function update_table()
+function add_to_table()
 {
 	console.log("tableData: ", tableData)
-	let tableHTML = staticTableHTML
-	for (var player in tableData)
+	for(var player in tableData)
 	{
+		projectedStats = predict_future(tableData[player])
 		stats = tableData[player]
 		console.log(stats)
-		console.log(player)
-		tableHTML +=    `<tr id="${stats["id"]}_row" class="table_row">
-						<td class = table_pic><img class="headshot" src=${stats["headshot"]}></td>
-						<td class = "table_player_name">${stats["lastName"]} ${stats["special"]}</td>
-						<td class = "table_stat">${stats["seasons"]["20232024"]["gp"]}</td>
-						<td class = "table_stat">${stats["seasons"]["20232024"]["goals"]}</td>
-						<td class = "table_stat">${stats["seasons"]["20232024"]["assists"]}</td>
-						<td class = "table_stat">${stats["seasons"]["20232024"]["points"]}</td>
-						<td class = "table_stat">${(100 * stats["seasons"]["20232024"]["shp"]).toFixed(1)}</td>
-						</tr>`
+		var tableHTML = `<tbody class="player_rows"><tr class="table_row">
+							<td class="table_pic" rowspan="2"><img class="headshot" src=${stats["headshot"]}></td>
+							<td class="table_player_name" rowspan="2">${stats["lastName"]} ${stats["special"]}</td>
+							<td class="table_stat">${stats["seasons"]["20232024"]["gp"]}</td>
+							<td class="table_stat">${stats["seasons"]["20232024"]["goals"]}</td>
+							<td class="table_stat">${stats["seasons"]["20232024"]["assists"]}</td>
+							<td class="table_stat">${stats["seasons"]["20232024"]["points"]}</td>
+							<td class="table_stat">${(100 * stats["seasons"]["20232024"]["shp"]).toFixed(1)}</td>
+							<td class="table_stat">${Number(stats["seasons"]["20232024"]["goals"])*3 + 2*Number(stats["seasons"]["20232024"]["assists"])}</td>
+						</tr>
+						<tr id="${stats["id"]}_row" class="table_row">
+							<td class="table_stat">${projectedStats["gp"]}</td>
+							<td class="table_stat">${projectedStats["goals"]}</td>
+							<td class="table_stat">${projectedStats["assists"]}</td>
+							<td class="table_stat">${projectedStats["points"]}</td>
+							<td class="table_stat">${projectedStats["shp"]}</td>
+							<td class="table_stat">${projectedStats["fanPts"]}</td>
+						</tr></tbody>`
+		document.getElementById("stat_table").innerHTML += tableHTML
 	}
-	$('#stat_table').html(tableHTML)
+	//$('#stat_table').innerHTML += (tableHTML)
+}
+
+function predict_future(player)
+{
+	gpList = []
+	sh = []
+	relativeWeight = []
+	relevantGP = 0
+
+
+	gamesLeft = 82 - teamGP[player['team']]
+	
+	//find current season
+	let currentSeason = -1;
+	for (let season in player["seasons"])
+	{
+		if(season > currentSeason)
+		{
+			currentSeason = season
+		}
+	}
+
+	currentAssistsPerGame = player["seasons"][currentSeason]["assists"] / player["seasons"][currentSeason]["gp"]
+	currentShp = player["seasons"][currentSeason]["shp"]
+	currentG = player["seasons"][currentSeason]["goals"]
+	currentSpg = (currentG / currentShp) / player["seasons"][currentSeason]["gp"]
+
+	//find most recent three seasons
+	let relevantSeasons = []
+	for (let season in player["seasons"])
+	{
+		if((currentSeason - season) < 40000 && (currentSeason - season) != 0)
+		{
+			relevantSeasons.push(season)
+		}
+	}
+
+	//
+	for (let season in player["seasons"])
+	{
+		if(relevantSeasons.includes(season))
+		{
+			gpList.push(player["seasons"][season]["gp"])
+			sh.push(player["seasons"][season]["shp"])
+			relevantGP += player["seasons"][season]["gp"]
+		}
+	}
+
+	let projPct = 0.0
+
+	if(relevantSeasons.length < 3)
+	{
+		gpList.push(player["seasons"][currentSeason]["gp"])
+		sh.push(player["seasons"][currentSeason]["shp"])
+		relevantGP += player["seasons"][currentSeason]["gp"]
+	}
+
+	for (season in gpList)
+	{
+		projPct += sh[season] * gpList[season] / relevantGP
+	}
+
+	projGoals = gamesLeft * (currentSpg * projPct)
+	projApps = gamesLeft * (currentAssistsPerGame)
+	projFP = 3*projGoals + 2*projApps
+	console.log(projGoals, projApps, projFP)
+
+	return {
+		"goals" : projGoals.toFixed(1),
+		"assists" : projApps.toFixed(1),
+		"gp" : gamesLeft,
+		"shp" : (100 * projPct).toFixed(1),
+		"points" : (projGoals + projApps).toFixed(1),
+		"fanPts" : (projGoals*3 + 2*projApps).toFixed(1)
+	}
 }

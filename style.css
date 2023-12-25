@@ -1,17 +1,31 @@
 html {
-    width: 90%;
-    height: 90%;
     margin: 0 auto;
     font-size: 16px;
-    background-color: #14155c;
+    background-color: #f2f2c8;
+    height: 100%;
 }
 
 body {
+    margin: 0;
+    padding: 0;
     height: 100%;
-    min-height: 100%;
+}
+
+#header_bar_div {
+    text-align: middle;
+}
+#search_div {
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+#body_div {
+    height: 70%;
+    width: 90%;
+    margin: auto;
     line-height: 1.75;
-    background-color: #8566db;
-    border-radius: 20px;
+    background-color: #112653;
+    border-radius: 32px;
     text-align: center;
 }
 
@@ -20,33 +34,88 @@ body {
     display: block;
 }
 
+#search_field:focus {   
+    border-color: #7abff8;
+    box-shadow: 0 1px 1px #008cff4b inset, 0 0 8px #7abff8;
+    outline: 0 none;
+}
+
+#search_field {
+    width: 30%;
+    min-height: 60px;
+    border: 0px;
+    border-radius: 100px;
+    background-color: #8d9cbf;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: 500%;
+    vertical-align: middle;
+}
+
+#search_button:focus {   
+    border-color: #7abff8;
+    box-shadow: 0 1px 1px #ff5100d8 inset, 0 0 8px #05f111;
+    outline: 0 none;
+}
+
+#search_button {
+    min-width: 60px;
+    min-height: 60px;
+    border-radius: 500px;
+    vertical-align: middle;
+}
+
 #player_name {
     white-space: pre-wrap;
 }
 
-.stat_table {
-    font-family:"arial";
+#table_div {
+    padding-top: 2%;
+    overflow: hidden;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+    max-height: 89%;
     width: 70%;
     margin: auto;
+    color:azure;
+}
+
+.stat_table {
+    font-family: "arial";
     border: 1px solid;
+    margin-bottom: 100px;
+    width: 100%;
+    margin: 0;
+}
+
+.table_pic {
+    width: 15%;
 }
 
 .num {
-    width: 10%;
+    width: 12%;
 }
 
-.table_row {
-    outline: 1px solid;
+.player_rows {
+    outline: 2px solid;
     font-size: 28px;
-    width: 100px;
-} 
+}
+
 
 .headshot {
-    width: 100px;
+    width: 150px;
+    margin-left: 10px;
 }
 
-.table_stat 
-{
-    width: 300px;
-    font-weight: 100;
+.header_bar {
+    width: 100%;
+    background-color: #173985;
+}
+
+#header_bar_div {
+    min-height: 64px;
+    text-align: center;
+    vertical-align: middle;
 }
