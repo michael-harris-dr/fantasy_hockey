@@ -5,16 +5,27 @@ var nameList = []
 var tableData = []
 var teamGP = []
 
-const LIVE = true
+const LIVE = false
 
 const API_URL = LIVE ? "https://fantasy-hockey.onrender.com" : "http://127.0.0.1:10000"
-//const API_URL = "http://127.0.0.1:10000"//'https://fantasy-hockey.onrender.com'
-//const API_URL = 'https://fantasy-hockey.onrender.com'
 
 $(document).ready(function()
 {
 	fill_teamGP()
 
+	$("#search_field").on("focus", function() {
+		if(this.value == '')
+		{
+			this.placeholder = ''
+		}
+	});
+
+	$("#search_field").on("focusout", function() {
+		if(this.value == '')
+		{
+			this.placeholder = "Enter player surname..."
+		}
+	});
 
 	$("#search_field").keydown(function(event)
 	{
@@ -22,15 +33,13 @@ $(document).ready(function()
 		{
 			event.preventDefault();
 			$("#search_button").click();
-			console.log("Enter!")
 		}
 	});
 
 	$(document).on('click', '#search_button', function()
 	{
-		console.log("CLICKED API BUTTON");
-
-		if(teamGP.length < 1){
+		if(teamGP.length < 1)
+		{
 			fill_teamGP()
 		}
 
@@ -38,7 +47,6 @@ $(document).ready(function()
 
 		if(!(nameList.includes(field_val)))
 		{
-			console.log(nameList, field_val)
 			$.ajax({
 				type: 'GET',
 				dataType: "json",
@@ -65,11 +73,11 @@ $(document).ready(function()
 					{
 						nameList.push(player["lastName"])
 					}
-	
-					console.log("nameList:", nameList)
 				}
 			});
 		}
+
+		$("#search_field").val('');
 	});
 
 });
@@ -100,12 +108,10 @@ function update_list()
 
 function add_to_table()
 {
-	console.log("tableData: ", tableData)
 	for(var player in tableData)
 	{
 		projectedStats = predict_future(tableData[player])
 		stats = tableData[player]
-		console.log(stats)
 		var tableHTML = `<tbody class="player_rows"><tr class="table_row">
 							<td class="table_pic" rowspan="2"><img class="headshot" src=${stats["headshot"]}></td>
 							<td class="table_player_name" rowspan="2">${stats["lastName"]} ${stats["special"]}</td>
@@ -194,7 +200,6 @@ function predict_future(player)
 	projGoals = gamesLeft * (currentSpg * projPct)
 	projApps = gamesLeft * (currentAssistsPerGame)
 	projFP = 3*projGoals + 2*projApps
-	console.log(projGoals, projApps, projFP)
 
 	return {
 		"goals" : projGoals.toFixed(1),
@@ -208,6 +213,7 @@ function predict_future(player)
 
 function fill_teamGP()
 {
+	console.log("Populating teamGP...")
 	$.ajax({
 		type: 'GET',
 		dataType: "json",
