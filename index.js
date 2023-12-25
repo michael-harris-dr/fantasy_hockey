@@ -3,29 +3,18 @@ https://michael-harris-dr.github.io/fantasy_hockey/
 */
 var nameList = []
 var tableData = []
-var teamGP
+var teamGP = []
 
+const LIVE = true
+
+const API_URL = LIVE ? "https://fantasy-hockey.onrender.com" : "http://127.0.0.1:10000"
 //const API_URL = "http://127.0.0.1:10000"//'https://fantasy-hockey.onrender.com'
-const API_URL = 'https://fantasy-hockey.onrender.com'
+//const API_URL = 'https://fantasy-hockey.onrender.com'
 
 $(document).ready(function()
 {
-	$.ajax({
-		type: 'GET',
-		dataType: "json",
-		url: `${API_URL}/teams`,
-		headers: {
-			"Access-Control-Allow-Origin": "True",
-			"x-api-key": "4132"
-		},
-		data: {
-		},
-		success: function(data, status)
-		{
-			teamGP = JSON.parse(data)
-			console.log(`${API_URL}/teams: `, teamGP);
-		}
-	});
+	fill_teamGP()
+
 
 	$("#search_field").keydown(function(event)
 	{
@@ -33,15 +22,20 @@ $(document).ready(function()
 		{
 			event.preventDefault();
 			$("#search_button").click();
-			console.log("CLICK!")
+			console.log("Enter!")
 		}
 	});
 
 	$(document).on('click', '#search_button', function()
 	{
 		console.log("CLICKED API BUTTON");
+
+		if(teamGP.length < 1){
+			fill_teamGP()
+		}
+
 		var field_val = pascalify($('#search_field').val())
-		console.log(nameList)
+
 		if(!(nameList.includes(field_val)))
 		{
 			console.log(nameList, field_val)
@@ -115,6 +109,7 @@ function add_to_table()
 		var tableHTML = `<tbody class="player_rows"><tr class="table_row">
 							<td class="table_pic" rowspan="2"><img class="headshot" src=${stats["headshot"]}></td>
 							<td class="table_player_name" rowspan="2">${stats["lastName"]} ${stats["special"]}</td>
+							<td class="table_stat stat_type">Current:</td>
 							<td class="table_stat">${stats["seasons"]["20232024"]["gp"]}</td>
 							<td class="table_stat">${stats["seasons"]["20232024"]["goals"]}</td>
 							<td class="table_stat">${stats["seasons"]["20232024"]["assists"]}</td>
@@ -123,6 +118,7 @@ function add_to_table()
 							<td class="table_stat">${Number(stats["seasons"]["20232024"]["goals"])*3 + 2*Number(stats["seasons"]["20232024"]["assists"])}</td>
 						</tr>
 						<tr id="${stats["id"]}_row" class="table_row">
+							<td class="table_stat stat_type">Projected:</td>
 							<td class="table_stat">${projectedStats["gp"]}</td>
 							<td class="table_stat">${projectedStats["goals"]}</td>
 							<td class="table_stat">${projectedStats["assists"]}</td>
@@ -208,4 +204,24 @@ function predict_future(player)
 		"points" : (projGoals + projApps).toFixed(1),
 		"fanPts" : (projGoals*3 + 2*projApps).toFixed(1)
 	}
+}
+
+function fill_teamGP()
+{
+	$.ajax({
+		type: 'GET',
+		dataType: "json",
+		url: `${API_URL}/teams`,
+		headers: {
+			"Access-Control-Allow-Origin": "True",
+			"x-api-key": "4132"
+		},
+		data: {
+		},
+		success: function(data, status)
+		{
+			teamGP = JSON.parse(data)
+			console.log(`${API_URL}/teams: `, teamGP);
+		}
+	});
 }
