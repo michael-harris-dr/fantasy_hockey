@@ -50,7 +50,7 @@ def find_players(nameList, idTeam):
             teamJson = json.load(fp2)
 
             for person in teamJson["forwards"]: #for every forward                
-                if(player == person["lastName"]["default"]):  #if the last name of the current player matches the last name of the current desired player
+                if(player.lower() == person["lastName"]["default"].lower()):  #if the last name of the current player matches the last name of the current desired player
                     print(f"{myself()}:\tFound {player} on {code}".expandtabs(20))
 
                     temp_player_info = {"id"        : person["id"],
@@ -66,7 +66,7 @@ def find_players(nameList, idTeam):
                     playerInfo.append(temp_player_info)    #add the current player as a key in the dict with their value as their ID
                     player = tmp
             for person in teamJson["defensemen"]: #for every dman      
-                if(player == person["lastName"]["default"]):  #if the last name of the current player matches the last name of the current desired player
+                if(player.lower() == person["lastName"]["default"].lower()):  #if the last name of the current player matches the last name of the current desired player
                     print(f"{myself()}:\tFound {player} on {code}".expandtabs(20))
 
                     temp_player_info = {"id"        : person["id"],

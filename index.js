@@ -4,8 +4,9 @@ https://michael-harris-dr.github.io/fantasy_hockey/
 var nameList = []
 var tableData = []
 var teamGP = []
-
-const LIVE = true
+//TODO o'reilly, Nugent-hopkins
+//TODO improve error handling
+const LIVE = false
 
 const API_URL = LIVE ? "https://fantasy-hockey.onrender.com" : "http://127.0.0.1:10000"
 
@@ -13,14 +14,16 @@ $(document).ready(function()
 {
 	fill_teamGP()
 
-	$("#search_field").on("focus", function() {
+	$("#search_field").on("focus", function()
+	{
 		if(this.value == '')
 		{
 			this.placeholder = ''
 		}
 	});
 
-	$("#search_field").on("focusout", function() {
+	$("#search_field").on("focusout", function()
+	{
 		if(this.value == '')
 		{
 			this.placeholder = "Enter player surname..."
@@ -58,18 +61,23 @@ $(document).ready(function()
 				data: {
 					"Players": JSON.stringify([field_val])
 				},
+				error: function()
+				{
+					alert("Error: Failed to connect to backend service, please try again later.")
+				},
 				success: function(data, status)
 				{
+					console.log("SUCCESS")
 					resp = JSON.parse(data)
 					console.log(`${API_URL}/players: `, resp);
-					
+
 					if(Object.keys(data).length > 2) 
 					{
 						tableData = (resp)
 						add_to_table()
 					}
 
-					for (player of resp)
+					for(player of resp)
 					{
 						nameList.push(player["lastName"])
 					}
@@ -121,7 +129,7 @@ function add_to_table()
 							<td class="table_stat">${stats["seasons"]["20232024"]["assists"]}</td>
 							<td class="table_stat">${stats["seasons"]["20232024"]["points"]}</td>
 							<td class="table_stat">${(100 * stats["seasons"]["20232024"]["shp"]).toFixed(1)}</td>
-							<td class="table_stat">${Number(stats["seasons"]["20232024"]["goals"])*3 + 2*Number(stats["seasons"]["20232024"]["assists"])}</td>
+							<td class="table_stat">${Number(stats["seasons"]["20232024"]["goals"]) * 3 + 2 * Number(stats["seasons"]["20232024"]["assists"])}</td>
 						</tr>
 						<tr id="${stats["id"]}_row" class="table_row">
 							<td class="table_stat stat_type">Projected:</td>
@@ -146,10 +154,10 @@ function predict_future(player)
 
 
 	gamesLeft = 82 - teamGP[player['team']]
-	
+
 	//find current season
 	let currentSeason = -1;
-	for (let season in player["seasons"])
+	for(let season in player["seasons"])
 	{
 		if(season > currentSeason)
 		{
@@ -164,7 +172,7 @@ function predict_future(player)
 
 	//find most recent three seasons
 	let relevantSeasons = []
-	for (let season in player["seasons"])
+	for(let season in player["seasons"])
 	{
 		if((currentSeason - season) < 40000 && (currentSeason - season) != 0)
 		{
@@ -173,7 +181,7 @@ function predict_future(player)
 	}
 
 	//
-	for (let season in player["seasons"])
+	for(let season in player["seasons"])
 	{
 		if(relevantSeasons.includes(season))
 		{
@@ -192,22 +200,22 @@ function predict_future(player)
 		relevantGP += player["seasons"][currentSeason]["gp"]
 	}
 
-	for (season in gpList)
+	for(season in gpList)
 	{
 		projPct += sh[season] * gpList[season] / relevantGP
 	}
 
 	projGoals = gamesLeft * (currentSpg * projPct)
 	projApps = gamesLeft * (currentAssistsPerGame)
-	projFP = 3*projGoals + 2*projApps
+	projFP = 3 * projGoals + 2 * projApps
 
 	return {
-		"goals" : projGoals.toFixed(1),
-		"assists" : projApps.toFixed(1),
-		"gp" : gamesLeft,
-		"shp" : (100 * projPct).toFixed(1),
-		"points" : (projGoals + projApps).toFixed(1),
-		"fanPts" : (projGoals*3 + 2*projApps).toFixed(1)
+		"goals": projGoals.toFixed(1),
+		"assists": projApps.toFixed(1),
+		"gp": gamesLeft,
+		"shp": (100 * projPct).toFixed(1),
+		"points": (projGoals + projApps).toFixed(1),
+		"fanPts": (projGoals * 3 + 2 * projApps).toFixed(1)
 	}
 }
 
