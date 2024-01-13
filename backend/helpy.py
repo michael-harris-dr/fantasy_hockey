@@ -53,7 +53,8 @@ def find_players(nameList, idTeam):
                 if(player.lower() == person["lastName"]["default"].lower()):  #if the last name of the current player matches the last name of the current desired player
                     print(f"{myself()}:\tFound {player} on {code}".expandtabs(20))
 
-                    temp_player_info = {"id"        : person["id"],
+                    temp_player_info =  {
+                                        "id"        : person["id"],
                                         "team"      : code,
                                         "firstName" : person["firstName"]["default"],
                                         "lastName"  : person["lastName"]["default"]

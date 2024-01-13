@@ -60,8 +60,7 @@ body {
     vertical-align: middle;
 }
 
-#search_button:focus {   
-    border-color: #7abff8;
+#search_button:focus {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     outline: 0 none;
 }
@@ -88,31 +87,51 @@ body {
 }
 
 #table_div {
-    padding-top: 2%;
+    padding-top: 35px;
     overflow: hidden;
     overflow-y: auto;
-    scrollbar-gutter: stable;
     max-height: 89%;
     width: 90%;
     margin: auto;
     color:azure;
 }
 
+
+#table_div::-webkit-scrollbar {
+    height: 40px;
+    padding-top: 60px;
+    width: 20px;
+}
+
+#table_div::-webkit-scrollbar-track {
+    background: #7abff8;
+    max-height: 40px;
+}
+
+#table_div::-webkit-scrollbar-thumb {
+    height: 12px;
+    background: #0d2e49;
+}
+
 .stat_table {
     font-family: "arial";
-    border: 1px solid;
+    border: 2px solid;
     margin-bottom: 100px;
     width: 100%;
     margin: 0;
     background-color: #01003f;
+    border-spacing: 0px;
 }
 
 .table_pic {
-    width: 15%;
+    width: 11%;
 }
 
 .num {
+    padding: 0;
+    height: 100%;
     width: 11%;
+    border-left: rgb(255, 255, 255) 2px solid;
 }
 
 .del {
@@ -123,12 +142,8 @@ body {
     background-color: #06173d;
 }
 
-#table_head {
-    background-color: rgb(6, 223, 223);
-}
-
 .player_rows {
-    outline: 2px solid;
+    border: 2px solid;
     font-size: 28px;
 }
 
@@ -144,6 +159,8 @@ body {
 
 .table_stat {
     padding: 0;
+    width: 11%;
+    border-left: white 2px solid;
 }
 
 #header_bar_div {
