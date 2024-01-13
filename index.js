@@ -5,7 +5,7 @@ var nameList = []
 var tableData = []
 var teamGP = []
 //TODO improve error handling
-const LIVE = false
+const LIVE = true
 
 const API_URL = LIVE ? "https://fantasy-hockey.onrender.com" : "http://127.0.0.1:10000"
 
