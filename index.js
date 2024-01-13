@@ -78,10 +78,8 @@ $(document).ready(function()
 						add_to_table()
 					}
 
-					for(player of resp)
-					{
-						nameList.push(player["lastName"])
-					}
+
+					nameList.push(resp[0]["lastName"])
 				}
 			});
 		}
@@ -89,6 +87,21 @@ $(document).ready(function()
 		$("#search_field").val('');
 	});
 
+});
+
+$(document).on('click', '#delete_row_button', function()
+{
+	pid = this.dataset.player_id
+
+	console.log("deleting: ", pid)
+
+
+	nameList.splice(nameList.indexOf(this.dataset.player_surname), 1)
+
+	console.log(this.dataset.player_surname)
+	console.log(nameList)
+
+	$("." + pid).remove();
 });
 
 function pascalify(string) 
@@ -114,7 +127,7 @@ function add_to_table()
 								<td class="table_stat">${(100 * stats["seasons"]["20232024"]["shp"]).toFixed(1)}</td>
 								<td class="table_stat">${Number(stats["seasons"]["20232024"]["goals"]) * 3 + 2 * Number(stats["seasons"]["20232024"]["assists"])}</td>
 								<td class="delete_btn" rowspan="2">
-								<input type="button" id="delete_row_button" value="x" data-player_id="${stats["id"]} onclick="{this.parentNode.style.display='none'}"></td>
+								<input type="button" id="delete_row_button" value="x" data-player_id="${stats["id"]}" data-player_surname="${stats["lastName"]}"></td>
 							</tr>
 							<tr class="table_row ${stats["id"]}">
 								<td class="table_stat stat_type">Projected:</td>
