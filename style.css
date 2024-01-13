@@ -42,7 +42,7 @@ body {
 
 #search_field:focus {   
     border-color: #7abff8;
-    box-shadow: 0 1px 1px #008cff4b inset, 0 0 8px #021422;
+    box-shadow: rgb(103, 116, 145) 0px 0px 0px 2px;
     outline: 0 none;
 }
 
@@ -62,13 +62,7 @@ body {
 
 #search_button:focus {   
     border-color: #7abff8;
-    box-shadow: 0 1px 1px #ff5100d8 inset, 0 0 8px #05f111;
-    outline: 0 none;
-}
-
-#search_button:focus {   
-    border-color: #7abff8;
-    box-shadow: 0 1px 1px #ff5100d8 inset, 0 0 8px #05f111;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     outline: 0 none;
 }
 
@@ -85,6 +79,8 @@ body {
     background-color: #8d9cbf;
     color: #112653;
     border: 0px;
+    font-weight: 700;
+    font-size: 30px;
 }
 
 #player_name {
@@ -108,6 +104,7 @@ body {
     margin-bottom: 100px;
     width: 100%;
     margin: 0;
+    background-color: #01003f;
 }
 
 .table_pic {
@@ -115,14 +112,25 @@ body {
 }
 
 .num {
-    width: 12%;
+    width: 11%;
+}
+
+.del {
+    width: 2%;
+}
+
+#headers {
+    background-color: #06173d;
+}
+
+#table_head {
+    background-color: rgb(6, 223, 223);
 }
 
 .player_rows {
     outline: 2px solid;
     font-size: 28px;
 }
-
 
 .headshot {
     width: 150px;
@@ -132,6 +140,10 @@ body {
 .header_bar {
     width: 100%;
     background-color: #173985;
+}
+
+.table_stat {
+    padding: 0;
 }
 
 #header_bar_div {
@@ -144,8 +156,4 @@ body {
     color: antiquewhite;
     font-size: 40px;
     font-stretch: extra-expanded;
-}
-
-.stat_type {
-    border: white 3px;
 }

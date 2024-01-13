@@ -4,7 +4,6 @@ https://michael-harris-dr.github.io/fantasy_hockey/
 var nameList = []
 var tableData = []
 var teamGP = []
-//TODO o'reilly, Nugent-hopkins
 //TODO improve error handling
 const LIVE = false
 
@@ -41,6 +40,8 @@ $(document).ready(function()
 
 	$(document).on('click', '#search_button', function()
 	{
+		this.blur()
+
 		if(teamGP.length < 1)
 		{
 			fill_teamGP()
@@ -95,54 +96,38 @@ function pascalify(string)
 	return string.charAt(0).toUpperCase() + string.substring(1).toLowerCase()
 }
 
-function update_list()
-{
-	let nameString = ""
-	for(const name of nameList)
-	{
-		if(nameString == "")
-		{
-			nameString += name
-		}
-		else
-		{
-			nameString += ` | ${name}`;
-		}
-	}
-
-	$('#player_name').html(nameString);
-}
-
-
 function add_to_table()
 {
 	for(var player in tableData)
 	{
 		projectedStats = predict_future(tableData[player])
 		stats = tableData[player]
-		var tableHTML = `<tbody class="player_rows"><tr class="table_row">
-							<td class="table_pic" rowspan="2"><img class="headshot" src=${stats["headshot"]}></td>
-							<td class="table_player_name" rowspan="2">${stats["lastName"]} ${stats["special"]}</td>
-							<td class="table_stat stat_type">Current:</td>
-							<td class="table_stat">${stats["seasons"]["20232024"]["gp"]}</td>
-							<td class="table_stat">${stats["seasons"]["20232024"]["goals"]}</td>
-							<td class="table_stat">${stats["seasons"]["20232024"]["assists"]}</td>
-							<td class="table_stat">${stats["seasons"]["20232024"]["points"]}</td>
-							<td class="table_stat">${(100 * stats["seasons"]["20232024"]["shp"]).toFixed(1)}</td>
-							<td class="table_stat">${Number(stats["seasons"]["20232024"]["goals"]) * 3 + 2 * Number(stats["seasons"]["20232024"]["assists"])}</td>
-						</tr>
-						<tr id="${stats["id"]}_row" class="table_row">
-							<td class="table_stat stat_type">Projected:</td>
-							<td class="table_stat">${projectedStats["gp"]}</td>
-							<td class="table_stat">${projectedStats["goals"]}</td>
-							<td class="table_stat">${projectedStats["assists"]}</td>
-							<td class="table_stat">${projectedStats["points"]}</td>
-							<td class="table_stat">${projectedStats["shp"]}</td>
-							<td class="table_stat">${projectedStats["fanPts"]}</td>
-						</tr></tbody>`
+		var tableHTML = `<tbody class="player_rows">
+							<tr class="table_row ${stats["id"]}">
+								<td class="table_pic" rowspan="2"><img class="headshot" src=${stats["headshot"]}></td>
+								<td class="table_player_name" rowspan="2">${stats["lastName"]} ${stats["special"]}</td>
+								<td class="table_stat stat_type">Current:</td>
+								<td class="table_stat">${stats["seasons"]["20232024"]["gp"]}</td>
+								<td class="table_stat">${stats["seasons"]["20232024"]["goals"]}</td>
+								<td class="table_stat">${stats["seasons"]["20232024"]["assists"]}</td>
+								<td class="table_stat">${stats["seasons"]["20232024"]["points"]}</td>
+								<td class="table_stat">${(100 * stats["seasons"]["20232024"]["shp"]).toFixed(1)}</td>
+								<td class="table_stat">${Number(stats["seasons"]["20232024"]["goals"]) * 3 + 2 * Number(stats["seasons"]["20232024"]["assists"])}</td>
+								<td class="delete_btn" rowspan="2">
+								<input type="button" id="delete_row_button" value="x" data-player_id="${stats["id"]} onclick="{this.parentNode.style.display='none'}"></td>
+							</tr>
+							<tr class="table_row ${stats["id"]}">
+								<td class="table_stat stat_type">Projected:</td>
+								<td class="table_stat">${projectedStats["gp"]}</td>
+								<td class="table_stat">${projectedStats["goals"]}</td>
+								<td class="table_stat">${projectedStats["assists"]}</td>
+								<td class="table_stat">${projectedStats["points"]}</td>
+								<td class="table_stat">${projectedStats["shp"]}</td>
+								<td class="table_stat">${projectedStats["fanPts"]}</td>
+							</tr>
+						</tbody>`
 		document.getElementById("stat_table").innerHTML += tableHTML
 	}
-	//$('#stat_table').innerHTML += (tableHTML)
 }
 
 function predict_future(player)
@@ -180,7 +165,6 @@ function predict_future(player)
 		}
 	}
 
-	//
 	for(let season in player["seasons"])
 	{
 		if(relevantSeasons.includes(season))
