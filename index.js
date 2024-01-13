@@ -2,10 +2,11 @@
 https://michael-harris-dr.github.io/fantasy_hockey/
 */
 var nameList = []
+var pidList = []
 var tableData = []
 var teamGP = []
 //TODO improve error handling
-const LIVE = true
+const LIVE = false
 
 const API_URL = LIVE ? "https://fantasy-hockey.onrender.com" : "http://127.0.0.1:10000"
 
@@ -78,8 +79,14 @@ $(document).ready(function()
 						add_to_table()
 					}
 
-
+					for(player of resp)
+					{
+						pidList.push(player["id"])
+					}
 					nameList.push(resp[0]["lastName"])
+
+					console.log("pidList: ", pidList)
+					console.log("nameList: ", nameList)
 				}
 			});
 		}
@@ -91,17 +98,24 @@ $(document).ready(function()
 
 $(document).on('click', '#delete_row_button', function()
 {
-	pid = this.dataset.player_id
+	pid = Number(this.dataset.player_id)
 
 	console.log("deleting: ", pid)
 
-
-	nameList.splice(nameList.indexOf(this.dataset.player_surname), 1)
-
+	while(nameList.indexOf(this.dataset.player_surname) != -1)
+	{
+		nameList.splice(nameList.indexOf(this.dataset.player_surname), 1)
+	}
+	while(pidList.indexOf(pid) != -1)
+	{
+		pidList.splice(pidList.indexOf(pid), 1)
+	}
 	console.log(this.dataset.player_surname)
 	console.log(nameList)
+	console.log(pid)
+	console.log(pidList)
 
-	$("." + pid).remove();
+	$("." + pid).parent().remove();
 });
 
 function pascalify(string) 
@@ -115,31 +129,35 @@ function add_to_table()
 	{
 		projectedStats = predict_future(tableData[player])
 		stats = tableData[player]
-		var tableHTML = `<tbody class="player_rows">
-							<tr class="table_row ${stats["id"]}">
-								<td class="table_pic" rowspan="2"><img class="headshot" src=${stats["headshot"]}></td>
-								<td class="table_player_name" rowspan="2">${stats["lastName"]} ${stats["special"]}</td>
-								<td class="table_stat stat_type">Current:</td>
-								<td class="table_stat">${stats["seasons"]["20232024"]["gp"]}</td>
-								<td class="table_stat">${stats["seasons"]["20232024"]["goals"]}</td>
-								<td class="table_stat">${stats["seasons"]["20232024"]["assists"]}</td>
-								<td class="table_stat">${stats["seasons"]["20232024"]["points"]}</td>
-								<td class="table_stat">${(100 * stats["seasons"]["20232024"]["shp"]).toFixed(1)}</td>
-								<td class="table_stat">${Number(stats["seasons"]["20232024"]["goals"]) * 3 + 2 * Number(stats["seasons"]["20232024"]["assists"])}</td>
-								<td class="delete_btn" rowspan="2">
-								<input type="button" id="delete_row_button" value="x" data-player_id="${stats["id"]}" data-player_surname="${stats["lastName"]}"></td>
-							</tr>
-							<tr class="table_row ${stats["id"]}">
-								<td class="table_stat stat_type">Projected:</td>
-								<td class="table_stat">${projectedStats["gp"]}</td>
-								<td class="table_stat">${projectedStats["goals"]}</td>
-								<td class="table_stat">${projectedStats["assists"]}</td>
-								<td class="table_stat">${projectedStats["points"]}</td>
-								<td class="table_stat">${projectedStats["shp"]}</td>
-								<td class="table_stat">${projectedStats["fanPts"]}</td>
-							</tr>
-						</tbody>`
-		document.getElementById("stat_table").innerHTML += tableHTML
+
+		if(!(pidList.includes(stats["id"])))//avoids putting a player w/ a dupe surname in again
+		{
+			var tableHTML = `<tbody class="player_rows">
+								<tr class="table_row ${stats["id"]}">
+									<td class="table_pic" rowspan="2"><img class="headshot" src=${stats["headshot"]}></td>
+									<td class="table_player_name" rowspan="2">${stats["lastName"]} ${stats["special"]}</td>
+									<td class="table_stat stat_type">Current:</td>
+									<td class="table_stat">${stats["seasons"]["20232024"]["gp"]}</td>
+									<td class="table_stat">${stats["seasons"]["20232024"]["goals"]}</td>
+									<td class="table_stat">${stats["seasons"]["20232024"]["assists"]}</td>
+									<td class="table_stat">${stats["seasons"]["20232024"]["points"]}</td>
+									<td class="table_stat">${(100 * stats["seasons"]["20232024"]["shp"]).toFixed(1)}</td>
+									<td class="table_stat">${Number(stats["seasons"]["20232024"]["goals"]) * 3 + 2 * Number(stats["seasons"]["20232024"]["assists"])}</td>
+									<td class="delete_btn" rowspan="2">
+									<input type="button" id="delete_row_button" value="x" data-player_id="${stats["id"]}" data-player_surname="${stats["lastName"]}"></td>
+								</tr>
+								<tr class="table_row">
+									<td class="table_stat stat_type">Projected:</td>
+									<td class="table_stat">${projectedStats["gp"]}</td>
+									<td class="table_stat">${projectedStats["goals"]}</td>
+									<td class="table_stat">${projectedStats["assists"]}</td>
+									<td class="table_stat">${projectedStats["points"]}</td>
+									<td class="table_stat">${projectedStats["shp"]}</td>
+									<td class="table_stat">${projectedStats["fanPts"]}</td>
+								</tr>
+							</tbody>`
+			document.getElementById("stat_table").innerHTML += tableHTML
+		}
 	}
 }
 
