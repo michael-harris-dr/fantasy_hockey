@@ -44,7 +44,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -75,7 +75,8 @@
          },
          "birthCountry": "FRA",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -100,7 +101,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -125,7 +126,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "PE"
+            "default": "Prince Edward Island",
+            "fr": "\u00cele du Prince-\u00c9douard ",
+            "sk": "Ostrov Princa Edwarda"
          }
       },
       {
@@ -150,7 +153,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       },
       {
@@ -175,7 +178,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "NS"
+            "default": "Nova Scotia",
+            "fr": "Nouvelle-\u00c9cosse"
          }
       },
       {
@@ -200,8 +204,34 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
+      },
+      {
+         "id": 8480806,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/ANA/8480806.png",
+         "firstName": {
+            "default": "Isac"
+         },
+         "lastName": {
+            "default": "Lundestrom",
+            "cs": "Lundestr\u00f6m",
+            "sk": "Lundestr\u00f6m"
+         },
+         "sweaterNumber": 21,
+         "positionCode": "C",
+         "shootsCatches": "L",
+         "heightInInches": 72,
+         "weightInPounds": 193,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 88,
+         "birthDate": "1999-11-06",
+         "birthCity": {
+            "default": "Gallivare",
+            "fi": "J\u00e4llivaara",
+            "sv": "G\u00e4llivare"
+         },
+         "birthCountry": "SWE"
       },
       {
          "id": 8476934,
@@ -225,7 +255,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -294,7 +324,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -319,7 +349,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CO"
+            "default": "Colorado"
          }
       },
       {
@@ -344,7 +374,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MA"
+            "default": "Massachusetts"
          }
       },
       {
@@ -369,36 +399,11 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       }
    ],
    "defensemen": [
-      {
-         "id": 8482142,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/ANA/8482142.png",
-         "firstName": {
-            "default": "Jamie"
-         },
-         "lastName": {
-            "default": "Drysdale"
-         },
-         "sweaterNumber": 6,
-         "positionCode": "D",
-         "shootsCatches": "R",
-         "heightInInches": 71,
-         "weightInPounds": 185,
-         "heightInCentimeters": 180,
-         "weightInKilograms": 84,
-         "birthDate": "2002-04-08",
-         "birthCity": {
-            "default": "Toronto"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "ON"
-         }
-      },
       {
          "id": 8475764,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/ANA/8475764.png",
@@ -421,7 +426,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -442,9 +447,39 @@
          "weightInKilograms": 94,
          "birthDate": "1990-06-05",
          "birthCity": {
-            "default": "Prague"
+            "default": "Prague",
+            "cs": "Praha",
+            "de": "Prag",
+            "fi": "Praha",
+            "sk": "Praha",
+            "sv": "Prag"
          },
          "birthCountry": "CZE"
+      },
+      {
+         "id": 8477462,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/ANA/8477462.png",
+         "firstName": {
+            "default": "Robert"
+         },
+         "lastName": {
+            "default": "Hagg",
+            "cs": "H\u00e4gg",
+            "fi": "H\u00e4gg",
+            "sk": "H\u00e4gg"
+         },
+         "sweaterNumber": 18,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 74,
+         "weightInPounds": 210,
+         "heightInCentimeters": 188,
+         "weightInKilograms": 95,
+         "birthDate": "1995-02-08",
+         "birthCity": {
+            "default": "Uppsala"
+         },
+         "birthCountry": "SWE"
       },
       {
          "id": 8481605,
@@ -468,33 +503,36 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
-         "id": 8483482,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/ANA/8483482.png",
+         "id": 8480184,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/ANA/8480184.png",
          "firstName": {
-            "default": "Tristan"
+            "default": "Gustav"
          },
          "lastName": {
-            "default": "Luneau"
+            "default": "Lindstr\u00f6m",
+            "de": "Lindstrom",
+            "es": "Lindstrom",
+            "fi": "Lindstrom",
+            "sv": "Lindstrom"
          },
-         "sweaterNumber": 67,
+         "sweaterNumber": 28,
          "positionCode": "D",
          "shootsCatches": "R",
-         "heightInInches": 73,
-         "weightInPounds": 195,
-         "heightInCentimeters": 185,
+         "heightInInches": 74,
+         "weightInPounds": 194,
+         "heightInCentimeters": 188,
          "weightInKilograms": 88,
-         "birthDate": "2004-01-12",
+         "birthDate": "1998-10-20",
          "birthCity": {
-            "default": "Victoriaville"
+            "default": "Ostervala",
+            "fi": "\u00d6sterv\u00e5la",
+            "sv": "\u00d6sterv\u00e5la"
          },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "QC"
-         }
+         "birthCountry": "SWE"
       },
       {
          "id": 8480950,
@@ -520,7 +558,13 @@
          "weightInKilograms": 91,
          "birthDate": "1994-04-06",
          "birthCity": {
-            "default": "Moscow"
+            "default": "Moscow",
+            "cs": "Moskva",
+            "de": "Moskau",
+            "fi": "Moskova",
+            "fr": "Moscou",
+            "sk": "Moskva",
+            "sv": "Moskva"
          },
          "birthCountry": "RUS"
       },
@@ -542,7 +586,13 @@
          "weightInKilograms": 88,
          "birthDate": "2003-11-25",
          "birthCity": {
-            "default": "Moscow"
+            "default": "Moscow",
+            "cs": "Moskva",
+            "de": "Moskau",
+            "fi": "Moskova",
+            "fr": "Moscou",
+            "sk": "Moskva",
+            "sv": "Moskva"
          },
          "birthCountry": "RUS"
       },
@@ -618,7 +668,8 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "PA"
+            "default": "Pennsylvania",
+            "fr": "Pennsylvanie"
          }
       }
    ]

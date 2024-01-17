@@ -22,7 +22,33 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
+         }
+      },
+      {
+         "id": 8480032,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NJD/8480032.png",
+         "firstName": {
+            "default": "Shane"
+         },
+         "lastName": {
+            "default": "Bowers"
+         },
+         "sweaterNumber": 15,
+         "positionCode": "C",
+         "shootsCatches": "L",
+         "heightInInches": 74,
+         "weightInPounds": 186,
+         "heightInCentimeters": 188,
+         "weightInKilograms": 84,
+         "birthDate": "1999-07-30",
+         "birthCity": {
+            "default": "Halifax"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Nova Scotia",
+            "fr": "Nouvelle-\u00c9cosse"
          }
       },
       {
@@ -43,7 +69,8 @@
          "weightInKilograms": 79,
          "birthDate": "1998-07-30",
          "birthCity": {
-            "default": "Stockholm"
+            "default": "Stockholm",
+            "fi": "Tukholma"
          },
          "birthCountry": "SWE"
       },
@@ -65,7 +92,8 @@
          "weightInKilograms": 87,
          "birthDate": "1991-03-23",
          "birthCity": {
-            "default": "Pori"
+            "default": "Pori",
+            "sv": "Bj\u00f6rneborg"
          },
          "birthCountry": "FIN"
       },
@@ -109,7 +137,8 @@
          "weightInKilograms": 88,
          "birthDate": "2002-01-23",
          "birthCity": {
-            "default": "Stockholm"
+            "default": "Stockholm",
+            "fi": "Tukholma"
          },
          "birthCountry": "SWE"
       },
@@ -135,32 +164,8 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "FL"
-         }
-      },
-      {
-         "id": 8478956,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NJD/8478956.png",
-         "firstName": {
-            "default": "Samuel"
-         },
-         "lastName": {
-            "default": "Laberge"
-         },
-         "sweaterNumber": 79,
-         "positionCode": "L",
-         "shootsCatches": "L",
-         "heightInInches": 74,
-         "weightInPounds": 206,
-         "heightInCentimeters": 188,
-         "weightInKilograms": 93,
-         "birthDate": "1997-04-10",
-         "birthCity": {
-            "default": "Chateauguay"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "QC"
+            "default": "Florida",
+            "fr": "Floride"
          }
       },
       {
@@ -185,7 +190,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -210,7 +217,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -257,7 +264,10 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "NL"
+            "default": "Newfoundland and Labrador",
+            "fr": "Newfoundland et Labrador",
+            "sk": "Newfoundland a Labrador",
+            "sv": "Newfoundland och Labrador"
          }
       },
       {
@@ -306,7 +316,10 @@
          "weightInKilograms": 88,
          "birthDate": "1991-03-28",
          "birthCity": {
-            "default": "Frydek-Mistek"
+            "default": "Frydek-Mistek",
+            "cs": "Fr\u00fddek-M\u00edstek",
+            "fi": "Fr\u00fddek-M\u00edstek",
+            "sk": "Fr\u00fddek-M\u00edstek"
          },
          "birthCountry": "CZE"
       },
@@ -332,7 +345,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -357,7 +370,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -388,7 +401,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MA"
+            "default": "Massachusetts"
          }
       }
    ],
@@ -415,7 +428,40 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
+         }
+      },
+      {
+         "id": 8479984,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NJD/8479984.png",
+         "firstName": {
+            "default": "Cal",
+            "cs": "Callan",
+            "de": "Callan",
+            "es": "Callan",
+            "fi": "Callan",
+            "sk": "Callan",
+            "sv": "Callan"
+         },
+         "lastName": {
+            "default": "Foote"
+         },
+         "sweaterNumber": 52,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 77,
+         "weightInPounds": 224,
+         "heightInCentimeters": 196,
+         "weightInKilograms": 102,
+         "birthDate": "1998-12-13",
+         "birthCity": {
+            "default": "Denver"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "Colorado"
          }
       },
       {
@@ -440,7 +486,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -465,7 +511,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NH"
+            "default": "New Hampshire"
          }
       },
       {
@@ -490,7 +536,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MA"
+            "default": "Massachusetts"
          }
       },
       {
@@ -511,12 +557,35 @@
          "weightInKilograms": 91,
          "birthDate": "1992-10-29",
          "birthCity": {
-            "default": "Sault Ste. Marie"
+            "default": "Sault Ste. Marie",
+            "fr": "Sault-Sainte-Marie"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
+      },
+      {
+         "id": 8483495,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NJD/8483495.png",
+         "firstName": {
+            "default": "Simon"
+         },
+         "lastName": {
+            "default": "Nemec"
+         },
+         "sweaterNumber": 17,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 73,
+         "weightInPounds": 190,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 86,
+         "birthDate": "2004-02-15",
+         "birthCity": {
+            "default": "Liptovsk\u00fd Mikul\u00e1\u0161"
+         },
+         "birthCountry": "SVK"
       },
       {
          "id": 8478399,
@@ -562,32 +631,37 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       }
    ],
    "goalies": [
       {
-         "id": 8481033,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NJD/8481033.png",
+         "id": 8482076,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NJD/8482076.png",
          "firstName": {
-            "default": "Akira"
+            "default": "Nico"
          },
          "lastName": {
-            "default": "Schmid"
+            "default": "Daws"
          },
-         "sweaterNumber": 40,
+         "sweaterNumber": 50,
          "positionCode": "G",
          "shootsCatches": "L",
-         "heightInInches": 77,
+         "heightInInches": 76,
          "weightInPounds": 205,
-         "heightInCentimeters": 196,
+         "heightInCentimeters": 193,
          "weightInKilograms": 93,
-         "birthDate": "2000-05-12",
+         "birthDate": "2000-12-22",
          "birthCity": {
-            "default": "Bern"
+            "default": "Munich",
+            "cs": "Mnichov",
+            "de": "M\u00fcnchen",
+            "fi": "M\u00fcnchen",
+            "sk": "Mnichov",
+            "sv": "M\u00fcnchen"
          },
-         "birthCountry": "CHE"
+         "birthCountry": "DEU"
       },
       {
          "id": 8477970,
@@ -609,7 +683,10 @@
          "weightInKilograms": 83,
          "birthDate": "1996-01-09",
          "birthCity": {
-            "default": "Havlickuv Brod"
+            "default": "Havlickuv Brod",
+            "cs": "Havl\u00ed\u010dk\u016fv Brod",
+            "fi": "Havl\u00ed\u010dk\u016fv Brod",
+            "sk": "Havl\u00ed\u010dk\u016fv Brod"
          },
          "birthCountry": "CZE"
       }

@@ -18,7 +18,9 @@
          "weightInKilograms": 93,
          "birthDate": "1989-03-17",
          "birthCity": {
-            "default": "Vasteras"
+            "default": "Vasteras",
+            "fi": "V\u00e4ster\u00e5s",
+            "sv": "V\u00e4ster\u00e5s"
          },
          "birthCountry": "SWE"
       },
@@ -44,7 +46,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "TX"
+            "default": "Texas"
          }
       },
       {
@@ -69,7 +71,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -94,7 +98,9 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "SD"
+            "default": "South Dakota",
+            "fr": "Dakota du Sud",
+            "sk": "Ju\u017en\u00e1 Dakota"
          }
       },
       {
@@ -119,7 +125,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -140,11 +147,13 @@
          "weightInKilograms": 91,
          "birthDate": "1993-06-04",
          "birthCity": {
-            "default": "Saint-Jerome"
+            "default": "Saint-Jerome",
+            "fr": "Saint-J\u00e9rome"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -165,11 +174,12 @@
          "weightInKilograms": 84,
          "birthDate": "1990-10-06",
          "birthCity": {
-            "default": "London"
+            "default": "London",
+            "sk": "Lond\u00fdn"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -216,32 +226,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
-         }
-      },
-      {
-         "id": 8481592,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CGY/8481592.png",
-         "firstName": {
-            "default": "Jakob"
-         },
-         "lastName": {
-            "default": "Pelletier"
-         },
-         "sweaterNumber": 22,
-         "positionCode": "L",
-         "shootsCatches": "L",
-         "heightInInches": 69,
-         "weightInPounds": 170,
-         "heightInCentimeters": 175,
-         "weightInKilograms": 77,
-         "birthDate": "2001-03-07",
-         "birthCity": {
-            "default": "Qu\u00e9bec"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "QC"
+            "default": "Ontario"
          }
       },
       {
@@ -340,7 +325,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
          }
       }
    ],
@@ -368,6 +353,31 @@
          "birthCountry": "SWE"
       },
       {
+         "id": 8480084,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CGY/8480084.png",
+         "firstName": {
+            "default": "Nick"
+         },
+         "lastName": {
+            "default": "DeSimone"
+         },
+         "sweaterNumber": 57,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 74,
+         "weightInPounds": 185,
+         "heightInCentimeters": 188,
+         "weightInKilograms": 84,
+         "birthDate": "1994-11-21",
+         "birthCity": {
+            "default": "East Amherst"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "New York"
+         }
+      },
+      {
          "id": 8478502,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CGY/8478502.png",
          "firstName": {
@@ -389,7 +399,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       },
       {
@@ -414,7 +424,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MA"
+            "default": "Massachusetts"
          }
       },
       {
@@ -435,7 +445,8 @@
          "weightInKilograms": 83,
          "birthDate": "1997-05-19",
          "birthCity": {
-            "default": "Stockholm"
+            "default": "Stockholm",
+            "fi": "Tukholma"
          },
          "birthCountry": "SWE"
       },
@@ -461,7 +472,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       },
       {
@@ -492,7 +503,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -517,7 +528,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       }
    ],
@@ -567,9 +578,42 @@
          "weightInKilograms": 95,
          "birthDate": "1997-08-20",
          "birthCity": {
-            "default": "Prague"
+            "default": "Prague",
+            "cs": "Praha",
+            "de": "Prag",
+            "fi": "Praha",
+            "sk": "Praha",
+            "sv": "Prag"
          },
          "birthCountry": "CZE"
+      },
+      {
+         "id": 8481692,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CGY/8481692.png",
+         "firstName": {
+            "default": "Dustin"
+         },
+         "lastName": {
+            "default": "Wolf"
+         },
+         "sweaterNumber": 32,
+         "positionCode": "G",
+         "shootsCatches": "L",
+         "heightInInches": 72,
+         "weightInPounds": 166,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 75,
+         "birthDate": "2001-04-16",
+         "birthCity": {
+            "default": "Gilroy"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "California",
+            "fr": "Californie",
+            "sk": "Kalifornia",
+            "sv": "Kalifornien"
+         }
       }
    ]
 }

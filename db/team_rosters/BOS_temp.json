@@ -22,8 +22,30 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
+      },
+      {
+         "id": 8480003,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BOS/8480003.png",
+         "firstName": {
+            "default": "Jesper"
+         },
+         "lastName": {
+            "default": "Boqvist"
+         },
+         "sweaterNumber": 70,
+         "positionCode": "C",
+         "shootsCatches": "L",
+         "heightInInches": 73,
+         "weightInPounds": 184,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 83,
+         "birthDate": "1998-10-30",
+         "birthCity": {
+            "default": "Falun"
+         },
+         "birthCountry": "SWE"
       },
       {
          "id": 8475745,
@@ -47,7 +69,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MA"
+            "default": "Massachusetts"
          }
       },
       {
@@ -72,7 +94,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -93,11 +115,17 @@
          "weightInKilograms": 100,
          "birthDate": "1998-02-11",
          "birthCity": {
-            "default": "St. Louis"
+            "default": "St. Louis",
+            "cs": "St. Louis ",
+            "de": "St. Louis ",
+            "fi": "St. Louis ",
+            "fr": "St. Louis ",
+            "sk": "St. Louis ",
+            "sv": "St. Louis "
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MO"
+            "default": "Missouri"
          }
       },
       {
@@ -122,7 +150,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "MB"
+            "default": "Manitoba"
          }
       },
       {
@@ -147,7 +175,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -168,7 +198,12 @@
          "weightInKilograms": 88,
          "birthDate": "2000-03-28",
          "birthCity": {
-            "default": "Prague"
+            "default": "Prague",
+            "cs": "Praha",
+            "de": "Prag",
+            "fi": "Praha",
+            "sk": "Praha",
+            "sv": "Prag"
          },
          "birthCountry": "CZE"
       },
@@ -194,7 +229,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -219,7 +256,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "NS"
+            "default": "Nova Scotia",
+            "fr": "Nouvelle-\u00c9cosse"
          }
       },
       {
@@ -242,7 +280,10 @@
          "weightInKilograms": 89,
          "birthDate": "1996-05-25",
          "birthCity": {
-            "default": "Havirov"
+            "default": "Havirov",
+            "cs": "Hav\u00ed\u0159ov",
+            "fi": "Hav\u00ed\u0159ov",
+            "sk": "Hav\u00ed\u0159ov"
          },
          "birthCountry": "CZE"
       },
@@ -268,7 +309,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -294,28 +335,6 @@
          "birthCountry": "SWE"
       },
       {
-         "id": 8478401,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BOS/8478401.png",
-         "firstName": {
-            "default": "Pavel"
-         },
-         "lastName": {
-            "default": "Zacha"
-         },
-         "sweaterNumber": 18,
-         "positionCode": "C",
-         "shootsCatches": "L",
-         "heightInInches": 76,
-         "weightInPounds": 207,
-         "heightInCentimeters": 193,
-         "weightInKilograms": 94,
-         "birthDate": "1997-04-06",
-         "birthCity": {
-            "default": "Brno"
-         },
-         "birthCountry": "CZE"
-      },
-      {
          "id": 8474037,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BOS/8474037.png",
          "firstName": {
@@ -337,8 +356,30 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NJ"
+            "default": "New Jersey"
          }
+      },
+      {
+         "id": 8478401,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BOS/8478401.png",
+         "firstName": {
+            "default": "Pavel"
+         },
+         "lastName": {
+            "default": "Zacha"
+         },
+         "sweaterNumber": 18,
+         "positionCode": "C",
+         "shootsCatches": "L",
+         "heightInInches": 76,
+         "weightInPounds": 207,
+         "heightInCentimeters": 193,
+         "weightInKilograms": 94,
+         "birthDate": "1997-04-06",
+         "birthCity": {
+            "default": "Brno"
+         },
+         "birthCountry": "CZE"
       }
    ],
    "defensemen": [
@@ -364,7 +405,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CO"
+            "default": "Colorado"
          }
       },
       {
@@ -389,7 +430,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -414,7 +455,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MA"
+            "default": "Massachusetts"
          }
       },
       {
@@ -440,6 +481,32 @@
          "birthCountry": "SWE"
       },
       {
+         "id": 8482511,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BOS/8482511.png",
+         "firstName": {
+            "default": "Mason"
+         },
+         "lastName": {
+            "default": "Lohrei"
+         },
+         "sweaterNumber": 6,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 77,
+         "weightInPounds": 211,
+         "heightInCentimeters": 196,
+         "weightInKilograms": 96,
+         "birthDate": "2001-01-17",
+         "birthCity": {
+            "default": "Baton Rouge"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "Louisiana",
+            "fr": "Louisiane"
+         }
+      },
+      {
          "id": 8479325,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BOS/8479325.png",
          "firstName": {
@@ -461,7 +528,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       },
       {
@@ -486,11 +553,63 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
+         }
+      },
+      {
+         "id": 8478450,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BOS/8478450.png",
+         "firstName": {
+            "default": "Parker"
+         },
+         "lastName": {
+            "default": "Wotherspoon"
+         },
+         "sweaterNumber": 29,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 73,
+         "weightInPounds": 195,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 88,
+         "birthDate": "1997-08-24",
+         "birthCity": {
+            "default": "Surrey"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       }
    ],
    "goalies": [
+      {
+         "id": 8483548,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BOS/8483548.png",
+         "firstName": {
+            "default": "Brandon"
+         },
+         "lastName": {
+            "default": "Bussi"
+         },
+         "sweaterNumber": 30,
+         "positionCode": "G",
+         "shootsCatches": "R",
+         "heightInInches": 76,
+         "weightInPounds": 218,
+         "heightInCentimeters": 193,
+         "weightInKilograms": 99,
+         "birthDate": "1998-06-25",
+         "birthCity": {
+            "default": "Sound Beach"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "New York"
+         }
+      },
       {
          "id": 8480280,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BOS/8480280.png",
@@ -513,7 +632,8 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "AK"
+            "default": "Alaska",
+            "sk": "Alja\u0161ka"
          }
       },
       {

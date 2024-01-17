@@ -22,7 +22,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -47,7 +47,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -72,7 +72,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -97,7 +98,34 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
+         }
+      },
+      {
+         "id": 8476278,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CHI/8476278.png",
+         "firstName": {
+            "default": "Colin"
+         },
+         "lastName": {
+            "default": "Blackwell"
+         },
+         "sweaterNumber": 43,
+         "positionCode": "C",
+         "shootsCatches": "R",
+         "heightInInches": 69,
+         "weightInPounds": 190,
+         "heightInCentimeters": 175,
+         "weightInKilograms": 86,
+         "birthDate": "1993-03-28",
+         "birthCity": {
+            "default": "North Andover"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "Massachusetts"
          }
       },
       {
@@ -122,7 +150,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -147,7 +175,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MA"
+            "default": "Massachusetts"
          }
       },
       {
@@ -163,16 +191,16 @@
          "positionCode": "R",
          "shootsCatches": "R",
          "heightInInches": 75,
-         "weightInPounds": 184,
+         "weightInPounds": 205,
          "heightInCentimeters": 191,
-         "weightInKilograms": 83,
+         "weightInKilograms": 93,
          "birthDate": "1999-07-14",
          "birthCity": {
             "default": "Georgetown"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -197,7 +225,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       },
       {
@@ -222,7 +250,10 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CA"
+            "default": "California",
+            "fr": "Californie",
+            "sk": "Kalifornia",
+            "sv": "Kalifornien"
          }
       },
       {
@@ -247,32 +278,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
-         }
-      },
-      {
-         "id": 8474870,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CHI/8474870.png",
-         "firstName": {
-            "default": "Tyler"
-         },
-         "lastName": {
-            "default": "Johnson"
-         },
-         "sweaterNumber": 90,
-         "positionCode": "C",
-         "shootsCatches": "R",
-         "heightInInches": 68,
-         "weightInPounds": 185,
-         "heightInCentimeters": 173,
-         "weightInKilograms": 84,
-         "birthDate": "1990-07-29",
-         "birthCity": {
-            "default": "Spokane"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "WA"
+            "default": "Alberta"
          }
       },
       {
@@ -297,7 +303,32 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
+         }
+      },
+      {
+         "id": 8474870,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CHI/8474870.png",
+         "firstName": {
+            "default": "Tyler"
+         },
+         "lastName": {
+            "default": "Johnson"
+         },
+         "sweaterNumber": 90,
+         "positionCode": "C",
+         "shootsCatches": "R",
+         "heightInInches": 68,
+         "weightInPounds": 185,
+         "heightInCentimeters": 173,
+         "weightInKilograms": 84,
+         "birthDate": "1990-07-29",
+         "birthCity": {
+            "default": "Spokane"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "Washington"
          }
       },
       {
@@ -322,7 +353,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -348,6 +381,31 @@
          "birthCountry": "CHE"
       },
       {
+         "id": 8479514,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CHI/8479514.png",
+         "firstName": {
+            "default": "Rem"
+         },
+         "lastName": {
+            "default": "Pitlick"
+         },
+         "sweaterNumber": 20,
+         "positionCode": "C",
+         "shootsCatches": "L",
+         "heightInInches": 71,
+         "weightInPounds": 186,
+         "heightInCentimeters": 180,
+         "weightInKilograms": 84,
+         "birthDate": "1997-04-02",
+         "birthCity": {
+            "default": "Ottawa"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Ontario"
+         }
+      },
+      {
          "id": 8479390,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CHI/8479390.png",
          "firstName": {
@@ -369,7 +427,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -393,6 +451,31 @@
             "default": "N\u00fcrnberg"
          },
          "birthCountry": "DEU"
+      },
+      {
+         "id": 8477482,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CHI/8477482.png",
+         "firstName": {
+            "default": "Zach"
+         },
+         "lastName": {
+            "default": "Sanford"
+         },
+         "sweaterNumber": 13,
+         "positionCode": "L",
+         "shootsCatches": "L",
+         "heightInInches": 76,
+         "weightInPounds": 206,
+         "heightInCentimeters": 193,
+         "weightInKilograms": 93,
+         "birthDate": "1994-11-09",
+         "birthCity": {
+            "default": "Salem"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "Massachusetts"
+         }
       }
    ],
    "defensemen": [
@@ -418,32 +501,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "TX"
-         }
-      },
-      {
-         "id": 8482176,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CHI/8482176.png",
-         "firstName": {
-            "default": "Wyatt"
-         },
-         "lastName": {
-            "default": "Kaiser"
-         },
-         "sweaterNumber": 44,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 72,
-         "weightInPounds": 173,
-         "heightInCentimeters": 183,
-         "weightInKilograms": 78,
-         "birthDate": "2002-07-31",
-         "birthCity": {
-            "default": "Andover"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "MN"
+            "default": "Texas"
          }
       },
       {
@@ -468,7 +526,33 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
+         }
+      },
+      {
+         "id": 8477034,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CHI/8477034.png",
+         "firstName": {
+            "default": "Jaycob"
+         },
+         "lastName": {
+            "default": "Megna"
+         },
+         "sweaterNumber": 24,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 78,
+         "weightInPounds": 220,
+         "heightInCentimeters": 198,
+         "weightInKilograms": 100,
+         "birthDate": "1992-12-10",
+         "birthCity": {
+            "default": "Plantation"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "Florida",
+            "fr": "Floride"
          }
       },
       {
@@ -493,7 +577,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "OH"
+            "default": "Ohio"
          }
       },
       {
@@ -518,7 +602,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -543,7 +627,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MD"
+            "default": "Maryland"
          }
       },
       {
@@ -559,16 +643,16 @@
          "positionCode": "D",
          "shootsCatches": "L",
          "heightInInches": 78,
-         "weightInPounds": 199,
+         "weightInPounds": 217,
          "heightInCentimeters": 198,
-         "weightInKilograms": 90,
+         "weightInKilograms": 98,
          "birthDate": "2001-06-05",
          "birthCity": {
             "default": "Wilmette"
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "IL"
+            "default": "Illinois"
          }
       },
       {
@@ -591,7 +675,13 @@
          "weightInKilograms": 87,
          "birthDate": "1991-10-29",
          "birthCity": {
-            "default": "Moscow"
+            "default": "Moscow",
+            "cs": "Moskva",
+            "de": "Moskau",
+            "fi": "Moskova",
+            "fr": "Moscou",
+            "sk": "Moskva",
+            "sv": "Moskva"
          },
          "birthCountry": "RUS"
       }

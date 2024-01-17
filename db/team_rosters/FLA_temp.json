@@ -18,7 +18,8 @@
          "weightInKilograms": 98,
          "birthDate": "1995-09-02",
          "birthCity": {
-            "default": "Tampere"
+            "default": "Tampere",
+            "sv": "Tammerfors"
          },
          "birthCountry": "FIN"
       },
@@ -44,7 +45,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -69,7 +70,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -94,7 +95,32 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
+         }
+      },
+      {
+         "id": 8479367,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/FLA/8479367.png",
+         "firstName": {
+            "default": "William"
+         },
+         "lastName": {
+            "default": "Lockwood"
+         },
+         "sweaterNumber": 67,
+         "positionCode": "R",
+         "shootsCatches": "R",
+         "heightInInches": 72,
+         "weightInPounds": 178,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 81,
+         "birthDate": "1998-06-20",
+         "birthCity": {
+            "default": "Royal Oak"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "Michigan"
          }
       },
       {
@@ -119,7 +145,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -144,7 +170,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -165,7 +191,8 @@
          "weightInKilograms": 86,
          "birthDate": "2001-10-03",
          "birthCity": {
-            "default": "Espoo"
+            "default": "Espoo",
+            "sv": "Esbo"
          },
          "birthCountry": "FIN"
       },
@@ -213,7 +240,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -238,7 +267,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -259,7 +288,8 @@
          "weightInKilograms": 98,
          "birthDate": "1996-09-20",
          "birthCity": {
-            "default": "Stockholm"
+            "default": "Stockholm",
+            "fi": "Tukholma"
          },
          "birthCountry": "SWE"
       },
@@ -285,7 +315,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "AZ"
+            "default": "Arizona"
          }
       },
       {
@@ -310,33 +340,11 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       }
    ],
    "defensemen": [
-      {
-         "id": 8484304,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/FLA/8484304.png",
-         "firstName": {
-            "default": "Uvis"
-         },
-         "lastName": {
-            "default": "Balinskis"
-         },
-         "sweaterNumber": 26,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 72,
-         "weightInPounds": 196,
-         "heightInCentimeters": 183,
-         "weightInKilograms": 89,
-         "birthDate": "1996-08-01",
-         "birthCity": {
-            "default": "Ventspils"
-         },
-         "birthCountry": "LVA"
-      },
       {
          "id": 8477932,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/FLA/8477932.png",
@@ -359,7 +367,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -402,7 +410,13 @@
          "weightInKilograms": 88,
          "birthDate": "1996-06-12",
          "birthCity": {
-            "default": "Linkoping"
+            "default": "Linkoping",
+            "cs": "Link\u00f6ping",
+            "de": "Link\u00f6ping",
+            "fi": "Link\u00f6ping",
+            "fr": "Link\u00f6ping",
+            "sk": "Link\u00f6ping",
+            "sv": "Link\u00f6ping"
          },
          "birthCountry": "SWE"
       },
@@ -427,7 +441,9 @@
          "weightInKilograms": 91,
          "birthDate": "1990-10-29",
          "birthCity": {
-            "default": "Lipetsk"
+            "default": "Lipetsk",
+            "cs": "Lipeck",
+            "sk": "Lipeck"
          },
          "birthCountry": "RUS"
       },
@@ -449,11 +465,12 @@
          "weightInKilograms": 88,
          "birthDate": "1998-05-05",
          "birthCity": {
-            "default": "St. Albert"
+            "default": "St. Albert",
+            "fr": "St-Albert"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -500,7 +517,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       }
    ],
@@ -527,7 +544,9 @@
          "weightInKilograms": 85,
          "birthDate": "1988-09-20",
          "birthCity": {
-            "default": "Novokuznetsk"
+            "default": "Novokuznetsk",
+            "cs": "Novokuzn\u011bck",
+            "sk": "Novokuzn\u011bck"
          },
          "birthCountry": "RUS"
       },
@@ -553,7 +572,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NJ"
+            "default": "New Jersey"
          }
       }
    ]

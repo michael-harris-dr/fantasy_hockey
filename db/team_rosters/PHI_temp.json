@@ -22,7 +22,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CT"
+            "default": "Connecticut"
          }
       },
       {
@@ -47,7 +47,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -72,7 +72,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -97,7 +97,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "AZ"
+            "default": "Arizona"
          }
       },
       {
@@ -122,7 +122,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -147,7 +148,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       },
       {
@@ -172,7 +173,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -197,7 +198,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -222,7 +223,8 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "FL"
+            "default": "Florida",
+            "fr": "Floride"
          }
       },
       {
@@ -243,11 +245,12 @@
          "weightInKilograms": 87,
          "birthDate": "1997-03-11",
          "birthCity": {
-            "default": "London"
+            "default": "London",
+            "sk": "Lond\u00fdn"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -272,7 +275,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -297,7 +300,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -322,34 +325,34 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       }
    ],
    "defensemen": [
       {
-         "id": 8478011,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/PHI/8478011.png",
+         "id": 8482142,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/PHI/8482142.png",
          "firstName": {
-            "default": "Louie"
+            "default": "Jamie"
          },
          "lastName": {
-            "default": "Belpedio"
+            "default": "Drysdale"
          },
-         "sweaterNumber": 37,
+         "sweaterNumber": 9,
          "positionCode": "D",
          "shootsCatches": "R",
          "heightInInches": 71,
-         "weightInPounds": 197,
+         "weightInPounds": 185,
          "heightInCentimeters": 180,
-         "weightInKilograms": 89,
-         "birthDate": "1996-05-14",
+         "weightInKilograms": 84,
+         "birthDate": "2002-04-08",
          "birthCity": {
-            "default": "Skokie"
+            "default": "Toronto"
          },
-         "birthCountry": "USA",
+         "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "IL"
+            "default": "Ontario"
          }
       },
       {
@@ -374,7 +377,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -395,7 +398,8 @@
          "weightInKilograms": 94,
          "birthDate": "1994-10-27",
          "birthCity": {
-            "default": "Turku"
+            "default": "Turku",
+            "sv": "\u00c5bo"
          },
          "birthCountry": "FIN"
       },
@@ -421,7 +425,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "MB"
+            "default": "Manitoba"
          }
       },
       {
@@ -446,7 +450,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -471,7 +475,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -496,7 +500,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -521,7 +525,10 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CA"
+            "default": "California",
+            "fr": "Californie",
+            "sk": "Kalifornia",
+            "sv": "Kalifornien"
          }
       },
       {
@@ -548,7 +555,10 @@
          "weightInKilograms": 91,
          "birthDate": "2000-03-30",
          "birthCity": {
-            "default": "Chelyabinsk"
+            "default": "Chelyabinsk",
+            "cs": "\u010celjabinsk",
+            "fi": "T\u0161eljabinsk",
+            "sk": "\u010celjabinsk"
          },
          "birthCountry": "RUS"
       }
@@ -598,7 +608,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       }
    ]

@@ -23,7 +23,8 @@ def update_db():
     update_db()
         updates every team roster JSON by pulling from 'https://api-web.nhle.com/v1/roster/{teamCode}/current'
     '''
-    fp2 = open("NHL_TEAMS.json")
+    print('Updating rosters...')
+    fp2 = open("../db/NHL_TEAMS.json")
     teamsJson = json.load(fp2)
 
     for team in teamsJson["teams"]:
@@ -36,6 +37,8 @@ def update_db():
         if(resp.status_code != 200):
             print(f"{myself()}: Response for {req} not OK, terminating with code {resp.status_code}...")
             exit()
+        else:
+            print(f"Updated {teamCode}...")
 
         jason = json.loads(resp.text)
 
@@ -43,6 +46,7 @@ def update_db():
         json.dump(jason, fp, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=3, separators=None)
         fp.close()
     fp2.close()
+    print('...Finished updating rosters')
 
 def get_team_stats():
     fp2 = open(constant.TEAM_LIST_PATH)

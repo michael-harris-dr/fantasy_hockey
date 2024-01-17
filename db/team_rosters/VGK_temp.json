@@ -18,11 +18,12 @@
          "weightInKilograms": 91,
          "birthDate": "1996-05-13",
          "birthCity": {
-            "default": "Sault Ste. Marie"
+            "default": "Sault Ste. Marie",
+            "fr": "Sault-Sainte-Marie"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -45,9 +46,43 @@
          "weightInKilograms": 90,
          "birthDate": "1995-12-14",
          "birthCity": {
-            "default": "Moscow"
+            "default": "Moscow",
+            "cs": "Moskva",
+            "de": "Moskau",
+            "fi": "Moskova",
+            "fr": "Moscou",
+            "sk": "Moskva",
+            "sv": "Moskva"
          },
          "birthCountry": "RUS"
+      },
+      {
+         "id": 8482153,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VGK/8482153.png",
+         "firstName": {
+            "default": "Brendan"
+         },
+         "lastName": {
+            "default": "Brisson"
+         },
+         "sweaterNumber": 19,
+         "positionCode": "C",
+         "shootsCatches": "L",
+         "heightInInches": 72,
+         "weightInPounds": 191,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 87,
+         "birthDate": "2001-10-22",
+         "birthCity": {
+            "default": "Los Angeles"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "California",
+            "fr": "Californie",
+            "sk": "Kalifornia",
+            "sv": "Kalifornien"
+         }
       },
       {
          "id": 8477478,
@@ -71,7 +106,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -96,7 +132,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       },
       {
@@ -117,7 +153,10 @@
          "weightInKilograms": 88,
          "birthDate": "2000-10-26",
          "birthCity": {
-            "default": "Nizhny Tagil"
+            "default": "Nizhny Tagil",
+            "cs": "Ni\u017enyj Tagil",
+            "fi": "Ni\u017eni Tagil",
+            "sk": "Ni\u017enyj Tagil"
          },
          "birthCountry": "RUS"
       },
@@ -143,7 +182,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MA"
+            "default": "Massachusetts"
          }
       },
       {
@@ -168,7 +207,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -189,7 +228,9 @@
          "weightInKilograms": 86,
          "birthDate": "1993-01-08",
          "birthCity": {
-            "default": "Marsta"
+            "default": "Marsta",
+            "fi": "M\u00e4rsta",
+            "sv": "M\u00e4rsta"
          },
          "birthCountry": "SWE"
       },
@@ -215,7 +256,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "MB"
+            "default": "Manitoba"
          }
       },
       {
@@ -240,7 +281,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -265,7 +307,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -290,7 +333,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
          }
       },
       {
@@ -315,11 +358,36 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "MB"
+            "default": "Manitoba"
          }
       }
    ],
    "defensemen": [
+      {
+         "id": 8481600,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VGK/8481600.png",
+         "firstName": {
+            "default": "Tobias"
+         },
+         "lastName": {
+            "default": "Bjornfot",
+            "cs": "Bj\u00f6rnfot",
+            "fi": "Bj\u00f6rnfot",
+            "sk": "Bj\u00f6rnfot"
+         },
+         "sweaterNumber": 26,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 73,
+         "weightInPounds": 200,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 91,
+         "birthDate": "2001-04-06",
+         "birthCity": {
+            "default": "Upplands Vasby"
+         },
+         "birthCountry": "SWE"
+      },
       {
          "id": 8479980,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VGK/8479980.png",
@@ -342,7 +410,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -367,7 +435,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -392,7 +460,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
          }
       },
       {
@@ -417,7 +485,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       },
       {
@@ -442,7 +510,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
          }
       },
       {
@@ -467,7 +535,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
          }
       },
       {
@@ -492,7 +560,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -517,7 +585,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -542,7 +612,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "MB"
+            "default": "Manitoba"
          }
       }
    ],
@@ -569,8 +639,32 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
+      },
+      {
+         "id": 8480238,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VGK/8480238.png",
+         "firstName": {
+            "default": "Jiri"
+         },
+         "lastName": {
+            "default": "Patera"
+         },
+         "sweaterNumber": 30,
+         "positionCode": "G",
+         "shootsCatches": "L",
+         "heightInInches": 75,
+         "weightInPounds": 212,
+         "heightInCentimeters": 191,
+         "weightInKilograms": 96,
+         "birthDate": "1999-02-24",
+         "birthCity": {
+            "default": "Praha"
+         },
+         "birthCountry": "CZE"
       },
       {
          "id": 8480313,
@@ -594,7 +688,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       }
    ]

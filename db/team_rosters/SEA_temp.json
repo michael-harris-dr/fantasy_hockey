@@ -44,7 +44,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MA"
+            "default": "Massachusetts"
          }
       },
       {
@@ -115,7 +115,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
          }
       },
       {
@@ -140,7 +140,33 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
+         }
+      },
+      {
+         "id": 8477401,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SEA/8477401.png",
+         "firstName": {
+            "default": "John"
+         },
+         "lastName": {
+            "default": "Hayden"
+         },
+         "sweaterNumber": 15,
+         "positionCode": "C",
+         "shootsCatches": "R",
+         "heightInInches": 75,
+         "weightInPounds": 223,
+         "heightInCentimeters": 191,
+         "weightInKilograms": 101,
+         "birthDate": "1995-02-14",
+         "birthCity": {
+            "default": "Chicago"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "Illinois"
          }
       },
       {
@@ -165,7 +191,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -190,32 +216,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
-         }
-      },
-      {
-         "id": 8479249,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SEA/8479249.png",
-         "firstName": {
-            "default": "Andrew"
-         },
-         "lastName": {
-            "default": "Poturalski"
-         },
-         "sweaterNumber": 12,
-         "positionCode": "C",
-         "shootsCatches": "R",
-         "heightInInches": 70,
-         "weightInPounds": 187,
-         "heightInCentimeters": 178,
-         "weightInKilograms": 85,
-         "birthDate": "1994-01-14",
-         "birthCity": {
-            "default": "Williamsville"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "NY"
+            "default": "Ontario"
          }
       },
       {
@@ -240,36 +241,33 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
          }
       },
       {
-         "id": 8480226,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SEA/8480226.png",
+         "id": 8476913,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SEA/8476913.png",
          "firstName": {
-            "default": "Mari\u00e1n",
-            "de": "Marian",
-            "es": "Marian",
-            "fi": "Marian",
-            "sv": "Marian"
+            "default": "Devin"
          },
          "lastName": {
-            "default": "Studenic",
-            "cs": "Studeni\u010d",
-            "sk": "Studeni\u010d"
+            "default": "Shore"
          },
-         "sweaterNumber": 43,
-         "positionCode": "R",
+         "sweaterNumber": 94,
+         "positionCode": "C",
          "shootsCatches": "L",
          "heightInInches": 73,
-         "weightInPounds": 190,
+         "weightInPounds": 206,
          "heightInCentimeters": 185,
-         "weightInKilograms": 86,
-         "birthDate": "1998-10-28",
+         "weightInKilograms": 93,
+         "birthDate": "1994-07-19",
          "birthCity": {
-            "default": "Skalica"
+            "default": "Ajax"
          },
-         "birthCountry": "SVK"
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Ontario"
+         }
       },
       {
          "id": 8479293,
@@ -293,8 +291,34 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
+      },
+      {
+         "id": 8475193,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SEA/8475193.png",
+         "firstName": {
+            "default": "Tomas",
+            "cs": "Tom\u00e1\u0161",
+            "sk": "Tom\u00e1\u0161"
+         },
+         "lastName": {
+            "default": "Tatar"
+         },
+         "sweaterNumber": 90,
+         "positionCode": "L",
+         "shootsCatches": "L",
+         "heightInInches": 70,
+         "weightInPounds": 173,
+         "heightInCentimeters": 178,
+         "weightInKilograms": 78,
+         "birthDate": "1990-12-01",
+         "birthCity": {
+            "default": "Ilava",
+            "cs": "I\u013eava",
+            "sk": "I\u013eava"
+         },
+         "birthCountry": "SVK"
       },
       {
          "id": 8480009,
@@ -342,7 +366,8 @@
          "weightInKilograms": 86,
          "birthDate": "1994-09-22",
          "birthCity": {
-            "default": "Stockholm"
+            "default": "Stockholm",
+            "fi": "Tukholma"
          },
          "birthCountry": "SWE"
       },
@@ -368,7 +393,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "WA"
+            "default": "Washington"
          }
       }
    ],
@@ -401,7 +426,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -426,7 +451,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "ME"
+            "default": "Maine"
          }
       },
       {
@@ -451,7 +476,32 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
+         }
+      },
+      {
+         "id": 8482858,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SEA/8482858.png",
+         "firstName": {
+            "default": "Ryker"
+         },
+         "lastName": {
+            "default": "Evans"
+         },
+         "sweaterNumber": 39,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 71,
+         "weightInPounds": 189,
+         "heightInCentimeters": 180,
+         "weightInKilograms": 86,
+         "birthDate": "2001-12-13",
+         "birthCity": {
+            "default": "Calgary"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Alberta"
          }
       },
       {
@@ -472,34 +522,11 @@
          "weightInKilograms": 95,
          "birthDate": "1992-11-12",
          "birthCity": {
-            "default": "Skelleftea"
+            "default": "Skelleftea",
+            "fi": "Skellefte\u00e5",
+            "sv": "Skellefte\u00e5"
          },
          "birthCountry": "SWE"
-      },
-      {
-         "id": 8477034,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SEA/8477034.png",
-         "firstName": {
-            "default": "Jaycob"
-         },
-         "lastName": {
-            "default": "Megna"
-         },
-         "sweaterNumber": 44,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 78,
-         "weightInPounds": 220,
-         "heightInCentimeters": 198,
-         "weightInKilograms": 100,
-         "birthDate": "1992-12-10",
-         "birthCity": {
-            "default": "Plantation"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "FL"
-         }
       },
       {
          "id": 8476467,
@@ -523,7 +550,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -548,7 +575,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       }
    ],
@@ -575,7 +604,32 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MA"
+            "default": "Massachusetts"
+         }
+      },
+      {
+         "id": 8476904,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SEA/8476904.png",
+         "firstName": {
+            "default": "Chris"
+         },
+         "lastName": {
+            "default": "Driedger"
+         },
+         "sweaterNumber": 60,
+         "positionCode": "G",
+         "shootsCatches": "L",
+         "heightInInches": 76,
+         "weightInPounds": 208,
+         "heightInCentimeters": 193,
+         "weightInKilograms": 94,
+         "birthDate": "1994-05-18",
+         "birthCity": {
+            "default": "Winnipeg"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Manitoba"
          }
       },
       {

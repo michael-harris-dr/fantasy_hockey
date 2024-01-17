@@ -44,7 +44,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -68,7 +69,11 @@
          "weightInKilograms": 89,
          "birthDate": "1995-04-17",
          "birthCity": {
-            "default": "Cherepovets"
+            "default": "Cherepovets",
+            "cs": "\u010cerepovec",
+            "fi": "T\u0161erepovets",
+            "fr": "Tcherepovets",
+            "sk": "\u010cerepovec"
          },
          "birthCountry": "RUS"
       },
@@ -94,7 +99,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MA"
+            "default": "Massachusetts"
          }
       },
       {
@@ -141,7 +146,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -166,7 +171,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -191,7 +196,8 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "PA"
+            "default": "Pennsylvania",
+            "fr": "Pennsylvanie"
          }
       },
       {
@@ -216,7 +222,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
          }
       },
       {
@@ -263,7 +269,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -292,61 +298,40 @@
          "weightInKilograms": 101,
          "birthDate": "1999-06-25",
          "birthCity": {
-            "default": "Moscow"
+            "default": "Moscow",
+            "cs": "Moskva",
+            "de": "Moskau",
+            "fi": "Moskova",
+            "fr": "Moscou",
+            "sk": "Moskva",
+            "sv": "Moskva"
          },
          "birthCountry": "RUS"
       },
       {
-         "id": 8477944,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/STL/8477944.png",
+         "id": 8477573,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/STL/8477573.png",
          "firstName": {
-            "default": "Jakub"
+            "default": "Nathan"
          },
          "lastName": {
-            "default": "Vrana",
-            "cs": "Vr\u00e1na",
-            "sk": "Vr\u00e1na"
+            "default": "Walker"
          },
-         "sweaterNumber": 15,
+         "sweaterNumber": 26,
          "positionCode": "L",
          "shootsCatches": "L",
-         "heightInInches": 72,
-         "weightInPounds": 190,
-         "heightInCentimeters": 183,
-         "weightInKilograms": 86,
-         "birthDate": "1996-02-28",
+         "heightInInches": 69,
+         "weightInPounds": 187,
+         "heightInCentimeters": 175,
+         "weightInKilograms": 85,
+         "birthDate": "1994-02-07",
          "birthCity": {
-            "default": "Prague"
+            "default": "Cardiff"
          },
-         "birthCountry": "CZE"
+         "birthCountry": "GBR"
       }
    ],
    "defensemen": [
-      {
-         "id": 8474145,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/STL/8474145.png",
-         "firstName": {
-            "default": "Robert"
-         },
-         "lastName": {
-            "default": "Bortuzzo"
-         },
-         "sweaterNumber": 41,
-         "positionCode": "D",
-         "shootsCatches": "R",
-         "heightInInches": 76,
-         "weightInPounds": 216,
-         "heightInCentimeters": 193,
-         "weightInKilograms": 98,
-         "birthDate": "1989-03-18",
-         "birthCity": {
-            "default": "Thunder Bay"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "ON"
-         }
-      },
       {
          "id": 8475753,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/STL/8475753.png",
@@ -369,7 +354,32 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
+         }
+      },
+      {
+         "id": 8482516,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/STL/8482516.png",
+         "firstName": {
+            "default": "Matthew"
+         },
+         "lastName": {
+            "default": "Kessel"
+         },
+         "sweaterNumber": 51,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 74,
+         "weightInPounds": 205,
+         "heightInCentimeters": 188,
+         "weightInKilograms": 93,
+         "birthDate": "2000-06-23",
+         "birthCity": {
+            "default": "Phoenix"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "Arizona"
          }
       },
       {
@@ -394,7 +404,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       },
       {
@@ -419,7 +429,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -440,11 +450,12 @@
          "weightInKilograms": 103,
          "birthDate": "1993-05-12",
          "birthCity": {
-            "default": "St. Albert"
+            "default": "St. Albert",
+            "fr": "St-Albert"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -469,7 +480,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -494,32 +505,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
-         }
-      },
-      {
-         "id": 8481006,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/STL/8481006.png",
-         "firstName": {
-            "default": "Tyler"
-         },
-         "lastName": {
-            "default": "Tucker"
-         },
-         "sweaterNumber": 75,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 73,
-         "weightInPounds": 204,
-         "heightInCentimeters": 185,
-         "weightInKilograms": 93,
-         "birthDate": "2000-03-01",
-         "birthCity": {
-            "default": "Thunder Bay"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "ON"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       }
    ],
@@ -546,7 +533,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -571,7 +558,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "MB"
+            "default": "Manitoba"
          }
       }
    ]

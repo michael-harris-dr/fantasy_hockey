@@ -22,7 +22,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -47,7 +48,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -72,7 +73,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CO"
+            "default": "Colorado"
          }
       },
       {
@@ -97,7 +98,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       },
       {
@@ -122,7 +123,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
          }
       },
       {
@@ -147,32 +148,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
-         }
-      },
-      {
-         "id": 8481043,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8481043.png",
-         "firstName": {
-            "default": "Cole"
-         },
-         "lastName": {
-            "default": "Koepke"
-         },
-         "sweaterNumber": 45,
-         "positionCode": "L",
-         "shootsCatches": "L",
-         "heightInInches": 73,
-         "weightInPounds": 203,
-         "heightInCentimeters": 185,
-         "weightInKilograms": 92,
-         "birthDate": "1998-05-17",
-         "birthCity": {
-            "default": "Two Harbors"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "MN"
+            "default": "Saskatchewan"
          }
       },
       {
@@ -201,6 +177,28 @@
          "birthCountry": "RUS"
       },
       {
+         "id": 8484325,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8484325.png",
+         "firstName": {
+            "default": "Waltteri"
+         },
+         "lastName": {
+            "default": "Merela"
+         },
+         "sweaterNumber": 39,
+         "positionCode": "C",
+         "shootsCatches": "R",
+         "heightInInches": 75,
+         "weightInPounds": 210,
+         "heightInCentimeters": 191,
+         "weightInKilograms": 95,
+         "birthDate": "1998-07-06",
+         "birthCity": {
+            "default": "Ylojarvi"
+         },
+         "birthCountry": "FIN"
+      },
+      {
          "id": 8477353,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8477353.png",
          "firstName": {
@@ -222,7 +220,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       },
       {
@@ -253,7 +251,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -278,7 +276,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -303,7 +301,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MA"
+            "default": "Massachusetts"
          }
       },
       {
@@ -328,7 +326,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -344,16 +342,16 @@
          "positionCode": "L",
          "shootsCatches": "R",
          "heightInInches": 76,
-         "weightInPounds": 209,
+         "weightInPounds": 238,
          "heightInCentimeters": 193,
-         "weightInKilograms": 95,
+         "weightInKilograms": 108,
          "birthDate": "1992-01-13",
          "birthCity": {
             "default": "Ann Arbor"
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       }
    ],
@@ -378,9 +376,62 @@
          "weightInKilograms": 104,
          "birthDate": "1997-05-28",
          "birthCity": {
-            "default": "Kosice"
+            "default": "Kosice",
+            "cs": "Ko\u0161ice",
+            "fi": "Ko\u0161ice",
+            "sk": "Ko\u0161ice"
          },
          "birthCountry": "SVK"
+      },
+      {
+         "id": 8481719,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8481719.png",
+         "firstName": {
+            "default": "Maxwell"
+         },
+         "lastName": {
+            "default": "Crozier"
+         },
+         "sweaterNumber": 65,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 73,
+         "weightInPounds": 197,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 89,
+         "birthDate": "2000-04-19",
+         "birthCity": {
+            "default": "Calgary"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Alberta"
+         }
+      },
+      {
+         "id": 8475177,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8475177.png",
+         "firstName": {
+            "default": "Calvin"
+         },
+         "lastName": {
+            "default": "de Haan"
+         },
+         "sweaterNumber": 44,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 73,
+         "weightInPounds": 192,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 87,
+         "birthDate": "1991-05-09",
+         "birthCity": {
+            "default": "Carp"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Ontario"
+         }
       },
       {
          "id": 8477938,
@@ -404,7 +455,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
          }
       },
       {
@@ -425,9 +476,58 @@
          "weightInKilograms": 112,
          "birthDate": "1990-12-18",
          "birthCity": {
-            "default": "Ornskoldsvik"
+            "default": "Ornskoldsvik",
+            "sv": "\u00d6rnsk\u00f6ldsvik"
          },
          "birthCountry": "SWE"
+      },
+      {
+         "id": 8482929,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8482929.png",
+         "firstName": {
+            "default": "Emil"
+         },
+         "lastName": {
+            "default": "Martinsen Lilleberg"
+         },
+         "sweaterNumber": 78,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 74,
+         "weightInPounds": 202,
+         "heightInCentimeters": 188,
+         "weightInKilograms": 92,
+         "birthDate": "2001-02-02",
+         "birthCity": {
+            "default": "Sarpsborg"
+         },
+         "birthCountry": "NOR"
+      },
+      {
+         "id": 8479026,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8479026.png",
+         "firstName": {
+            "default": "Philippe"
+         },
+         "lastName": {
+            "default": "Myers"
+         },
+         "sweaterNumber": 5,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 78,
+         "weightInPounds": 213,
+         "heightInCentimeters": 198,
+         "weightInKilograms": 97,
+         "birthDate": "1997-01-25",
+         "birthCity": {
+            "default": "Moncton"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "New Brunswick",
+            "fr": "Nouveau-Brunswick"
+         }
       },
       {
          "id": 8480246,
@@ -457,7 +557,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -482,7 +582,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -509,34 +609,13 @@
          "weightInKilograms": 96,
          "birthDate": "1998-06-25",
          "birthCity": {
-            "default": "Nizhnekamsk"
+            "default": "Nizhnekamsk",
+            "cs": "Ni\u017en\u011bkamsk",
+            "fi": "Ni\u017enekamsk",
+            "sk": "Ni\u017en\u011bkamsk",
+            "sv": "Nizhnekampsk"
          },
          "birthCountry": "RUS"
-      },
-      {
-         "id": 8475177,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TBL/8475177.png",
-         "firstName": {
-            "default": "Calvin"
-         },
-         "lastName": {
-            "default": "de Haan"
-         },
-         "sweaterNumber": 44,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 73,
-         "weightInPounds": 192,
-         "heightInCentimeters": 185,
-         "weightInKilograms": 87,
-         "birthDate": "1991-05-09",
-         "birthCity": {
-            "default": "Carp"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "ON"
-         }
       }
    ],
    "goalies": [
@@ -585,7 +664,11 @@
          "weightInKilograms": 100,
          "birthDate": "1994-07-25",
          "birthCity": {
-            "default": "Tyumen"
+            "default": "Tyumen",
+            "cs": "\u0164jumen",
+            "fi": "Tjumen",
+            "sk": "\u0164jumen",
+            "sv": "Tumen"
          },
          "birthCountry": "RUS"
       }

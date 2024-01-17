@@ -22,7 +22,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "WI"
+            "default": "Wisconsin"
          }
       },
       {
@@ -47,7 +47,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "NS"
+            "default": "Nova Scotia",
+            "fr": "Nouvelle-\u00c9cosse"
          }
       },
       {
@@ -72,7 +73,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       },
       {
@@ -93,7 +94,8 @@
          "weightInKilograms": 78,
          "birthDate": "1996-02-14",
          "birthCity": {
-            "default": "Aalborg"
+            "default": "Aalborg",
+            "fi": "\u00c5lborg"
          },
          "birthCountry": "DNK"
       },
@@ -141,7 +143,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       },
       {
@@ -164,7 +166,8 @@
          "weightInKilograms": 86,
          "birthDate": "1998-02-10",
          "birthCity": {
-            "default": "Stockholm"
+            "default": "Stockholm",
+            "fi": "Tukholma"
          },
          "birthCountry": "SWE"
       },
@@ -208,11 +211,17 @@
          "weightInKilograms": 95,
          "birthDate": "1993-03-29",
          "birthCity": {
-            "default": "St. Louis"
+            "default": "St. Louis",
+            "cs": "St. Louis ",
+            "de": "St. Louis ",
+            "fi": "St. Louis ",
+            "fr": "St. Louis ",
+            "sk": "St. Louis ",
+            "sv": "St. Louis "
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MO"
+            "default": "Missouri"
          }
       },
       {
@@ -234,7 +243,10 @@
          "weightInKilograms": 82,
          "birthDate": "1992-11-22",
          "birthCity": {
-            "default": "Zhukovskiy"
+            "default": "Zhukovskiy",
+            "cs": "\u017dukovskij",
+            "fi": "\u017dukovskij",
+            "sk": "\u017dukovskij"
          },
          "birthCountry": "RUS"
       },
@@ -256,7 +268,8 @@
          "weightInKilograms": 99,
          "birthDate": "1992-09-08",
          "birthCity": {
-            "default": "Chur"
+            "default": "Chur",
+            "fr": "Coire"
          },
          "birthCountry": "CHE"
       },
@@ -282,7 +295,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -307,7 +320,32 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
+         }
+      },
+      {
+         "id": 8476952,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WPG/8476952.png",
+         "firstName": {
+            "default": "Dominic"
+         },
+         "lastName": {
+            "default": "Toninato"
+         },
+         "sweaterNumber": 21,
+         "positionCode": "C",
+         "shootsCatches": "L",
+         "heightInInches": 74,
+         "weightInPounds": 201,
+         "heightInCentimeters": 188,
+         "weightInKilograms": 91,
+         "birthDate": "1994-03-09",
+         "birthCity": {
+            "default": "Duluth"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "Minnesota"
          }
       },
       {
@@ -332,7 +370,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       }
    ],
@@ -359,7 +397,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -385,11 +423,12 @@
          "weightInKilograms": 88,
          "birthDate": "1993-05-01",
          "birthCity": {
-            "default": "London"
+            "default": "London",
+            "sk": "Lond\u00fdn"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -414,7 +453,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -439,7 +480,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -464,7 +505,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NE"
+            "default": "Nebraska"
          }
       },
       {
@@ -489,7 +530,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -514,7 +555,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -539,7 +580,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       }
    ],
@@ -566,7 +607,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -591,7 +634,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       }
    ]

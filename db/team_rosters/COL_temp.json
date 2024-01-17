@@ -22,7 +22,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -47,7 +47,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NJ"
+            "default": "New Jersey"
          }
       },
       {
@@ -72,7 +72,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -97,7 +98,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -118,7 +121,8 @@
          "weightInKilograms": 84,
          "birthDate": "1996-03-23",
          "birthCity": {
-            "default": "Vantaa"
+            "default": "Vantaa",
+            "sv": "Vanda"
          },
          "birthCountry": "FIN"
       },
@@ -166,35 +170,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "NS"
+            "default": "Nova Scotia",
+            "fr": "Nouvelle-\u00c9cosse"
          }
-      },
-      {
-         "id": 8477501,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/COL/8477501.png",
-         "firstName": {
-            "default": "Valeri",
-            "cs": "Valerij",
-            "sk": "Valerij"
-         },
-         "lastName": {
-            "default": "Nichushkin",
-            "cs": "Ni\u010du\u0161kin",
-            "fi": "Nitshushkin",
-            "sk": "Ni\u010du\u0161kin"
-         },
-         "sweaterNumber": 13,
-         "positionCode": "R",
-         "shootsCatches": "L",
-         "heightInInches": 76,
-         "weightInPounds": 210,
-         "heightInCentimeters": 193,
-         "weightInKilograms": 95,
-         "birthDate": "1995-03-04",
-         "birthCity": {
-            "default": "Chelyabinsk"
-         },
-         "birthCountry": "RUS"
       },
       {
          "id": 8481186,
@@ -218,7 +196,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "TX"
+            "default": "Texas"
          }
       },
       {
@@ -244,6 +222,31 @@
          "birthCountry": "SWE"
       },
       {
+         "id": 8484255,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/COL/8484255.png",
+         "firstName": {
+            "default": "Jason"
+         },
+         "lastName": {
+            "default": "Polin"
+         },
+         "sweaterNumber": 41,
+         "positionCode": "R",
+         "shootsCatches": "R",
+         "heightInInches": 72,
+         "weightInPounds": 198,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 90,
+         "birthDate": "1999-06-17",
+         "birthCity": {
+            "default": "Holt"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "Michigan"
+         }
+      },
+      {
          "id": 8478420,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/COL/8478420.png",
          "firstName": {
@@ -264,30 +267,6 @@
             "default": "Nousiainen"
          },
          "birthCountry": "FIN"
-      },
-      {
-         "id": 8475193,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/COL/8475193.png",
-         "firstName": {
-            "default": "Tomas",
-            "cs": "Tom\u00e1\u0161",
-            "sk": "Tom\u00e1\u0161"
-         },
-         "lastName": {
-            "default": "Tatar"
-         },
-         "sweaterNumber": 90,
-         "positionCode": "L",
-         "shootsCatches": "L",
-         "heightInInches": 70,
-         "weightInPounds": 173,
-         "heightInCentimeters": 178,
-         "weightInKilograms": 78,
-         "birthDate": "1990-12-01",
-         "birthCity": {
-            "default": "Ilava"
-         },
-         "birthCountry": "SVK"
       },
       {
          "id": 8477425,
@@ -311,7 +290,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       }
    ],
@@ -320,7 +299,7 @@
          "id": 8481524,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/COL/8481524.png",
          "firstName": {
-            "default": "Bowen"
+            "default": "Bowen "
          },
          "lastName": {
             "default": "Byram"
@@ -338,7 +317,35 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
+         }
+      },
+      {
+         "id": 8479398,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/COL/8479398.png",
+         "firstName": {
+            "default": "Samuel"
+         },
+         "lastName": {
+            "default": "Girard"
+         },
+         "sweaterNumber": 49,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 70,
+         "weightInPounds": 170,
+         "heightInCentimeters": 178,
+         "weightInKilograms": 77,
+         "birthDate": "1998-05-12",
+         "birthCity": {
+            "default": "Roberval"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -363,7 +370,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "IN"
+            "default": "Indiana"
          }
       },
       {
@@ -388,7 +395,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "TX"
+            "default": "Texas"
          }
       },
       {
@@ -409,11 +416,13 @@
          "weightInKilograms": 106,
          "birthDate": "1994-03-25",
          "birthCity": {
-            "default": "Sauble Beach"
+            "default": "Quebec City",
+            "fr": "Qu\u00e9bec"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -438,7 +447,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -463,7 +472,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -488,7 +497,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "IL"
+            "default": "Illinois"
          }
       },
       {
@@ -513,11 +522,35 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       }
    ],
    "goalies": [
+      {
+         "id": 8481020,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/COL/8481020.png",
+         "firstName": {
+            "default": "Justus"
+         },
+         "lastName": {
+            "default": "Annunen"
+         },
+         "sweaterNumber": 60,
+         "positionCode": "G",
+         "shootsCatches": "L",
+         "heightInInches": 76,
+         "weightInPounds": 210,
+         "heightInCentimeters": 193,
+         "weightInKilograms": 95,
+         "birthDate": "2000-03-11",
+         "birthCity": {
+            "default": "Kempele"
+         },
+         "birthCountry": "FIN"
+      },
       {
          "id": 8480382,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/COL/8480382.png",
@@ -564,7 +597,13 @@
          "weightInKilograms": 88,
          "birthDate": "1999-03-05",
          "birthCity": {
-            "default": "Moscow"
+            "default": "Moscow",
+            "cs": "Moskva",
+            "de": "Moskau",
+            "fi": "Moskova",
+            "fr": "Moscou",
+            "sk": "Moskva",
+            "sv": "Moskva"
          },
          "birthCountry": "RUS"
       }

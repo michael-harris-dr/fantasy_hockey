@@ -22,7 +22,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -43,7 +43,9 @@
          "weightInKilograms": 84,
          "birthDate": "1993-04-08",
          "birthCity": {
-            "default": "Skelleftea"
+            "default": "Skelleftea",
+            "fi": "Skellefte\u00e5",
+            "sv": "Skellefte\u00e5"
          },
          "birthCountry": "SWE"
       },
@@ -69,7 +71,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -94,7 +96,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -119,7 +122,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -165,7 +169,9 @@
          "weightInKilograms": 91,
          "birthDate": "1997-12-01",
          "birthCity": {
-            "default": "Umea"
+            "default": "Umea",
+            "fi": "Uumaja",
+            "sv": "Ume\u00e5"
          },
          "birthCountry": "SWE"
       },
@@ -259,30 +265,8 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NJ"
+            "default": "New Jersey"
          }
-      },
-      {
-         "id": 8481732,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/LAK/8481732.png",
-         "firstName": {
-            "default": "Andre"
-         },
-         "lastName": {
-            "default": "Lee"
-         },
-         "sweaterNumber": 47,
-         "positionCode": "L",
-         "shootsCatches": "L",
-         "heightInInches": 77,
-         "weightInPounds": 206,
-         "heightInCentimeters": 196,
-         "weightInKilograms": 93,
-         "birthDate": "2000-07-26",
-         "birthCity": {
-            "default": "Karlstad"
-         },
-         "birthCountry": "SWE"
       },
       {
          "id": 8473453,
@@ -306,7 +290,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "UT"
+            "default": "Utah"
          }
       },
       {
@@ -331,7 +315,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -356,7 +340,10 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CA"
+            "default": "California",
+            "fr": "Californie",
+            "sk": "Kalifornia",
+            "sv": "Kalifornien"
          }
       }
    ],
@@ -388,33 +375,33 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
-         "id": 8481600,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/LAK/8481600.png",
+         "id": 8482730,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/LAK/8482730.png",
          "firstName": {
-            "default": "Tobias"
+            "default": "Brandt"
          },
          "lastName": {
-            "default": "Bjornfot",
-            "cs": "Bj\u00f6rnfot",
-            "fi": "Bj\u00f6rnfot",
-            "sk": "Bj\u00f6rnfot"
+            "default": "Clarke"
          },
-         "sweaterNumber": 7,
+         "sweaterNumber": 92,
          "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 73,
+         "shootsCatches": "R",
+         "heightInInches": 74,
          "weightInPounds": 200,
-         "heightInCentimeters": 185,
+         "heightInCentimeters": 188,
          "weightInKilograms": 91,
-         "birthDate": "2001-04-06",
+         "birthDate": "2003-02-09",
          "birthCity": {
-            "default": "Upplands Vasby"
+            "default": "Nepean"
          },
-         "birthCountry": "SWE"
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Ontario"
+         }
       },
       {
          "id": 8474563,
@@ -434,11 +421,12 @@
          "weightInKilograms": 95,
          "birthDate": "1989-12-08",
          "birthCity": {
-            "default": "London"
+            "default": "London",
+            "sk": "Lond\u00fdn"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -459,7 +447,8 @@
          "weightInKilograms": 91,
          "birthDate": "1996-01-21",
          "birthCity": {
-            "default": "Stockholm"
+            "default": "Stockholm",
+            "fi": "Tukholma"
          },
          "birthCountry": "SWE"
       },
@@ -481,9 +470,36 @@
          "weightInKilograms": 100,
          "birthDate": "1995-11-21",
          "birthCity": {
-            "default": "Yaroslavl"
+            "default": "Yaroslavl",
+            "cs": "Jaroslavl",
+            "fi": "Jaroslavl",
+            "sk": "Jaroslavl"
          },
          "birthCountry": "RUS"
+      },
+      {
+         "id": 8479421,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/LAK/8479421.png",
+         "firstName": {
+            "default": "Jacob"
+         },
+         "lastName": {
+            "default": "Moverare"
+         },
+         "sweaterNumber": 43,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 75,
+         "weightInPounds": 210,
+         "heightInCentimeters": 191,
+         "weightInKilograms": 95,
+         "birthDate": "1998-08-31",
+         "birthCity": {
+            "default": "Ostersund",
+            "fi": "\u00d6stersund",
+            "sv": "\u00d6stersund"
+         },
+         "birthCountry": "SWE"
       },
       {
          "id": 8478911,
@@ -507,7 +523,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       },
       {
@@ -556,8 +572,31 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "AK"
+            "default": "Alaska",
+            "sk": "Alja\u0161ka"
          }
+      },
+      {
+         "id": 8479496,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/LAK/8479496.png",
+         "firstName": {
+            "default": "David"
+         },
+         "lastName": {
+            "default": "Rittich"
+         },
+         "sweaterNumber": 31,
+         "positionCode": "G",
+         "shootsCatches": "L",
+         "heightInInches": 76,
+         "weightInPounds": 205,
+         "heightInCentimeters": 193,
+         "weightInKilograms": 93,
+         "birthDate": "1992-08-19",
+         "birthCity": {
+            "default": "Jihlava"
+         },
+         "birthCountry": "CZE"
       },
       {
          "id": 8475660,
@@ -581,7 +620,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       }
    ]

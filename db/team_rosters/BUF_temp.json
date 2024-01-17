@@ -22,32 +22,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
-         }
-      },
-      {
-         "id": 8482061,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BUF/8482061.png",
-         "firstName": {
-            "default": "Brandon"
-         },
-         "lastName": {
-            "default": "Biro"
-         },
-         "sweaterNumber": 15,
-         "positionCode": "L",
-         "shootsCatches": "L",
-         "heightInInches": 71,
-         "weightInPounds": 170,
-         "heightInCentimeters": 180,
-         "weightInKilograms": 77,
-         "birthDate": "1998-03-11",
-         "birthCity": {
-            "default": "Sherwood Park"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "AB"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -72,7 +49,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "YT"
+            "default": "Yukon Territory",
+            "fr": "Yukon",
+            "sk": "Terit\u00f3rium Yukon"
          }
       },
       {
@@ -93,7 +72,8 @@
          "weightInKilograms": 91,
          "birthDate": "1994-01-05",
          "birthCity": {
-            "default": "Riga"
+            "default": "Riga",
+            "fi": "Riika"
          },
          "birthCountry": "LVA"
       },
@@ -119,32 +99,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
-         }
-      },
-      {
-         "id": 8479370,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BUF/8479370.png",
-         "firstName": {
-            "default": "Tyson"
-         },
-         "lastName": {
-            "default": "Jost"
-         },
-         "sweaterNumber": 17,
-         "positionCode": "C",
-         "shootsCatches": "L",
-         "heightInInches": 71,
-         "weightInPounds": 187,
-         "heightInCentimeters": 180,
-         "weightInKilograms": 85,
-         "birthDate": "1998-03-14",
-         "birthCity": {
-            "default": "St. Albert"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "AB"
+            "default": "New York"
          }
       },
       {
@@ -169,7 +124,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -194,7 +149,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -219,7 +174,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -240,7 +195,8 @@
          "weightInKilograms": 83,
          "birthDate": "1995-07-18",
          "birthCity": {
-            "default": "Ornskoldsvik"
+            "default": "Ornskoldsvik",
+            "sv": "\u00d6rnsk\u00f6ldsvik"
          },
          "birthCountry": "SWE"
       },
@@ -262,31 +218,63 @@
          "weightInKilograms": 86,
          "birthDate": "2002-01-14",
          "birthCity": {
-            "default": "Munich"
+            "default": "Munich",
+            "cs": "Mnichov",
+            "de": "M\u00fcnchen",
+            "fi": "M\u00fcnchen",
+            "sk": "Mnichov",
+            "sv": "M\u00fcnchen"
          },
          "birthCountry": "DEU"
       },
       {
-         "id": 8482765,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BUF/8482765.png",
+         "id": 8482097,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BUF/8482097.png",
          "firstName": {
-            "default": "Isak"
+            "default": "Jack"
          },
          "lastName": {
-            "default": "Rosen"
+            "default": "Quinn"
          },
-         "sweaterNumber": 63,
+         "sweaterNumber": 22,
          "positionCode": "R",
-         "shootsCatches": "L",
-         "heightInInches": 72,
-         "weightInPounds": 173,
-         "heightInCentimeters": 183,
-         "weightInKilograms": 78,
-         "birthDate": "2003-03-15",
+         "shootsCatches": "R",
+         "heightInInches": 73,
+         "weightInPounds": 185,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 84,
+         "birthDate": "2001-09-19",
          "birthCity": {
-            "default": "Solna"
+            "default": "Ottawa"
          },
-         "birthCountry": "SWE"
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Ontario"
+         }
+      },
+      {
+         "id": 8480762,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BUF/8480762.png",
+         "firstName": {
+            "default": "Eric"
+         },
+         "lastName": {
+            "default": "Robinson"
+         },
+         "positionCode": "L",
+         "shootsCatches": "L",
+         "heightInInches": 74,
+         "weightInPounds": 211,
+         "heightInCentimeters": 188,
+         "weightInKilograms": 96,
+         "birthDate": "1995-06-14",
+         "birthCity": {
+            "default": "Bellmawr"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "New Jersey"
+         }
       },
       {
          "id": 8475784,
@@ -310,7 +298,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -335,7 +323,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "AZ"
+            "default": "Arizona"
          }
       },
       {
@@ -360,36 +348,11 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       }
    ],
    "defensemen": [
-      {
-         "id": 8480196,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BUF/8480196.png",
-         "firstName": {
-            "default": "Jacob"
-         },
-         "lastName": {
-            "default": "Bryson"
-         },
-         "sweaterNumber": 78,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 69,
-         "weightInPounds": 174,
-         "heightInCentimeters": 175,
-         "weightInKilograms": 79,
-         "birthDate": "1997-11-18",
-         "birthCity": {
-            "default": "London"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "ON"
-         }
-      },
       {
          "id": 8477365,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BUF/8477365.png",
@@ -412,7 +375,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NJ"
+            "default": "New Jersey"
          }
       },
       {
@@ -459,7 +422,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -484,7 +447,10 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CA"
+            "default": "California",
+            "fr": "Californie",
+            "sk": "Kalifornia",
+            "sv": "Kalifornien"
          }
       },
       {
@@ -505,7 +471,8 @@
          "weightInKilograms": 91,
          "birthDate": "1999-06-17",
          "birthCity": {
-            "default": "Oulu"
+            "default": "Oulu",
+            "sv": "Ule\u00e5borg"
          },
          "birthCountry": "FIN"
       },
@@ -531,7 +498,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -552,38 +519,41 @@
          "weightInKilograms": 102,
          "birthDate": "2000-03-14",
          "birthCity": {
-            "default": "Philadelphia"
+            "default": "Philadelphia",
+            "fr": "Philadelphie"
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "PA"
+            "default": "Pennsylvania",
+            "fr": "Pennsylvanie"
          }
       }
    ],
    "goalies": [
       {
-         "id": 8477480,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BUF/8477480.png",
+         "id": 8482221,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/BUF/8482221.png",
          "firstName": {
-            "default": "Eric"
+            "default": "Devon"
          },
          "lastName": {
-            "default": "Comrie"
+            "default": "Levi"
          },
-         "sweaterNumber": 31,
+         "sweaterNumber": 27,
          "positionCode": "G",
          "shootsCatches": "L",
-         "heightInInches": 73,
-         "weightInPounds": 190,
-         "heightInCentimeters": 185,
-         "weightInKilograms": 86,
-         "birthDate": "1995-07-06",
+         "heightInInches": 72,
+         "weightInPounds": 192,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 87,
+         "birthDate": "2001-12-27",
          "birthCity": {
-            "default": "Edmonton"
+            "default": "Dollard-des-Ormeaux"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -604,7 +574,8 @@
          "weightInKilograms": 98,
          "birthDate": "1999-03-09",
          "birthCity": {
-            "default": "Espoo"
+            "default": "Espoo",
+            "sv": "Esbo"
          },
          "birthCountry": "FIN"
       }

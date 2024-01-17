@@ -22,7 +22,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "RI"
+            "default": "Rhode Island"
          }
       },
       {
@@ -43,11 +43,12 @@
          "weightInKilograms": 99,
          "birthDate": "1985-01-01",
          "birthCity": {
-            "default": "London"
+            "default": "London",
+            "sk": "Lond\u00fdn"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -72,7 +73,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "NS"
+            "default": "Nova Scotia",
+            "fr": "Nouvelle-\u00c9cosse"
          }
       },
       {
@@ -93,7 +95,9 @@
          "weightInKilograms": 93,
          "birthDate": "1989-05-08",
          "birthCity": {
-            "default": "Rodovre"
+            "default": "Rodovre",
+            "fi": "R\u00f8dovre",
+            "sv": "R\u00f6dovre"
          },
          "birthCountry": "DNK"
       },
@@ -119,7 +123,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NE"
+            "default": "Nebraska"
          }
       },
       {
@@ -144,32 +148,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "OH"
-         }
-      },
-      {
-         "id": 8476994,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/PIT/8476994.png",
-         "firstName": {
-            "default": "Vinnie"
-         },
-         "lastName": {
-            "default": "Hinostroza"
-         },
-         "sweaterNumber": 13,
-         "positionCode": "C",
-         "shootsCatches": "R",
-         "heightInInches": 70,
-         "weightInPounds": 183,
-         "heightInCentimeters": 178,
-         "weightInKilograms": 83,
-         "birthDate": "1994-04-03",
-         "birthCity": {
-            "default": "Chicago"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "IL"
+            "default": "Ohio"
          }
       },
       {
@@ -219,7 +198,10 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CA"
+            "default": "California",
+            "fr": "Californie",
+            "sk": "Kalifornia",
+            "sv": "Kalifornien"
          }
       },
       {
@@ -244,8 +226,30 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NJ"
+            "default": "New Jersey"
          }
+      },
+      {
+         "id": 8481703,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/PIT/8481703.png",
+         "firstName": {
+            "default": "Valtteri"
+         },
+         "lastName": {
+            "default": "Puustinen"
+         },
+         "sweaterNumber": 48,
+         "positionCode": "R",
+         "shootsCatches": "R",
+         "heightInInches": 69,
+         "weightInPounds": 183,
+         "heightInCentimeters": 175,
+         "weightInKilograms": 83,
+         "birthDate": "1999-06-04",
+         "birthCity": {
+            "default": "Kuopio"
+         },
+         "birthCountry": "FIN"
       },
       {
          "id": 8476483,
@@ -291,7 +295,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       },
       {
@@ -316,7 +320,32 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
+         }
+      },
+      {
+         "id": 8478400,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/PIT/8478400.png",
+         "firstName": {
+            "default": "Colin"
+         },
+         "lastName": {
+            "default": "White"
+         },
+         "sweaterNumber": 36,
+         "positionCode": "C",
+         "shootsCatches": "R",
+         "heightInInches": 73,
+         "weightInPounds": 194,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 88,
+         "birthDate": "1997-01-30",
+         "birthCity": {
+            "default": "Boston"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "Massachusetts"
          }
       },
       {
@@ -365,7 +394,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "NS"
+            "default": "Nova Scotia",
+            "fr": "Nouvelle-\u00c9cosse"
          }
       },
       {
@@ -390,7 +420,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -437,7 +468,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -480,7 +512,9 @@
          "weightInKilograms": 80,
          "birthDate": "1996-05-08",
          "birthCity": {
-            "default": "Skelleftea"
+            "default": "Skelleftea",
+            "fi": "Skellefte\u00e5",
+            "sv": "Skellefte\u00e5"
          },
          "birthCountry": "SWE"
       },
@@ -506,56 +540,10 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CA"
-         }
-      },
-      {
-         "id": 8480041,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/PIT/8480041.png",
-         "firstName": {
-            "default": "Dmitri",
-            "cs": "Dmitrij",
-            "sk": "Dmitrij"
-         },
-         "lastName": {
-            "default": "Samorukov"
-         },
-         "sweaterNumber": 53,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 75,
-         "weightInPounds": 188,
-         "heightInCentimeters": 191,
-         "weightInKilograms": 85,
-         "birthDate": "1999-06-16",
-         "birthCity": {
-            "default": "Volgograd"
-         },
-         "birthCountry": "RUS"
-      },
-      {
-         "id": 8478854,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/PIT/8478854.png",
-         "firstName": {
-            "default": "Ryan"
-         },
-         "lastName": {
-            "default": "Shea"
-         },
-         "sweaterNumber": 5,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 74,
-         "weightInPounds": 200,
-         "heightInCentimeters": 188,
-         "weightInKilograms": 91,
-         "birthDate": "1997-02-11",
-         "birthCity": {
-            "default": "Milton"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "MA"
+            "default": "California",
+            "fr": "Californie",
+            "sk": "Kalifornia",
+            "sv": "Kalifornien"
          }
       }
    ],
@@ -582,7 +570,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -607,7 +597,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "OH"
+            "default": "Ohio"
          }
       }
    ]

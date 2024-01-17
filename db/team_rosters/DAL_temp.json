@@ -22,7 +22,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -46,7 +48,10 @@
          "weightInKilograms": 84,
          "birthDate": "1989-03-12",
          "birthCity": {
-            "default": "Chelyabinsk"
+            "default": "Chelyabinsk",
+            "cs": "\u010celjabinsk",
+            "fi": "T\u0161eljabinsk",
+            "sk": "\u010celjabinsk"
          },
          "birthCountry": "RUS"
       },
@@ -72,7 +77,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -97,7 +102,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -118,7 +123,11 @@
          "weightInKilograms": 98,
          "birthDate": "1994-01-09",
          "birthCity": {
-            "default": "Vitkov"
+            "default": "Vitkov",
+            "cs": "V\u00edtkov",
+            "fi": "V\u00edtkov",
+            "sk": "V\u00edtkov",
+            "sv": ""
          },
          "birthCountry": "CZE"
       },
@@ -166,7 +175,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -191,7 +200,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -216,7 +225,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "WI"
+            "default": "Wisconsin"
          }
       },
       {
@@ -241,7 +250,10 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CA"
+            "default": "California",
+            "fr": "Californie",
+            "sk": "Kalifornia",
+            "sv": "Kalifornien"
          }
       },
       {
@@ -266,7 +278,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -291,7 +303,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "WI"
+            "default": "Wisconsin"
          }
       },
       {
@@ -316,7 +328,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       }
    ],
@@ -343,7 +355,8 @@
          "weightInKilograms": 101,
          "birthDate": "1992-03-31",
          "birthCity": {
-            "default": "Kirkkonummi"
+            "default": "Kirkkonummi",
+            "sv": "Kyrksl\u00e4tt"
          },
          "birthCountry": "FIN"
       },
@@ -369,7 +382,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -394,7 +407,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       },
       {
@@ -415,7 +428,8 @@
          "weightInKilograms": 89,
          "birthDate": "1999-07-18",
          "birthCity": {
-            "default": "Espoo"
+            "default": "Espoo",
+            "sv": "Esbo"
          },
          "birthCountry": "FIN"
       },
@@ -437,7 +451,8 @@
          "weightInKilograms": 98,
          "birthDate": "1994-05-23",
          "birthCity": {
-            "default": "Vantaa"
+            "default": "Vantaa",
+            "sv": "Vanda"
          },
          "birthCountry": "FIN"
       },
@@ -459,7 +474,9 @@
          "weightInKilograms": 86,
          "birthDate": "2000-07-27",
          "birthCity": {
-            "default": "Pitea"
+            "default": "Pitea",
+            "fi": "Pite\u00e5",
+            "sv": "Pite\u00e5"
          },
          "birthCountry": "SWE"
       },
@@ -485,11 +502,37 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "WI"
+            "default": "Wisconsin"
          }
       }
    ],
    "goalies": [
+      {
+         "id": 8483575,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/DAL/8483575.png",
+         "firstName": {
+            "default": "Matt"
+         },
+         "lastName": {
+            "default": "Murray"
+         },
+         "sweaterNumber": 32,
+         "positionCode": "G",
+         "shootsCatches": "L",
+         "heightInInches": 73,
+         "weightInPounds": 196,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 89,
+         "birthDate": "1998-02-02",
+         "birthCity": {
+            "default": "St. Albert",
+            "fr": "St-Albert"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Alberta"
+         }
+      },
       {
          "id": 8479979,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/DAL/8479979.png",
@@ -512,7 +555,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -537,7 +580,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       }
    ]

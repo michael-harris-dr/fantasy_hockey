@@ -22,7 +22,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -43,7 +43,8 @@
          "weightInKilograms": 98,
          "birthDate": "1993-05-31",
          "birthCity": {
-            "default": "Pori"
+            "default": "Pori",
+            "sv": "Bj\u00f6rneborg"
          },
          "birthCountry": "FIN"
       },
@@ -69,7 +70,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "WI"
+            "default": "Wisconsin"
          }
       },
       {
@@ -94,7 +95,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -119,7 +120,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "IL"
+            "default": "Illinois"
          }
       },
       {
@@ -144,7 +145,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -169,7 +170,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -194,7 +195,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -219,7 +221,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -244,7 +246,10 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "NL"
+            "default": "Newfoundland and Labrador",
+            "fr": "Newfoundland et Labrador",
+            "sk": "Newfoundland a Labrador",
+            "sv": "Newfoundland och Labrador"
          }
       },
       {
@@ -269,7 +274,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -294,7 +299,33 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
+         }
+      },
+      {
+         "id": 8482749,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/MTL/8482749.png",
+         "firstName": {
+            "default": "Joshua"
+         },
+         "lastName": {
+            "default": "Roy"
+         },
+         "sweaterNumber": 89,
+         "positionCode": "R",
+         "shootsCatches": "L",
+         "heightInInches": 72,
+         "weightInPounds": 192,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 87,
+         "birthDate": "2003-08-06",
+         "birthCity": {
+            "default": "Saint-Georges-De-Beauce"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -317,9 +348,37 @@
          "weightInKilograms": 104,
          "birthDate": "2004-03-30",
          "birthCity": {
-            "default": "Kosice"
+            "default": "Kosice",
+            "cs": "Ko\u0161ice",
+            "fi": "Ko\u0161ice",
+            "sk": "Ko\u0161ice"
          },
          "birthCountry": "SVK"
+      },
+      {
+         "id": 8478477,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/MTL/8478477.png",
+         "firstName": {
+            "default": "Mitchell"
+         },
+         "lastName": {
+            "default": "Stephens"
+         },
+         "sweaterNumber": 13,
+         "positionCode": "C",
+         "shootsCatches": "R",
+         "heightInInches": 72,
+         "weightInPounds": 203,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 92,
+         "birthDate": "1997-02-05",
+         "birthCity": {
+            "default": "Peterborough"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Ontario"
+         }
       },
       {
          "id": 8480018,
@@ -339,11 +398,12 @@
          "weightInKilograms": 96,
          "birthDate": "1999-08-10",
          "birthCity": {
-            "default": "London"
+            "default": "London",
+            "sk": "Lond\u00fdn"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -368,7 +428,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "AZ"
+            "default": "Arizona"
          }
       }
    ],
@@ -395,7 +455,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "NS"
+            "default": "Nova Scotia",
+            "fr": "Nouvelle-\u00c9cosse"
          }
       },
       {
@@ -420,7 +481,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -445,7 +506,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MA"
+            "default": "Massachusetts"
          }
       },
       {
@@ -470,34 +531,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
-      },
-      {
-         "id": 8480184,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/MTL/8480184.png",
-         "firstName": {
-            "default": "Gustav"
-         },
-         "lastName": {
-            "default": "Lindstr\u00f6m",
-            "de": "Lindstrom",
-            "es": "Lindstrom",
-            "fi": "Lindstrom",
-            "sv": "Lindstrom"
-         },
-         "sweaterNumber": 27,
-         "positionCode": "D",
-         "shootsCatches": "R",
-         "heightInInches": 74,
-         "weightInPounds": 194,
-         "heightInCentimeters": 188,
-         "weightInKilograms": 88,
-         "birthDate": "1998-10-20",
-         "birthCity": {
-            "default": "Ostervala"
-         },
-         "birthCountry": "SWE"
       },
       {
          "id": 8476875,
@@ -521,30 +556,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
-      },
-      {
-         "id": 8481555,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/MTL/8481555.png",
-         "firstName": {
-            "default": "Mattias"
-         },
-         "lastName": {
-            "default": "Norlinder"
-         },
-         "sweaterNumber": 59,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 72,
-         "weightInPounds": 191,
-         "heightInCentimeters": 183,
-         "weightInKilograms": 87,
-         "birthDate": "2000-04-12",
-         "birthCity": {
-            "default": "Kramfors"
-         },
-         "birthCountry": "SWE"
       },
       {
          "id": 8475233,
@@ -568,7 +582,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -593,32 +608,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "RI"
-         }
-      },
-      {
-         "id": 8482964,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/MTL/8482964.png",
-         "firstName": {
-            "default": "Arber"
-         },
-         "lastName": {
-            "default": "Xhekaj"
-         },
-         "sweaterNumber": 72,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 76,
-         "weightInPounds": 240,
-         "heightInCentimeters": 193,
-         "weightInKilograms": 109,
-         "birthDate": "2001-01-30",
-         "birthCity": {
-            "default": "Hamilton"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "ON"
+            "default": "Rhode Island"
          }
       }
    ],
@@ -645,7 +635,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "NB"
+            "default": "New Brunswick",
+            "fr": "Nouveau-Brunswick"
          }
       },
       {
@@ -670,7 +661,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -695,7 +687,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       }
    ]

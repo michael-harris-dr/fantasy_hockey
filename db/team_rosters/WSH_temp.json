@@ -22,7 +22,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -73,7 +73,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "AL"
+            "default": "Alabama"
          }
       },
       {
@@ -99,7 +99,10 @@
          "weightInKilograms": 94,
          "birthDate": "1992-05-19",
          "birthCity": {
-            "default": "Chelyabinsk"
+            "default": "Chelyabinsk",
+            "cs": "\u010celjabinsk",
+            "fi": "T\u0161eljabinsk",
+            "sk": "\u010celjabinsk"
          },
          "birthCountry": "RUS"
       },
@@ -125,7 +128,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -150,7 +154,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -175,7 +181,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -200,7 +207,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -225,7 +232,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       },
       {
@@ -250,7 +257,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "WA"
+            "default": "Washington"
          }
       },
       {
@@ -277,7 +284,13 @@
          "weightInKilograms": 108,
          "birthDate": "1985-09-17",
          "birthCity": {
-            "default": "Moscow"
+            "default": "Moscow",
+            "cs": "Moskva",
+            "de": "Moskau",
+            "fi": "Moskova",
+            "fr": "Moscou",
+            "sk": "Moskva",
+            "sv": "Moskva"
          },
          "birthCountry": "RUS"
       },
@@ -303,7 +316,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CT"
+            "default": "Connecticut"
          }
       },
       {
@@ -328,7 +341,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -381,7 +394,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -406,7 +419,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       }
    ],
@@ -433,9 +446,38 @@
          "weightInKilograms": 97,
          "birthDate": "1999-11-15",
          "birthCity": {
-            "default": "St. Petersburg"
+            "default": "St. Petersburg",
+            "cs": "Petrohrad",
+            "fi": "Pietari",
+            "fr": "Saint-P\u00e9tersbourg",
+            "sk": "Petrohrad"
          },
          "birthCountry": "RUS"
+      },
+      {
+         "id": 8478451,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WSH/8478451.png",
+         "firstName": {
+            "default": "Ethan"
+         },
+         "lastName": {
+            "default": "Bear"
+         },
+         "sweaterNumber": 25,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 71,
+         "weightInPounds": 197,
+         "heightInCentimeters": 180,
+         "weightInKilograms": 89,
+         "birthDate": "1997-06-26",
+         "birthCity": {
+            "default": "Regina"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Saskatchewan"
+         }
       },
       {
          "id": 8474590,
@@ -459,7 +501,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MA"
+            "default": "Massachusetts"
          }
       },
       {
@@ -484,7 +526,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "MB"
+            "default": "Manitoba"
          }
       },
       {
@@ -533,32 +575,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
-         }
-      },
-      {
-         "id": 8479321,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/WSH/8479321.png",
-         "firstName": {
-            "default": "Lucas"
-         },
-         "lastName": {
-            "default": "Johansen"
-         },
-         "sweaterNumber": 46,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 74,
-         "weightInPounds": 176,
-         "heightInCentimeters": 188,
-         "weightInKilograms": 80,
-         "birthDate": "1997-11-16",
-         "birthCity": {
-            "default": "Vancouver"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "BC"
+            "default": "Minnesota"
          }
       },
       {
@@ -605,7 +622,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NJ"
+            "default": "New Jersey"
          }
       }
    ],
@@ -632,7 +649,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
          }
       },
       {
@@ -657,7 +674,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       }
    ]

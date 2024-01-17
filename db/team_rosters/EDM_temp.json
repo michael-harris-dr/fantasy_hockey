@@ -22,7 +22,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -43,7 +43,12 @@
          "weightInKilograms": 95,
          "birthDate": "1995-10-27",
          "birthCity": {
-            "default": "Cologne"
+            "default": "Cologne",
+            "cs": "Kol\u00edn nad R\u00fdnem",
+            "de": "K\u00f6ln",
+            "fi": "K\u00f6ln",
+            "sk": "Kol\u00edn n. R.",
+            "sv": "K\u00f6ln"
          },
          "birthCountry": "DEU"
       },
@@ -69,7 +74,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CT"
+            "default": "Connecticut"
          }
       },
       {
@@ -94,7 +99,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -115,11 +120,12 @@
          "weightInKilograms": 91,
          "birthDate": "1989-08-10",
          "birthCity": {
-            "default": "London"
+            "default": "London",
+            "sk": "Lond\u00fdn"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -144,32 +150,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
-         }
-      },
-      {
-         "id": 8482077,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/EDM/8482077.png",
-         "firstName": {
-            "default": "Dylan"
-         },
-         "lastName": {
-            "default": "Holloway"
-         },
-         "sweaterNumber": 55,
-         "positionCode": "L",
-         "shootsCatches": "L",
-         "heightInInches": 73,
-         "weightInPounds": 206,
-         "heightInCentimeters": 185,
-         "weightInKilograms": 93,
-         "birthDate": "2001-09-23",
-         "birthCity": {
-            "default": "Calgary"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -194,7 +175,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -242,7 +223,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -267,7 +250,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -292,7 +275,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -317,7 +300,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -342,7 +327,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "WA"
+            "default": "Washington"
          }
       }
    ],
@@ -369,30 +354,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
-      },
-      {
-         "id": 8481598,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/EDM/8481598.png",
-         "firstName": {
-            "default": "Philip"
-         },
-         "lastName": {
-            "default": "Broberg"
-         },
-         "sweaterNumber": 86,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 76,
-         "weightInPounds": 212,
-         "heightInCentimeters": 193,
-         "weightInKilograms": 96,
-         "birthDate": "2001-06-25",
-         "birthCity": {
-            "default": "Orebro"
-         },
-         "birthCountry": "SWE"
       },
       {
          "id": 8476879,
@@ -416,7 +379,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -441,7 +404,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -462,9 +426,36 @@
          "weightInKilograms": 102,
          "birthDate": "1990-05-24",
          "birthCity": {
-            "default": "Borlange"
+            "default": "Borlange",
+            "fi": "Borl\u00e4nge",
+            "sv": "Borl\u00e4nge"
          },
          "birthCountry": "SWE"
+      },
+      {
+         "id": 8480274,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/EDM/8480274.png",
+         "firstName": {
+            "default": "Philip"
+         },
+         "lastName": {
+            "default": "Kemp"
+         },
+         "sweaterNumber": 76,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 75,
+         "weightInPounds": 202,
+         "heightInCentimeters": 191,
+         "weightInKilograms": 92,
+         "birthDate": "1999-02-12",
+         "birthCity": {
+            "default": "Greenwich"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "Connecticut"
+         }
       },
       {
          "id": 8476967,
@@ -488,7 +479,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -513,7 +504,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       }
    ],
@@ -540,7 +531,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "NB"
+            "default": "New Brunswick",
+            "fr": "Nouveau-Brunswick"
          }
       },
       {
@@ -565,7 +557,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       }
    ]

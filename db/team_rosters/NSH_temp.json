@@ -22,7 +22,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -43,34 +43,11 @@
          "weightInKilograms": 93,
          "birthDate": "1994-08-13",
          "birthCity": {
-            "default": "Ostervala"
+            "default": "Ostervala",
+            "fi": "\u00d6sterv\u00e5la",
+            "sv": "\u00d6sterv\u00e5la"
          },
          "birthCountry": "SWE"
-      },
-      {
-         "id": 8480853,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NSH/8480853.png",
-         "firstName": {
-            "default": "Liam"
-         },
-         "lastName": {
-            "default": "Foudy"
-         },
-         "sweaterNumber": 18,
-         "positionCode": "C",
-         "shootsCatches": "L",
-         "heightInInches": 74,
-         "weightInPounds": 193,
-         "heightInCentimeters": 188,
-         "weightInKilograms": 88,
-         "birthDate": "2000-02-04",
-         "birthCity": {
-            "default": "Scarborough"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "ON"
-         }
       },
       {
          "id": 8479996,
@@ -94,8 +71,34 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "MB"
+            "default": "Manitoba"
          }
+      },
+      {
+         "id": 8478495,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NSH/8478495.png",
+         "firstName": {
+            "default": "Denis"
+         },
+         "lastName": {
+            "default": "Gurianov",
+            "cs": "Gurjanov",
+            "fi": "Gurjanov",
+            "sk": "Gurjanov"
+         },
+         "sweaterNumber": 15,
+         "positionCode": "R",
+         "shootsCatches": "L",
+         "heightInInches": 75,
+         "weightInPounds": 205,
+         "heightInCentimeters": 191,
+         "weightInKilograms": 93,
+         "birthDate": "1997-06-07",
+         "birthCity": {
+            "default": "Togliatti",
+            "fi": "Toljatti"
+         },
+         "birthCountry": "RUS"
       },
       {
          "id": 8477446,
@@ -119,7 +122,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       },
       {
@@ -150,7 +153,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -197,7 +200,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -244,7 +247,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "OH"
+            "default": "Ohio"
          }
       },
       {
@@ -269,7 +272,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -290,11 +295,12 @@
          "weightInKilograms": 88,
          "birthDate": "1995-10-28",
          "birthCity": {
-            "default": "Brainerd"
+            "default": "Brainerd",
+            "fr": ""
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -319,7 +325,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -342,7 +348,10 @@
          "weightInKilograms": 91,
          "birthDate": "1997-01-13",
          "birthCity": {
-            "default": "Chelyabinsk"
+            "default": "Chelyabinsk",
+            "cs": "\u010celjabinsk",
+            "fi": "T\u0161eljabinsk",
+            "sk": "\u010celjabinsk"
          },
          "birthCountry": "RUS"
       }
@@ -370,7 +379,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -391,11 +402,13 @@
          "weightInKilograms": 79,
          "birthDate": "1996-10-08",
          "birthCity": {
-            "default": "Quebec City"
+            "default": "Quebec City",
+            "fr": "Qu\u00e9bec"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -420,7 +433,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -441,7 +456,8 @@
          "weightInKilograms": 91,
          "birthDate": "1990-06-01",
          "birthCity": {
-            "default": "Bern"
+            "default": "Bern",
+            "fr": "Berne"
          },
          "birthCountry": "CHE"
       },
@@ -457,17 +473,18 @@
          "sweaterNumber": 3,
          "positionCode": "D",
          "shootsCatches": "L",
-         "heightInInches": 73,
-         "weightInPounds": 204,
-         "heightInCentimeters": 185,
-         "weightInKilograms": 93,
+         "heightInInches": 75,
+         "weightInPounds": 225,
+         "heightInCentimeters": 191,
+         "weightInKilograms": 102,
          "birthDate": "1997-04-28",
          "birthCity": {
             "default": "Val-d'Or"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -492,7 +509,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -517,7 +534,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
          }
       }
    ],
@@ -540,7 +557,9 @@
          "weightInKilograms": 86,
          "birthDate": "1995-04-28",
          "birthCity": {
-            "default": "Helsinki"
+            "default": "Helsinki",
+            "cs": "Helsinky",
+            "sv": "Helsingfors"
          },
          "birthCountry": "FIN"
       },

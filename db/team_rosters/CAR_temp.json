@@ -18,7 +18,8 @@
          "weightInKilograms": 80,
          "birthDate": "1997-07-26",
          "birthCity": {
-            "default": "Rauma"
+            "default": "Rauma",
+            "sv": "Raumo"
          },
          "birthCountry": "FIN"
       },
@@ -44,7 +45,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -69,7 +70,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       },
       {
@@ -95,7 +96,9 @@
          "weightInKilograms": 87,
          "birthDate": "1991-12-02",
          "birthCity": {
-            "default": "Nassjo"
+            "default": "Nassjo",
+            "fi": "N\u00e4ssj\u00f6",
+            "sv": "N\u00e4ssj\u00f6"
          },
          "birthCountry": "SWE"
       },
@@ -121,7 +124,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "MB"
+            "default": "Manitoba"
          }
       },
       {
@@ -142,7 +145,8 @@
          "weightInKilograms": 91,
          "birthDate": "2000-07-06",
          "birthCity": {
-            "default": "Pori"
+            "default": "Pori",
+            "sv": "Bj\u00f6rneborg"
          },
          "birthCountry": "FIN"
       },
@@ -168,7 +172,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CO"
+            "default": "Colorado"
          }
       },
       {
@@ -193,7 +197,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "MB"
+            "default": "Manitoba"
          }
       },
       {
@@ -242,7 +246,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "TX"
+            "default": "Texas"
          }
       },
       {
@@ -267,7 +271,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -318,7 +322,9 @@
          "weightInKilograms": 87,
          "birthDate": "1994-09-11",
          "birthCity": {
-            "default": "Helsinki"
+            "default": "Helsinki",
+            "cs": "Helsinky",
+            "sv": "Helsingfors"
          },
          "birthCountry": "FIN"
       }
@@ -346,7 +352,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -371,7 +377,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       },
       {
@@ -396,7 +402,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NJ"
+            "default": "New Jersey"
          }
       },
       {
@@ -420,7 +426,9 @@
          "weightInKilograms": 97,
          "birthDate": "1991-07-23",
          "birthCity": {
-            "default": "Novokuznetsk"
+            "default": "Novokuznetsk",
+            "cs": "Novokuzn\u011bck",
+            "sk": "Novokuzn\u011bck"
          },
          "birthCountry": "RUS"
       },
@@ -446,7 +454,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       },
       {
@@ -471,7 +479,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -496,7 +504,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CO"
+            "default": "Colorado"
          }
       }
    ],
@@ -546,6 +554,32 @@
          "birthCountry": "RUS"
       },
       {
+         "id": 8484293,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CAR/8484293.png",
+         "firstName": {
+            "default": "Yaniv"
+         },
+         "lastName": {
+            "default": "Perets"
+         },
+         "sweaterNumber": 60,
+         "positionCode": "G",
+         "shootsCatches": "L",
+         "heightInInches": 73,
+         "weightInPounds": 181,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 82,
+         "birthDate": "2000-03-04",
+         "birthCity": {
+            "default": "Dollard-des-Ormeaux"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
+         }
+      },
+      {
          "id": 8477293,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CAR/8477293.png",
          "firstName": {
@@ -563,7 +597,8 @@
          "weightInKilograms": 88,
          "birthDate": "1989-05-12",
          "birthCity": {
-            "default": "Rauma"
+            "default": "Rauma",
+            "sv": "Raumo"
          },
          "birthCountry": "FIN"
       }

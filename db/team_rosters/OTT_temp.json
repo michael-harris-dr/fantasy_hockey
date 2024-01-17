@@ -22,7 +22,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "IN"
+            "default": "Indiana"
          }
       },
       {
@@ -47,7 +47,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
          }
       },
       {
@@ -72,7 +72,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -97,32 +97,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
-         }
-      },
-      {
-         "id": 8478146,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/OTT/8478146.png",
-         "firstName": {
-            "default": "Matthew"
-         },
-         "lastName": {
-            "default": "Highmore"
-         },
-         "sweaterNumber": 15,
-         "positionCode": "C",
-         "shootsCatches": "L",
-         "heightInInches": 71,
-         "weightInPounds": 188,
-         "heightInCentimeters": 180,
-         "weightInKilograms": 85,
-         "birthDate": "1996-02-27",
-         "birthCity": {
-            "default": "Halifax"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "NS"
+            "default": "Alberta"
          }
       },
       {
@@ -147,7 +122,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -172,7 +148,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "AZ"
+            "default": "Arizona"
          }
       },
       {
@@ -197,7 +173,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -220,7 +196,12 @@
          "weightInKilograms": 87,
          "birthDate": "1995-08-21",
          "birthCity": {
-            "default": "Plzen"
+            "default": "Plzen",
+            "cs": "Plze\u0148",
+            "de": "Pilsen",
+            "fi": "Plze\u0148 ",
+            "fr": "Pilsen",
+            "sk": "Plze\u0148"
          },
          "birthCountry": "CZE"
       },
@@ -252,7 +233,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "PE"
+            "default": "Prince Edward Island",
+            "fr": "\u00cele du Prince-\u00c9douard ",
+            "sk": "Ostrov Princa Edwarda"
          }
       },
       {
@@ -277,7 +260,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       },
       {
@@ -320,7 +303,10 @@
          "weightInKilograms": 99,
          "birthDate": "1991-12-13",
          "birthCity": {
-            "default": "Yaroslavl"
+            "default": "Yaroslavl",
+            "cs": "Jaroslavl",
+            "fi": "Jaroslavl",
+            "sk": "Jaroslavl"
          },
          "birthCountry": "RUS"
       },
@@ -346,7 +332,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "AZ"
+            "default": "Arizona"
          }
       }
    ],
@@ -373,7 +359,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -397,7 +383,9 @@
          "weightInKilograms": 84,
          "birthDate": "1999-09-02",
          "birthCity": {
-            "default": "Eksjo"
+            "default": "Eksjo",
+            "fi": "Eksj\u00f6",
+            "sv": "Eksj\u00f6"
          },
          "birthCountry": "SWE"
       },
@@ -423,7 +411,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -448,7 +437,8 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "FL"
+            "default": "Florida",
+            "fr": "Floride"
          }
       },
       {
@@ -469,11 +459,12 @@
          "weightInKilograms": 91,
          "birthDate": "1990-08-16",
          "birthCity": {
-            "default": "St. Malo"
+            "default": "St. Malo",
+            "fr": "St-Malo"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "MB"
+            "default": "Manitoba"
          }
       },
       {
@@ -498,7 +489,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MT"
+            "default": "Montana"
          }
       },
       {
@@ -519,7 +510,10 @@
          "weightInKilograms": 93,
          "birthDate": "1995-10-03",
          "birthCity": {
-            "default": "Khabarovsk"
+            "default": "Khabarovsk",
+            "cs": "Chabarovsk",
+            "fi": "Habarovsk",
+            "sk": "Chabarovsk"
          },
          "birthCountry": "RUS"
       }
@@ -565,9 +559,33 @@
          "weightInKilograms": 86,
          "birthDate": "1994-04-28",
          "birthCity": {
-            "default": "Pori"
+            "default": "Pori",
+            "sv": "Bj\u00f6rneborg"
          },
          "birthCountry": "FIN"
+      },
+      {
+         "id": 8481544,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/OTT/8481544.png",
+         "firstName": {
+            "default": "Mads"
+         },
+         "lastName": {
+            "default": "Sogaard"
+         },
+         "sweaterNumber": 40,
+         "positionCode": "G",
+         "shootsCatches": "L",
+         "heightInInches": 79,
+         "weightInPounds": 196,
+         "heightInCentimeters": 201,
+         "weightInKilograms": 89,
+         "birthDate": "2000-12-13",
+         "birthCity": {
+            "default": "Aalborg",
+            "fi": "\u00c5lborg"
+         },
+         "birthCountry": "DNK"
       }
    ]
 }

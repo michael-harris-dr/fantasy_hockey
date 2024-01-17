@@ -22,7 +22,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -47,7 +47,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -72,7 +72,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -97,7 +97,8 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "PA"
+            "default": "Pennsylvania",
+            "fr": "Pennsylvanie"
          }
       },
       {
@@ -122,7 +123,32 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
+         }
+      },
+      {
+         "id": 8482699,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/ARI/8482699.png",
+         "firstName": {
+            "default": "Dylan"
+         },
+         "lastName": {
+            "default": "Guenther"
+         },
+         "sweaterNumber": 11,
+         "positionCode": "R",
+         "shootsCatches": "R",
+         "heightInInches": 74,
+         "weightInPounds": 175,
+         "heightInCentimeters": 188,
+         "weightInKilograms": 79,
+         "birthDate": "2003-04-10",
+         "birthCity": {
+            "default": "Edmonton"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Alberta"
          }
       },
       {
@@ -147,30 +173,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
-      },
-      {
-         "id": 8483597,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/ARI/8483597.png",
-         "firstName": {
-            "default": "Milos"
-         },
-         "lastName": {
-            "default": "Kelemen"
-         },
-         "sweaterNumber": 21,
-         "positionCode": "L",
-         "shootsCatches": "L",
-         "heightInInches": 74,
-         "weightInPounds": 210,
-         "heightInCentimeters": 188,
-         "weightInKilograms": 95,
-         "birthDate": "1999-07-06",
-         "birthCity": {
-            "default": "Zvolen"
-         },
-         "birthCountry": "SVK"
       },
       {
          "id": 8479343,
@@ -194,7 +198,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MO"
+            "default": "Missouri"
          }
       },
       {
@@ -225,7 +229,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -246,7 +252,8 @@
          "weightInKilograms": 80,
          "birthDate": "2000-10-14",
          "birthCity": {
-            "default": "Turku"
+            "default": "Turku",
+            "sv": "\u00c5bo"
          },
          "birthCountry": "FIN"
       },
@@ -272,7 +279,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -297,32 +304,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "NS"
-         }
-      },
-      {
-         "id": 8477482,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/ARI/8477482.png",
-         "firstName": {
-            "default": "Zach"
-         },
-         "lastName": {
-            "default": "Sanford"
-         },
-         "sweaterNumber": 12,
-         "positionCode": "L",
-         "shootsCatches": "L",
-         "heightInInches": 76,
-         "weightInPounds": 206,
-         "heightInCentimeters": 193,
-         "weightInKilograms": 93,
-         "birthDate": "1994-11-09",
-         "birthCity": {
-            "default": "Salem"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "MA"
+            "default": "Nova Scotia",
+            "fr": "Nouvelle-\u00c9cosse"
          }
       },
       {
@@ -347,7 +330,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "WI"
+            "default": "Wisconsin"
          }
       },
       {
@@ -372,7 +355,10 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CA"
+            "default": "California",
+            "fr": "Californie",
+            "sk": "Kalifornia",
+            "sv": "Kalifornien"
          }
       }
    ],
@@ -395,11 +381,12 @@
          "weightInKilograms": 100,
          "birthDate": "1994-01-21",
          "birthCity": {
-            "default": "London"
+            "default": "London",
+            "sk": "Lond\u00fdn"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -424,7 +411,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -449,7 +436,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
          }
       },
       {
@@ -474,7 +461,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -499,7 +486,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NH"
+            "default": "New Hampshire"
          }
       },
       {
@@ -570,7 +557,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -594,7 +583,8 @@
          "weightInKilograms": 93,
          "birthDate": "1998-10-06",
          "birthCity": {
-            "default": "Tampere"
+            "default": "Tampere",
+            "sv": "Tammerfors"
          },
          "birthCountry": "FIN"
       }
@@ -622,7 +612,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
          }
       },
       {
@@ -643,7 +633,10 @@
          "weightInKilograms": 102,
          "birthDate": "1996-05-25",
          "birthCity": {
-            "default": "Trebic"
+            "default": "Trebic",
+            "cs": "T\u0159eb\u00ed\u010d",
+            "fi": "T\u0159eb\u00ed\u010d ",
+            "sk": "T\u0159eb\u00ed\u010d"
          },
          "birthCountry": "CZE"
       }

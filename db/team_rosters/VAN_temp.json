@@ -44,7 +44,8 @@
          "weightInKilograms": 84,
          "birthDate": "1994-08-15",
          "birthCity": {
-            "default": "Riga"
+            "default": "Riga",
+            "fi": "Riika"
          },
          "birthCountry": "LVA"
       },
@@ -70,7 +71,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -95,7 +96,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -120,7 +121,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MA"
+            "default": "Massachusetts"
          }
       },
       {
@@ -167,30 +168,8 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
-      },
-      {
-         "id": 8481024,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8481024.png",
-         "firstName": {
-            "default": "Linus"
-         },
-         "lastName": {
-            "default": "Karlsson"
-         },
-         "sweaterNumber": 94,
-         "positionCode": "C",
-         "shootsCatches": "R",
-         "heightInInches": 73,
-         "weightInPounds": 178,
-         "heightInCentimeters": 185,
-         "weightInKilograms": 81,
-         "birthDate": "1999-11-16",
-         "birthCity": {
-            "default": "Eksj\u00f6"
-         },
-         "birthCountry": "SWE"
       },
       {
          "id": 8483808,
@@ -236,7 +215,8 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "PA"
+            "default": "Pennsylvania",
+            "fr": "Pennsylvanie"
          }
       },
       {
@@ -289,7 +269,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "OH"
+            "default": "Ohio"
          }
       },
       {
@@ -360,7 +340,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -385,7 +366,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       },
       {
@@ -410,7 +391,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -431,7 +412,10 @@
          "weightInKilograms": 86,
          "birthDate": "1997-11-02",
          "birthCity": {
-            "default": "Hradec Kralove"
+            "default": "Hradec Kralove",
+            "cs": "Hradec Kr\u00e1lov\u00e9",
+            "fi": "Hradec Kr\u00e1lov\u00e9",
+            "sk": "Hradec Kr\u00e1lov\u00e9"
          },
          "birthCountry": "CZE"
       },
@@ -457,32 +441,8 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "FL"
-         }
-      },
-      {
-         "id": 8475625,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8475625.png",
-         "firstName": {
-            "default": "Matt"
-         },
-         "lastName": {
-            "default": "Irwin"
-         },
-         "sweaterNumber": 52,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 74,
-         "weightInPounds": 200,
-         "heightInCentimeters": 188,
-         "weightInKilograms": 91,
-         "birthDate": "1987-11-29",
-         "birthCity": {
-            "default": "Victoria"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "BC"
+            "default": "Florida",
+            "fr": "Floride"
          }
       },
       {
@@ -507,7 +467,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -532,7 +494,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "TX"
+            "default": "Texas"
          }
       },
       {
@@ -557,7 +519,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "IA"
+            "default": "Iowa"
          }
       },
       {
@@ -582,7 +544,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -594,6 +556,7 @@
          "lastName": {
             "default": "Zadorov"
          },
+         "sweaterNumber": 91,
          "positionCode": "D",
          "shootsCatches": "L",
          "heightInInches": 78,
@@ -602,37 +565,18 @@
          "weightInKilograms": 112,
          "birthDate": "1995-04-16",
          "birthCity": {
-            "default": "Moscow"
+            "default": "Moscow",
+            "cs": "Moskva",
+            "de": "Moskau",
+            "fi": "Moskova",
+            "fr": "Moscou",
+            "sk": "Moskva",
+            "sv": "Moskva"
          },
          "birthCountry": "RUS"
       }
    ],
    "goalies": [
-      {
-         "id": 8479193,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8479193.png",
-         "firstName": {
-            "default": "Casey"
-         },
-         "lastName": {
-            "default": "DeSmith"
-         },
-         "sweaterNumber": 29,
-         "positionCode": "G",
-         "shootsCatches": "L",
-         "heightInInches": 72,
-         "weightInPounds": 181,
-         "heightInCentimeters": 183,
-         "weightInKilograms": 82,
-         "birthDate": "1991-08-13",
-         "birthCity": {
-            "default": "Rochester"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "NH"
-         }
-      },
       {
          "id": 8477967,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8477967.png",
@@ -655,7 +599,35 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CA"
+            "default": "California",
+            "fr": "Californie",
+            "sk": "Kalifornia",
+            "sv": "Kalifornien"
+         }
+      },
+      {
+         "id": 8479193,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/VAN/8479193.png",
+         "firstName": {
+            "default": "Casey"
+         },
+         "lastName": {
+            "default": "DeSmith"
+         },
+         "sweaterNumber": 29,
+         "positionCode": "G",
+         "shootsCatches": "L",
+         "heightInInches": 72,
+         "weightInPounds": 181,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 82,
+         "birthDate": "1991-08-13",
+         "birthCity": {
+            "default": "Rochester"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "New Hampshire"
          }
       }
    ]

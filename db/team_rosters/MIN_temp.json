@@ -22,7 +22,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MA"
+            "default": "Massachusetts"
          }
       },
       {
@@ -47,7 +47,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "MB"
+            "default": "Manitoba"
          }
       },
       {
@@ -72,7 +72,8 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "FL"
+            "default": "Florida",
+            "fr": "Floride"
          }
       },
       {
@@ -119,7 +120,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       },
       {
@@ -144,7 +145,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -169,7 +171,9 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "SC"
+            "default": "South Carolina",
+            "fr": "Caroline du Sud",
+            "sk": "Ju\u017en\u00e1 Karol\u00edna"
          }
       },
       {
@@ -212,7 +216,9 @@
          "weightInKilograms": 92,
          "birthDate": "1997-04-26",
          "birthCity": {
-            "default": "Novokuznetsk"
+            "default": "Novokuznetsk",
+            "cs": "Novokuzn\u011bck",
+            "sk": "Novokuzn\u011bck"
          },
          "birthCountry": "RUS"
       },
@@ -238,7 +244,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -259,12 +265,43 @@
          "weightInKilograms": 106,
          "birthDate": "1988-04-23",
          "birthCity": {
-            "default": "St. Louis"
+            "default": "St. Louis",
+            "cs": "St. Louis ",
+            "de": "St. Louis ",
+            "fi": "St. Louis ",
+            "fr": "St. Louis ",
+            "sk": "St. Louis ",
+            "sv": "St. Louis "
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MO"
+            "default": "Missouri"
          }
+      },
+      {
+         "id": 8482197,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/MIN/8482197.png",
+         "firstName": {
+            "default": "Adam"
+         },
+         "lastName": {
+            "default": "Raska"
+         },
+         "sweaterNumber": 51,
+         "positionCode": "R",
+         "shootsCatches": "R",
+         "heightInInches": 70,
+         "weightInPounds": 178,
+         "heightInCentimeters": 178,
+         "weightInKilograms": 81,
+         "birthDate": "2001-09-25",
+         "birthCity": {
+            "default": "Frydek-Mistek",
+            "cs": "Fr\u00fddek-M\u00edstek",
+            "fi": "Fr\u00fddek-M\u00edstek",
+            "sk": "Fr\u00fddek-M\u00edstek"
+         },
+         "birthCountry": "CZE"
       },
       {
          "id": 8482079,
@@ -334,7 +371,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       },
       {
@@ -381,7 +418,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -406,7 +443,57 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
+         }
+      },
+      {
+         "id": 8482094,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/MIN/8482094.png",
+         "firstName": {
+            "default": "Daemon"
+         },
+         "lastName": {
+            "default": "Hunt"
+         },
+         "sweaterNumber": 48,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 73,
+         "weightInPounds": 201,
+         "heightInCentimeters": 185,
+         "weightInKilograms": 91,
+         "birthDate": "2002-05-15",
+         "birthCity": {
+            "default": "Brandon"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Manitoba"
+         }
+      },
+      {
+         "id": 8477541,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/MIN/8477541.png",
+         "firstName": {
+            "default": "Dakota"
+         },
+         "lastName": {
+            "default": "Mermis"
+         },
+         "sweaterNumber": 6,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 72,
+         "weightInPounds": 195,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 88,
+         "birthDate": "1994-01-05",
+         "birthCity": {
+            "default": "Alton"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "Illinois"
          }
       },
       {
@@ -431,7 +518,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "OK"
+            "default": "Oklahoma"
          }
       },
       {
@@ -462,7 +549,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -487,7 +574,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       }
    ],
@@ -514,7 +601,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -535,7 +623,9 @@
          "weightInKilograms": 83,
          "birthDate": "1998-06-07",
          "birthCity": {
-            "default": "Skelleftea"
+            "default": "Skelleftea",
+            "fi": "Skellefte\u00e5",
+            "sv": "Skellefte\u00e5"
          },
          "birthCountry": "SWE"
       }

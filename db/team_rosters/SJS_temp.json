@@ -22,7 +22,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       },
       {
@@ -43,7 +43,11 @@
          "weightInKilograms": 88,
          "birthDate": "1994-06-17",
          "birthCity": {
-            "default": "St. Petersburg"
+            "default": "St. Petersburg",
+            "cs": "Petrohrad",
+            "fi": "Pietari",
+            "fr": "Saint-P\u00e9tersbourg",
+            "sk": "Petrohrad"
          },
          "birthCountry": "RUS"
       },
@@ -69,7 +73,8 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "FL"
+            "default": "Florida",
+            "fr": "Floride"
          }
       },
       {
@@ -94,7 +99,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -115,7 +121,8 @@
          "weightInKilograms": 82,
          "birthDate": "2002-10-12",
          "birthCity": {
-            "default": "Stockholm"
+            "default": "Stockholm",
+            "fi": "Tukholma"
          },
          "birthCountry": "SWE"
       },
@@ -137,7 +144,8 @@
          "weightInKilograms": 84,
          "birthDate": "1992-02-26",
          "birthCity": {
-            "default": "Oulu"
+            "default": "Oulu",
+            "sv": "Ule\u00e5borg"
          },
          "birthCountry": "FIN"
       },
@@ -187,7 +195,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -212,7 +220,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MO"
+            "default": "Missouri"
          }
       },
       {
@@ -237,30 +245,34 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       },
       {
-         "id": 8478067,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SJS/8478067.png",
+         "id": 8477149,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SJS/8477149.png",
          "firstName": {
-            "default": "Oskar"
+            "default": "Scott"
          },
          "lastName": {
-            "default": "Lindblom"
+            "default": "Sabourin"
          },
-         "sweaterNumber": 23,
-         "positionCode": "L",
-         "shootsCatches": "L",
-         "heightInInches": 73,
-         "weightInPounds": 191,
-         "heightInCentimeters": 185,
-         "weightInKilograms": 87,
-         "birthDate": "1996-08-15",
+         "sweaterNumber": 49,
+         "positionCode": "R",
+         "shootsCatches": "R",
+         "heightInInches": 76,
+         "weightInPounds": 207,
+         "heightInCentimeters": 193,
+         "weightInKilograms": 94,
+         "birthDate": "1992-07-30",
          "birthCity": {
-            "default": "Gavle"
+            "default": "Orleans",
+            "fr": "Orl\u00e9ans"
          },
-         "birthCountry": "SWE"
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Ontario"
+         }
       },
       {
          "id": 8479379,
@@ -284,7 +296,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -377,7 +389,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "MB"
+            "default": "Manitoba"
          }
       },
       {
@@ -402,7 +414,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -427,7 +439,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -452,7 +466,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "WI"
+            "default": "Wisconsin"
          }
       },
       {
@@ -477,34 +491,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
-      },
-      {
-         "id": 8481812,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SJS/8481812.png",
-         "firstName": {
-            "default": "Nikolai",
-            "cs": "Nikolaj",
-            "sk": "Nikolaj"
-         },
-         "lastName": {
-            "default": "Knyzhov",
-            "cs": "Kny\u017eov",
-            "sk": "Kny\u017eov"
-         },
-         "sweaterNumber": 71,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 75,
-         "weightInPounds": 222,
-         "heightInCentimeters": 191,
-         "weightInKilograms": 101,
-         "birthDate": "1998-03-20",
-         "birthCity": {
-            "default": "Kemerovo"
-         },
-         "birthCountry": "RUS"
       },
       {
          "id": 8479439,
@@ -528,7 +516,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "OR"
+            "default": "Oregon"
          }
       },
       {
@@ -549,7 +537,10 @@
          "weightInKilograms": 88,
          "birthDate": "2000-12-04",
          "birthCity": {
-            "default": "Chelyabinsk"
+            "default": "Chelyabinsk",
+            "cs": "\u010celjabinsk",
+            "fi": "T\u0161eljabinsk",
+            "sk": "\u010celjabinsk"
          },
          "birthCountry": "RUS"
       },
@@ -571,9 +562,37 @@
          "weightInKilograms": 93,
          "birthDate": "1990-07-29",
          "birthCity": {
-            "default": "Pisek"
+            "default": "Pisek",
+            "cs": "P\u00edsek",
+            "fi": "P\u00edsek",
+            "sk": "P\u00edsek"
          },
          "birthCountry": "CZE"
+      },
+      {
+         "id": 8481567,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/SJS/8481567.png",
+         "firstName": {
+            "default": "Henry"
+         },
+         "lastName": {
+            "default": "Thrun"
+         },
+         "sweaterNumber": 3,
+         "positionCode": "D",
+         "shootsCatches": "L",
+         "heightInInches": 74,
+         "weightInPounds": 190,
+         "heightInCentimeters": 188,
+         "weightInKilograms": 86,
+         "birthDate": "2001-03-12",
+         "birthCity": {
+            "default": "Southborough"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "Massachusetts"
+         }
       },
       {
          "id": 8471709,
@@ -597,7 +616,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       }
    ],
@@ -624,7 +644,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -647,7 +667,9 @@
          "weightInKilograms": 98,
          "birthDate": "1996-08-16",
          "birthCity": {
-            "default": "Helsinki"
+            "default": "Helsinki",
+            "cs": "Helsinky",
+            "sv": "Helsingfors"
          },
          "birthCountry": "FIN"
       }

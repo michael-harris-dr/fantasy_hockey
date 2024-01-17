@@ -22,7 +22,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -47,7 +47,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "MB"
+            "default": "Manitoba"
          }
       },
       {
@@ -72,8 +72,32 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
+      },
+      {
+         "id": 8480995,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TOR/8480995.png",
+         "firstName": {
+            "default": "Pontus"
+         },
+         "lastName": {
+            "default": "Holmberg"
+         },
+         "sweaterNumber": 29,
+         "positionCode": "R",
+         "shootsCatches": "L",
+         "heightInInches": 72,
+         "weightInPounds": 188,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 85,
+         "birthDate": "1999-03-09",
+         "birthCity": {
+            "default": "Vasteras",
+            "fi": "V\u00e4ster\u00e5s",
+            "sv": "V\u00e4ster\u00e5s"
+         },
+         "birthCountry": "SWE"
       },
       {
          "id": 8475714,
@@ -147,7 +171,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "AZ"
+            "default": "Arizona"
          }
       },
       {
@@ -172,7 +196,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -197,7 +221,10 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CA"
+            "default": "California",
+            "fr": "Californie",
+            "sk": "Kalifornia",
+            "sv": "Kalifornien"
          }
       },
       {
@@ -222,7 +249,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -247,7 +274,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
          }
       },
       {
@@ -272,7 +299,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "MB"
+            "default": "Manitoba"
          }
       },
       {
@@ -297,7 +324,10 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "CA"
+            "default": "California",
+            "fr": "Californie",
+            "sk": "Kalifornia",
+            "sv": "Kalifornien"
          }
       },
       {
@@ -322,7 +352,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       }
    ],
@@ -349,7 +379,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -374,7 +405,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -399,7 +430,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -420,7 +451,12 @@
          "weightInKilograms": 84,
          "birthDate": "1992-08-14",
          "birthCity": {
-            "default": "Gothenburg"
+            "default": "Gothenburg",
+            "cs": "G\u00f6teborg",
+            "fi": "G\u00f6teborg",
+            "fr": "G\u00f6teborg",
+            "sk": "G\u00f6teborg",
+            "sv": "G\u00f6teborg"
          },
          "birthCountry": "SWE"
       },
@@ -442,40 +478,14 @@
          "weightInKilograms": 96,
          "birthDate": "1996-02-22",
          "birthCity": {
-            "default": "Gothenburg"
+            "default": "Gothenburg",
+            "cs": "G\u00f6teborg",
+            "fi": "G\u00f6teborg",
+            "fr": "G\u00f6teborg",
+            "sk": "G\u00f6teborg",
+            "sv": "G\u00f6teborg"
          },
          "birthCountry": "SWE"
-      },
-      {
-         "id": 8479320,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TOR/8479320.png",
-         "firstName": {
-            "default": "Max",
-            "cs": "Maxime",
-            "de": "Maxime",
-            "es": "Maxime",
-            "fi": "Maxime",
-            "sk": "Maxime",
-            "sv": "Maxime"
-         },
-         "lastName": {
-            "default": "Lajoie"
-         },
-         "sweaterNumber": 48,
-         "positionCode": "D",
-         "shootsCatches": "L",
-         "heightInInches": 73,
-         "weightInPounds": 191,
-         "heightInCentimeters": 185,
-         "weightInKilograms": 87,
-         "birthDate": "1997-11-05",
-         "birthCity": {
-            "default": "Quebec City"
-         },
-         "birthCountry": "CAN",
-         "birthStateProvince": {
-            "default": "QC"
-         }
       },
       {
          "id": 8480043,
@@ -521,7 +531,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "WI"
+            "default": "Wisconsin"
          }
       },
       {
@@ -546,7 +556,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -571,7 +581,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -596,11 +608,38 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       }
    ],
    "goalies": [
+      {
+         "id": 8474889,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TOR/8474889.png",
+         "firstName": {
+            "default": "Martin"
+         },
+         "lastName": {
+            "default": "Jones"
+         },
+         "sweaterNumber": 31,
+         "positionCode": "G",
+         "shootsCatches": "L",
+         "heightInInches": 77,
+         "weightInPounds": 203,
+         "heightInCentimeters": 196,
+         "weightInKilograms": 92,
+         "birthDate": "1990-01-10",
+         "birthCity": {
+            "default": "North Vancouver"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
+         }
+      },
       {
          "id": 8478492,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/TOR/8478492.png",
@@ -648,7 +687,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MO"
+            "default": "Missouri"
          }
       }
    ]

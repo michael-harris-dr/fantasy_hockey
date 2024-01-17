@@ -1,6 +1,33 @@
 {
    "forwards": [
       {
+         "id": 8480205,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CBJ/8480205.png",
+         "firstName": {
+            "default": "Emil"
+         },
+         "lastName": {
+            "default": "Bemstrom",
+            "cs": "Bemstr\u00f6m",
+            "fi": "Bemstr\u00f6m",
+            "sk": "Bemstr\u00f6m"
+         },
+         "sweaterNumber": 52,
+         "positionCode": "R",
+         "shootsCatches": "R",
+         "heightInInches": 72,
+         "weightInPounds": 195,
+         "heightInCentimeters": 183,
+         "weightInKilograms": 88,
+         "birthDate": "1999-06-01",
+         "birthCity": {
+            "default": "Nykoping",
+            "fi": "Nyk\u00f6ping",
+            "sv": "Nyk\u00f6ping"
+         },
+         "birthCountry": "SWE"
+      },
+      {
          "id": 8482475,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CBJ/8482475.png",
          "firstName": {
@@ -44,7 +71,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -69,7 +96,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -94,7 +121,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NJ"
+            "default": "New Jersey"
          }
       },
       {
@@ -119,7 +146,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -144,7 +171,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -169,7 +198,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       },
       {
@@ -190,7 +219,8 @@
          "weightInKilograms": 98,
          "birthDate": "1998-04-19",
          "birthCity": {
-            "default": "Tampere"
+            "default": "Tampere",
+            "sv": "Tammerfors"
          },
          "birthCountry": "FIN"
       },
@@ -238,32 +268,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MS"
-         }
-      },
-      {
-         "id": 8480762,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CBJ/8480762.png",
-         "firstName": {
-            "default": "Eric"
-         },
-         "lastName": {
-            "default": "Robinson"
-         },
-         "sweaterNumber": 50,
-         "positionCode": "L",
-         "shootsCatches": "L",
-         "heightInInches": 74,
-         "weightInPounds": 211,
-         "heightInCentimeters": 188,
-         "weightInKilograms": 96,
-         "birthDate": "1995-06-14",
-         "birthCity": {
-            "default": "Bellmawr"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "NJ"
+            "default": "Mississippi"
          }
       },
       {
@@ -288,7 +293,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "OH"
+            "default": "Ohio"
          }
       },
       {
@@ -313,7 +318,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "OH"
+            "default": "Ohio"
          }
       },
       {
@@ -384,7 +389,32 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "AB"
+            "default": "Alberta"
+         }
+      },
+      {
+         "id": 8483565,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CBJ/8483565.png",
+         "firstName": {
+            "default": "Nick"
+         },
+         "lastName": {
+            "default": "Blankenburg"
+         },
+         "sweaterNumber": 77,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 69,
+         "weightInPounds": 177,
+         "heightInCentimeters": 175,
+         "weightInKilograms": 80,
+         "birthDate": "1998-05-12",
+         "birthCity": {
+            "default": "Washington"
+         },
+         "birthCountry": "USA",
+         "birthStateProvince": {
+            "default": "Michigan"
          }
       },
       {
@@ -431,7 +461,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -478,7 +508,8 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "FL"
+            "default": "Florida",
+            "fr": "Floride"
          }
       },
       {
@@ -499,7 +530,10 @@
          "weightInKilograms": 100,
          "birthDate": "1997-01-13",
          "birthCity": {
-            "default": "Yaroslavl"
+            "default": "Yaroslavl",
+            "cs": "Jaroslavl",
+            "fi": "Jaroslavl",
+            "sk": "Jaroslavl"
          },
          "birthCountry": "RUS"
       },
@@ -525,7 +559,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "SK"
+            "default": "Saskatchewan"
          }
       },
       {
@@ -550,7 +584,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MI"
+            "default": "Michigan"
          }
       }
    ],
@@ -577,7 +611,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -598,9 +632,34 @@
          "weightInKilograms": 83,
          "birthDate": "1994-04-13",
          "birthCity": {
-            "default": "Riga"
+            "default": "Riga",
+            "fi": "Riika"
          },
          "birthCountry": "LVA"
+      },
+      {
+         "id": 8480193,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/CBJ/8480193.png",
+         "firstName": {
+            "default": "Daniil"
+         },
+         "lastName": {
+            "default": "Tarasov"
+         },
+         "sweaterNumber": 40,
+         "positionCode": "G",
+         "shootsCatches": "L",
+         "heightInInches": 77,
+         "weightInPounds": 201,
+         "heightInCentimeters": 196,
+         "weightInKilograms": 91,
+         "birthDate": "1999-03-27",
+         "birthCity": {
+            "default": "Novokuznetsk",
+            "cs": "Novokuzn\u011bck",
+            "sk": "Novokuzn\u011bck"
+         },
+         "birthCountry": "RUS"
       }
    ]
 }

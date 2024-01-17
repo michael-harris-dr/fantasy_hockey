@@ -22,7 +22,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "BC"
+            "default": "British Columbia",
+            "fr": "Colombie-Britannique",
+            "sk": "Britsk\u00e1 Kolumbia"
          }
       },
       {
@@ -47,7 +49,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -72,7 +74,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -119,7 +121,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -144,7 +146,8 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
          }
       },
       {
@@ -189,11 +192,12 @@
          "weightInKilograms": 97,
          "birthDate": "1995-04-05",
          "birthCity": {
-            "default": "London"
+            "default": "London",
+            "sk": "Lond\u00fdn"
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -218,7 +222,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -243,7 +247,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -268,7 +272,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MN"
+            "default": "Minnesota"
          }
       },
       {
@@ -293,7 +297,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -318,7 +322,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "NY"
+            "default": "New York"
          }
       },
       {
@@ -343,7 +347,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "ME"
+            "default": "Maine"
          }
       }
    ],
@@ -366,7 +370,9 @@
          "weightInKilograms": 82,
          "birthDate": "1996-02-17",
          "birthCity": {
-            "default": "Umea"
+            "default": "Umea",
+            "fi": "Uumaja",
+            "sv": "Ume\u00e5"
          },
          "birthCountry": "SWE"
       },
@@ -392,7 +398,33 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "QC"
+            "default": "Quebec",
+            "fr": "Qu\u00e9bec"
+         }
+      },
+      {
+         "id": 8474145,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NYI/8474145.png",
+         "firstName": {
+            "default": "Robert"
+         },
+         "lastName": {
+            "default": "Bortuzzo"
+         },
+         "sweaterNumber": 41,
+         "positionCode": "D",
+         "shootsCatches": "R",
+         "heightInInches": 76,
+         "weightInPounds": 216,
+         "heightInCentimeters": 193,
+         "weightInKilograms": 98,
+         "birthDate": "1989-03-18",
+         "birthCity": {
+            "default": "Thunder Bay"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Ontario"
          }
       },
       {
@@ -417,32 +449,9 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "PE"
-         }
-      },
-      {
-         "id": 8480306,
-         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NYI/8480306.png",
-         "firstName": {
-            "default": "Grant"
-         },
-         "lastName": {
-            "default": "Hutton"
-         },
-         "sweaterNumber": 7,
-         "positionCode": "D",
-         "shootsCatches": "R",
-         "heightInInches": 75,
-         "weightInPounds": 206,
-         "heightInCentimeters": 191,
-         "weightInKilograms": 93,
-         "birthDate": "1995-07-25",
-         "birthCity": {
-            "default": "Carmel"
-         },
-         "birthCountry": "USA",
-         "birthStateProvince": {
-            "default": "IN"
+            "default": "Prince Edward Island",
+            "fr": "\u00cele du Prince-\u00c9douard ",
+            "sk": "Ostrov Princa Edwarda"
          }
       },
       {
@@ -463,11 +472,17 @@
          "weightInKilograms": 100,
          "birthDate": "1992-10-14",
          "birthCity": {
-            "default": "St. Louis"
+            "default": "St. Louis",
+            "cs": "St. Louis ",
+            "de": "St. Louis ",
+            "fi": "St. Louis ",
+            "fr": "St. Louis ",
+            "sk": "St. Louis ",
+            "sv": "St. Louis "
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "MO"
+            "default": "Missouri"
          }
       },
       {
@@ -492,7 +507,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "ON"
+            "default": "Ontario"
          }
       },
       {
@@ -517,7 +532,7 @@
          },
          "birthCountry": "CAN",
          "birthStateProvince": {
-            "default": "MB"
+            "default": "Manitoba"
          }
       },
       {
@@ -542,7 +557,7 @@
          },
          "birthCountry": "USA",
          "birthStateProvince": {
-            "default": "IL"
+            "default": "Illinois"
          }
       },
       {
@@ -563,12 +578,49 @@
          "weightInKilograms": 98,
          "birthDate": "2000-01-06",
          "birthCity": {
-            "default": "Moscow"
+            "default": "Moscow",
+            "cs": "Moskva",
+            "de": "Moskau",
+            "fi": "Moskova",
+            "fr": "Moscou",
+            "sk": "Moskva",
+            "sv": "Moskva"
          },
          "birthCountry": "RUS"
       }
    ],
    "goalies": [
+      {
+         "id": 8478965,
+         "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NYI/8478965.png",
+         "firstName": {
+            "default": "Kenneth",
+            "cs": "Ken",
+            "de": "Ken",
+            "es": "Ken",
+            "fi": "Ken",
+            "sk": "Ken",
+            "sv": "Ken"
+         },
+         "lastName": {
+            "default": "Appleby"
+         },
+         "sweaterNumber": 50,
+         "positionCode": "G",
+         "shootsCatches": "L",
+         "heightInInches": 77,
+         "weightInPounds": 216,
+         "heightInCentimeters": 196,
+         "weightInKilograms": 98,
+         "birthDate": "1995-04-10",
+         "birthCity": {
+            "default": "North Bay"
+         },
+         "birthCountry": "CAN",
+         "birthStateProvince": {
+            "default": "Ontario"
+         }
+      },
       {
          "id": 8478009,
          "headshot": "https://assets.nhle.com/mugs/nhl/20232024/NYI/8478009.png",
