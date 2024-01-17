@@ -92,31 +92,35 @@ body {
     white-space: pre-wrap;
 }
 
-#table_div {
+#padding_div {
     padding-top: 35px;
+}
+
+#table_div {
     overflow: hidden;
     overflow-y: auto;
     max-height: 89%;
     width: 80%;
     margin: auto;
     color:azure;
+    scrollbar-gutter: stable;
 }
 
 
 #table_div::-webkit-scrollbar {
-    height: 40px;
     padding-top: 60px;
     width: 20px;
 }
 
 #table_div::-webkit-scrollbar-track {
-    background: #7abff8;
+    background: rgb(153, 158, 182);
     max-height: 40px;
+    border-radius: 9px;
 }
 
 #table_div::-webkit-scrollbar-thumb {
-    height: 12px;
-    background: #0d2e49;
+    background: #00052e;
+    border-radius: 9px;
 }
 
 .stat_table  {
