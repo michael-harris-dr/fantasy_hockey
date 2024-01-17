@@ -20,6 +20,12 @@ body {
 #header_bar_div {
     text-align: middle;
 }
+
+.header_bar {
+    width: 100%;
+    background-color: #173985;
+}
+
 #search_div {
     padding-top: 1%;
     padding-bottom: 2%;
@@ -91,7 +97,7 @@ body {
     overflow: hidden;
     overflow-y: auto;
     max-height: 89%;
-    width: 90%;
+    width: 80%;
     margin: auto;
     color:azure;
 }
@@ -113,9 +119,8 @@ body {
     background: #0d2e49;
 }
 
-.stat_table {
+.stat_table  {
     font-family: "arial";
-    border: 2px solid;
     margin-bottom: 100px;
     width: 100%;
     margin: 0;
@@ -123,20 +128,49 @@ body {
     border-spacing: 0px;
 }
 
-.table_pic {
-    width: 11%;
+.table_player_info {
+    width: 230px;
+
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+.last_col {
+    border-right: 2px solid white;;
+}
+
+.first_stat {
+    padding: 0;
+    height: 100%;
+    width: 200px;
+    
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
 }
 
 .num {
     padding: 0;
     height: 100%;
-    width: 11%;
-    border-left: rgb(255, 255, 255) 2px solid;
+    width: 120px;
+
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+.last_stat {
+    padding: 0;
+    height: 100%;
+    width: 90px;
 }
 
 .del {
-    width: 2%;
+    width: 30px;
+    background-color: rgb(17, 38, 83);
 }
+
 
 #headers {
     background-color: #06173d;
@@ -147,20 +181,39 @@ body {
     font-size: 28px;
 }
 
-.headshot {
-    width: 150px;
-    margin-left: 10px;
+.table_pic {
+    width: 100px;
+
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
-.header_bar {
-    width: 100%;
-    background-color: #173985;
+.table_player_name {
+    border-bottom: 2px solid white;;
+}
+
+.headshot {
+    width: 150px;
+    margin-left: 15px;
 }
 
 .table_stat {
     padding: 0;
-    width: 11%;
     border-left: white 2px solid;
+}
+
+.projected_stat {
+    border-bottom: 2px solid white;;
+}
+
+.delete_row_cell {
+    background-color: rgb(17, 38, 83);
+}
+
+.delete_row_button {
+    width: 20px;
+    align-self: auto;
+    background-color: ;
 }
 
 #header_bar_div {

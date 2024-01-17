@@ -6,7 +6,7 @@ var pidList = []
 var tableData = []
 var teamGP = []
 //TODO improve error handling
-const LIVE = true
+const LIVE = false
 
 const API_URL = LIVE ? "https://fantasy-hockey.onrender.com" : "http://127.0.0.1:10000"
 
@@ -96,7 +96,7 @@ $(document).ready(function()
 
 });
 
-$(document).on('click', '#delete_row_button', function()
+$(document).on('click', '.delete_row_button', function()
 {
 	pid = Number(this.dataset.player_id)
 
@@ -142,18 +142,19 @@ function add_to_table()
 									<td class="table_stat">${stats["seasons"]["20232024"]["assists"]}</td>
 									<td class="table_stat">${stats["seasons"]["20232024"]["points"]}</td>
 									<td class="table_stat">${(100 * stats["seasons"]["20232024"]["shp"]).toFixed(1)}</td>
-									<td class="table_stat">${Number(stats["seasons"]["20232024"]["goals"]) * 3 + 2 * Number(stats["seasons"]["20232024"]["assists"])}</td>
-									<td class="delete_btn" rowspan="2">
-									<input type="button" id="delete_row_button" value="x" data-player_id="${stats["id"]}" data-player_surname="${stats["lastName"]}"></td>
+									<td class="table_stat last_col">${Number(stats["seasons"]["20232024"]["goals"]) * 3 + 2 * Number(stats["seasons"]["20232024"]["assists"])}</td>
+									<td class="delete_row_cell" rowspan="2">
+									<input type="image" class="delete_row_button" data-player_id="${stats["id"]}" data-player_surname="${stats["lastName"]}" src="assets/trash.png"></td>
+									</input>
 								</tr>
 								<tr class="table_row">
-									<td class="table_stat stat_type">Projected:</td>
-									<td class="table_stat">${projectedStats["gp"]}</td>
-									<td class="table_stat">${projectedStats["goals"]}</td>
-									<td class="table_stat">${projectedStats["assists"]}</td>
-									<td class="table_stat">${projectedStats["points"]}</td>
-									<td class="table_stat">${projectedStats["shp"]}</td>
-									<td class="table_stat">${projectedStats["fanPts"]}</td>
+									<td class="table_stat projected_stat">Projected:</td>
+									<td class="table_stat projected_stat">${projectedStats["gp"]}</td>
+									<td class="table_stat projected_stat">${projectedStats["goals"]}</td>
+									<td class="table_stat projected_stat">${projectedStats["assists"]}</td>
+									<td class="table_stat projected_stat">${projectedStats["points"]}</td>
+									<td class="table_stat projected_stat">${projectedStats["shp"]}</td>
+									<td class="table_stat projected_stat last_col">${projectedStats["fanPts"]}</td>
 								</tr>
 							</tbody>`
 			document.getElementById("stat_table").innerHTML += tableHTML
